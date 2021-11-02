@@ -1065,7 +1065,7 @@ function onAction_btnGuardar(event) {
 						
 
 						var print = globals.DIALOGS.showQuestionDialog('¡Atención!', '¿Desea imprimir la historia clínica de ingreso a Terapia Intensiva?', 'Sí', 'No');
-						if (print == 'Si') {
+						if (print == 'Sí') {
 							imprimir(asiutitrs_rel_tbc_hciti_to_tbc_hciti.hithiscli, asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitfecha, asiutitrs_rel_tbc_hciti_to_tbc_hciti.hithora);
 						}
 
