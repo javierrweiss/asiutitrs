@@ -2792,7 +2792,9 @@ function inicializarRelacionImapediNew() {
 	asiutitrs_rel_imapedi_new.ipedtipotecni= 0;
 	asiutitrs_rel_imapedi_new.ipedtomo= 0;
 	asiutitrs_rel_imapedi_new.ipedurgen= 0;
-	
+	asiutitrs_rel_imapedi_new.ipedembarazo=0;
+	asiutitrs_rel_imapedi_new.ipedenvioimagen=0;
+	asiutitrs_rel_imapedi_new.ipednordeges=0;
 }
 
 /**
