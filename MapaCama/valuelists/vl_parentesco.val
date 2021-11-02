@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"OTROS           |0\r
+ESPOSO/A     |1\r
+HIJO/A           |2 \r
+HERMANO/A|3\r
+PADRES          |4\r
+CUÑADO/A   |5\r
+SUEGROS       |6 \r
+NIETO/A        |7   \r
+AMIGO/A      |8 \r
+NOVIO/A       |9",
+name:"vl_parentesco",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"E2DB69B0-73E3-4663-80A2-3E0A2032C4F2"

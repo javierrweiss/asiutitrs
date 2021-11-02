@@ -1,0 +1,15 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_his_lectora",
+items:[
+{foreignColumnName:"hlec_fecing",primaryDataProviderID:"scopes.globals.bandejaciru_fechaingreso",typeid:23,uuid:"0432B0F6-E62A-4360-9B0A-0B45997FB637"},
+{foreignColumnName:"hlec_imed",primaryDataProviderID:"scopes.globals.bandejaciru_vImed",typeid:23,uuid:"1795D64E-C4B3-4277-B967-BBA99E145CC7"},
+{foreignColumnName:"hlec_cant",operator:2,primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"5114E5E5-6482-4DAC-8102-2F8968C88689"},
+{foreignColumnName:"hlec_histclin",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"56DDDE23-6488-4E66-9E39-F83E0A3ACB0B"},
+{foreignColumnName:"hlec_horing",primaryDataProviderID:"scopes.globals.bandejaciru_horaingreso",typeid:23,uuid:"5CFE817A-6FD3-41C2-ABD9-6CF92FF803B8"},
+{foreignColumnName:"hlec_estado",primaryDataProviderID:"scopes.globals.bandejaciru_vEstado",typeid:23,uuid:"6223395B-9FC9-4A89-883E-11B7E9BE5E6B"},
+{foreignColumnName:"hlec_sector",primaryDataProviderID:"scopes.globals.bandejaciru_vSector",typeid:23,uuid:"A84DB9F6-72B5-48FE-9464-953D7C4480F0"}
+],
+name:"bandejaciru_vestado2259_to_tbc_his_lectora",
+primaryDataSource:"db:/asistencial/tbc_his_lectora",
+typeid:22,
+uuid:"0DD0C16B-318C-4EDD-A544-B8C042FB0F8A"

@@ -1,0 +1,10 @@
+columns:[
+{
+allowNull:true,
+creationOrderIndex:0,
+dataType:4,
+name:"afiliado"
+}
+],
+name:"daamex",
+tableType:0

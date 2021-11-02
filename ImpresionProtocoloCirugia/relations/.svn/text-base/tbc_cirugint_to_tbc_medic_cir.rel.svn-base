@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_medic_cir",
+items:[
+{foreignColumnName:"medctipo",primaryDataProviderID:"scopes.globals.vTipoArt",typeid:23,uuid:"34B65C7D-CD72-4D7B-9554-426CB299BD6B"},
+{foreignColumnName:"medcprotocolo",primaryDataProviderID:"ciriprotocolo",typeid:23,uuid:"371F2C7D-B48E-4496-B0ED-BDB8BACAA9B3"}
+],
+name:"tbc_cirugint_to_tbc_medic_cir",
+primaryDataSource:"db:/asistencial/tbc_cirugint",
+typeid:22,
+uuid:"C8D38475-B2DC-411B-864B-1956F7942B0E"

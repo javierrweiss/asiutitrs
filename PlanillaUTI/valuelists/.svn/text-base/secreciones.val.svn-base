@@ -1,0 +1,15 @@
+addEmptyValue:1,
+customValues:"Mucosa|1\r
+Mucopurulenta|2\r
+Fétida|3\r
+Sanguinolenta|4\r
+Hemorragica|5\r
+Hemoptisis|6\r
+Rubiginosa|7\r
+Espumosa|8\r
+Ninguna|0",
+name:"secreciones",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"FB4A7CCE-3F3E-4835-ABF0-6F296F3C3871"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_articulos",
+initialSort:"art_codigo asc",
+items:[
+{foreignColumnName:"art_codigo",primaryDataProviderID:"scopes.globals.vCodigoMed",typeid:23,uuid:"AC513401-212C-4648-8553-342E4580E339"}
+],
+name:"vcodigomed_to_tbc_articulos",
+primaryDataSource:"db:/maestros/tbc_articulos",
+typeid:22,
+uuid:"6C93FE25-D226-4BFB-AFA8-9FE377716800"

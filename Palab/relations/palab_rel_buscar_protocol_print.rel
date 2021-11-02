@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_protocol",
+items:[
+{foreignColumnName:"prot1",primaryDataProviderID:"scopes.globals.Palab_hisclinPrint",typeid:23,uuid:"52C185DC-EB7D-44D9-9CB7-F32F5252F32E"},
+{foreignColumnName:"prot4",primaryDataProviderID:"scopes.globals.Palab_prot4Print",typeid:23,uuid:"739479C4-B37E-4437-9A4E-DD0EED0DA15D"}
+],
+name:"palab_rel_buscar_protocol_print",
+primaryDataSource:"db:/asistencial/tbc_protocol",
+typeid:22,
+uuid:"AFBF6379-AD44-4D39-A694-76A55474DAAA"

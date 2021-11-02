@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"Normal|0\r
+Seca|1\r
+Fría|2\r
+Sudorosa|3\r
+Libideses|4\r
+Cicatrices|5",
+name:"piel",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"7968A868-9423-4DBA-8A92-1A948FE16D9E"

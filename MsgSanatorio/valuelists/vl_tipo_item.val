@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Transacción|0\r
+Consulta|1\r
+Tabla|2\r
+",
+name:"vl_tipo_item",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"6788B29E-4AC1-477E-BF2B-86B311504E17"

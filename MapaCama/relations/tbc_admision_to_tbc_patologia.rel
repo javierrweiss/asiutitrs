@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"adm_patoling",typeid:23,uuid:"876165D9-7602-465B-A1FD-656A49EDD7A7"}
+],
+name:"tbc_admision_to_tbc_patologia",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"561F295A-6A8C-4299-9C1B-AEAA4EFA6D0D"

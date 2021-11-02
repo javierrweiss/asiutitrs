@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_med_per",
+items:[
+{foreignColumnName:"medpercod",primaryDataProviderID:"scopes.globals.per_1",typeid:23,uuid:"6C79CD99-0D08-4B51-AA40-62D4CE54C340"}
+],
+name:"per_1_to_tbc_med_per",
+primaryDataSource:"db:/rrhh/tbc_med_per",
+typeid:22,
+uuid:"256AA4C0-8902-4312-99F4-F84EE4CF0D8A"

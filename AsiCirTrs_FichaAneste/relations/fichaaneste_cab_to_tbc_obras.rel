@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"obra_social",typeid:23,uuid:"B755708B-7C24-4173-B4FD-03326023176B"}
+],
+joinType:1,
+name:"fichaaneste_cab_to_tbc_obras",
+primaryDataSource:"db:/desal/fichaaneste_cab",
+typeid:22,
+uuid:"71F27AA2-8B41-42EB-8A32-E811934BB1CF"

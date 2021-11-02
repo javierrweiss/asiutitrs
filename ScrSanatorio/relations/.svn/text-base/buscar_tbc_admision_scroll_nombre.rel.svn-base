@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll_n",
+items:[
+{foreignColumnName:"adm_apelnom",operator:4,primaryDataProviderID:"scopes.globals.gbl_con_hiscli",typeid:23,uuid:"0E89ACA6-3880-4BBD-A500-4500F9F70C4B"}
+],
+name:"buscar_tbc_admision_scroll_nombre",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"FFBA97E0-60C2-4938-BE94-BB9ABFE81DED"

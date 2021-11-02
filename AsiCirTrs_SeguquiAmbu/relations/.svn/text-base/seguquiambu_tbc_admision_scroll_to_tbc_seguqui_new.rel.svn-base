@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_seguqui_new",
+items:[
+{foreignColumnName:"segtipohc",primaryDataProviderID:"scopes.globals.segambu_tipohist",typeid:23,uuid:"04F63373-C00C-4351-AA89-0E0561001390"},
+{foreignColumnName:"seghistclinica",primaryDataProviderID:"adm_histclin",typeid:23,uuid:"A363E36A-3A21-4C61-80CD-C8166E51AAC0"}
+],
+name:"seguquiambu_tbc_admision_scroll_to_tbc_seguqui_new",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"67F513BC-76CF-4CFC-A7A8-367E6478ADA5"

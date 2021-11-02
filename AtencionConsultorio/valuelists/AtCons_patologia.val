@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"pat_codi",
+dataProviderID2:"pat_descrip",
+dataSource:"db:/maestros/tbc_patologia",
+name:"AtCons_patologia",
+returnDataProviders:1,
+showDataProviders:2,
+sortOptions:"pat_descrip asc",
+typeid:34,
+uuid:"D85760CD-F588-4469-9CE5-77EC7CF1274B",
+valueListType:1

@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"3 Horas|1\r
+6 Horas|2\r
+12 Horas|3",
+name:"bandejaciru_tipoRecu",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"39BFADE0-B8C1-41DB-B459-CE008EF31147"

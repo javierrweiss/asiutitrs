@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Servicio|0\r
+Habitación|1\r
+Quirófano|2",
+name:"vl_prestacion_sitio",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"536DB64D-1A80-4488-A27A-78F158B5414B"

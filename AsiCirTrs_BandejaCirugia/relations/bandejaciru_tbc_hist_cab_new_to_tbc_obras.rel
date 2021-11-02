@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"histcabobra",typeid:23,uuid:"29D08A4C-A111-43EB-9241-9B2ECE5B61BF"}
+],
+name:"bandejaciru_tbc_hist_cab_new_to_tbc_obras",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"C5912EDE-8CCC-47B0-A8A8-57DAEBBC08F5"

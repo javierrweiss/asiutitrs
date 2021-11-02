@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.AsistFunciones_perLegajo",typeid:23,uuid:"9B3BFDC9-96AB-4DF0-AA6B-8FB9055CD1D7"}
+],
+name:"asistfunciones_rel_buscar_personal",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"1CAA2352-9386-42B7-A643-0390DBDB65F0"

@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"tbl_sector_desc",
+dataProviderID2:"tbl_sector_desc",
+dataSource:"db:/bases_auxiliares/tbl_acceso_sector",
+name:"vl_sector",
+returnDataProviders:1,
+showDataProviders:1,
+sortOptions:"tbl_sector_desc asc",
+typeid:34,
+uuid:"6B069140-6261-4BFA-BBE8-54B4028E7B96",
+valueListType:1

@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hcicir_new",
+initialSort:"hcirtipohc asc, hcirhiscli asc, hcirfecha asc, hcirhora asc",
+items:[
+{foreignColumnName:"hcirtipohc",primaryDataProviderID:"scopes.globals.zero_value",typeid:23,uuid:"20145A96-B70A-4756-98A7-DE87469F2E50"},
+{foreignColumnName:"hcirfecha",primaryDataProviderID:"scopes.globals.vFecing",typeid:23,uuid:"2D399F7F-080B-4903-95DA-8987C140EFBB"},
+{foreignColumnName:"hcirhora",primaryDataProviderID:"scopes.globals.vHoring",typeid:23,uuid:"428B09D4-A9D7-4121-8561-AEE01B00C969"},
+{foreignColumnName:"hcirhiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"8E87CB1F-B66A-4E6E-9555-39653013E1BE"}
+],
+name:"vs_to_tbc_hcicir_new",
+primaryDataSource:"db:/asistencial/tbc_hcicir_new",
+typeid:22,
+uuid:"E62977DA-F5F1-43C1-8F58-0124FD44D3EA"

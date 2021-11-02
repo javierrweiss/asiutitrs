@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_arm_dia_invapc",
+items:[
+{foreignColumnName:"armhcli",primaryDataProviderID:"scopes.globals.AsiArmTrs_Mod_armHcli_invapc",typeid:23,uuid:"302DDBEB-6E83-453C-B674-DC5290CE6786"},
+{foreignColumnName:"armfech",primaryDataProviderID:"scopes.globals.AsiArmTrs_Mod_armFech_invapc",typeid:23,uuid:"BC5447BB-EAD5-41BF-B940-545526C545E9"},
+{foreignColumnName:"armhora",primaryDataProviderID:"scopes.globals.AsiArmTrs_Mod_armHora_invapc",typeid:23,uuid:"F15B62B7-F863-42D5-ACB6-FE586042B9B2"}
+],
+name:"asiarmtrs_mod_rel_arm_dia_invapc",
+primaryDataSource:"db:/asistencial/tbc_arm_dia_invapc",
+typeid:22,
+uuid:"9DFEB4AB-C454-46B6-A976-E4927F274258"

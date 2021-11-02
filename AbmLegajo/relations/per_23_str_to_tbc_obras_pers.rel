@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_obras_pers",
+initialSort:"obpdescr asc, obpplan1 asc",
+items:[
+{foreignColumnName:"obpdescr",operator:4,primaryDataProviderID:"scopes.globals.per_23_str",typeid:23,uuid:"B8FCFAC2-705F-420D-BB9E-887CDDD8581C"}
+],
+name:"per_23_str_to_tbc_obras_pers",
+primaryDataSource:"db:/rrhh/tbc_obras_pers",
+typeid:22,
+uuid:"F1D62CE7-41AF-4538-8307-83335EB9F02C"

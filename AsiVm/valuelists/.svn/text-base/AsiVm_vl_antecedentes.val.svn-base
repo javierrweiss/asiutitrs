@@ -1,0 +1,22 @@
+addEmptyValue:1,
+customValues:"HTA|1\r
+Obesidad|2\r
+DBT|3\r
+EPOC|4\r
+O2 Domiciliario|5\r
+TBQ|6\r
+exTBQ|7\r
+Asma|8\r
+CA|9\r
+IRC|10\r
+IAM|11\r
+ACV|12\r
+TQT|13\r
+ICC|14\r
+Ninguno|15\r
+Otro|16",
+name:"AsiVm_vl_antecedentes",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"B88A046E-1C74-4CD9-B29A-65A390EE8161"

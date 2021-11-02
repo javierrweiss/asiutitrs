@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_medicos",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.aux_Lega",typeid:23,uuid:"F8AA9CE7-4A66-4EFC-96CF-FF400E1B3F82"}
+],
+joinType:1,
+name:"vlegajo_to_tbc_medicos",
+primaryDataSource:"db:/validalegajo/tbc_medicos",
+typeid:22,
+uuid:"3F27186A-466C-461A-B703-1A9EC761C326"

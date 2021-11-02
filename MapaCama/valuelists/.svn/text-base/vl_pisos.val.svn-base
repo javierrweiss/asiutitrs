@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"|0            \r
+      -  Todos|1\r
+              -   Alta Complejidad|2\r
+              -   Planta Baja|3\r
+              -   1º Piso|4\r
+              -   2º Piso|5\r
+              -   3ª Piso|6\r
+              -   4º Piso|7\r
+              -   5º Piso|8\r
+",
+name:"vl_pisos",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"9AF1E36C-BD45-4FAC-AA8A-F5B88780BECF"

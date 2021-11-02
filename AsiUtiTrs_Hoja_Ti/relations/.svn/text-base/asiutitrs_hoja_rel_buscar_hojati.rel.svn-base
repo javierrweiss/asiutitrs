@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hojati",
+items:[
+{foreignColumnName:"htihistclinica",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_hisclin",typeid:23,uuid:"C2BD1773-9638-4CD0-BB33-1E3D04EC0B76"}
+],
+joinType:1,
+name:"asiutitrs_hoja_rel_buscar_hojati",
+primaryDataSource:"db:/asistencial/tbc_hciti",
+typeid:22,
+uuid:"D06E871D-2EB7-452E-96EB-026A8E6888C1"

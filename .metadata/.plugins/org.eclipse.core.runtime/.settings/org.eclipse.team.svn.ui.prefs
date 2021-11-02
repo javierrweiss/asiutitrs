@@ -1,0 +1,17 @@
+CommitPanel.weight=35
+eclipse.preferences.version=1
+firstStartup=false
+history.comment=Y29ycmVnaXIgY29tbWl0IGFudGVyaW9y;dnVlbHZlIGEgdmVyc2nDs24gYW50ZXJpb3I\=;dnVlbHZlIGEgdmVyc2lvbiBhbnRlcmlvcg\=\=;dnVlbHZlIGEgdmVyc2lvbiBhbnRlcmlvcg0K;Y29ycmlnZSB2ZXJzacOzbiBhbnRlcmlvcg\=\=;dm9sdmllbmRvIGEgdmVyc2lvbiBhbnRlcmlvcg\=\=;Y29ycnJlZ2lyIGNvbW1pdCBhbnRlcmlvcg\=\=;cGlzYW5kbyBjb21taXQgYW50ZXJpb3Ig
+org.eclipse.team.svn.ui.panel.ListSelectionPanel.height=204
+org.eclipse.team.svn.ui.panel.ListSelectionPanel.width=470
+org.eclipse.team.svn.ui.panel.callback.PromptCredentialsPanel.height=255
+org.eclipse.team.svn.ui.panel.callback.PromptCredentialsPanel.width=470
+org.eclipse.team.svn.ui.panel.common.RepositoryTreePanel.height=203
+org.eclipse.team.svn.ui.panel.common.RepositoryTreePanel.width=470
+org.eclipse.team.svn.ui.panel.local.CommitPanel.height=406
+org.eclipse.team.svn.ui.panel.local.CommitPanel.width=600
+org.eclipse.team.svn.ui.panel.local.MergePanel.height=407
+org.eclipse.team.svn.ui.panel.local.MergePanel.width=727
+org.eclipse.team.svn.ui.panel.reporting.ErrorCancelPanel.height=305
+org.eclipse.team.svn.ui.panel.reporting.ErrorCancelPanel.width=640
+preference.repository.repositoryBrowser=false

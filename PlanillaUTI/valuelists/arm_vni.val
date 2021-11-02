@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"A.R.M.|A.R.M.\r
+V.N.I.|V.N.I.\r
+Ninguno|Ninguno",
+name:"arm_vni",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"5B35A019-7FA9-4741-BBF6-707E6B37D8F4"

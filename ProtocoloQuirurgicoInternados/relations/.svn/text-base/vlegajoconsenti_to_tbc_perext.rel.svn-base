@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_perext",
+items:[
+{foreignColumnName:"perext_lega",operator:0,primaryDataProviderID:"globals.vLegajoConsenti",typeid:23,uuid:"6596DF51-A511-47F6-94EA-44BA991E6D9A"}
+],
+joinType:0,
+name:"vlegajoconsenti_to_tbc_perext",
+primaryDataSource:"db:/validalegajo/tbc_perext",
+typeid:22,
+uuid:"B72713A7-7328-4625-93FE-A690B446EF98"

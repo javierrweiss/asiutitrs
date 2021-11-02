@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_puesto",
+items:[
+{foreignColumnName:"pto1",primaryDataProviderID:"scopes.globals.per_84",typeid:23,uuid:"1160B4A2-E1A1-4266-A783-E122C977D50A"}
+],
+name:"per_84_to_tbc_puesto",
+primaryDataSource:"db:/rrhh/tbc_puesto",
+typeid:22,
+uuid:"FB7DB106-8854-4FA6-A556-014D2853568B"

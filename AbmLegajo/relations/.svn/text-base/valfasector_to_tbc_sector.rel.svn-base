@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_sector",
+initialSort:"sector2 asc",
+items:[
+{foreignColumnName:"sector2",operator:4,primaryDataProviderID:"scopes.globals.vAlfaSector",typeid:23,uuid:"BDD995F3-BBEC-46D4-AA87-60AC61FCE221"}
+],
+name:"valfasector_to_tbc_sector",
+primaryDataSource:"db:/rrhh/tbc_sector",
+typeid:22,
+uuid:"BBA844C7-C162-4852-82FB-DD5F9B64B33C"

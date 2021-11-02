@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+items:[
+{foreignColumnName:"medpercod",operator:0,primaryDataProviderID:"ciricodmed_1",typeid:23,uuid:"CF91E7A7-0CDF-4885-8E54-87412BDF8042"}
+],
+joinType:0,
+name:"ciricodmed1_to_tbc_medicos_personal",
+primaryDataSource:"db:/asistencial/tbc_cirugint_dtl",
+typeid:22,
+uuid:"AFBAFC48-4805-4EA5-A05A-E098D121717B"

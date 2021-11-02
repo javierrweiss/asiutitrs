@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_items",
+initialSort:"hiscli asc, fecha asc, tipo asc, concepto asc, hora asc, renglon asc",
+items:[
+{foreignColumnName:"fecha",operator:0,primaryDataProviderID:"globals.vFecha",typeid:23,uuid:"0BE1A72A-95C3-456F-85EE-A2ECD78A7C1F"},
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"4FE89D18-142D-4133-B434-F7EB2489AFBD"},
+{foreignColumnName:"tipo",operator:0,primaryDataProviderID:"globals.vTipoOtrosPlan",typeid:23,uuid:"61D628E9-AD13-47E8-A5AF-A74228710E3E"}
+],
+joinType:0,
+name:"resumen_planes_to_hojauti_items",
+primaryDataSource:"db:/enfermeria/hojauti_items",
+typeid:22,
+uuid:"DD47BD19-1E64-4B67-8490-7C32C238EA54"

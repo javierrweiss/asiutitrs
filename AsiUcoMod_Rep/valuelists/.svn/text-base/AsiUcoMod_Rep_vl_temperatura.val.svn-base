@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Axilar|1\r
+Rectal|2\r
+Oral|3",
+name:"AsiUcoMod_Rep_vl_temperatura",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"53159787-1A74-4571-83FF-23C78C973DF7"

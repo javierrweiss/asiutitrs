@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Continua en ARM|1\r
+Sale de ARM|2",
+name:"AsiArmTrs_Mod_vl_evolucion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"22EC3DF3-763D-4380-A6E5-023DF8FFC3B2"

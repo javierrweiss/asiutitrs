@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_especial",
+items:[
+{foreignColumnName:"esp_codi",primaryDataProviderID:"medturesp",typeid:23,uuid:"A0DD29E8-49C7-4557-A32E-8157A7A53971"}
+],
+joinType:1,
+name:"atcons_medtur_especial",
+primaryDataSource:"db:/asistencial/tbc_medtur",
+typeid:22,
+uuid:"F81892D2-362A-4D61-A8C1-3ACC7A4A116C"

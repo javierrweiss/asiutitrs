@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_profesional",
+items:[
+{foreignColumnName:"prof1",primaryDataProviderID:"scopes.globals.gbl_profesional",typeid:23,uuid:"08CEED22-4DE6-45FA-9263-AA2F922BF785"}
+],
+name:"gbl_prof_to_prof",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"E598E704-2AB6-462E-A8F5-84873A580892"

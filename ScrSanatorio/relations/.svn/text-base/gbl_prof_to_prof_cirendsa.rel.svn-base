@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/cirendsa/tbc_profesional",
+items:[
+{foreignColumnName:"prof1",primaryDataProviderID:"scopes.globals.gbl_profesional",typeid:23,uuid:"69E0AC1A-725D-45F7-BA5A-4B234FE3797C"}
+],
+name:"gbl_prof_to_prof_cirendsa",
+primaryDataSource:"db:/cirendsa/tbc_profesional",
+typeid:22,
+uuid:"7B717C19-E1E0-4290-BF84-C05653DF2599"

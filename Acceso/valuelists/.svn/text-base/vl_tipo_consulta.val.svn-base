@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Visitantes Sin Salida|1
+por Fecha Ingreso|2
+por Sector|3
+por A quien vino a ver|4
+por Fecha Egreso|5",
+name:"vl_tipo_consulta",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"F7937D2E-4E15-4B19-AADC-7671E37C2A2E"

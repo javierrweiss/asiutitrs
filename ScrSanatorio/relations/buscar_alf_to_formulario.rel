@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_formulario",
+initialSort:"codigo_solucion asc, codigo asc",
+items:[
+{foreignColumnName:"descripcion",operator:4,primaryDataProviderID:"scopes.globals.gbl_formulario",typeid:23,uuid:"CA2A5597-8B8D-4389-AC20-33A4B32CB9D4"},
+{foreignColumnName:"codigo_solucion",operator:4,primaryDataProviderID:"scopes.globals.gbl_solucion",typeid:23,uuid:"E6AD1F50-1743-45A8-BD1D-35298E3ADDA8"}
+],
+name:"buscar_alf_to_formulario",
+primaryDataSource:"db:/desal/tbl_solucion",
+typeid:22,
+uuid:"3B577B61-F395-4F6E-AB7D-182DBA462BC7"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_camas",
+items:[
+{foreignColumnName:"cam_habi",primaryDataProviderID:"scopes.globals.protambu1400_habita",typeid:23,uuid:"57C7DCFB-055F-4547-AD87-62FF5389364B"},
+{foreignColumnName:"cam_cama",primaryDataProviderID:"scopes.globals.protambu1400_cama",typeid:23,uuid:"F8492DB6-6C06-4DCA-B7AE-16672758B1F5"}
+],
+name:"protambu1400_camas_to_tbc_camas",
+primaryDataSource:"db:/maestros/tbc_camas",
+typeid:22,
+uuid:"41458897-E9B3-4F91-BAAD-A9337C0ED387"

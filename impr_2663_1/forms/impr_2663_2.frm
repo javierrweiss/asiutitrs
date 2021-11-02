@@ -1,0 +1,12 @@
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"C7E40998-97E4-49E3-A200-FC41B0D06B27"
+}
+],
+name:"impr_2663_2",
+showInMenu:true,
+typeid:3,
+uuid:"2CE6BFF7-392D-4BFF-9BDF-1F8E45F29903"

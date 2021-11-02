@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_admision",
+items:[
+{foreignColumnName:"adm_histclin",primaryDataProviderID:"scopes.globals.AsiUcoTrs_adm_HistClin",typeid:23,uuid:"DAAB5C01-F99F-4CDC-9895-7E54F3D47B96"}
+],
+name:"asiucotrs_rel_buscar_admision",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"5B0A9501-06F9-4473-87E2-ACB2DA3D6CFB"

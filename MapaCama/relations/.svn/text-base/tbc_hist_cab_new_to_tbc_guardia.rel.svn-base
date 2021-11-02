@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_guardia",
+items:[
+{foreignColumnName:"guar_fechaingreso",primaryDataProviderID:"histcabintobsamd",typeid:23,uuid:"371A60F6-3137-475C-B941-912C201B9C80"},
+{foreignColumnName:"guar_histclinica",primaryDataProviderID:"histcabnrounico",typeid:23,uuid:"69B98B70-1691-40AB-91F0-5D74A8F32C47"},
+{foreignColumnName:"guar_horaingreso",primaryDataProviderID:"histcabintobshor",typeid:23,uuid:"80E6CC64-2BBA-4A3B-8693-49470EE063D9"}
+],
+name:"tbc_hist_cab_new_to_tbc_guardia",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"881F747F-A550-4FD1-BFF2-EBDE3E80ED00"

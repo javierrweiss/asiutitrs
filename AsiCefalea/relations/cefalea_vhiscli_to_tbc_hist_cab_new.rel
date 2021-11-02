@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+items:[
+{foreignColumnName:"histcabnrounico",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"A5B38466-40DD-4F8D-B8BC-F3F3D9AE14CB"}
+],
+name:"cefalea_vhiscli_to_tbc_hist_cab_new",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"2C9B8AA4-1E85-4BB7-BD7E-C07320057997"

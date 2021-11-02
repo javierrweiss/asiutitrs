@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="HCIPISO-SOL-AUT" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1960a69e-e0bd-40a3-827f-6e41cae41ae5">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="480"/>
+	<parameter name="pr_firma" class="java.lang.String"/>
+	<parameter name="pr_recetario" class="java.lang.String"/>
+	<parameter name="pr_titulo_dr" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="fld_apeynom" class="java.lang.String"/>
+	<field name="fld_cobertura" class="java.lang.String"/>
+	<field name="fld_afiliado" class="java.lang.String"/>
+	<field name="fld_rp1" class="java.lang.String"/>
+	<field name="fld_firma" class="java.lang.String"/>
+	<field name="fld_apeynom_dr" class="java.lang.String"/>
+	<field name="fld_matricula" class="java.lang.String"/>
+	<field name="fld_rp5" class="java.lang.String"/>
+	<field name="fld_rp" class="java.lang.String"/>
+	<field name="fld_cod" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="802" splitType="Stretch">
+			<image scaleImage="RetainShape">
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="766" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="016546ce-1194-49cb-a174-fea475de8251"/>
+				<imageExpression><![CDATA[$P{pr_recetario}]]></imageExpression>
+			</image>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="376" y="220" width="100" height="20" uuid="d1b92716-5b28-445b-9093-7073db8c5dac"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="221" width="157" height="20" uuid="e8260d0c-8104-43e0-819a-b04724c6c0f2"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fld_cobertura}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="159" y="259" width="136" height="20" uuid="9389590c-df60-4cc6-a0f6-1e1db415b992"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fld_afiliado}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="362" y="258" width="100" height="20" uuid="6bc0dd8e-7bda-4270-a466-f3afb7c145bc"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fld_cod}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="117" y="362" width="414" height="20" uuid="d99fa6c2-3e20-446c-bb78-bddcbb37a0a1"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fld_rp1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="296" y="617" width="166" height="20" uuid="abadb9e4-6cbd-4195-b88b-716b5f0dc96b"/>
+				<textElement textAlignment="Center">
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fld_apeynom_dr}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="296" y="638" width="166" height="20" uuid="d3b316e5-20fd-4c9e-8e07-16c62140e9a2"/>
+				<textElement textAlignment="Center">
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fld_matricula}]]></textFieldExpression>
+			</textField>
+			<image hAlign="Center">
+				<reportElement x="319" y="504" width="126" height="113" uuid="bee7b42b-27bb-4fa7-87ba-d46fdb592f77"/>
+				<imageExpression><![CDATA[$P{pr_firma}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="204" y="185" width="261" height="20" uuid="b909eb4b-e301-4cac-818b-b899803832b8"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fld_apeynom}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="117" y="484" width="410" height="20" uuid="f1b1de34-331a-4ab7-895f-a23f67aee0df"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fld_rp5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="148" width="555" height="20" uuid="e1ef3e12-152c-478c-a71d-068172598fff"/>
+				<textElement textAlignment="Center">
+					<font fontName="DejaVu Sans" size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{pr_titulo_dr}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+</jasperReport>

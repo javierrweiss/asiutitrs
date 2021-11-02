@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_dieta",
+items:[
+{foreignColumnName:"dietacodigo",primaryDataProviderID:"dietacodigo",typeid:23,uuid:"A5FCCF0C-37F7-4285-8A23-E1B2984EF45E"}
+],
+joinType:1,
+name:"atcons_dieta_to_tbc_dieta",
+primaryDataSource:"db:/maestros/tbc_dieta",
+typeid:22,
+uuid:"F7DBD643-5DF6-4F55-92CE-C0FD758677AF"

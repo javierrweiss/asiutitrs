@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_articulos",
+initialSort:"art_descrip asc",
+items:[
+{foreignColumnName:"art_descrip",operator:4,primaryDataProviderID:"scopes.globals.bandejaciru_vAlfaCodigoMed",typeid:23,uuid:"21C07850-C80F-4FF9-8B07-06BAFB75210A"}
+],
+name:"bandejaciru_valfacodigomed_to_tbc_articulos",
+primaryDataSource:"db:/maestros/tbc_articulos",
+typeid:22,
+uuid:"B78963D1-EEA6-43ED-9EA6-15CB65CB0301"

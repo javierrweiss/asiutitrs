@@ -1,0 +1,17 @@
+addEmptyValue:1,
+customValues:"|0\r
+|1\r
+Ventas|2\r
+Compras|3\r
+Prestaciones Médicas|4\r
+RRHH|5\r
+Finanzas|6\r
+Impuestos|7\r
+Legales|8\r
+SND|9\r
+Varios|10",
+name:"vl_sector",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"35E028AE-2BD5-44FF-87C8-757228732104"

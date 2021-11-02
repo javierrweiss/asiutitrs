@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"I.- VCV|1\r
+II.- PCV|2\r
+III.- PSV|3",
+name:"modo_arm_vni",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"A73305C9-4A59-4553-A737-D6D6D64D4F14"

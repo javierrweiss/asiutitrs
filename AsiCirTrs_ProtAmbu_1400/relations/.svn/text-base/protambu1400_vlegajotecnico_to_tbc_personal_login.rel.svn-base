@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_personal_login_cirugia",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.protambu1400_vLegaTecnico",typeid:23,uuid:"B63118E7-C4FA-4394-AF00-549E2D50C4EB"}
+],
+name:"protambu1400_vlegajotecnico_to_tbc_personal_login",
+primaryDataSource:"db:/validalegajo/tbc_personal_login_cirugia",
+typeid:22,
+uuid:"9A983F72-AC18-494D-B1E6-2F91E1E06296"

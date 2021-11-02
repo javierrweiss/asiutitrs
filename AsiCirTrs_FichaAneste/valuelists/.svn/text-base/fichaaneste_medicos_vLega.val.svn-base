@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"med_apenom",
+dataProviderID2:"med_codigo",
+name:"fichaaneste_medicos_vLega",
+relationName:"fichaaneste_vlega_to_tbc_medicos",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"D9F36486-A675-4900-907C-A1DD8ADEE6E8",
+valueListType:1

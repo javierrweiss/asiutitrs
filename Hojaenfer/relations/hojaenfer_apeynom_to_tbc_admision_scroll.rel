@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+initialSort:"adm_apellido_5 asc",
+items:[
+{foreignColumnName:"adm_apellido_5",operator:4,primaryDataProviderID:"scopes.globals.hojaenfer_apeynom",typeid:23,uuid:"19ED1564-88F7-421B-8ED2-B3E101140A27"},
+{foreignColumnName:"adm_fecaltaefec",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"32CF9591-61D6-4328-85C2-1C211D1B6444"}
+],
+name:"hojaenfer_apeynom_to_tbc_admision_scroll",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"F08773F1-B09F-452C-9A47-5DE9915FD352"

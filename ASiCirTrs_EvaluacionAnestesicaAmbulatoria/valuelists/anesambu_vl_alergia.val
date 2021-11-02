@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Ninguna|0\r
+A drogas|1\r
+Atópico heno|2\r
+otra|3",
+name:"anesambu_vl_alergia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"D24C5D2D-BBB6-4A6F-BA08-4D294D14850D"

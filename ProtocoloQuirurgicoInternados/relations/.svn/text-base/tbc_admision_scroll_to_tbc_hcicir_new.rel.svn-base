@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hcicir_new",
+items:[
+{foreignColumnName:"hcirtipohc",operator:0,primaryDataProviderID:"globals.zero_value",typeid:23,uuid:"75A29FB4-17AD-4CB1-8175-34F06B6EC42C"},
+{foreignColumnName:"hcirhora",operator:0,primaryDataProviderID:"adm_horing",typeid:23,uuid:"7E66B7E2-BCA8-466D-ADB0-A804CA5D98B0"},
+{foreignColumnName:"hcirfecha",operator:0,primaryDataProviderID:"adm_fecing",typeid:23,uuid:"89E9218A-EAF4-42E7-A160-61529F0C2544"},
+{foreignColumnName:"hcirhiscli",operator:0,primaryDataProviderID:"adm_histclin",typeid:23,uuid:"CABB5440-236F-4390-AE5A-703EDEFEEC3A"}
+],
+joinType:0,
+name:"tbc_admision_scroll_to_tbc_hcicir_new",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"3B4B3C9C-44B2-4EC0-83CA-29EB647C39C0"

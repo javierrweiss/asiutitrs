@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_personal",
+initialSort:"per_2_2 asc",
+items:[
+{foreignColumnName:"per_2_2",operator:4,primaryDataProviderID:"scopes.globals.vAlfaPer",typeid:23,uuid:"B18BF379-F9C6-4969-AD76-19591054E906"}
+],
+name:"valfaper_to_tbc_personal_rrhh",
+primaryDataSource:"db:/desal/tbl_personal",
+typeid:22,
+uuid:"10F58E52-8405-4E1F-9264-E5FE761C30C2"

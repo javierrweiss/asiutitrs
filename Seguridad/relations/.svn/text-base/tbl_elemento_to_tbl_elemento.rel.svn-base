@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_elemento",
+items:[
+{foreignColumnName:"codigo_solucion",primaryDataProviderID:"scopes.globals.gbl_codigo_solucion",typeid:23,uuid:"23D980CE-F39D-4864-BCC3-BDF398FDB916"},
+{foreignColumnName:"codigo",primaryDataProviderID:"scopes.globals.gbl_codigo_elemento",typeid:23,uuid:"89B00518-FAEA-4EE6-88FA-C30F29CEF8B3"},
+{foreignColumnName:"codigo_formulario",primaryDataProviderID:"scopes.globals.gbl_codigo_formulario",typeid:23,uuid:"E657AA8D-2CC5-4DDA-B976-87C0C4527F4F"}
+],
+name:"tbl_elemento_to_tbl_elemento",
+primaryDataSource:"db:/desal/tbl_elemento",
+typeid:22,
+uuid:"FBDBD135-0474-48FB-A878-287DE0462772"

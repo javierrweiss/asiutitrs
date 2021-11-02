@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Completamente Despierto|3
+Responde a la llamada|2
+No Responde|1",
+name:"Aldrete_Conciencia_copy",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"DC615C4C-ADD5-4608-B20D-9F1F213749F2"

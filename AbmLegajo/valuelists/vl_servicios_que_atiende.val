@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"RADIOLOGIA|1
+TOMOGRAFIA|2
+ECOGRAFIA|3
+MEDICINA NUCLEAR|4
+HEMODINAMIA|5",
+name:"vl_servicios_que_atiende",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"DCA1947A-85D7-4114-8028-17A3489B0960"

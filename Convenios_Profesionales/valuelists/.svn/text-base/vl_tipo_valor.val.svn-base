@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Fijo|1\r
+Nomenclador|2\r
+Convenido|3",
+name:"vl_tipo_valor",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"11577789-E92B-474D-914F-8971E360C377"

@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_items",
+items:[
+{foreignColumnName:"hora",operator:0,primaryDataProviderID:"globals.vHora",typeid:23,uuid:"5BFEDA4B-014A-40CF-9DAF-6566E1381FA0"},
+{foreignColumnName:"fecha",operator:0,primaryDataProviderID:"globals.vFecha",typeid:23,uuid:"7710A16C-5221-4BA1-B975-A35025A5AD2F"},
+{foreignColumnName:"tipo",operator:0,primaryDataProviderID:"globals.vTipoOtrosEgresos",typeid:23,uuid:"8972975B-E410-475A-AB56-7AA80CAF238A"},
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"BEEC6431-FE65-4B10-AB3C-9CED04BA4F52"}
+],
+joinType:0,
+name:"otros_egresos_to_hojauti_items",
+primaryDataSource:"db:/enfermeria/hojauti_items",
+typeid:22,
+uuid:"4EAE2654-93B8-4992-AFBA-55511B03B4FB"

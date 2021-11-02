@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"tip_descripcion",
+dataProviderID2:"tip_tipnome",
+dataSource:"db:/maestros/tbc_tipos",
+name:"protambu1400_vlTipoNomenclador",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"37604357-B8F2-4FE1-AAF3-A4880782E527",
+valueListType:1

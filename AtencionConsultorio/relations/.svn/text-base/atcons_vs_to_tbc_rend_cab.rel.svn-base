@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_rend_cab",
+items:[
+{foreignColumnName:"rchclinica",primaryDataProviderID:"scopes.globals.AtCons_vhistcli",typeid:23,uuid:"1E1238E6-96A5-4BF5-A4C5-62A77D9BCC57"},
+{foreignColumnName:"rcadmision",primaryDataProviderID:"scopes.globals.AtCons_dos",typeid:23,uuid:"445C1C23-202E-4125-812E-AB841B082ACC"},
+{foreignColumnName:"rcempresa",primaryDataProviderID:"scopes.globals.AtCons_uno",typeid:23,uuid:"7707571D-A3D2-4334-81CC-25312011AED3"},
+{foreignColumnName:"rccierre",primaryDataProviderID:"scopes.globals.AtCons_cierre",typeid:23,uuid:"8A4BEB05-197A-4A38-9F49-AB035F2F786E"},
+{foreignColumnName:"rcperiodo",primaryDataProviderID:"scopes.globals.AtCons_periodo",typeid:23,uuid:"9503F911-07A4-4AB7-983E-1E3B559D0E30"}
+],
+name:"atcons_vs_to_tbc_rend_cab",
+primaryDataSource:"db:/asistencial/tbc_rend_cab",
+typeid:22,
+uuid:"C4AA94C4-A968-4347-974F-3D32B60A287F"

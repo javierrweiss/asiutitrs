@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_rrhh_hist_datos_pers",
+items:[
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.dat_per_fecha",typeid:23,uuid:"132C4F0A-2A07-4CB2-B208-C0118A3F4B3F"},
+{foreignColumnName:"tipo",primaryDataProviderID:"scopes.globals.dat_per_tipo",typeid:23,uuid:"73492006-A726-40D3-9B90-847A88DB71E7"},
+{foreignColumnName:"hora",primaryDataProviderID:"scopes.globals.dat_per_hora",typeid:23,uuid:"E0BEF15B-9FB3-4B3A-A330-084A910CF579"},
+{foreignColumnName:"legajo",primaryDataProviderID:"scopes.globals.per_1",typeid:23,uuid:"F65D65C1-7695-4DFF-A701-629E92E13EF9"}
+],
+name:"per_1_to_tbl_rrhh_hist_datos_pers",
+primaryDataSource:"db:/desal/tbl_rrhh_hist_datos_pers",
+typeid:22,
+uuid:"4E359E2A-0E98-4009-B613-4659D9A21038"

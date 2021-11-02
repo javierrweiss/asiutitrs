@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"Súbita|1\r
+Acmé < 1min|2\r
+Gradual Lenta (insidiosa)|3\r
+Gradual Rápida|4\r
+Aguda de Reciente comienzo|5\r
+Aguda recurrente|6\r
+Crónica  larga data|7\r
+Crónica progresiva|8\r
+Crónica recurrente|9\r
+Cambio de modalidad|10",
+name:"cefalea_vl_instalacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"B884A5EA-BECE-41BE-B995-6A064B0D446B"

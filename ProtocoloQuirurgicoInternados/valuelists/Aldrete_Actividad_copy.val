@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Mueve 4 extremidades volunt. o ante orden|3
+Mueve 2 extremidades volunt. o ante orden|2
+Incapaz de mover extremidades|1
+Nada|0",
+name:"Aldrete_Actividad_copy",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"F09A7799-6F3C-4890-9E8C-74D9583CAC1B"

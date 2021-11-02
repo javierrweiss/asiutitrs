@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Todos|3\r
+Internados|0\r
+A Internarse|1\r
+Ambulatorios|2",
+name:"vl_tipo_histcli",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"E3B9AA46-8D25-4D16-9356-51792BA376A8"

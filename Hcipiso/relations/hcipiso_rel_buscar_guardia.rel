@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_guardia",
+items:[
+{foreignColumnName:"guar_fechaingreso",primaryDataProviderID:"scopes.globals.Hcipiso_fechaIngresoPrint",typeid:23,uuid:"2E37ECB6-66E5-4485-9CF8-D2174117BE41"},
+{foreignColumnName:"guar_horaingreso",primaryDataProviderID:"scopes.globals.Hcipiso_horaIngresoPrint",typeid:23,uuid:"73C14CAD-F6D7-4926-A5B9-C76E11D3C4D2"},
+{foreignColumnName:"guar_histclinica",primaryDataProviderID:"scopes.globals.Hcipiso_hcUnicaPrint",typeid:23,uuid:"DAE7D4C9-E9B7-4478-AC7A-F23787583EFC"}
+],
+joinType:1,
+name:"hcipiso_rel_buscar_guardia",
+primaryDataSource:"db:/asistencial/tbc_guardia",
+typeid:22,
+uuid:"0BBE5FAA-E0CC-4F9D-A24F-90CB2188C507"

@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_reservas",
+items:[
+{foreignColumnName:"reservasfech5",primaryDataProviderID:"scopes.globals.Anatpa_reservasFech5",typeid:23,uuid:"AB91CC9D-AAC6-46B6-B99B-196B72A5543F"},
+{foreignColumnName:"reservashiscli",primaryDataProviderID:"scopes.globals.Anatpa_reservasHisCli",typeid:23,uuid:"F207AAF9-C3FE-43A0-8EE5-FD674E1C3B58"},
+{foreignColumnName:"reservasesta",operator:1,primaryDataProviderID:"scopes.globals.Anatpa_reservasEsta",typeid:23,uuid:"F56C814B-E46A-480C-8DEA-ACCEF37E9CFF"},
+{foreignColumnName:"reservasipedido",primaryDataProviderID:"scopes.globals.Anatpa_reservasIPedido",typeid:23,uuid:"F602F891-A46D-4D59-918B-F0949AE9279C"}
+],
+name:"anatpa_rel_buscar_reservas",
+primaryDataSource:"db:/asistencial/tbc_reservas",
+typeid:22,
+uuid:"5C385123-3508-4610-8CA7-BA6E025599C2"

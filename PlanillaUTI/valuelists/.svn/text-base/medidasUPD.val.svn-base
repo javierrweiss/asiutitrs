@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:"Crema Barrera|1\r
+Parches Duoderm|2\r
+Aro de Goma|3\r
+Taloneras|4\r
+Colchón de Aire|5\r
+Ninguna|0\r
+Varios|6",
+name:"medidasUPD",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"535A4055-5E59-4255-89E8-118F2F0ED596"

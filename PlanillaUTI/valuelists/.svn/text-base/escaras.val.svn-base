@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Estadio I|1\r
+Estadio II|2\r
+Estadio III|3\r
+Estadio IV|4\r
+No|0",
+name:"escaras",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"4CF60249-E3B6-4B66-93B3-8DBEC277F3FF"

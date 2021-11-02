@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_grupos",
+items:[
+{foreignColumnName:"gru2",primaryDataProviderID:"scopes.globals.gbl_grupo_nom",typeid:23,uuid:"BC813FFB-9EAC-4DD7-93E8-290B1B1F7C5E"},
+{foreignColumnName:"gru1",primaryDataProviderID:"scopes.globals.gbl_tipo_nom",typeid:23,uuid:"FA0E12C3-6C49-43C3-ABE8-2CE7CB7F2C9E"}
+],
+name:"gbl_grup_to_grupo",
+primaryDataSource:"db:/maestros/tbc_especial",
+typeid:22,
+uuid:"629AC79F-7DF7-4313-8B92-39AE3B492B9D"

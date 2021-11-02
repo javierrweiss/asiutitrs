@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/proyecto1/!svn/ver/2098/CargaAlerta/relations
+END
+alerta_tbc_hist_cab_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/proyecto1/!svn/ver/2098/CargaAlerta/relations/alerta_tbc_hist_cab_to_tbc_obras.rel
+END
+tbc_admision_alerta_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/461/CargaAlerta/relations/tbc_admision_alerta_to_tbc_obras.rel
+END
+alerta_vhclin_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/2098/CargaAlerta/relations/alerta_vhclin_to_tbc_hist_cab.rel
+END
+tbc_admision_scroll_to_tbc_alerta.rel
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/proyecto1/!svn/ver/825/CargaAlerta/relations/tbc_admision_scroll_to_tbc_alerta.rel
+END
+tbc_admision_to_tbc_alerta.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/825/CargaAlerta/relations/tbc_admision_to_tbc_alerta.rel
+END
+vhclin_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/825/CargaAlerta/relations/vhclin_to_tbc_admision.rel
+END
+vhclin_to_tbc_alerta.rel
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/825/CargaAlerta/relations/vhclin_to_tbc_alerta.rel
+END
+tbc_admision_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/825/CargaAlerta/relations/tbc_admision_to_tbc_obras.rel
+END

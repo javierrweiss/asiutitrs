@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_guardia",
+items:[
+{foreignColumnName:"guar_histclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"13D3B1BC-04D2-4A9F-A87A-3E5603240191"},
+{foreignColumnName:"guar_fechaingreso",primaryDataProviderID:"scopes.globals.protambu1400_fechaingreso",typeid:23,uuid:"87C735F3-42C2-4ECD-81E3-AE4C612F6024"},
+{foreignColumnName:"guar_horaingreso",primaryDataProviderID:"scopes.globals.protambu1400_hora_ingreso",typeid:23,uuid:"FD5F80E5-6C07-42EC-874F-A22A51BB4ECD"}
+],
+name:"protambul1400_vhiscli_to_tbc_guardia",
+primaryDataSource:"db:/asistencial/tbc_guardia",
+typeid:22,
+uuid:"24D5A03E-6662-478D-A94C-7914AE7C7D74"

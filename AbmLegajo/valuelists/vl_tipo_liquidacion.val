@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Mensuales|1\r
+Medicos|2",
+name:"vl_tipo_liquidacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"9CE16BB1-6464-49DC-A32A-D7F3733E0C13"

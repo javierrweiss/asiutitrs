@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_cefalea",
+items:[
+{foreignColumnName:"hiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"8C1389D6-4039-4770-BDB9-96748A466825"}
+],
+name:"cefalea_vhiscli_to_tbl_cefalea",
+primaryDataSource:"db:/desal/tbl_cefalea",
+typeid:22,
+uuid:"0AC6081F-4967-4247-A23A-484267BF67FD"

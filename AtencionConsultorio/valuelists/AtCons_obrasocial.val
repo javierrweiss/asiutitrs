@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"obr_codigo",
+dataProviderID2:"obr_nomredu",
+dataSource:"db:/maestros/tbc_obras",
+name:"AtCons_obrasocial",
+returnDataProviders:1,
+showDataProviders:2,
+typeid:34,
+uuid:"AAEE7818-7C1F-464D-ADBD-0019FF4E536F",
+valueListType:1

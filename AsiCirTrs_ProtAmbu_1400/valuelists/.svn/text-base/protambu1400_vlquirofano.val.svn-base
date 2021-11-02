@@ -1,0 +1,17 @@
+addEmptyValue:1,
+customValues:"Quirofano 1|1\r
+Quirofano 2|2\r
+Quirofano 3|3\r
+Quirofano 4|4\r
+Quirofano 5|5\r
+Quirofano 6|6\r
+Quirofano 7|7\r
+Quirofano 8|8\r
+Quirofano 9|9\r
+Quirofano 10|10\r
+Quirofano 11|11",
+name:"protambu1400_vlquirofano",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"B2E43047-7CFD-4CAB-89E6-02454C6E5C0B"

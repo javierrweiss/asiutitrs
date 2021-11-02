@@ -1,0 +1,16 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_conv_prof",
+items:[
+{foreignColumnName:"conv_especialidad",primaryDataProviderID:"scopes.globals.gbl_especialidad",typeid:23,uuid:"2270EC1F-C91E-418D-8C0A-1F9C9AAF25E7"},
+{foreignColumnName:"conv_tipo_nom",primaryDataProviderID:"scopes.globals.gbl_tipo_nom",typeid:23,uuid:"499FD001-D4E2-47A6-8844-80D2276A75AA"},
+{foreignColumnName:"conv_empresa",primaryDataProviderID:"scopes.globals.gbl_con_empresa",typeid:23,uuid:"724B441C-A666-44F1-8C57-2F90B166B5AE"},
+{foreignColumnName:"conv_obra_social",primaryDataProviderID:"scopes.globals.gbl_cobertura",typeid:23,uuid:"AC15FEFF-E31D-4B05-88F6-C67897115C95"},
+{foreignColumnName:"conv_fecha_desde",primaryDataProviderID:"scopes.globals.gbl_fecha_desde",typeid:23,uuid:"B32E1925-4069-43E0-835D-B4D893A5B8D5"},
+{foreignColumnName:"conv_grupo_nom",primaryDataProviderID:"scopes.globals.gbl_grupo_nom",typeid:23,uuid:"B512CF0B-2AA0-40D9-8F46-A0C4053EC3E1"},
+{foreignColumnName:"conv_profesional",primaryDataProviderID:"scopes.globals.gbl_profesional",typeid:23,uuid:"C878F986-6FFE-4471-A82D-01F474EF7CDE"},
+{foreignColumnName:"conv_cod_nom",primaryDataProviderID:"scopes.globals.gbl_nomencla",typeid:23,uuid:"EE0EEA17-B5D8-4D98-BBD1-DD9E3F12AD76"}
+],
+name:"gbl_conv_to_convenio",
+primaryDataSource:"db:/maestros/tbc_especial",
+typeid:22,
+uuid:"3134C8DA-3754-4B74-9FF9-4B29A38E7D1D"

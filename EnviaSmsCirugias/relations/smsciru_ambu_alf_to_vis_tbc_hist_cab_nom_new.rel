@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/vis_tbc_hist_cab_nom",
+items:[
+{foreignColumnName:"histcabapellnom",operator:4,primaryDataProviderID:"scopes.globals.vAlfa",typeid:23,uuid:"17EB645F-8469-402E-92B1-ABD8B7341165"}
+],
+name:"smsciru_ambu_alf_to_vis_tbc_hist_cab_nom_new",
+primaryDataSource:"db:/asistencial/vis_tbc_hist_cab_nom",
+typeid:22,
+uuid:"9B33F711-1DDF-4A15-99D2-8A97248D74DE"

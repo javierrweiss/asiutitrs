@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_marca_prot",
+items:[
+{foreignColumnName:"mar_codiprotesis",operator:0,primaryDataProviderID:"globals.vCodProt",typeid:23,uuid:"3223625E-9173-48A9-9D77-D113B928F6A3"},
+{foreignColumnName:"mar_item",operator:0,primaryDataProviderID:"globals.vItemProt",typeid:23,uuid:"6DDA80A5-0149-4F14-99F0-EB7A8B04BCD0"},
+{foreignColumnName:"mar_pedido",operator:0,primaryDataProviderID:"globals.vNroPedidoProtesis",typeid:23,uuid:"773DF602-ED8F-41C2-98FE-E86A657118E1"}
+],
+joinType:0,
+name:"vs_to_tbc_marca_prot",
+primaryDataSource:"db:/asistencial/tbc_marca_prot",
+typeid:22,
+uuid:"A815492F-AFA3-4D10-BB31-1ADC3A9E70A4"

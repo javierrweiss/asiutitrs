@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/consentimientos",
+items:[
+{foreignColumnName:"tipo",primaryDataProviderID:"scopes.globals.textoAyuda",typeid:23,uuid:"59DDE00B-C401-4B42-8920-1DA5DA78A4A7"}
+],
+name:"textoayuda_to_consentimientos",
+primaryDataSource:"db:/bases_auxiliares/consentimientos",
+typeid:22,
+uuid:"21AAB1B7-14DD-4759-92F3-8BAE3769F7D0"

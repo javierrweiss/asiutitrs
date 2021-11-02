@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_proamb_t",
+initialSort:"proahistclinica asc, proafechaingreso asc, proahoraingreso asc, proagrupo asc, proasecuencia asc",
+items:[
+{foreignColumnName:"proahistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"31981FBD-7CF2-43FD-B1D4-0007DA62F104"},
+{foreignColumnName:"proagrupo",primaryDataProviderID:"scopes.globals.reimpresor_grupoTexto",typeid:23,uuid:"9B9E57B6-E279-4331-B639-5C7B9EF62E3F"},
+{foreignColumnName:"proafechaingreso",primaryDataProviderID:"scopes.globals.reimpresor_fecha_ingreso",typeid:23,uuid:"BCCED20E-038D-477B-B505-038F320CC9CE"},
+{foreignColumnName:"proahoraingreso",primaryDataProviderID:"scopes.globals.reimpresor_hora_ingreso",typeid:23,uuid:"C2E292C4-23B9-49DC-BB02-C8E6320E8D8B"}
+],
+name:"reimpresor_vhiscli_to_tbc_proamb_t",
+primaryDataSource:"db:/asistencial/tbc_proamb_t",
+typeid:22,
+uuid:"3ADCD5FB-87F0-411A-8B46-AD1D7EF8773C"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"rca_pato",typeid:23,uuid:"5BB79209-1F4B-4C9A-A096-A7EFCC8D92BC"}
+],
+joinType:1,
+name:"tbc_res_camas_to_tbc_patologia",
+primaryDataSource:"db:/asistencial/tbc_res_camas",
+typeid:22,
+uuid:"9FDCC29E-67A9-421C-A5D7-760F54977A5B"

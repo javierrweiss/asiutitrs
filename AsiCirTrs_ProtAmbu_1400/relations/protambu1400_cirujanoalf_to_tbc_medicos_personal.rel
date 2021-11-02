@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+initialSort:"medperapeynom asc",
+items:[
+{foreignColumnName:"medperapeynom",operator:4,primaryDataProviderID:"scopes.globals.protambu1400_cirujanoalf",typeid:23,uuid:"ED016364-CD28-4301-85C7-1EFE23010A8F"}
+],
+name:"protambu1400_cirujanoalf_to_tbc_medicos_personal",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"C6368E31-4DA0-482C-9CF0-30A712BD4401"

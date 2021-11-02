@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_obras_rrhh",
+items:[
+{foreignColumnName:"obrpreocup",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"396D988E-63E3-476B-BFA4-7B9EAA188F68"}
+],
+joinType:1,
+name:"one_value_to_tbc_obras_rrhh",
+primaryDataSource:"db:/rrhh/tbc_obras_rrhh",
+typeid:22,
+uuid:"3CFED5BB-11CB-47D0-A1AF-84203A475ABD"

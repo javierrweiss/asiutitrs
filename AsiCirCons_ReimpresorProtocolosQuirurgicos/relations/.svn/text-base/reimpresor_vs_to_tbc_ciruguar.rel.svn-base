@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_ciruguar",
+items:[
+{foreignColumnName:"cirghistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"E5AE5460-8171-4CAC-897D-D3E52373A448"}
+],
+name:"reimpresor_vs_to_tbc_ciruguar",
+primaryDataSource:"db:/asistencial/tbc_ciruguar",
+typeid:22,
+uuid:"E896D943-6271-4690-8D87-CF1388297DD2"

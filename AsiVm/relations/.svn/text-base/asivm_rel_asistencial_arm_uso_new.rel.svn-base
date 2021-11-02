@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_arm_uso",
+initialSort:"armusofecegr desc, armusohoregr desc",
+items:[
+{foreignColumnName:"armusohcli",primaryDataProviderID:"scopes.globals.AsiVm_adm_HistClin",typeid:23,uuid:"D78B0259-AB34-4DA8-BDFE-08B6F0E5BA3C"}
+],
+name:"asivm_rel_asistencial_arm_uso_new",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"2CD97D6F-8315-4425-ABD7-DC9A7B66BF4C"

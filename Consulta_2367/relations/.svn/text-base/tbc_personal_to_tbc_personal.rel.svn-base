@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.gbl_con",typeid:23,uuid:"C3796279-826C-4278-A3CC-048C767C850F"}
+],
+name:"tbc_personal_to_tbc_personal",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"9146777F-0548-4BC9-A5DE-FEBE8FE1C393"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_especial",
+initialSort:"esp_descripredu asc",
+items:[
+{foreignColumnName:"esp_descripredu",operator:4,primaryDataProviderID:"scopes.globals.gbl_especial_a",typeid:23,uuid:"B060A274-6086-4984-87BD-E997F73BE6CD"}
+],
+name:"gbl_especial_a_to_tbc_especial",
+primaryDataSource:"db:/maestros/tbc_especial",
+typeid:22,
+uuid:"F560A7F8-E26C-4730-8799-E48E767C6192"

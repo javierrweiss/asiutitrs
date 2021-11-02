@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_protoc_txt",
+items:[
+{foreignColumnName:"protocolo",primaryDataProviderID:"scopes.globals.gbl_protocolo",typeid:23,uuid:"2578CD57-BE2A-481E-B75F-FB7C7FA591A4"},
+{foreignColumnName:"grupo",primaryDataProviderID:"scopes.globals.gbl_4",typeid:23,uuid:"FD6B32B4-393D-4117-ABC2-BE581A2E6CFF"}
+],
+name:"vis_tbc_cirugint_to_tbc_protoc4_txt_2",
+primaryDataSource:"db:/desal/tbl_protoc_txt",
+typeid:22,
+uuid:"21912360-ACB5-478E-BD2B-7EBF52EFCCE1"

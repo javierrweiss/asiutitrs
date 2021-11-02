@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_causas",
+items:[
+{foreignColumnName:"cau5",operator:3,primaryDataProviderID:"scopes.globals.value_six",typeid:23,uuid:"185CBC22-2853-47A0-9AB9-7D033A0FF9C3"},
+{foreignColumnName:"cau5",operator:4,primaryDataProviderID:"scopes.globals.value_four",typeid:23,uuid:"ED31E3AC-92E4-4C45-8A3D-6CB8E362F8B1"}
+],
+name:"vs_to_tbc_causas",
+primaryDataSource:"db:/rrhh/tbc_causas",
+typeid:22,
+uuid:"A5BEF208-40A9-41A7-B2A6-EB51D002C737"

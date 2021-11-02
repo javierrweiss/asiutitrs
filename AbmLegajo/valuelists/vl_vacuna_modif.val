@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"No modifica|1
+Agrega o Modifica|2",
+name:"vl_vacuna_modif",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"1640A10D-DB69-45D8-AC70-033C3FA154C6"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_interven",
+items:[
+{foreignColumnName:"itv_codi",primaryDataProviderID:"hciritvcod2",typeid:23,uuid:"364E4283-D13D-490A-9D99-BC1EDF9B3C3A"}
+],
+name:"protambu1400_tbc_hcicir_new_itv2_to_tbc_interven",
+primaryDataSource:"db:/asistencial/tbc_hcicir_new",
+typeid:22,
+uuid:"0ECBC732-EADD-4A3C-A7DF-48A54B38B3AC"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_articulos",
+initialSort:"art_descrip asc",
+items:[
+{foreignColumnName:"art_descrip",operator:4,primaryDataProviderID:"scopes.globals.bandejaciru_alfa_medicam",typeid:23,uuid:"32A35ACD-531D-4938-9F9A-616E60F762C8"}
+],
+name:"bandejaciru_alfamedicam_to_tbc_articulos",
+primaryDataSource:"db:/maestros/tbc_articulos",
+typeid:22,
+uuid:"B0B92B7E-C747-486A-B651-6527C74F4C84"

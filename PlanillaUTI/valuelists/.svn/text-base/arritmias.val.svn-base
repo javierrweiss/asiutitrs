@@ -1,0 +1,14 @@
+addEmptyValue:1,
+customValues:"Fibrilación Auricular|1\r
+Aleteo Auricular|2\r
+Taquicardia Supraventricular Paroxística|3\r
+Síndrome de Wolff-Parkinson-White|4\r
+Taquicardia Ventricular|5\r
+Fibrilación Ventricular|6\r
+Bradiarritmias|7\r
+Ninguna|0",
+name:"arritmias",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"1B77938D-EE32-4E23-A1CB-FFFADEAF0A1B"

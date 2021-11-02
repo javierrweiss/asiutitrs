@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Continua|1\r
+Intermitente|2",
+name:"AsiArmTrs_Mod_vl_modoNoInvasiva",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"800A6018-BAEE-4188-9698-DBB44713708D"

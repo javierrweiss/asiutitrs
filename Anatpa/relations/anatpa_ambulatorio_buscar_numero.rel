@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+initialSort:"histcabnrounico asc",
+items:[
+{foreignColumnName:"histcabnrounico",operator:4,primaryDataProviderID:"scopes.globals.Anatpa_hiscli",typeid:23,uuid:"A360A7BC-A462-4925-AF5E-5EDDFB9DC4EB"}
+],
+name:"anatpa_ambulatorio_buscar_numero",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"636FE432-4FFB-4F72-A960-01B812376A85"

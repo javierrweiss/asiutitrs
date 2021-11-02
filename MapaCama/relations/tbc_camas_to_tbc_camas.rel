@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_camas",
+items:[
+{foreignColumnName:"cam_habi",primaryDataProviderID:"scopes.globals.gbl_habitacion",typeid:23,uuid:"E5561987-710F-49C5-9122-F076F7105A5F"}
+],
+name:"tbc_camas_to_tbc_camas",
+primaryDataSource:"db:/maestros/tbc_camas",
+typeid:22,
+uuid:"D4A015CC-997E-4235-8807-DC30D4ECDD69"

@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anes_ambu",
+items:[
+{foreignColumnName:"anestippac",primaryDataProviderID:"scopes.globals.anesambu_tipac",typeid:23,uuid:"11CF3C17-D439-4822-A244-C63B42CF2138"},
+{foreignColumnName:"aneshoraingreso",primaryDataProviderID:"scopes.globals.anesambu_horaingreso",typeid:23,uuid:"6B7A68FC-4A9D-42D0-9C43-389C4C0709EF"},
+{foreignColumnName:"aneshc",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"B82AD7A3-5A52-4DE9-928D-04EE5CA785C1"},
+{foreignColumnName:"anesfecingreso",primaryDataProviderID:"scopes.globals.anesambu_fechaingreso",typeid:23,uuid:"C698C159-3061-4246-B1D6-CBB2FF57918F"}
+],
+name:"anesambu_vhiscli_to_tbc_anes_ambu",
+primaryDataSource:"db:/asistencial/tbc_anes_ambu",
+typeid:22,
+uuid:"AA63EF9C-E113-421F-9C1B-8DABA05A4849"

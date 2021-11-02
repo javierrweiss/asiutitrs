@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_alerta",
+items:[
+{foreignColumnName:"aler_tipadmi",primaryDataProviderID:"scopes.globals.vtipo",typeid:23,uuid:"C415B2A3-57FB-42A4-BE2F-03B9B00A0A58"},
+{foreignColumnName:"aler_histclin",primaryDataProviderID:"scopes.globals.vhclin9",typeid:23,uuid:"F27CEEE4-C051-4CE3-BCE8-A8A2713BAD3B"}
+],
+name:"vhclin_to_tbc_alerta",
+primaryDataSource:"db:/asistencial/tbc_alerta",
+typeid:22,
+uuid:"09DCE7F4-3224-43B1-8FD1-DA395B9F9D98"

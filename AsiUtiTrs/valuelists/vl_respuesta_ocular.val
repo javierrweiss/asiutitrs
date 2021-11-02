@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Apertura espontanea|1
+Apertura ante ordenes|2
+Apertura ante el dolor|3
+Sin apertura ocular|4",
+name:"vl_respuesta_ocular",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"266DFA94-7457-498E-9672-134C623F7618"

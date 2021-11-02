@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+items:[
+{foreignColumnName:"nome_codigo",primaryDataProviderID:"scopes.globals.segambu_codnome",typeid:23,uuid:"6827BA40-0C66-42E2-9383-CF5E25059B07"},
+{foreignColumnName:"nome_tipo",primaryDataProviderID:"scopes.globals.segambu_tiponome",typeid:23,uuid:"7BD175D0-E76C-4E44-A549-6257DEE0C2FF"}
+],
+name:"seguquiambu_vcodnome_to_tbc_nomencla",
+primaryDataSource:"db:/maestros/tbc_nomencla",
+typeid:22,
+uuid:"D7ADBAD7-DFE0-4563-BF08-1C3E91D18090"

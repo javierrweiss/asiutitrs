@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"No|1\r
+Vesical|2\r
+NG|3\r
+SOG|4",
+name:"AsiUcoMod_Rep_vl_sonda",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"8A4C154E-4A5D-4BE6-B345-A9FF1B1F6BC2"

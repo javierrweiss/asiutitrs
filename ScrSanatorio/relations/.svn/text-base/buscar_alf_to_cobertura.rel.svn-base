@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/vis_tbc_obras",
+initialSort:"obr_razonsoc asc",
+items:[
+{foreignColumnName:"obr_razonsoc",operator:4,primaryDataProviderID:"scopes.globals.gbl_con_cobertura",typeid:23,uuid:"AE3274A1-1676-404E-956D-87144B3DF8E1"}
+],
+name:"buscar_alf_to_cobertura",
+primaryDataSource:"db:/maestros/vis_tbc_obras",
+typeid:22,
+uuid:"7A19F82D-E5F9-4984-B280-19878022E2AE"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+initialSort:"adm_histclin asc",
+items:[
+{foreignColumnName:"adm_histclin",operator:4,primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_hisclin",typeid:23,uuid:"8C436254-4DCE-466A-B9FD-709443BA6FCB"}
+],
+name:"asiutitrs_hoja_numero_to_tbc_admision",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"85EE0BB0-B4EA-4C8B-8487-3BD3991356CB"

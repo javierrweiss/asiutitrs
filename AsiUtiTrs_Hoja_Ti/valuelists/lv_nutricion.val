@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Come satisfactoriamente|1\r
+Ocasionalmente rechaza la comida|2\r
+No toma ninguna comida completa|3\r
+No come|4",
+name:"lv_nutricion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"658420C5-6130-4216-A348-CFC695721EF0"

@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_estadtur",
+items:[
+{foreignColumnName:"estadturhora",primaryDataProviderID:"scopes.globals.Atcons_vreservashora",typeid:23,uuid:"328EFE6A-2466-47C4-85F0-4C7E1E43E320"},
+{foreignColumnName:"estadturmed",primaryDataProviderID:"scopes.globals.AtCons_vlega",typeid:23,uuid:"4B2A5598-004D-4991-B8CD-30531137543C"},
+{foreignColumnName:"estadturfecha",primaryDataProviderID:"scopes.globals.AtCons_vfecha_integer",typeid:23,uuid:"9EBA93FF-751E-4A71-889E-23BB4B8BE181"},
+{foreignColumnName:"estadturesp",primaryDataProviderID:"scopes.globals.AtCons_vespecial",typeid:23,uuid:"A120DAAD-043B-43EC-ABEF-952CC091CC20"}
+],
+name:"atcons_vs_to_tbc_estadtur",
+primaryDataSource:"db:/asistencial/tbc_estadtur",
+typeid:22,
+uuid:"0CA990DE-1D50-4279-8C4B-06C91D0F2878"

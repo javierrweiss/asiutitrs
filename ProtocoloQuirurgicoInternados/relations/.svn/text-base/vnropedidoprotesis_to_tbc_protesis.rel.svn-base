@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_protesis",
+items:[
+{foreignColumnName:"prote_nroprote",primaryDataProviderID:"scopes.globals.vNroPedidoProtesis",typeid:23,uuid:"27957D3D-5A16-4711-829B-CE0085661EFD"}
+],
+name:"vnropedidoprotesis_to_tbc_protesis",
+primaryDataSource:"db:/asistencial/tbc_protesis",
+typeid:22,
+uuid:"AE0F8EEC-C994-4DBE-9D32-A81DC9293CA0"

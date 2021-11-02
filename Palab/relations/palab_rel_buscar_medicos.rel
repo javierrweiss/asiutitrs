@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.Palab_medCodigo",typeid:23,uuid:"513721EA-24EA-4CC3-8B50-05C14CD65F7F"}
+],
+joinType:1,
+name:"palab_rel_buscar_medicos",
+primaryDataSource:"db:/maestros/tbc_medicos",
+typeid:22,
+uuid:"E5B4C369-239D-49AA-87E9-6841DD993877"

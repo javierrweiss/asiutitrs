@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Mantiene SaO2 > 92% con aire ambiente|3\r
+
+Necesita O2 para mantener SaO2 > 90%|2
+\r
+SaO2 < 90% con O2 suplementario|1",
+name:"reimpresor_vl_aldrete_saturacion_arterial",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"EF1304D0-63C6-4E1C-9FA7-122390622215"

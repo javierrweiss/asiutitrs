@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Completamente Despierto|3\r
+
+Responde a la llamada|2\r
+
+No Responde|1",
+name:"protambu1400_vl_aldrete_conciencia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"713A991A-3860-45DD-A8BB-AE8059B2B7D4"

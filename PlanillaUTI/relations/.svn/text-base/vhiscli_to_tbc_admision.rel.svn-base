@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+initialSort:"adm_histclin asc",
+items:[
+{foreignColumnName:"adm_histclin",operator:4,primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"24405EFB-48AE-4184-A12A-13308E973A6F"}
+],
+name:"vhiscli_to_tbc_admision",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"B2D7DD3F-10E9-417D-8BA3-45C26F9DB2B6"

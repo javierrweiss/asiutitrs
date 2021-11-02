@@ -1,0 +1,17 @@
+addEmptyValue:1,
+customValues:"0=Ausencia del Dolor|0\r
+1|1\r
+2|2\r
+3|3\r
+4|4\r
+5|5\r
+6|6\r
+7|7\r
+8|8\r
+9|9\r
+10=Dolor de Máxima Intensidad|10",
+name:"dolor",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"71619197-ACFB-4834-A5CA-153E2D1B6D4B"

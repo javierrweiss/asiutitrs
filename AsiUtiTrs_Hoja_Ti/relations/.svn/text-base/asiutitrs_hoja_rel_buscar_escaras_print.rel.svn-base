@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_tvp_escaras",
+items:[
+{foreignColumnName:"tehora",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_horaPrint",typeid:23,uuid:"745BBB7B-9CD1-488C-B8B2-6E6B25D85CBE"},
+{foreignColumnName:"tehcli",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_histClinPrint",typeid:23,uuid:"84747F8F-4338-4B47-8CE5-DBF06AFFA406"},
+{foreignColumnName:"tefech",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_fechaPrint",typeid:23,uuid:"90815338-4C31-47EA-B063-62018DA89420"}
+],
+joinType:1,
+name:"asiutitrs_hoja_rel_buscar_escaras_print",
+primaryDataSource:"db:/asistencial/tbc_hciint",
+typeid:22,
+uuid:"ADFE1515-1C63-45E5-9777-F36E8A347E9D"

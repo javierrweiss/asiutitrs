@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+items:[
+{foreignColumnName:"nome_tipo",primaryDataProviderID:"scopes.globals.gbl_tipo_nom",typeid:23,uuid:"AE6AEA3B-CBB4-499A-9863-BDB1AD4EA9FB"},
+{foreignColumnName:"nome_codigo",operator:4,primaryDataProviderID:"scopes.globals.gbl_nomencla",typeid:23,uuid:"E47BC2B6-DCC9-4C33-ADC9-3FBCD2ACC0ED"}
+],
+name:"buscar_num_to_nomencla",
+primaryDataSource:"db:/maestros/vis_tbc_obras",
+typeid:22,
+uuid:"6C66A515-0EAC-4DDD-A26D-E3AD2E660309"

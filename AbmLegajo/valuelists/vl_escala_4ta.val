@@ -1,0 +1,15 @@
+addEmptyValue:1,
+customValues:"Automático|0
+< 15.000|1
+> 15.000 y < 18.000|2
+> 18.000 y < 21.000|3
+> 21.000 y < 22.000|4
+> 22.000 y < 23.000|5
+> 23.000 y < 24.000|6
+> 24.000 y < 25.000|7
+> 25.000|8",
+name:"vl_escala_4ta",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"5F29E9E0-5868-4F56-B09E-0849BAAE8247"

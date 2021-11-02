@@ -1,0 +1,12 @@
+dataSource:"db:/desal/tbl_snd",
+items:[
+{
+dataProviderIDToAggregate:"importe",
+name:"suma_importe",
+type:4,
+typeid:40,
+uuid:"8B1FED15-AF7D-4FB6-B04F-33E87A71A39F"
+}
+],
+typeid:39,
+uuid:"E3F00963-57D6-48C3-A676-465F33760D72"

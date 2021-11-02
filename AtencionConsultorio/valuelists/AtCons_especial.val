@@ -1,0 +1,12 @@
+addEmptyValue:1,
+dataProviderID1:"esp_codi",
+dataProviderID2:"esp_codi",
+dataProviderID3:"esp_descrip",
+dataSource:"db:/maestros/tbc_especial",
+name:"AtCons_especial",
+returnDataProviders:1,
+separator:"  -  ",
+showDataProviders:6,
+typeid:34,
+uuid:"C1E72943-E2B3-4BE8-94FD-C38BA066A094",
+valueListType:1

@@ -1,0 +1,14 @@
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"8E130A06-EE8C-4C12-BDED-71D9A4B760BF"
+}
+],
+name:"frm_principio_itaes",
+navigatorID:"-1",
+onShowMethodID:"C13AA13B-D471-48F9-9CCE-019F46216FD9",
+styleName:"Sanatorio",
+typeid:3,
+uuid:"06A6C0EC-5C52-4B66-8DFC-C85A75481461"

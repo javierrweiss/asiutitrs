@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+items:[
+{foreignColumnName:"nome_codigo",primaryDataProviderID:"scopes.globals.AtCons_codinom",typeid:23,uuid:"2BC2B3F6-2991-4671-B965-E021C48BA92C"},
+{foreignColumnName:"nome_tipo",primaryDataProviderID:"scopes.globals.AtCons_tiponom",typeid:23,uuid:"6DED96E3-6245-4939-B40F-F5C4C473E2CF"}
+],
+name:"atcons_vs_to_tbc_nomencla",
+primaryDataSource:"db:/maestros/tbc_nomencla",
+typeid:22,
+uuid:"E4CA504E-6A90-4ABE-A83D-816072E42574"

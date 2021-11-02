@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1610468088872_1" label="Servoy Active Solution" name="Servoy Active Solution">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ScrSanatorio" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/funciones" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GenerarTXTInterfaseVisualMedica" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AsiArmMod_Rep" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ControlAlerta" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CargaAlerta" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AsiUtiTrs" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AsistFunciones" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Call_2142" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mod_dialog" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/resources" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AsiArmTrs_Mod" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MsgSanatorio" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1610467878925_0" label="Window Working Set" name="Aggregate for window 1610467878925">
+<workingSet IMemento.internal.id="Servoy Active Solution"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1629226551194_3" label="Window Working Set" name="Aggregate for window 1629226551179">
+<workingSet IMemento.internal.id="Servoy Active Solution"/>
+</workingSet>
+</workingSetManager>

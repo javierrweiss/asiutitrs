@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_horper",
+items:[
+{foreignColumnName:"hor_peresemana",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"38E494D5-B0AA-47FA-A3BD-DD834CD6C8E0"},
+{foreignColumnName:"hor_perlega",primaryDataProviderID:"scopes.globals.AsiUcoTrs_vLega",typeid:23,uuid:"49299252-35BA-4851-9B0F-A18BECC77BB6"},
+{foreignColumnName:"hor_peredias",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"5EF67987-5440-4B0B-891C-88AFC5191055"},
+{foreignColumnName:"hor_pertipo",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"637C3688-4491-4620-9CCB-DCFF345E4C46"}
+],
+joinType:1,
+name:"asiucotrs_vlegajo1_to_tbc_clave_legajo",
+primaryDataSource:"db:/validalegajo/tbc_horper",
+typeid:22,
+uuid:"B02561F6-003B-4E4D-B61F-C57FF96009B2"

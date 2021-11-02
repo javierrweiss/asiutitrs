@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_mail_obra",
+items:[
+{foreignColumnName:"mailobrtipo",primaryDataProviderID:"scopes.globals.vmail_tipo",typeid:23,uuid:"100E1271-1770-43E9-A0B1-06FB71A59575"},
+{foreignColumnName:"mailobr1",primaryDataProviderID:"scopes.globals.obra_mail",typeid:23,uuid:"486B81E5-27FE-4E7A-AD27-BBECAAFEE51D"}
+],
+name:"obra_mail_to_tbc_mail_obra",
+primaryDataSource:"db:/asistencial/tbc_mail_obra",
+typeid:22,
+uuid:"F479143B-7334-4224-A59A-00435EF8A51F"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_plan_obra",
+items:[
+{foreignColumnName:"plo_obra",primaryDataProviderID:"scopes.globals.AsiArmTrs_Mod_ploObra",typeid:23,uuid:"6A437E26-8FD4-4740-874F-EDD4C265F296"},
+{foreignColumnName:"plo_planx10",primaryDataProviderID:"scopes.globals.AsiArmTrs_Mod_ploPlanx10",typeid:23,uuid:"7ACE194D-6D52-4C2C-9787-7E0CE2FE8BF8"}
+],
+joinType:1,
+name:"asiarmtrs_mod_rel_buscar_plan_obra",
+primaryDataSource:"db:/maestros/tbc_plan_obra",
+typeid:22,
+uuid:"5C72AFEA-4023-43AB-BF5C-60427B118559"

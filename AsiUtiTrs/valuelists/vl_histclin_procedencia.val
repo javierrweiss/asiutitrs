@@ -1,0 +1,21 @@
+addEmptyValue:1,
+customValues:" |-1\r
+Guardia|1\r
+Sector de clínica|2\r
+Sala de parto|3\r
+Piso de otro hospital|4\r
+UTI de otro hospital|5\r
+Terapia intermedia|6\r
+Sector de cirugía|7\r
+Vía pública|8\r
+Unidad coronaria|9\r
+Quirófano programado|10\r
+Quirófano de urgencia|11\r
+Otra|12\r
+Atención domiciliaria|13\r
+Guardia de otro hospital|14",
+name:"vl_histclin_procedencia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"BEB9C26B-ACC7-439A-81CD-4488C118521E"

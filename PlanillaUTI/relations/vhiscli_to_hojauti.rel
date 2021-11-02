@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti",
+initialSort:"hiscli asc, fecha asc, hora asc",
+items:[
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"29EE1021-C67D-47EA-9527-F26349EA746E"}
+],
+joinType:0,
+name:"vhiscli_to_hojauti",
+primaryDataSource:"db:/enfermeria/hojauti",
+typeid:22,
+uuid:"8ADB54A8-898D-4A0C-88B4-B806471D5308"

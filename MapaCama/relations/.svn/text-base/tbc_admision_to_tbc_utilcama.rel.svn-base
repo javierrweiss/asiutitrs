@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_utilcama",
+items:[
+{foreignColumnName:"utic_utiliza",primaryDataProviderID:"adm_pasesec",typeid:23,uuid:"5C14FE5B-D813-49F7-A785-5E5E7D8B8336"}
+],
+name:"tbc_admision_to_tbc_utilcama",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"40F97C05-0EDB-4EAB-A8DB-6DAEC625FE0D"

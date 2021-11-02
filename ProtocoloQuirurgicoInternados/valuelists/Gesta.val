@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:null,
+dataProviderID1:"obstetri_gesta",
+dataSource:null,
+name:"Gesta",
+relationName:"vhiscli_to_tbc_obstetri",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"08C4C47B-6039-4A0F-8C94-60DD55F7F760",
+valueListType:1

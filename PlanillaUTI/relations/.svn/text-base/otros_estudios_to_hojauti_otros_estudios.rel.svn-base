@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_otros_estudios",
+initialSort:"hiscli asc, fecha asc, tipo asc, renglon asc",
+items:[
+{foreignColumnName:"fecha",operator:0,primaryDataProviderID:"globals.vFecha",typeid:23,uuid:"013B2AC9-280F-4228-B389-3E43F71EB86B"},
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"55A74E47-6981-4C67-962C-4DBBB9B4F1FD"},
+{foreignColumnName:"tipo",operator:0,primaryDataProviderID:"globals.vTipoOtrosEstudios",typeid:23,uuid:"861CCA8D-991E-44C2-923B-9BF6C2EFE896"}
+],
+joinType:0,
+name:"otros_estudios_to_hojauti_otros_estudios",
+primaryDataSource:"db:/enfermeria/hojauti_otros_estudios",
+typeid:22,
+uuid:"324D8800-4171-47FA-A4AC-F0FA9BCF7541"

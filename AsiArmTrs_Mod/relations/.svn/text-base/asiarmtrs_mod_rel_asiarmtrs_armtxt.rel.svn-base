@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/asiarmtrs_armtxt",
+items:[
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.AsiArmTrs_Mod_txtFecha",typeid:23,uuid:"017E4568-756A-46D9-BB98-0FC2BA49820A"},
+{foreignColumnName:"hora",primaryDataProviderID:"scopes.globals.AsiArmTrs_Mod_txtHora",typeid:23,uuid:"66560C1B-FEAD-48B9-BD41-F3C83DB068B1"},
+{foreignColumnName:"histclinica",primaryDataProviderID:"scopes.globals.AsiArmTrs_Mod_txtHistClin",typeid:23,uuid:"87FC3923-90F5-48D6-B303-7BD40207B663"},
+{foreignColumnName:"grupo",primaryDataProviderID:"scopes.globals.AsiArmTrs_Mod_txtGrupo",typeid:23,uuid:"94696641-6FA0-4071-9BE2-BB2FE50A1D56"}
+],
+name:"asiarmtrs_mod_rel_asiarmtrs_armtxt",
+primaryDataSource:"db:/desal/asiarmtrs_armtxt",
+typeid:22,
+uuid:"63F34511-CB9F-4436-9C9B-62DDD00BEF57"

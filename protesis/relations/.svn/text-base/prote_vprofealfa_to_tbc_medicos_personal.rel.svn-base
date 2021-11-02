@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+initialSort:"medperestado asc, medperapeynom asc",
+items:[
+{foreignColumnName:"medperapeynom",operator:4,primaryDataProviderID:"scopes.globals.vProfeAlfa",typeid:23,uuid:"05FE1524-F04B-4B09-9A27-21AE35E829B8"},
+{foreignColumnName:"medperestado",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"C02F3BF3-2065-4A4C-A788-EC352F12E333"}
+],
+name:"prote_vprofealfa_to_tbc_medicos_personal",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"C48791AC-EC29-415A-B718-C2089C5ABE1C"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hciuco",
+items:[
+{foreignColumnName:"hiuhiscli",primaryDataProviderID:"scopes.globals.AsiUcoTrs_hiuHisCli_scroll",typeid:23,uuid:"8CABE057-636B-4950-827B-43EC07DC32AD"}
+],
+name:"asiucotrs_rel_buscar_hciuco",
+primaryDataSource:"db:/asistencial/tbc_hciuco",
+typeid:22,
+uuid:"0BD566AF-4216-45E2-A587-F4DD589B72D1"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_horarios",
+items:[
+{foreignColumnName:"hor1",primaryDataProviderID:"pto5",typeid:23,uuid:"E58DED91-488E-4AFA-A70A-BCA8A64C54FF"}
+],
+name:"tbc_puesto_to_tbc_horarios",
+primaryDataSource:"db:/rrhh/tbc_puesto",
+typeid:22,
+uuid:"0CE9AE3E-4C47-4270-B912-B024581B5222"

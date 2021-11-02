@@ -1,0 +1,73 @@
+dataSource:"db:/maestros/tbc_obras",
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"0ADC542A-9C17-4E4C-B833-FB4664C06FF1"
+},
+{
+labelFor:"obr_razonsoc",
+location:"280,0",
+name:"obr_razonsoc_label",
+size:"140,20",
+text:"Obr Razonsoc",
+transparent:true,
+typeid:7,
+uuid:"174E3545-E393-4ACB-ABAE-CD49A142E107"
+},
+{
+dataProviderID:"obr_codigo",
+editable:false,
+location:"0,20",
+name:"obr_codigo",
+size:"140,20",
+text:"Obr Codigo",
+typeid:4,
+uuid:"239017AF-E920-4B36-99DA-C2D51584A785"
+},
+{
+dataProviderID:"obr_razonsoc",
+location:"280,20",
+name:"obr_razonsoc",
+size:"140,20",
+text:"Obr Razonsoc",
+typeid:4,
+uuid:"51967A4F-F63D-46DB-B184-B5ED5D979F81"
+},
+{
+labelFor:"obr_espreocup",
+location:"140,0",
+name:"obr_espreocup_label",
+size:"140,20",
+text:"Obr Espreocup",
+transparent:true,
+typeid:7,
+uuid:"797BEF1D-1A2C-4802-AF32-606E3E8E5FF8"
+},
+{
+dataProviderID:"obr_espreocup",
+location:"140,20",
+name:"obr_espreocup",
+size:"140,20",
+text:"Obr Espreocup",
+typeid:4,
+uuid:"885707D8-5624-4544-8510-40F832D93BBE"
+},
+{
+labelFor:"obr_codigo",
+location:"0,0",
+name:"obr_codigo_label",
+size:"140,20",
+text:"Obr Codigo",
+transparent:true,
+typeid:7,
+uuid:"DFAF433D-073A-49A4-8F2A-A3856974F5E8"
+}
+],
+name:"tbc_obras",
+showInMenu:true,
+styleName:"rrhh",
+typeid:3,
+uuid:"8ADDF4D1-336A-4065-9B14-17034A45A189",
+view:3

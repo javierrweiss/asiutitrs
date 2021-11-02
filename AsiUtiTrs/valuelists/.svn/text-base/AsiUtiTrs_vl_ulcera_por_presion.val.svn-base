@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Dato No Cargado|0\r
+SI|1\r
+NO|2\r
+",
+name:"AsiUtiTrs_vl_ulcera_por_presion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"6E605399-0AE4-439C-BB7A-C30C1ECF9A00"

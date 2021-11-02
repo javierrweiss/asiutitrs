@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"scopes.globals.Palab_obrCodigoPrint",typeid:23,uuid:"6D281A5D-997C-424B-9365-AD1FF403D769"}
+],
+name:"palab_rel_buscar_obrasocial_print",
+primaryDataSource:"db:/maestros/tbc_obras",
+typeid:22,
+uuid:"44BB02A8-CD7D-4578-9899-4D90E61263B1"

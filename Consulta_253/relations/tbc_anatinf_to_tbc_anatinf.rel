@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anatinf",
+items:[
+{foreignColumnName:"anatinfnrosolic",primaryDataProviderID:"scopes.globals.gbl_solicitud",typeid:23,uuid:"26661827-4037-436A-A32F-ACC720EEF504"}
+],
+name:"tbc_anatinf_to_tbc_anatinf",
+primaryDataSource:"db:/asistencial/tbc_anatinf",
+typeid:22,
+uuid:"1A3A0CD7-9076-417A-8364-38EDD42FEFF4"

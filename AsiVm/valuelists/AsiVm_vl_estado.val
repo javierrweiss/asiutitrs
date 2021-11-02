@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"En Uso|1\r
+Sin Usar|2",
+name:"AsiVm_vl_estado",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"C70CD34A-2BA6-4D0A-9AB9-FFC3CCAE5020"

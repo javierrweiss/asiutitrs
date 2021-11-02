@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.Palab_vLega",typeid:23,uuid:"394EEF0B-5C5D-4316-8DFC-4E0A0738AEBA"}
+],
+name:"palab_vlegajo_menu_cirugia_to_tbc_personal",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"EB2DF6CE-042B-40A1-AA2F-5ABD07F959FF"

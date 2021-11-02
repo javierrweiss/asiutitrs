@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Femenino|1\r
+Masculino|2",
+name:"fichaaneste_sexo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"01031E4D-B0E7-4476-AE40-7B1CAE954CA8"

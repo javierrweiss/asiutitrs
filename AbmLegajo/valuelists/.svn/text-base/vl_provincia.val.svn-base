@@ -1,0 +1,30 @@
+addEmptyValue:1,
+customValues:"C.A.B.A|1\r
+Buenos Aires|2 \r
+Catamarca|3 \r
+Chaco|4 \r
+Chubut|5 \r
+Córdoba|6 \r
+Corrientes|7 \r
+Entre Ríos|8 \r
+Formosa|9 \r
+Jujuy|10\r
+La Pampa|11\r
+La Rioja|12\r
+Mendoza|13\r
+Misiones|14\r
+Neuquén|15\r
+Río Negro|16\r
+Salta|17\r
+San Juan|18\r
+San Luis|19\r
+Santa Cruz|20\r
+Santa Fe|21\r
+Santiago del Estero|22\r
+Tierra del Fuego|23\r
+",
+name:"vl_provincia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"B78E618A-55E6-4306-91BE-D03D2083418F"

@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"Lúcido|1\r
+Confuso|2\r
+Obnubilado|3\r
+Estuporoso|4\r
+Exitado|5\r
+No rep.|6",
+name:"hojaenfer_vl_conciencia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"33ACFC88-C219-4904-B4AB-B091F0C9C425"

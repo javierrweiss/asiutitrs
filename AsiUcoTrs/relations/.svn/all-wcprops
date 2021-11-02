@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/proyecto1/!svn/ver/2739/AsiUcoTrs/relations
+END
+asiucotrs_vlegajo1_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_vlegajo1_to_tbc_clave_legajo.rel
+END
+asiucotrs_vlegajo_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_vlegajo_to_tbc_clave_legajo.rel
+END
+asiucotrs_rel_buscar_habita.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_rel_buscar_habita.rel
+END
+asiucotrs_rel_alerta.rel
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/2739/AsiUcoTrs/relations/asiucotrs_rel_alerta.rel
+END
+asiucotrs_rel_buscar_obrasocial.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_rel_buscar_obrasocial.rel
+END
+asiucotrs_vlegajo_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_vlegajo_to_tbc_medicos.rel
+END
+asiucotrs_rel_buscar_hciuco.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_rel_buscar_hciuco.rel
+END
+asiucotrs_rel_buscar_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_rel_buscar_admision.rel
+END
+asiucotrs_vlegajo_to_tbc_personal_login_menu.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_vlegajo_to_tbc_personal_login_menu.rel
+END
+asiucotrs_rel_buscar_hciucotxt.rel
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_rel_buscar_hciucotxt.rel
+END
+asiucotrs_vlegajo_to_tbc_perext.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_vlegajo_to_tbc_perext.rel
+END
+asiucotrs_rel_hciuco.rel
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_rel_hciuco.rel
+END
+asiucotrs_rel_codauto.rel
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/2623/AsiUcoTrs/relations/asiucotrs_rel_codauto.rel
+END
+asiucotrs_rel_buscar_patologia_1.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_rel_buscar_patologia_1.rel
+END
+asiucotrs_rel_buscar_patologia_2.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_rel_buscar_patologia_2.rel
+END
+asiucotrs_rel_buscar_patologia_3.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_rel_buscar_patologia_3.rel
+END
+asiucotrs_vlegajo_menu_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_vlegajo_menu_to_tbc_personal.rel
+END
+asiucotrs_vlegajo_to_tbc_personal_login.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/2567/AsiUcoTrs/relations/asiucotrs_vlegajo_to_tbc_personal_login.rel
+END
+asiucotrs_numero_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/2739/AsiUcoTrs/relations/asiucotrs_numero_to_tbc_admision.rel
+END

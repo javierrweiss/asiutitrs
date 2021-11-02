@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Midazolam|1\r
+Propofol|2\r
+Lorazepam|3\r
+Otro|4\r
+No|5",
+name:"AsiVm_vl_sedación",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"FD2DD2DD-B2E1-49D8-817C-CA7180E827F5"

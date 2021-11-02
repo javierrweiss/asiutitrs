@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_rend_det",
+items:[
+{foreignColumnName:"rdhclinica",primaryDataProviderID:"scopes.globals.AsiVm_Mod_rcHClinica",typeid:23,uuid:"28ED5AC6-B4DD-4338-8B4D-315FD4FE7359"}
+],
+joinType:1,
+name:"asivm_rel_rend_det",
+primaryDataSource:"db:/asistencial/tbc_rend_det",
+typeid:22,
+uuid:"037134EC-9082-4FD8-8FFB-389BC35386B3"

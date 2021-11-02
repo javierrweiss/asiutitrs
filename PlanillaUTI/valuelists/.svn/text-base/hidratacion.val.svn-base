@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Vía Oral|1\r
+Vía Parenteral|2\r
+Vía Enteral|3\r
+Ninguna|0",
+name:"hidratacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"3F87EF6E-992F-41A0-A9E3-3EC99FE2D784"

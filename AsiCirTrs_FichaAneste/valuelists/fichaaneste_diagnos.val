@@ -1,0 +1,9 @@
+dataProviderID1:"pat_descrip",
+dataProviderID2:"pat_codi",
+dataSource:"db:/maestros/tbc_patologia",
+name:"fichaaneste_diagnos",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"CB69317E-C70C-48E8-B902-B53DA1CD7095",
+valueListType:1

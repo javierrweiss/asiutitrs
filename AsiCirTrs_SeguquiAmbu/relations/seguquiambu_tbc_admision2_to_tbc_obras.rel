@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"adm_obrsoc",typeid:23,uuid:"2F3C8BA7-932B-40CE-811A-B05AF4C18747"}
+],
+name:"seguquiambu_tbc_admision2_to_tbc_obras",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"4E8CBCC7-F38A-4E0C-A68A-F6C2BB85434C"

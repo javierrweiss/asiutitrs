@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Large|Large\r
+Medium|Medium\r
+Small|Small\r
+",
+name:"AsiVm_vl_programacion_tam_canula",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"9000DBBF-2C73-43F8-B613-7326A38A27E1"

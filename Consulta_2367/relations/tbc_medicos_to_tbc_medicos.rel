@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.gbl_con",typeid:23,uuid:"83CF632D-7D32-4981-841B-8A95819CCC6E"}
+],
+name:"tbc_medicos_to_tbc_medicos",
+primaryDataSource:"db:/maestros/tbc_medicos",
+typeid:22,
+uuid:"2C054EDD-F15D-49F6-A604-809E4CEBB6F3"

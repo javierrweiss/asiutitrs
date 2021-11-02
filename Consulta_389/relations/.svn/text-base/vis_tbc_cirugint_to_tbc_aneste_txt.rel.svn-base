@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_aneste_txt",
+items:[
+{foreignColumnName:"anestxt_grupo",primaryDataProviderID:"scopes.globals.gbl_1",typeid:23,uuid:"40EF1991-287F-4B71-8E85-00BF0525507F"},
+{foreignColumnName:"anestxt_nro1",primaryDataProviderID:"scopes.globals.gbl_1",typeid:23,uuid:"D71AC495-2CAB-4091-8B79-7DA7558DF80A"},
+{foreignColumnName:"anestxt_protocolo",primaryDataProviderID:"scopes.globals.gbl_histcli",typeid:23,uuid:"D7FAB04A-1877-4502-A83B-C713B198760E"}
+],
+name:"vis_tbc_cirugint_to_tbc_aneste_txt",
+primaryDataSource:"db:/asistencial/tbc_aneste_txt",
+typeid:22,
+uuid:"3C7B798F-2544-45F4-B4AE-2912C354EFE9"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/permi_legajo_carpetas",
+initialSort:"legajo asc",
+items:[
+{foreignColumnName:"legajo",primaryDataProviderID:"scopes.globals.gbl_Lega_ac",typeid:23,uuid:"8AC24BAA-DE20-49EC-A9CE-5EE0EF357B91"}
+],
+name:"vlega_to_permi_legajo_carpetas",
+primaryDataSource:"db:/desal/permi_legajo_carpetas",
+typeid:22,
+uuid:"9D838572-D6ED-46CC-B0B2-E9FF067835E3"

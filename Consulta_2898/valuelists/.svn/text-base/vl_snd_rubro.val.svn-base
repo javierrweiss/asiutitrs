@@ -1,0 +1,23 @@
+addEmptyValue:1,
+customValues:"Sin Rubro|0\r
+Financiero|1\r
+Bancos|2\r
+Sueldos|3\r
+Impuestos|4\r
+Gastos Concursales|5\r
+Gastos Financieros|6\r
+Profesionales|7\r
+Proveedores|8\r
+COS|9\r
+Finanzas|10\r
+RRHH|11\r
+CIR|12\r
+Gastos Comerciales|13\r
+Dividendos|14\r
+Gastos Admin.|15\r
+",
+name:"vl_snd_rubro",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"B46C6EA3-D413-4C9F-A4E6-69A81A565228"

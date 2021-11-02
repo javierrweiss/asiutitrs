@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/tbl_visitantes",
+initialSort:"vis_nro_doc asc",
+items:[
+{foreignColumnName:"vis_nro_doc",operator:4,primaryDataProviderID:"scopes.globals.gbl_dni",typeid:23,uuid:"E69D6657-657F-47A3-8C34-8B2487B6B694"}
+],
+name:"buscar_num_to_visitantes",
+primaryDataSource:"db:/bases_auxiliares/tbl_visitantes",
+typeid:22,
+uuid:"F8A05C29-3C48-4527-87BD-A7E025F11F13"

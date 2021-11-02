@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Femenino|1\r
+Masculino|2",
+name:"cefalea_vl_sexo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"24634462-3BA5-47F5-AE4D-8F9B1FF7BDAA"

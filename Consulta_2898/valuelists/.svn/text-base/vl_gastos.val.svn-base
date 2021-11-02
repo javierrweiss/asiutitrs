@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"gastdescrip",
+dataProviderID2:"gastnumero",
+dataSource:"db:/maestros/tbc_gastos",
+fallbackValueListID:"9FCAD421-9365-49D3-BAD1-44AEEB999E6D",
+name:"vl_gastos",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"E942B036-4751-4B1B-8797-F38DE3C5B074",
+valueListType:1

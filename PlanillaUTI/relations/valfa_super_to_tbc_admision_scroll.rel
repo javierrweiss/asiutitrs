@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/vis_tbc_admision_scroll",
+items:[
+{foreignColumnName:"adm_apelnom",operator:4,primaryDataProviderID:"scopes.globals.vAlfa",typeid:23,uuid:"B8FB3EFB-8182-4EB2-8B6A-643D050D7A1E"}
+],
+name:"valfa_super_to_tbc_admision_scroll",
+primaryDataSource:"db:/admisionscroll/vis_tbc_admision_scroll",
+typeid:22,
+uuid:"39EB06D0-ABF4-4127-A3E0-FBD406CA2381"

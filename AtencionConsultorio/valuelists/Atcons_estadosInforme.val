@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Sin Informar|0\r
+Informado|1",
+name:"Atcons_estadosInforme",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"2880D021-1DAB-422A-93CD-B1CC8383DDD7"

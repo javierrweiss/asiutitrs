@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_sec_fact",
+items:[
+{foreignColumnName:"sfsector",primaryDataProviderID:"scopes.globals.Palab_sfSectorPrint",typeid:23,uuid:"643FE118-C0D7-4A36-8985-B784958A12FE"},
+{foreignColumnName:"sfempresa",primaryDataProviderID:"scopes.globals.Palab_sfEmpresaPrint",typeid:23,uuid:"B52EA0D0-F1EA-438C-B780-B8992FC563AC"}
+],
+name:"palab_rel_buscar_sec_fact_print",
+primaryDataSource:"db:/maestros/tbc_sec_fact",
+typeid:22,
+uuid:"DE8F6CE7-9AC5-4D08-9630-A21BB2F83EBB"

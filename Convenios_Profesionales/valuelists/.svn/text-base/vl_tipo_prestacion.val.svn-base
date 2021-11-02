@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Consultas Ambulatorias|1\r
+Prácticas|2\r
+Interconsultas|3\r
+Seguimientos|4\r
+Cirugias|5",
+name:"vl_tipo_prestacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"0C33FF82-9BE6-43B9-AEC1-D5B2A1AC3B83"

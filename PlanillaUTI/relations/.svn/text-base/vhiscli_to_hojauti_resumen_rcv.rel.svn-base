@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_resumen_rcv",
+initialSort:"hiscli asc",
+items:[
+{foreignColumnName:"hiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"12FAE0A3-5195-45CB-B1DC-57D25C162AC5"}
+],
+name:"vhiscli_to_hojauti_resumen_rcv",
+primaryDataSource:"db:/enfermeria/hojauti_resumen_rcv",
+typeid:22,
+uuid:"F8560A50-CFCE-4EC5-833E-6AE57E00D7BE"

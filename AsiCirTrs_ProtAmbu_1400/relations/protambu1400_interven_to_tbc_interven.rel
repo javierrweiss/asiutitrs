@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_interven",
+items:[
+{foreignColumnName:"itv_codi",primaryDataProviderID:"scopes.globals.protambu1400_interven",typeid:23,uuid:"722A1867-EF60-4C3F-BE5A-978543830BEA"}
+],
+name:"protambu1400_interven_to_tbc_interven",
+primaryDataSource:"db:/maestros/tbc_interven",
+typeid:22,
+uuid:"D7F09F8C-4A64-4B3D-9E8D-64409D38FCDC"

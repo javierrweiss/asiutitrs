@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+items:[
+{foreignColumnName:"medpercod",primaryDataProviderID:"scopes.globals.protambu1400_legcirujano",typeid:23,uuid:"5E9A67E0-7D58-4D93-B4B8-7B236F53BE84"}
+],
+name:"protambul1400_legcirujano_to_tbc_medicos_personal",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"116F2EDB-4328-49F6-8F65-0759CB75B3BE"

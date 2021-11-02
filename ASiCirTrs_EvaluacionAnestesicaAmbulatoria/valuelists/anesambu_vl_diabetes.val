@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"No|0\r
+Insulina|1\r
+Hipog. oral|2",
+name:"anesambu_vl_diabetes",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"D311FBB7-3815-4D60-9411-1EAA6C4FB8FF"

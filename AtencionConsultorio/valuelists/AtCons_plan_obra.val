@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"plo_obra",
+dataProviderID2:"plo_planx",
+dataSource:"db:/maestros/tbc_plan_obra",
+name:"AtCons_plan_obra",
+returnDataProviders:1,
+showDataProviders:2,
+typeid:34,
+uuid:"DF9AE4A0-B333-4BB4-9E2B-47C6F0D765B7",
+valueListType:1

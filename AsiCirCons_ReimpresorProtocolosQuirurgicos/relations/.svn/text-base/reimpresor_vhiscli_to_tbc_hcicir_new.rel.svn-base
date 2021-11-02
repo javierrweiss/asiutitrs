@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hcicir_new",
+items:[
+{foreignColumnName:"hcirhiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"437BD65C-42AA-48BF-BEE1-B866BDBEF186"},
+{foreignColumnName:"hcirhora",primaryDataProviderID:"scopes.globals.reimpresor_hora_ingreso",typeid:23,uuid:"495CF1DC-73E4-42FB-AE5F-8C468D93B36B"},
+{foreignColumnName:"hcirfecha",primaryDataProviderID:"scopes.globals.reimpresor_fecha_ingreso",typeid:23,uuid:"678529EE-A435-42C9-9E93-0DBBE43A2279"},
+{foreignColumnName:"hcirtipohc",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"A0D575FF-7837-4DD6-ABAD-500C1BBA315E"}
+],
+name:"reimpresor_vhiscli_to_tbc_hcicir_new",
+primaryDataSource:"db:/asistencial/tbc_hcicir_new",
+typeid:22,
+uuid:"05B37AEB-0693-41B7-B984-A4504AA11101"

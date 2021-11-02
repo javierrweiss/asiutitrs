@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Capaz de respirar profundamente y toser|3
+Disnea o limitación a la respiración|2
+Apnea|1
+Ninguna|0",
+name:"aldrete_respiracion_copy",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"C93EBCE7-7262-44D3-B857-0BD1A51AADDD"

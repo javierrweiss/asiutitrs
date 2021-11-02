@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"I|1\r
+II|2\r
+III|3\r
+IV|4\r
+No|0",
+name:"disnea",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"8B18D00F-C387-4410-A39C-CC5E9814A05B"

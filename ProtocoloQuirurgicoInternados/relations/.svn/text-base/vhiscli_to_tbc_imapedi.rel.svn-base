@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_imapedi_new",
+items:[
+{foreignColumnName:"ipedadmis",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"13D5256B-C473-47C9-9372-5E01C48C0ADE"},
+{foreignColumnName:"ipedhistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"75241F98-81D7-4B16-A279-F84192A249AC"},
+{foreignColumnName:"ipedservicio",primaryDataProviderID:"scopes.globals.vServicio",typeid:23,uuid:"810B0630-283D-4EA6-8BF1-72711297C0B3"}
+],
+name:"vhiscli_to_tbc_imapedi",
+primaryDataSource:"db:/asistencial/tbc_imapedi_new",
+typeid:22,
+uuid:"C5D1EA67-071C-4712-A05D-34CFE6F0F0C3"

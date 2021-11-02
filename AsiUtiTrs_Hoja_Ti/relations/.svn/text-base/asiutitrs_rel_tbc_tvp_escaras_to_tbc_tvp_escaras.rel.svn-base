@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_tvp_escaras",
+items:[
+{foreignColumnName:"tefech",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_fechaHciint",typeid:23,uuid:"0A31EE7C-D6A0-45C8-8AA2-E3E1A00690F5"},
+{foreignColumnName:"tehcli",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_hiiHisCli",typeid:23,uuid:"631E3376-27A6-4DFD-B8BA-819D8C048697"}
+],
+joinType:1,
+name:"asiutitrs_rel_tbc_tvp_escaras_to_tbc_tvp_escaras",
+primaryDataSource:"db:/asistencial/tbc_hojati",
+typeid:22,
+uuid:"A80B1E08-D539-4289-8397-BB1687F39465"

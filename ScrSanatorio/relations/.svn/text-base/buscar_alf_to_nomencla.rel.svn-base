@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+items:[
+{foreignColumnName:"nome_descr",operator:4,primaryDataProviderID:"scopes.globals.gbl_con_nomencla",typeid:23,uuid:"260CB932-B04C-4942-8A98-B43A298E7A6A"}
+],
+name:"buscar_alf_to_nomencla",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"F9831144-27E7-4924-9FAB-25180BD54093"

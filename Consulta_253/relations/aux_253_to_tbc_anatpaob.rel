@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anatpaob",
+items:[
+{foreignColumnName:"apobnrosolic",primaryDataProviderID:"scopes.globals.gbl_solicitud",typeid:23,uuid:"681ED984-A025-4413-AEA1-3EB2276DA212"},
+{foreignColumnName:"apobtiponome",primaryDataProviderID:"scopes.globals.gbl_tip_nom",typeid:23,uuid:"AF9D06D1-F586-4048-963A-850B7ACCC851"},
+{foreignColumnName:"apobcodnome",primaryDataProviderID:"scopes.globals.gbl_cod_nom",typeid:23,uuid:"D2CDEAEF-6E99-4ACE-9CD7-7372F255108C"}
+],
+name:"aux_253_to_tbc_anatpaob",
+primaryDataSource:"db:/bases_auxiliares/aux_253",
+typeid:22,
+uuid:"59CE7173-2369-4412-9F4F-2D18781A97FB"

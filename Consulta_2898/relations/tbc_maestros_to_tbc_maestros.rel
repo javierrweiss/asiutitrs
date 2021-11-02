@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_impuestos",
+items:[
+{foreignColumnName:"impuente",primaryDataProviderID:"scopes.globals.gbl_ente",typeid:23,uuid:"265745D8-308E-490A-AF6B-1BFD112D6E9A"},
+{foreignColumnName:"impucodigo",primaryDataProviderID:"scopes.globals.gbl_codigo",typeid:23,uuid:"3AB6E452-F926-4BA9-9340-542BDC290F9E"},
+{foreignColumnName:"imputabla",primaryDataProviderID:"scopes.globals.gbl_tabla",typeid:23,uuid:"C4E34CCF-050B-457A-900A-E3E01FDAB8C0"}
+],
+name:"tbc_maestros_to_tbc_maestros",
+primaryDataSource:"db:/maestros/tbc_impuestos",
+typeid:22,
+uuid:"9927F0FF-3EB5-499A-BB24-FED8959153D7"

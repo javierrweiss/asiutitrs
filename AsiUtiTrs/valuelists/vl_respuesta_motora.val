@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"Obedece ordenes|1
+Localiza estimulos|2
+Flexion apropiada|3
+Flexion inapropiada|4
+Extiende|5
+Ninguna|6",
+name:"vl_respuesta_motora",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"635A1A9C-1BE1-4426-B7F8-74F8BB32B3B2"

@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/hojaenfer_observa",
+items:[
+{foreignColumnName:"histclinica",primaryDataProviderID:"scopes.globals.Hojaenfer_histClinPrint",typeid:23,uuid:"04AD23D9-5F42-412C-AE66-47275D1C3621"},
+{foreignColumnName:"grupo",primaryDataProviderID:"LITERAL:1",typeid:23,uuid:"3A4E9276-9D65-4498-A946-8960C6BECE0D"},
+{foreignColumnName:"hora",primaryDataProviderID:"scopes.globals.Hojaenfer_horaPrint",typeid:23,uuid:"4BAC4118-0B31-4122-92A0-F8997BFC889E"},
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.Hojaenfer_fechaPrint",typeid:23,uuid:"F9FFD03E-7870-4E99-ADF8-D50216552978"}
+],
+joinType:1,
+name:"hojaenfer_rel_busca_observa",
+primaryDataSource:"db:/desal/hojaenfer_observa",
+typeid:22,
+uuid:"CB7C0388-2A9D-4992-AA7F-424B61A2A58E"

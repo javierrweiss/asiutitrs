@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_detalle",
+initialSort:"det2 desc",
+items:[
+{foreignColumnName:"det1",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_hiiHisCli",typeid:23,uuid:"9707F210-8BD0-4593-885E-DC4BED95A8AE"},
+{foreignColumnName:"det8",primaryDataProviderID:"LITERAL:2",typeid:23,uuid:"DA4D1AF7-3218-45EE-8DF3-5AAF85F58347"}
+],
+joinType:1,
+name:"asiutitrs_hoja_rel_tbc_detalle",
+primaryDataSource:"db:/asistencial/tbc_detalle",
+typeid:22,
+uuid:"B2A7FD8F-EDA5-476B-87F7-01CCCC1AE460"

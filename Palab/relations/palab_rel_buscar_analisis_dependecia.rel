@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_analisis_new",
+initialSort:"ana1 asc",
+items:[
+{foreignColumnName:"ana24",primaryDataProviderID:"scopes.globals.Palab_ana24",typeid:23,uuid:"D2F85E65-4C3C-4D6A-A633-AEA1A22C23FC"}
+],
+name:"palab_rel_buscar_analisis_dependecia",
+primaryDataSource:"db:/maestros/tbc_analisis_new",
+typeid:22,
+uuid:"A8EE4C24-FEED-4001-AD7D-D9604C81F0F8"

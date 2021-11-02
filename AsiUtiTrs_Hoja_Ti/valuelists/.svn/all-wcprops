@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/proyecto1/!svn/ver/2806/AsiUtiTrs_Hoja_Ti/valuelists
+END
+vl_incontinencia.val
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/valuelists/vl_incontinencia.val
+END
+lv_aspecto_piel.val
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/valuelists/lv_aspecto_piel.val
+END
+vl_tipo_aislamiento_hoja.val
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/2806/AsiUtiTrs_Hoja_Ti/valuelists/vl_tipo_aislamiento_hoja.val
+END
+lv_movilidad.val
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/valuelists/lv_movilidad.val
+END
+AsiUtiTrs_vl_temperatura_ti.val
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/valuelists/AsiUtiTrs_vl_temperatura_ti.val
+END
+AsiUtiTrs_Hoja_vl_tipoSexo.val
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/valuelists/AsiUtiTrs_Hoja_vl_tipoSexo.val
+END
+lv_sensibilidad_cutanea.val
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/valuelists/lv_sensibilidad_cutanea.val
+END
+vl_actividad.val
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/valuelists/vl_actividad.val
+END
+lv_nutricion.val
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/valuelists/lv_nutricion.val
+END
+vl_tipo_caracteris.val
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/valuelists/vl_tipo_caracteris.val
+END
+vl_estado_mental.val
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/valuelists/vl_estado_mental.val
+END
+vl_motivo_aislamiento.val
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/valuelists/vl_motivo_aislamiento.val
+END

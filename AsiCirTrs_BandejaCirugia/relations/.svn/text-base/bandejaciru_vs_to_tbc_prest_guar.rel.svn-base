@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_prest_guar",
+items:[
+{foreignColumnName:"preghoraingreso",primaryDataProviderID:"scopes.globals.bandejaciru_horaingreso",typeid:23,uuid:"8FFD401B-913B-4B0B-BE6A-B542F2C88AEF"},
+{foreignColumnName:"preghistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"A70A4EFB-17F3-4FB1-976A-7A0744B98493"},
+{foreignColumnName:"pregfechaingreso",primaryDataProviderID:"scopes.globals.bandejaciru_fechaingreso",typeid:23,uuid:"ABCE20B9-A072-4289-9328-AC3D1D5B6868"}
+],
+name:"bandejaciru_vs_to_tbc_prest_guar",
+primaryDataSource:"db:/asistencial/tbc_prest_guar",
+typeid:22,
+uuid:"60D1257B-CCF0-4DC0-8BA5-29AC290E4BD4"

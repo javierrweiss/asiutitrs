@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_cajcirugia",
+items:[
+{foreignColumnName:"cajcirugia_fec",primaryDataProviderID:"scopes.globals.bandejaciru_fechaingreso",typeid:23,uuid:"054C9595-E524-48AF-BD3D-D0750905BB7A"},
+{foreignColumnName:"cajcirugia_hora",primaryDataProviderID:"scopes.globals.bandejaciru_horaingreso_cajas",typeid:23,uuid:"59F131CB-8C40-4C27-BD95-2B4D577BE360"},
+{foreignColumnName:"cajcirugia_histclin",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"A7E4A092-7AF8-407C-B86F-A75F8A1FE519"},
+{foreignColumnName:"cajcirugia_tipo",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"CBA73336-1228-44B7-945C-B91D844CEE1E"}
+],
+name:"bandejaciru_vs_to_tbc_cajcirugia",
+primaryDataSource:"db:/asistencial/tbc_cajcirugia",
+typeid:22,
+uuid:"D6C8A54A-35E6-4B07-9292-B00B53CAD7EC"

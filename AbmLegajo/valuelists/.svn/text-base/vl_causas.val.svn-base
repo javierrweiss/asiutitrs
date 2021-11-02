@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"cau22",
+dataProviderID2:"cau1",
+name:"vl_causas",
+relationName:"vs_to_tbc_causas",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"CD4F5BC8-6ED1-4CF7-973A-A3F8EF9000F5",
+valueListType:1

@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Orientado|5\r
+Confuso|4\r
+Palabras Inadecuadas|3\r
+Sonidos Inespecificos|2\r
+Ausencia|1",
+name:"Gasglow_verbal",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"5422F7DC-451A-4D7E-99F5-D31180059299"

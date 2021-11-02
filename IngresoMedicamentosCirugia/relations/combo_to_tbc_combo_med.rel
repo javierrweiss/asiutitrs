@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_combo_med",
+items:[
+{foreignColumnName:"combnumero",primaryDataProviderID:"scopes.globals.vCodigoCombo",typeid:23,uuid:"E49E3F11-7DB1-404B-B8EB-A6579740BCD2"}
+],
+name:"combo_to_tbc_combo_med",
+primaryDataSource:"db:/maestros/tbc_combo_med",
+typeid:22,
+uuid:"71534EA6-C8F6-4AF8-906B-DBAB05238F60"

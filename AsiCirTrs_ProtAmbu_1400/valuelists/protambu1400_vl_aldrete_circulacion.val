@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Presion Arterial < 20% Nivel preanestésico|3\r
+Presión Arterial 20-49% Nivel preanestésico|2\r\r
+Presión Arterial > 50% Nivel preanestésico|1",
+name:"protambu1400_vl_aldrete_circulacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"9E946966-A505-4A3A-9941-50F08C205FEC"

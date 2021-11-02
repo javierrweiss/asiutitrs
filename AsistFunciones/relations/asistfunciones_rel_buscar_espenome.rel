@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_espenome",
+items:[
+{foreignColumnName:"espncodinom",primaryDataProviderID:"scopes.globals.AsistFunciones_espnCodiNom",typeid:23,uuid:"64DAB9BA-EBC5-4BAF-8E55-1BBF3D94FC9E"},
+{foreignColumnName:"espntiponom",primaryDataProviderID:"scopes.globals.AsistFunciones_espnTipoNom",typeid:23,uuid:"85BB8186-6340-4A5A-8374-931CDD0BFD1D"},
+{foreignColumnName:"espnespecial",operator:2,primaryDataProviderID:"scopes.globals.AsistFunciones_espnEspecial",typeid:23,uuid:"8A73256C-1875-46D8-8B21-B59F784C45D8"}
+],
+name:"asistfunciones_rel_buscar_espenome",
+primaryDataSource:"db:/maestros/tbc_espenome",
+typeid:22,
+uuid:"A50DE087-D555-421D-B6D5-E2800950E677"

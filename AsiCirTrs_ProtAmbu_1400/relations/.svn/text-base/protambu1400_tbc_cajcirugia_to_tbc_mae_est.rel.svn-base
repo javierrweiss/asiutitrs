@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_mae_est",
+items:[
+{foreignColumnName:"maeest_tip",primaryDataProviderID:"LITERAL:1",typeid:23,uuid:"9699F4B0-347F-4B4E-AB31-2AFC2645F9A7"},
+{foreignColumnName:"maeest_nro",primaryDataProviderID:"cajcirugia_caja",typeid:23,uuid:"E0A44958-12B1-43E7-B00D-D8C0238E575C"}
+],
+name:"protambu1400_tbc_cajcirugia_to_tbc_mae_est",
+primaryDataSource:"db:/asistencial/tbc_cajcirugia",
+typeid:22,
+uuid:"0A98CE2E-05AF-4BA0-A273-B488DC89FEEA"

@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"tabla_ord",
+dataProviderID2:"tabla_desc",
+name:"AtCons_tablas_12",
+relationName:"atcons_vcod12_to_tbl_tablas",
+returnDataProviders:1,
+showDataProviders:2,
+typeid:34,
+uuid:"AFBFADED-3F3F-4610-86C3-99FF6CB98C0B",
+valueListType:1

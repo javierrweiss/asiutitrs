@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/proyecto1/!svn/ver/1618/protesis/relations
+END
+protesis_buscar_obrasocial.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1511/protesis/relations/protesis_buscar_obrasocial.rel
+END
+numero_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1510/protesis/relations/numero_tbc_admision_scroll.rel
+END
+protesis_ambulatorio_buscar_nombre.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/1510/protesis/relations/protesis_ambulatorio_buscar_nombre.rel
+END
+apeynom_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/1461/protesis/relations/apeynom_to_tbc_admision_scroll.rel
+END
+prote_vprofealfa_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/1605/protesis/relations/prote_vprofealfa_to_tbc_medicos_personal.rel
+END
+vintervenalfa_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/1618/protesis/relations/vintervenalfa_to_tbc_interven.rel
+END
+protesis_ambulatorio_buscar_numero.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/1510/protesis/relations/protesis_ambulatorio_buscar_numero.rel
+END
+protesis_buscar_descripcion.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1510/protesis/relations/protesis_buscar_descripcion.rel
+END
+protesis_buscar_codigo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1510/protesis/relations/protesis_buscar_codigo.rel
+END

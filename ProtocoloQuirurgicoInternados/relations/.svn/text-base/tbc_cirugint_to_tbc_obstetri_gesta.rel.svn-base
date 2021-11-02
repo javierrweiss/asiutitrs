@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_obstetri",
+items:[
+{foreignColumnName:"obstetri_histclin",primaryDataProviderID:"cirihistcl",typeid:23,uuid:"07C3EE8F-1D02-4DD9-BB60-FDE814E759FF"},
+{foreignColumnName:"obstetri_tiphistclin",primaryDataProviderID:"scopes.globals.zero_value",typeid:23,uuid:"821AAEBC-932C-4A37-AE1A-4FCFC7F33721"},
+{foreignColumnName:"obstetri_gesta",primaryDataProviderID:"scopes.globals.current_obstetri_gest",typeid:23,uuid:"D64C9371-1F14-4B50-BC0D-4436EF359406"}
+],
+name:"tbc_cirugint_to_tbc_obstetri_gesta",
+primaryDataSource:"db:/asistencial/tbc_cirugint",
+typeid:22,
+uuid:"A8CFD12E-613C-415D-AD55-19AF9866D674"

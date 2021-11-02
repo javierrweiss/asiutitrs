@@ -1,0 +1,16 @@
+columns:[
+{
+allowNull:false,
+creationOrderIndex:1,
+dataType:4,
+name:"ferfinanciero"
+},
+{
+allowNull:false,
+creationOrderIndex:0,
+dataType:4,
+name:"fernacional"
+}
+],
+name:"tbc_feriados_row",
+tableType:0

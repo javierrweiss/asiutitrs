@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Pañal|1\r
+Cateter|2\r
+Sonda Vesical|3\r
+Micción Espontánea|4\r
+Ninguna|0",
+name:"diuresis",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"6A8C13F6-45D2-410D-B1A5-671354C7C6D5"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+initialSort:"medperapeynom asc",
+items:[
+{foreignColumnName:"medperapeynom",operator:4,primaryDataProviderID:"globals.vProfeAlfa",typeid:23,uuid:"858DD6A1-1036-4CF2-A855-EA8814F7E580"}
+],
+joinType:0,
+name:"vprofealfaseguqui_to_tbc_medicos_personal",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"12080D57-C40E-4017-8B91-06E916437495"

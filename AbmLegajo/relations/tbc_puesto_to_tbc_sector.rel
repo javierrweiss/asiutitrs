@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_sector",
+items:[
+{foreignColumnName:"sector1",primaryDataProviderID:"pto4",typeid:23,uuid:"4AB0264D-9C79-4489-A0CD-518E38B6F172"}
+],
+name:"tbc_puesto_to_tbc_sector",
+primaryDataSource:"db:/rrhh/tbc_puesto",
+typeid:22,
+uuid:"D8DED419-1864-4827-ACA1-649CDA3EFC3F"

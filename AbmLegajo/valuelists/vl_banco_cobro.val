@@ -1,0 +1,17 @@
+addEmptyValue:1,
+customValues:"Tesorería|0\r
+Banco Nación|1\r
+Banco Suquía|2\r
+Banco HSBC|3\r
+Banco Galicia|4\r
+Banco Santander Rio|5\r
+Banco Comafi|6\r
+Banco Provincia|7\r
+Banco Supervielle|8\r
+Banco Ciudad|9\r
+Banco Frances|10",
+name:"vl_banco_cobro",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"FE5EB24C-C02D-498A-A253-DD07D176F774"

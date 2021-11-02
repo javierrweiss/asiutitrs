@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"itv_descripcion",
+dataProviderID2:"itv_codi",
+dataSource:"db:/maestros/tbc_interven",
+name:"fichaaneste_interven",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"7D9E455C-BB73-4C02-BF9D-59FDED6933C4",
+valueListType:1

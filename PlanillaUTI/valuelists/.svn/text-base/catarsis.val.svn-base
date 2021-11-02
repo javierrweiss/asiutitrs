@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Diarréica|1\r
+Semisólida|2\r
+Sólida|3\r
+Melena|4\r
+No|0",
+name:"catarsis",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"A088D9FE-A8BE-430F-858C-7B8AB7EE85C0"

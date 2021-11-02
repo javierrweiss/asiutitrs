@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_cultivos",
+initialSort:"hiscli asc, fecha asc",
+items:[
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"307994AA-FE12-41A5-83AA-AD4583C30909"},
+{foreignColumnName:"fecha",operator:0,primaryDataProviderID:"globals.vFecha",typeid:23,uuid:"ED50E34C-7A7D-4021-821A-63863859192E"}
+],
+joinType:0,
+name:"vs_to_hojauti_cultivos",
+primaryDataSource:"db:/enfermeria/hojauti_cultivos",
+typeid:22,
+uuid:"07B857B6-DEC0-4EA9-9AD5-262B4E233C47"

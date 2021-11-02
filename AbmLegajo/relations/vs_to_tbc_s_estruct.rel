@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_s_estruct",
+items:[
+{foreignColumnName:"sestr4",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"0A5180AA-5F60-4CC7-818E-AB3A46FD129E"},
+{foreignColumnName:"sestr1",primaryDataProviderID:"scopes.globals.vtipo_liquidacion",typeid:23,uuid:"5B6B5D55-CA25-43F8-B057-252EE690D94E"},
+{foreignColumnName:"sestr3",primaryDataProviderID:"scopes.globals.vPuesto",typeid:23,uuid:"AB85319A-98BA-42EB-B5A6-8D28DCB89DF3"},
+{foreignColumnName:"sestr2",primaryDataProviderID:"scopes.globals.vtipo_estructura",typeid:23,uuid:"AEE18008-A9CD-42A3-BEE8-3D94348CC672"}
+],
+name:"vs_to_tbc_s_estruct",
+primaryDataSource:"db:/rrhh/tbc_s_estruct",
+typeid:22,
+uuid:"F85BBF1A-3D2E-4B21-85E3-B78C26C39589"

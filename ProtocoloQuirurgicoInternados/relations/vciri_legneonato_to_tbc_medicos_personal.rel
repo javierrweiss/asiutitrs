@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+items:[
+{foreignColumnName:"medpercod",operator:0,primaryDataProviderID:"globals.vciri_legneonato",typeid:23,uuid:"24A764BD-BE09-4CEA-9509-439EA8DCD723"}
+],
+joinType:0,
+name:"vciri_legneonato_to_tbc_medicos_personal",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"1DD17718-AC40-4EEB-BD88-33EEB379E553"

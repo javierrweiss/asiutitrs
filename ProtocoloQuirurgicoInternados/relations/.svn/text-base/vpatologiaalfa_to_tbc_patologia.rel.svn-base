@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+initialSort:"pat_descripredu asc",
+items:[
+{foreignColumnName:"pat_descrip",operator:4,primaryDataProviderID:"globals.vPatologiaAlfa",typeid:23,uuid:"CD685A05-99C2-405B-AE6B-3353A136BDA8"}
+],
+joinType:0,
+name:"vpatologiaalfa_to_tbc_patologia",
+primaryDataSource:"db:/maestros/tbc_patologia",
+typeid:22,
+uuid:"C71E6108-C9D1-415F-9C11-F620CBDB6B46"

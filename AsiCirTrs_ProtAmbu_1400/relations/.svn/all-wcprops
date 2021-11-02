@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/proyecto1/!svn/ver/2915/AsiCirTrs_ProtAmbu_1400/relations
+END
+protambu1400_vnomencla_to_tbc_nomencla.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/1866/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vnomencla_to_tbc_nomencla.rel
+END
+protambu1400_vhiscli_to_tbc_prest_guar.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/1866/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vhiscli_to_tbc_prest_guar.rel
+END
+protambu1400_tbc_hcicir_new_itv2_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_tbc_hcicir_new_itv2_to_tbc_interven.rel
+END
+protambu1400_vlegajotecnico_to_tbc_personal_login.rel
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vlegajotecnico_to_tbc_personal_login.rel
+END
+protambu1400_vlegajotecnico_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vlegajotecnico_to_tbc_medicos.rel
+END
+protambu1400_patcod1_to_tbc_patologia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_patcod1_to_tbc_patologia.rel
+END
+protambu1400_vhiscli_to_tbc_imapedi_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vhiscli_to_tbc_imapedi_new.rel
+END
+protambu1400_vhiscli_aux_to_tbc_guardia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/2915/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vhiscli_aux_to_tbc_guardia.rel
+END
+protambu1400_vs_to_tbc_servicios.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vs_to_tbc_servicios.rel
+END
+protambu1400_vhiscli_to_tbc_protesis.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/2296/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vhiscli_to_tbc_protesis.rel
+END
+protambu1400_habita_to_tbc_habita.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2915/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_habita_to_tbc_habita.rel
+END
+protambul1400_vhiscli_to_tbc_guardia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/1866/AsiCirTrs_ProtAmbu_1400/relations/protambul1400_vhiscli_to_tbc_guardia.rel
+END
+protambu1400_habita_to_tbc_hiscamas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/proyecto1/!svn/ver/2915/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_habita_to_tbc_hiscamas.rel
+END
+protambu1400_vs_to_tbc_anes_ambu.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/1969/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vs_to_tbc_anes_ambu.rel
+END
+protambu1400_vs_to_tbc_hcicir_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/1969/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vs_to_tbc_hcicir_new.rel
+END
+tbc_val_ciru_to_tbc_nomencla.rel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/proyecto1/!svn/ver/1852/AsiCirTrs_ProtAmbu_1400/relations/tbc_val_ciru_to_tbc_nomencla.rel
+END
+protambu1400_vhiscli_to_tbc_val_ciru.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/1852/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vhiscli_to_tbc_val_ciru.rel
+END
+protambu1400_vhiscli_to_tbc_ciruguar.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/1852/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vhiscli_to_tbc_ciruguar.rel
+END
+protambu1400_vhiscli_to_tbc_hist_cab_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/proyecto1/!svn/ver/1852/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vhiscli_to_tbc_hist_cab_new.rel
+END
+protambu1400_camas_to_tbc_camas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2915/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_camas_to_tbc_camas.rel
+END
+protambu1400_vhiscli_to_tbc_seguqui_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/2915/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vhiscli_to_tbc_seguqui_new.rel
+END
+protambu1400_vs_to_tbc_cajcirugia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/1866/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vs_to_tbc_cajcirugia.rel
+END
+protambu_vpatologia_to_tbc_patologia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu_vpatologia_to_tbc_patologia.rel
+END
+protambu1400_intervenalfa_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/proyecto1/!svn/ver/1852/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_intervenalfa_to_tbc_interven.rel
+END
+protambu1400_tbc_hcicir_new_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_tbc_hcicir_new_to_tbc_interven.rel
+END
+protambu1400_vs_to_tbl_proamb_t.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vs_to_tbl_proamb_t.rel
+END
+protambu1400_patcod2_to_tbc_patologia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_patcod2_to_tbc_patologia.rel
+END
+protambu1400_vnomenclaalfa_to_tbc_nomencla.rel
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/proyecto1/!svn/ver/1866/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vnomenclaalfa_to_tbc_nomencla.rel
+END
+protambu1400_vhiscli_to_tbc_hcicir_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vhiscli_to_tbc_hcicir_new.rel
+END
+protambu1400_vs_to_tbc_prest_guar.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/1866/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vs_to_tbc_prest_guar.rel
+END
+protambul1400_legcirujano_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/proyecto1/!svn/ver/1866/AsiCirTrs_ProtAmbu_1400/relations/protambul1400_legcirujano_to_tbc_medicos_personal.rel
+END
+protambu1400_tbc_cajcirugia_to_tbc_mae_est.rel
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/proyecto1/!svn/ver/1866/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_tbc_cajcirugia_to_tbc_mae_est.rel
+END
+protambu1400_vlegajotecnico_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vlegajotecnico_to_tbc_clave_legajo.rel
+END
+protambu1400_vhiscli_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/2915/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vhiscli_to_tbc_hist_cab.rel
+END
+protambu1400_vhiscli_to_tbc_cajcirugia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/1866/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vhiscli_to_tbc_cajcirugia.rel
+END
+protambu1400_cirujanoalf_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/proyecto1/!svn/ver/1866/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_cirujanoalf_to_tbc_medicos_personal.rel
+END
+protambu_vpatologiaalfa_to_tbc_patologia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu_vpatologiaalfa_to_tbc_patologia.rel
+END
+protambu1400_vs_to_tbc_val_ciru.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/1852/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vs_to_tbc_val_ciru.rel
+END
+protambu1400_interven_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/1852/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_interven_to_tbc_interven.rel
+END
+protambu1400_vlegajoalfa_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/proyecto1/!svn/ver/1852/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vlegajoalfa_to_tbc_personal.rel
+END
+protambu1400_vestado2259_to_tbc_his_lectora.rel
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/proyecto1/!svn/ver/2915/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vestado2259_to_tbc_his_lectora.rel
+END
+protambu1400_vcajaalfa_to_tbc_mae_est.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/1866/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vcajaalfa_to_tbc_mae_est.rel
+END
+protambu1400_habita_to_tbc_camas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2915/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_habita_to_tbc_camas.rel
+END
+protambu1400_vlegajotecnico_to_tbc_perext.rel
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/proyecto1/!svn/ver/1989/AsiCirTrs_ProtAmbu_1400/relations/protambu1400_vlegajotecnico_to_tbc_perext.rel
+END

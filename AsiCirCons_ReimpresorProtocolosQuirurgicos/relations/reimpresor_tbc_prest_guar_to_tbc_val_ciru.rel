@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_val_ciru",
+items:[
+{foreignColumnName:"vcirhistclinica",primaryDataProviderID:"preghistclinica",typeid:23,uuid:"150944E2-70A9-4D82-A3A6-3F88668AEAB8"},
+{foreignColumnName:"vcircodnome",primaryDataProviderID:"pregcodnome",typeid:23,uuid:"575836CC-0616-4B19-B13C-F35331576E73"},
+{foreignColumnName:"vcirhoraingreso",primaryDataProviderID:"preghoraingreso",typeid:23,uuid:"78E083A2-0233-42D2-B9C7-2CA916C4E79E"},
+{foreignColumnName:"vcirfechaingreso",primaryDataProviderID:"pregfechaingreso",typeid:23,uuid:"84DDDFE3-0CA2-4FA3-A166-843B3FBC0E9C"},
+{foreignColumnName:"vcirtiponome",primaryDataProviderID:"pregtiponome",typeid:23,uuid:"853161D3-A877-48E8-809F-3ECA12338994"},
+{foreignColumnName:"vcirsecuencia",primaryDataProviderID:"pregsecuencia",typeid:23,uuid:"E374E719-8C40-4452-AD0A-96CADB1F155D"}
+],
+name:"reimpresor_tbc_prest_guar_to_tbc_val_ciru",
+primaryDataSource:"db:/asistencial/tbc_prest_guar",
+typeid:22,
+uuid:"0CD6C714-1BC2-4D56-8DA8-88150E5F50C2"

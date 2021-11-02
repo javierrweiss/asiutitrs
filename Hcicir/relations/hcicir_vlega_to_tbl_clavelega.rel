@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_clavelega",
+items:[
+{foreignColumnName:"legajo",primaryDataProviderID:"scopes.globals.Hcicir_vLega",typeid:23,uuid:"1BAC9003-3C5A-4DDD-BAB6-96FC99B42CD3"},
+{foreignColumnName:"tipo_legajo",primaryDataProviderID:"scopes.globals.Hcicir_vTipoOperador",typeid:23,uuid:"E7E6A71A-0553-4D0B-ADF9-524E764EFA26"}
+],
+name:"hcicir_vlega_to_tbl_clavelega",
+primaryDataSource:"db:/desal/tbl_clavelega",
+typeid:22,
+uuid:"07EA4D50-94D0-4BC3-9541-D45655EDECAF"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_protoc_txt",
+initialSort:"protocolo asc, grupo asc",
+items:[
+{foreignColumnName:"protocolo",primaryDataProviderID:"scopes.globals.vNroProtocolo",typeid:23,uuid:"5F46C0DA-3CE7-41C7-A490-D96551359C29"},
+{foreignColumnName:"grupo",primaryDataProviderID:"scopes.globals.grupo_texto",typeid:23,uuid:"687724F0-C306-4C43-8338-6D4A9FE6A0E0"}
+],
+name:"vs1_to_tbl_protoc_txt",
+primaryDataSource:"db:/desal/tbl_protoc_txt",
+typeid:22,
+uuid:"38A1BAFD-8FCA-45C5-B90D-FA5E37489B95"

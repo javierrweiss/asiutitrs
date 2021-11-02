@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_articulos",
+items:[
+{foreignColumnName:"art_codigo",primaryDataProviderID:"scopes.globals.bandejaciru_vCodigoArt_tmp",typeid:23,uuid:"4280B0A0-1DE7-4B49-B220-3A9BAAD5DF39"}
+],
+name:"bandejaciru_vcodigoart_tmp_to_tbc_articulos",
+primaryDataSource:"db:/maestros/tbc_articulos",
+typeid:22,
+uuid:"FA651A95-FA40-4FC3-A031-B901784B614D"

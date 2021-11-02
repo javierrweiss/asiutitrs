@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Capital|1\r
+Interes|2\r
+Multa|3",
+name:"vl_capint",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"F762D832-8495-4D3B-9A5B-2959A6C76A98"

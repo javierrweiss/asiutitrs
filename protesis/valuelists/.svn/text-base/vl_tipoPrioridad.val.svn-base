@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Urgente|1\r
+Programado|2",
+name:"vl_tipoPrioridad",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"0D1090F4-4D0A-4561-9C69-909913F63565"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla_anatopat",
+items:[
+{foreignColumnName:"nome_codigo",operator:0,primaryDataProviderID:"apde_codnom",typeid:23,uuid:"2883B36A-F823-428D-97A9-5C6D629247C3"},
+{foreignColumnName:"nome_tipo",operator:0,primaryDataProviderID:"globals.one_value",typeid:23,uuid:"8409194D-4081-47C5-93CA-20F929251593"}
+],
+joinType:0,
+name:"tbc_anatpade_to_tbc_nomencla_anatopat",
+primaryDataSource:"db:/asistencial/tbc_anatpade",
+typeid:22,
+uuid:"63424942-4E0E-4B24-9578-CC6982D10A59"

@@ -1,0 +1,14 @@
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"F00B6272-26A1-49A4-829D-708501FA0D86"
+}
+],
+name:"fichaaneste_frm_vacio",
+navigatorID:"-1",
+showInMenu:true,
+styleName:"Sanatorio",
+typeid:3,
+uuid:"B0A7D41D-866A-44CD-8AB5-DD0C193BA328"

@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Espontanea|4\r
+Al hablarle|3\r
+Al dolor|2\r
+Ausencia|1",
+name:"gasglow_ojos",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"E60F7661-1E58-4DE2-B018-363D0D20D3D7"

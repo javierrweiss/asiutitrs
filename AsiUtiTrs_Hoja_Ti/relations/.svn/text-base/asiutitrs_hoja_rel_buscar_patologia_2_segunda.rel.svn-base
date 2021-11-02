@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"htidiagevo2",typeid:23,uuid:"E4E548B7-0907-4E8B-B57C-5885E19DBBDC"}
+],
+joinType:1,
+name:"asiutitrs_hoja_rel_buscar_patologia_2_segunda",
+primaryDataSource:"db:/asistencial/tbc_hojati",
+typeid:22,
+uuid:"58753BD8-5B69-448C-80A6-F3F16E95275C"

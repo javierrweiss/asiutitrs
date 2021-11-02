@@ -1,0 +1,20 @@
+addEmptyValue:1,
+customValues:"POP|1\r
+Neumonia|2\r
+EAP|3\r
+Trauma|4\r
+SDRA|5\r
+Inmunocomprometido|6\r
+EPOC|7\r
+Enfermedad respiratoria crónica no EPOC|8\r
+Neuromsucular|9\r
+Prevención de falla de EOT|10\r
+Rescate de falla de EOT|11\r
+Continuación de la VM|12\r
+Paliativos/DNI|13\r
+Otra|14",
+name:"AsiVm_vl_motivo_caf",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"49714A78-2ADA-4E7D-8FC4-58733A287141"

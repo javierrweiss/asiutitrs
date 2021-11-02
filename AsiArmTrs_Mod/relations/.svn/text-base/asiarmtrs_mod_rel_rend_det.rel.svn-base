@@ -1,0 +1,17 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_rend_det",
+items:[
+{foreignColumnName:"rdhclinica",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"036926B1-2409-4858-A29F-7A30E97EACDA"},
+{foreignColumnName:"rdtipo",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"21C40E4E-75EE-4CF4-BBBA-5C56CF240E3B"},
+{foreignColumnName:"rdcierre",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"2DB560AD-633F-4EE5-BAAD-61FAA3C1238F"},
+{foreignColumnName:"rdempresa",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"423A7334-5B18-4399-8635-2C6A3AE32906"},
+{foreignColumnName:"rdfecha",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"96409127-7349-42AF-A757-C2EB17962C7A"},
+{foreignColumnName:"rdcodnom",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"99966512-F99E-4A76-8964-D44FEC2CB64A"},
+{foreignColumnName:"rdadmision",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"C1FD395B-4EAF-40C7-8851-796C6355C079"},
+{foreignColumnName:"rdpantalla",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"D5F91B1A-7EAA-4006-A7DA-FF1B56C1BEB1"},
+{foreignColumnName:"rdperiodo",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"FC6F53E2-D4AB-40FD-93B9-3E3AE07B0515"}
+],
+name:"asiarmtrs_mod_rel_rend_det",
+primaryDataSource:"db:/asistencial/tbc_rend_det",
+typeid:22,
+uuid:"06BB1557-4197-457A-9186-AFCADBB2E982"

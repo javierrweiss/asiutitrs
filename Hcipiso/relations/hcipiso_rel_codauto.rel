@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_codauto",
+items:[
+{foreignColumnName:"codautohist",primaryDataProviderID:"scopes.globals.Hcipiso_codAutoHist",typeid:23,uuid:"14A2EA08-CD85-407C-AF00-C775F5C6A6C6"}
+],
+joinType:1,
+name:"hcipiso_rel_codauto",
+primaryDataSource:"db:/asistencial/tbc_codauto",
+typeid:22,
+uuid:"592DCC89-6B53-4729-AE92-BCF816EBBF44"

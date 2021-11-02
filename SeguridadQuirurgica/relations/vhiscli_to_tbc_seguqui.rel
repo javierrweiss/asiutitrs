@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_seguqui_new",
+items:[
+{foreignColumnName:"seghistclinica1",primaryDataProviderID:"scopes.globals.vhiscli",typeid:23,uuid:"92A4EC17-1E57-4FB0-A0E1-8D358F599911"},
+{foreignColumnName:"segprotocolo",primaryDataProviderID:"scopes.globals.vprotocolo",typeid:23,uuid:"B5E309E7-9630-49BA-ABBD-AA779E5908DF"},
+{foreignColumnName:"segtipohc1",primaryDataProviderID:"scopes.globals.vtipohist",typeid:23,uuid:"CBC21BD7-F9A9-4403-BD99-C283AF6CCEAC"}
+],
+name:"vhiscli_to_tbc_seguqui",
+primaryDataSource:"db:/asistencial/tbc_seguqui_new",
+typeid:22,
+uuid:"B9734161-60F4-44E3-A743-FEF6D3474B39"

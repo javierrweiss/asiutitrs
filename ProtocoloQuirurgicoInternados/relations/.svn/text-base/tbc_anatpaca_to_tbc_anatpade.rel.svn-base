@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anatpade",
+items:[
+{foreignColumnName:"apde_nrosolic",primaryDataProviderID:"apca_nrosolic",typeid:23,uuid:"37D80DCD-C8E1-4ED0-8989-47417A279F88"}
+],
+name:"tbc_anatpaca_to_tbc_anatpade",
+primaryDataSource:"db:/asistencial/tbc_anatpaca",
+typeid:22,
+uuid:"844D7AF8-C321-4AD3-9119-60E13FB8B0F3"

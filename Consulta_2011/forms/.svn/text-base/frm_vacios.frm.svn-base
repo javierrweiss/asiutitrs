@@ -1,0 +1,15 @@
+items:[
+{
+height:239,
+partType:5,
+typeid:19,
+uuid:"EE1FBA68-1FC7-4CF6-8382-9A4B2EEF96DD"
+}
+],
+name:"frm_vacios",
+navigatorID:"-1",
+scrollbars:36,
+showInMenu:true,
+styleName:"sanatorio",
+typeid:3,
+uuid:"BBCBE6FE-A233-4D63-BA2F-843433F2C34E"

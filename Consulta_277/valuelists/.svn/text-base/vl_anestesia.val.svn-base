@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"|0
+Inhaladora|1
+Endovenosa|2",
+name:"vl_anestesia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"06DD6A66-1720-4210-AB45-5D263C50873A"

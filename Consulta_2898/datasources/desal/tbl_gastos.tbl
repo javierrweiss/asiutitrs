@@ -1,0 +1,12 @@
+dataSource:"db:/desal/tbl_gastos",
+items:[
+{
+dataProviderIDToAggregate:"importe",
+name:"suma_importe",
+type:4,
+typeid:40,
+uuid:"63E71C7F-A0CD-4982-9A35-C5297239F48E"
+}
+],
+typeid:39,
+uuid:"6B3EFF63-C33B-4493-9065-8CDE06B70114"

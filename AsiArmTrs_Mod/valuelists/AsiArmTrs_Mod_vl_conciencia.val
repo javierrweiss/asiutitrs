@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:"Lucido|1\r
+Desorientado|2\r
+Exitado|3\r
+Confuso|4\r
+Estuporoso|5\r
+En coma|6\r
+Otro. Detallar|7",
+name:"AsiArmTrs_Mod_vl_conciencia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"FEA5A4C9-1FDC-4403-806F-28DF4347F545"

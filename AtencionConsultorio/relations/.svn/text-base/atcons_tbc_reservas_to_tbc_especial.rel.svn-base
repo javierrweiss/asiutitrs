@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_especial",
+items:[
+{foreignColumnName:"esp_codi",primaryDataProviderID:"reservasesp",typeid:23,uuid:"276231FE-7E0B-4E2F-A7FE-C897781E00B7"}
+],
+name:"atcons_tbc_reservas_to_tbc_especial",
+primaryDataSource:"db:/asistencial/tbc_reservas",
+typeid:22,
+uuid:"FDDB8249-55AF-4D48-8727-679589A21169"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+items:[
+{foreignColumnName:"nome_tipo",primaryDataProviderID:"LITERAL:1",typeid:23,uuid:"5574875E-EDA0-4535-8162-57D81A1C630C"},
+{foreignColumnName:"nome_codigo",primaryDataProviderID:"scopes.globals.bandejaciru_nomencla",typeid:23,uuid:"A321F0AF-24B8-4486-967F-B29B35CFD58F"}
+],
+name:"bandejaciru_nomencla_to_tbc_nomencla",
+primaryDataSource:"db:/maestros/tbc_nomencla",
+typeid:22,
+uuid:"AA576E7E-610E-4727-AB57-229D8D002125"

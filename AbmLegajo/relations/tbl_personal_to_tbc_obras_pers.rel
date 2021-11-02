@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_obras_pers",
+items:[
+{foreignColumnName:"obpplan",primaryDataProviderID:"per_27",typeid:23,uuid:"035AAE3D-E53F-4F43-B733-110C1781918E"},
+{foreignColumnName:"obpobra",primaryDataProviderID:"per_23",typeid:23,uuid:"720594EE-378A-4A91-803B-29441C997AB4"}
+],
+name:"tbl_personal_to_tbc_obras_pers",
+primaryDataSource:"db:/desal/tbl_personal",
+typeid:22,
+uuid:"8A7ABD32-E40A-4570-A877-E4551001106B"

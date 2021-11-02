@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/proyecto1/!svn/ver/1630/EnviaSmsCirugias/relations
+END
+smsciru_codobra_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/1617/EnviaSmsCirugias/relations/smsciru_codobra_to_tbc_obras.rel
+END
+smsciru_ambu_num_to_tbc_hist_cab_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/1602/EnviaSmsCirugias/relations/smsciru_ambu_num_to_tbc_hist_cab_new.rel
+END
+smsciru_ambu_alf_to_vis_tbc_hist_cab_nom.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/1617/EnviaSmsCirugias/relations/smsciru_ambu_alf_to_vis_tbc_hist_cab_nom.rel
+END
+smsciru_ambu_alf_to_vis_tbc_hist_cab_nom_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/1617/EnviaSmsCirugias/relations/smsciru_ambu_alf_to_vis_tbc_hist_cab_nom_new.rel
+END
+smsciru_apeynom_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/1617/EnviaSmsCirugias/relations/smsciru_apeynom_to_tbc_admision_scroll.rel
+END
+smsciru_fecha_actual_to_smsciru_envios.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/1617/EnviaSmsCirugias/relations/smsciru_fecha_actual_to_smsciru_envios.rel
+END
+vis_tbc_hist_cab_nom_to_vis_tbc_hist_cab_nom.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/1617/EnviaSmsCirugias/relations/vis_tbc_hist_cab_nom_to_vis_tbc_hist_cab_nom.rel
+END
+vs_to_smsciru_envios.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1630/EnviaSmsCirugias/relations/vs_to_smsciru_envios.rel
+END
+smsciru_numero_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/1602/EnviaSmsCirugias/relations/smsciru_numero_to_tbc_admision_scroll.rel
+END
+smsciru_histcliunica_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/1617/EnviaSmsCirugias/relations/smsciru_histcliunica_to_tbc_hist_cab.rel
+END

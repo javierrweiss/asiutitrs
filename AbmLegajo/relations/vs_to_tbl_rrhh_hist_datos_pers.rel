@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_rrhh_hist_datos_pers",
+initialSort:"legajo asc, tipo asc, fecha asc, hora asc",
+items:[
+{foreignColumnName:"tipo",primaryDataProviderID:"scopes.globals.dat_per_tipo",typeid:23,uuid:"2BC88C2E-1937-4DB3-BF3B-5DFD8BE77764"},
+{foreignColumnName:"legajo",primaryDataProviderID:"scopes.globals.per_1",typeid:23,uuid:"FA0B3D78-E5F6-49DC-8015-6EFA4093D7A6"}
+],
+name:"vs_to_tbl_rrhh_hist_datos_pers",
+primaryDataSource:"db:/desal/tbl_rrhh_hist_datos_pers",
+typeid:22,
+uuid:"10D0910B-573F-4757-8AC6-0AC665CEA772"

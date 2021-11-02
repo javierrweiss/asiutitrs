@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_cirugint",
+items:[
+{foreignColumnName:"cirihistcl",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"9F087C88-04D7-49A1-8910-88E5086DFE7E"}
+],
+name:"reimpresor_vs_to_tbc_cirugint",
+primaryDataSource:"db:/asistencial/tbc_cirugint",
+typeid:22,
+uuid:"DC05E2A9-87B3-4EEB-804D-EFBDCAF44541"

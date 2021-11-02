@@ -1,0 +1,70 @@
+dataSource:"db:/asistencial/tbc_hist_cab_new",
+items:[
+{
+background:"#c0c0c0",
+fontType:"Microsoft Sans Serif,0,12",
+horizontalAlignment:0,
+labelFor:"adm_apellido_5",
+location:"115,3",
+name:"adm_nomadmis_label",
+size:"298,20",
+text:"Apellido y nombre del Paciente",
+typeid:7,
+uuid:"3797F39B-AB4D-427A-A960-92CFADB7C23C"
+},
+{
+background:"#c0c0c0",
+fontType:"Microsoft Sans Serif,0,12",
+horizontalAlignment:0,
+labelFor:"adm_histclinuni",
+location:"0,3",
+name:"adm_codigo_label",
+size:"116,20",
+text:"H. Clinica U.",
+typeid:7,
+uuid:"65C74F94-E65A-4FE1-BBBC-1A84D496ED4E"
+},
+{
+dataProviderID:"histcabapellnom",
+editable:false,
+fontType:"Microsoft Sans Serif,0,12",
+foreground:"#000000",
+location:"115,23",
+name:"adm_apellido_5",
+onActionMethodID:"91A2ED3E-605B-4ACC-8C2F-F560BD33EB76",
+onFocusGainedMethodID:"39C10F4F-82F6-45A2-84E5-3211CA61ECD6",
+selectOnEnter:true,
+size:"298,20",
+typeid:4,
+uuid:"68C8E522-1BDC-4375-B7B1-A8DCE85AA5A5"
+},
+{
+height:52,
+partType:5,
+typeid:19,
+uuid:"AEF177CE-14DE-4CA0-BA0B-B298B23169C6"
+},
+{
+dataProviderID:"histcabnrounico",
+editable:false,
+fontType:"Microsoft Sans Serif,0,12",
+foreground:"#000000",
+horizontalAlignment:0,
+location:"0,23",
+name:"adm_histclinuni",
+onActionMethodID:"91A2ED3E-605B-4ACC-8C2F-F560BD33EB76",
+onFocusGainedMethodID:"39C10F4F-82F6-45A2-84E5-3211CA61ECD6",
+selectOnEnter:true,
+size:"116,20",
+typeid:4,
+uuid:"C9645A98-33E6-4C6F-978D-9E53B7582CED"
+}
+],
+name:"frm_scr_hist_clin_unica_protesis",
+navigatorID:"-1",
+onShowMethodID:"74E11059-9662-435F-89A2-5BB625295AB0",
+scrollbars:32,
+size:"415,52",
+typeid:3,
+uuid:"E8DD6EBC-E281-4797-A0AA-B144DFD46E09",
+view:3

@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hojati",
+items:[
+{foreignColumnName:"htihistclinica",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_histClinPrint",typeid:23,uuid:"A48FCBC1-BEFD-48A7-AA1B-8DFCD3BBEE85"},
+{foreignColumnName:"hties1erevoldia",primaryDataProviderID:"LITERAL:1",typeid:23,uuid:"D846F92A-346C-493D-909B-E196D43BF68C"},
+{foreignColumnName:"htifecha",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_fechaActual",typeid:23,uuid:"EE2FD473-4020-4751-952C-ABE3FD454E9B"}
+],
+joinType:1,
+name:"asiutitrs_hoja_rel_buscar_hojati_print_primera_dia",
+primaryDataSource:"db:/asistencial/tbc_hciint",
+typeid:22,
+uuid:"156F5ED9-57AC-4197-9A4B-375028AFF0CA"

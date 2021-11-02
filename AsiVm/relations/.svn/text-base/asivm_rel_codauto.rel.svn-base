@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_codauto",
+items:[
+{foreignColumnName:"codautohist",primaryDataProviderID:"scopes.globals.AsiVm_codAutoHist",typeid:23,uuid:"B035A1BC-E65C-485C-9A59-449A9C7DFD8B"}
+],
+joinType:1,
+name:"asivm_rel_codauto",
+primaryDataSource:"db:/asistencial/tbc_codauto",
+typeid:22,
+uuid:"49ABE6DF-4F93-4B02-BF41-376C9548F513"

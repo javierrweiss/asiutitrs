@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"---|0\r
+No|1\r
+Si|2",
+name:"vlsinoSG",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"0DF531C8-9E0A-44A3-82E2-C5453F8F392A"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_personal_login_cirugia",
+initialSort:"per_legajo asc",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"globals.vLega",typeid:23,uuid:"60A15731-0E22-4209-948E-93BF159886A1"}
+],
+name:"vlegajo_to_tbc_personal_login_cirugia",
+primaryDataSource:"db:/validalegajo/tbc_personal_login_cirugia",
+typeid:22,
+uuid:"B9138278-1949-4162-9099-AF580CF195FA"

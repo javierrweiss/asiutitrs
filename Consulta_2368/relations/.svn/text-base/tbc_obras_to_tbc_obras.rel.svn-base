@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"scopes.globals.gbl_cobertura",typeid:23,uuid:"0D76D6D1-EC64-40CE-915D-87D8CCFE8A94"}
+],
+joinType:1,
+name:"tbc_obras_to_tbc_obras",
+primaryDataSource:"db:/maestros/tbc_obras",
+typeid:22,
+uuid:"B0B4E18A-0A5A-462D-8B91-8F63DB266D33"

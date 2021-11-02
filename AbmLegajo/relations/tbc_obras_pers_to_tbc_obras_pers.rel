@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_obras_pers",
+items:[
+{foreignColumnName:"obpobra",primaryDataProviderID:"obpobra",typeid:23,uuid:"1E7FE3BB-FAB0-47C7-805B-7E2D5B81AC3B"},
+{foreignColumnName:"obpplan",primaryDataProviderID:"obpplan",typeid:23,uuid:"74C8CAF2-4E16-4DAE-AC5A-DD095D03FD2C"}
+],
+joinType:1,
+name:"tbc_obras_pers_to_tbc_obras_pers",
+primaryDataSource:"db:/rrhh/tbc_obras_pers",
+typeid:22,
+uuid:"BE2DF4B0-6E53-4AB3-B2F9-A2ECF848A950"

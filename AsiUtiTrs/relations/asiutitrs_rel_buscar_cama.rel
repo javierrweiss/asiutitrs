@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_camas",
+items:[
+{foreignColumnName:"cam_habi",primaryDataProviderID:"scopes.globals.AsiUtiTrs_camHabita",typeid:23,uuid:"0C06049E-8303-41B5-BA8A-3558B4714EF0"},
+{foreignColumnName:"cam_cama",primaryDataProviderID:"scopes.globals.AsiUtiTrs_camCama",typeid:23,uuid:"5962A7AD-C1ED-437D-8C2A-A7B55CE50EEC"}
+],
+joinType:1,
+name:"asiutitrs_rel_buscar_cama",
+primaryDataSource:"db:/maestros/tbc_camas",
+typeid:22,
+uuid:"20E565B7-FD37-40C0-83C6-81D71F99752E"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+items:[
+{foreignColumnName:"medpercod",primaryDataProviderID:"scopes.globals.per_1",typeid:23,uuid:"E17D5B94-E67A-4688-A41A-D3B274509B61"}
+],
+name:"per_1_to_tbc_medicos_personal",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"91263FD3-EF38-406A-8D19-257A41A5DB47"

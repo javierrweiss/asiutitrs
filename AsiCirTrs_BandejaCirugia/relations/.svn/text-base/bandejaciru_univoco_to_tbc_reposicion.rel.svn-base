@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_reposicion",
+items:[
+{foreignColumnName:"repfecha",primaryDataProviderID:"scopes.globals.bandejaciru_fecha_rep",typeid:23,uuid:"451F7727-5B4A-42D8-BE88-7C3E1D4F4312"},
+{foreignColumnName:"repnumero",primaryDataProviderID:"scopes.globals.bandejaciru_numero_rep",typeid:23,uuid:"65589DD2-F367-4435-8DC8-9B4F23FA0F79"},
+{foreignColumnName:"reptiprep",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"D41BFBAE-4A24-4284-B7AD-71A0C73FD859"},
+{foreignColumnName:"repartsol",primaryDataProviderID:"scopes.globals.bandejaciru_artsol_rep",typeid:23,uuid:"F47BE3DE-1B88-4B34-90F5-E505A131A36D"}
+],
+name:"bandejaciru_univoco_to_tbc_reposicion",
+primaryDataSource:"db:/asistencial/tbc_reposicion",
+typeid:22,
+uuid:"40EC968B-0B4A-4709-B352-6A8E0623CB80"

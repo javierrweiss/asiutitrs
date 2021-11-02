@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Femenino  |1
+Masculino |2",
+name:"AtCons_sexo_reservas",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"996FFD6F-553E-4763-9F0B-88E4D6E65228"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_intcons_it",
+items:[
+{foreignColumnName:"intconsnro",primaryDataProviderID:"scopes.globals.Hcipiso_nrointercons",typeid:23,uuid:"2138CE6B-B6AD-49DB-A8FA-BA064A56E374"}
+],
+name:"hcipiso_rel_intcons_it",
+primaryDataSource:"db:/asistencial/tbc_intcons_it",
+typeid:22,
+uuid:"FA99934C-0374-45FE-A495-797AB0E2640D"

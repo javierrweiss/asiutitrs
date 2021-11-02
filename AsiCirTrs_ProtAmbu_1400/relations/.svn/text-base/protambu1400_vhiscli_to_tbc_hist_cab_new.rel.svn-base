@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+items:[
+{foreignColumnName:"histcabnrounico",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"8B1F124F-BFA1-419B-A17F-A2E757A6D979"}
+],
+name:"protambu1400_vhiscli_to_tbc_hist_cab_new",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"D184FE3A-4950-4A9A-99D1-46E89508A0E9"

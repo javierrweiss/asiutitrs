@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_admision",
+items:[
+{foreignColumnName:"adm_histclin",primaryDataProviderID:"scopes.globals.Hcipiso_histClinAsist",typeid:23,uuid:"88C4A541-F4D8-4C96-B336-D899B99AD75A"}
+],
+joinType:1,
+name:"hcipiso_numero_to_asistencial_admision",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"68540C20-FB3E-4AFC-A8D8-03A7EE982DAC"

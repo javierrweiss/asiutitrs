@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+items:[
+{foreignColumnName:"medpercod",primaryDataProviderID:"guar_medico",typeid:23,uuid:"5A954848-3CA5-4EC6-B434-9B0BFADF6ACD"}
+],
+name:"reimpresor_tbc_guardia_to_tbc_medicos_personal",
+primaryDataSource:"db:/asistencial/tbc_guardia",
+typeid:22,
+uuid:"76EDD97C-933F-478A-89D3-40426D5AB386"

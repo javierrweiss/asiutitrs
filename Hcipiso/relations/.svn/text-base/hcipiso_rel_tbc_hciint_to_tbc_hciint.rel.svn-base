@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hciint",
+items:[
+{foreignColumnName:"hiihiscli",primaryDataProviderID:"scopes.globals.Hcipiso_hiiHisCli",typeid:23,uuid:"16E180C3-4EBE-4CD8-B89B-707A59675143"},
+{foreignColumnName:"hiihora",primaryDataProviderID:"scopes.globals.Hcipiso_horaHciint",typeid:23,uuid:"298A2236-10C2-48DA-80E8-CE1345C90E2E"},
+{foreignColumnName:"hiifecha",primaryDataProviderID:"scopes.globals.Hcipiso_fechaHciint",typeid:23,uuid:"8DD5C52F-B1A8-4ADE-B24D-9F3A7F3EC5CD"}
+],
+joinType:1,
+name:"hcipiso_rel_tbc_hciint_to_tbc_hciint",
+primaryDataSource:"db:/asistencial/tbc_hciint",
+typeid:22,
+uuid:"57405EE5-2BFB-4731-BA20-7091F1888F3C"

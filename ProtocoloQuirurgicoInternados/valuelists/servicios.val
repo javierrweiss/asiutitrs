@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:null,
+dataProviderID1:"servcodigo",
+dataProviderID2:"servdescripcion",
+dataSource:null,
+name:"servicios",
+relationName:"vs_to_tbc_servicios",
+returnDataProviders:1,
+separator:"|",
+showDataProviders:2,
+typeid:34,
+uuid:"8C1929FE-6CAC-4AE6-A745-5B17D4B5C1D2",
+valueListType:1

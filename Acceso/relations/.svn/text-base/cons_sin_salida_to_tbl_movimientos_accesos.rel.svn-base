@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/tbl_movimientos_accesos",
+items:[
+{foreignColumnName:"mov_fecha_ing",operator:3,primaryDataProviderID:"scopes.globals.gbl_con_fecha_ingr_hasta",typeid:23,uuid:"0ADBB763-FDF5-4815-AED3-D47B51329E47"},
+{foreignColumnName:"mov_sector",operator:256,primaryDataProviderID:"scopes.globals.gbl_con_sector",typeid:23,uuid:"45588158-7FB1-42DA-80C4-44526A2D9C6E"},
+{foreignColumnName:"mov_fecha_egr",operator:4,primaryDataProviderID:"scopes.globals.gbl_con_fecha_egr_desde",typeid:23,uuid:"474D8549-BA32-459A-B1E5-ED74BB0FB002"},
+{foreignColumnName:"mov_a_quien",operator:256,primaryDataProviderID:"scopes.globals.gbl_con_a_quien",typeid:23,uuid:"4BAC385B-8C33-4A58-A35B-BBB0100DDFE5"},
+{foreignColumnName:"mov_fecha_ing",operator:4,primaryDataProviderID:"scopes.globals.gbl_con_fecha_ingr_desde",typeid:23,uuid:"6732F958-58DC-4855-A8D9-54E495F5582B"},
+{foreignColumnName:"mov_fecha_egr",operator:3,primaryDataProviderID:"scopes.globals.gbl_con_fecha_egr_hasta",typeid:23,uuid:"B855FB7A-BD96-41FD-BA17-31B9BE61220F"}
+],
+name:"cons_sin_salida_to_tbl_movimientos_accesos",
+primaryDataSource:"db:/bases_auxiliares/tbl_movimientos_accesos",
+typeid:22,
+uuid:"FC518E7C-A9E8-40CF-9487-F7EB4D960F88"

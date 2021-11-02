@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Sin Dato|0\r
+Cefálica|1\r
+Transversal|2\r
+Podálica|3\r
+Otra|4",
+name:"Presentacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"DFFD19DB-D975-4821-9831-D2AC58F1D835"

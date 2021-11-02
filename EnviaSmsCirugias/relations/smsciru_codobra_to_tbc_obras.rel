@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+initialSort:"obr_codigo asc",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"scopes.globals.smsciru_codObraSocial",typeid:23,uuid:"0D812A37-EC6E-4F8B-9638-EE070936320C"}
+],
+name:"smsciru_codobra_to_tbc_obras",
+primaryDataSource:"db:/maestros/tbc_obras",
+typeid:22,
+uuid:"D42E3150-DF85-47E2-B414-AD759938FD56"

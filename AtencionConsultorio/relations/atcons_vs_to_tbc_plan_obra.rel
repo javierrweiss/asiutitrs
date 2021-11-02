@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_plan_obra",
+items:[
+{foreignColumnName:"plo_obra",primaryDataProviderID:"scopes.globals.Atcons_obrax",typeid:23,uuid:"05811BB2-552F-4E7E-926D-8E561E0A24BA"},
+{foreignColumnName:"plo_planx",primaryDataProviderID:"scopes.globals.AtCons_planx",typeid:23,uuid:"DC920A74-5CB9-4C8A-84FE-0479D0A96BFF"}
+],
+name:"atcons_vs_to_tbc_plan_obra",
+primaryDataSource:"db:/maestros/tbc_plan_obra",
+typeid:22,
+uuid:"DB53C824-91C7-4B5C-A31C-AAB488DAE918"

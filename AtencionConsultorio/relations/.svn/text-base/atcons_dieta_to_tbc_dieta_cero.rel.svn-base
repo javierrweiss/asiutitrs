@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_dieta",
+items:[
+{foreignColumnName:"dietatipo",primaryDataProviderID:"scopes.globals.AtCons_cero",typeid:23,uuid:"A643573B-ECF2-4C42-B87D-1FC65E5D2CFF"},
+{foreignColumnName:"dietasecuen",primaryDataProviderID:"scopes.globals.AtCons_cero",typeid:23,uuid:"E2AF9E05-C1FF-4225-A542-81235287DC2C"}
+],
+joinType:1,
+name:"atcons_dieta_to_tbc_dieta_cero",
+primaryDataSource:"db:/maestros/tbc_dieta",
+typeid:22,
+uuid:"C2DA3D99-CD39-4E48-9016-CAA9540CD805"

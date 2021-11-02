@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"esp_codi",
+dataProviderID2:"esp_descrip",
+name:"AtCons_medtur_especial",
+relationName:"atcons_vlegajo_to_tbc_medtur_no_baja.atcons_medtur_especial",
+returnDataProviders:1,
+separator:"     ",
+showDataProviders:2,
+typeid:34,
+uuid:"630D39DF-B9D8-4A75-A85E-D3B9B4E30FDA",
+valueListType:1

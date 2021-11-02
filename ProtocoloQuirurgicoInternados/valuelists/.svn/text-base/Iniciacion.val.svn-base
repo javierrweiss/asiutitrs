@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Sin Dato|0\r
+Espontáneo|1\r
+Inducido|2",
+name:"Iniciacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"EE5CAF9A-7CE0-4B11-A5D6-3B3D3BC77FC6"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"scopes.globals.Hcipiso_diagno1",typeid:23,uuid:"75A31C20-0146-4D9D-856A-F21EB183F2EA"}
+],
+name:"hcipiso_gbl_diagno1_to_tbc_patologia",
+primaryDataSource:"db:/maestros/tbc_patologia",
+typeid:22,
+uuid:"44176DAD-3465-49AD-A697-A14365614BC7"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anestesia",
+items:[
+{foreignColumnName:"anes_protocolo",operator:0,primaryDataProviderID:"ciriprotocolo",typeid:23,uuid:"7D6B91B5-B856-457A-9C06-3665A9FAFD67"}
+],
+joinType:0,
+name:"tbc_cirugint_to_tbc_anestesia",
+primaryDataSource:"db:/asistencial/tbc_cirugint",
+typeid:22,
+uuid:"17B16C56-C271-4864-ABBA-2E72D16CBEDB"

@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_prest_guar",
+items:[
+{foreignColumnName:"pregtipoprest",primaryDataProviderID:"scopes.globals.reimpresor_tipo_prest",typeid:23,uuid:"1383808C-0861-4A84-B863-F6C9E4F4E41C"},
+{foreignColumnName:"pregfechaingreso",primaryDataProviderID:"scopes.globals.reimpresor_fecha_ingreso",typeid:23,uuid:"3EDC0D82-45DB-4C56-A66B-2D7D71AB347D"},
+{foreignColumnName:"preghoraingreso",primaryDataProviderID:"scopes.globals.reimpresor_hora_ingreso",typeid:23,uuid:"40EEB274-F7DC-48B0-8284-C29F8D71D0C7"},
+{foreignColumnName:"preghistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"609CE3C3-1045-4D11-AEE4-75738F4C4159"}
+],
+name:"reimpresor_vs_medicam_to_tbc_prest_guar",
+primaryDataSource:"db:/asistencial/tbc_prest_guar",
+typeid:22,
+uuid:"B64AA8E5-42B5-4228-BA71-AD302EDA0A63"

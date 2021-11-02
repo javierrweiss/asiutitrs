@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"utic_usoabrev",
+dataProviderID2:"utic_utiliza",
+dataSource:"db:/maestros/tbc_utilcama",
+name:"hojaenfer_vl_utiliza",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"9BA1E452-9DDB-4628-B9CB-F0166EEA6858",
+valueListType:1

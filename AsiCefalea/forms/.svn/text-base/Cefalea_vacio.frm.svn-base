@@ -1,0 +1,14 @@
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"B0CCFD54-6F05-4299-955D-FCD21415B3F7"
+}
+],
+name:"Cefalea_vacio",
+navigatorID:"-1",
+onShowMethodID:"7BE653DE-EBC5-4B87-97DD-C7A0D40ABB9D",
+showInMenu:true,
+typeid:3,
+uuid:"EAB644CD-C834-4DC3-A551-A3203E81352A"

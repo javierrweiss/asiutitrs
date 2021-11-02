@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anestesia",
+items:[
+{foreignColumnName:"anes_histclin",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"03C2D390-71F8-48AA-8AE6-3B51349E6704"},
+{foreignColumnName:"anes_estado",operator:3,primaryDataProviderID:"globals.vAnesEstado",typeid:23,uuid:"651A0C86-6D13-476A-BBA7-99A320CFB570"}
+],
+joinType:0,
+name:"vs_to_tbc_anestesia",
+primaryDataSource:"db:/asistencial/tbc_anestesia",
+typeid:22,
+uuid:"33B4BB27-8B2E-474F-B25C-DE20C75E3D36"

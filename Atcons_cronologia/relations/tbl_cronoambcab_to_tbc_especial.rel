@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_especial",
+items:[
+{foreignColumnName:"esp_codi",primaryDataProviderID:"especialidad",typeid:23,uuid:"05476667-C95E-4B59-8664-730679F24F68"}
+],
+joinType:1,
+name:"tbl_cronoambcab_to_tbc_especial",
+primaryDataSource:"db:/bases_auxiliares/tbl_cronoambcab",
+typeid:22,
+uuid:"F127CF49-D35F-4346-9282-4D4C941395C6"

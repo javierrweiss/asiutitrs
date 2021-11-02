@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_carpetas",
+items:[
+{foreignColumnName:"carpeta",primaryDataProviderID:"scopes.globals.gbl_codigo_carpeta",typeid:23,uuid:"CB56B405-4BDE-43BB-AFA4-D2102FF18B3C"}
+],
+joinType:1,
+name:"tbl_carpetas_to_tbl_carpetas",
+primaryDataSource:"db:/desal/tbl_carpetas",
+typeid:22,
+uuid:"FD5A87AA-77DC-4812-8314-EEC248DBBAC2"

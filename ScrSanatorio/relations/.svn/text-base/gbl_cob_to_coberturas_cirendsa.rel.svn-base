@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/cirendsa/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"scopes.globals.gbl_cobertura",typeid:23,uuid:"718BBE0E-E047-4DCC-B8DB-FD3E548FF458"}
+],
+name:"gbl_cob_to_coberturas_cirendsa",
+primaryDataSource:"db:/maestros/tbc_obras",
+typeid:22,
+uuid:"2C6560F2-B303-4ECC-B0C2-B929A0CC06FD"

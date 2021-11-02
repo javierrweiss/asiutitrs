@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos",
+initialSort:"med_apenom asc",
+items:[
+{foreignColumnName:"med_apenomred_1",operator:4,primaryDataProviderID:"scopes.globals.gbl_medico_a",typeid:23,uuid:"7AB649D4-08D3-4296-9BAD-C2047CAD8CED"}
+],
+name:"gbl_medicos_a_to_tbc_medicos",
+primaryDataSource:"db:/maestros/tbc_medicos",
+typeid:22,
+uuid:"6D88D568-58F1-4319-8A36-7B53C0D94F40"

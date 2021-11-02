@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Pac. Autovalido|1\r
+Pac. No autovalido|2\r
+Pac. Inconciente|3\r
+Pac. en PCR|4",
+name:"hojaenfer_vl_hoehigbuc",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"490104B6-544E-4545-97AE-7EAA5947ABDA"

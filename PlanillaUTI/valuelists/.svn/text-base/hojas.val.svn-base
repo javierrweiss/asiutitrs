@@ -1,0 +1,13 @@
+addEmptyValue:1,
+dataProviderID1:"fecha_edit",
+dataProviderID2:"hora_edit",
+fallbackValueListID:"92EBC550-846E-4BBC-A7F1-B4CA1B8AA3EA",
+name:"hojas",
+relationName:"vhiscli_to_hojauti",
+returnDataProviders:3,
+separator:" |",
+showDataProviders:3,
+sortOptions:"hiscli asc, fecha desc, hora desc",
+typeid:34,
+uuid:"2EE2A58C-B135-4285-A717-71AD6EA72750",
+valueListType:1

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_itm_menu",
+initialSort:"codigo_item asc",
+items:[
+{foreignColumnName:"codigo_item",operator:4,primaryDataProviderID:"scopes.globals.gbl_item",typeid:23,uuid:"64C68844-185D-415F-83F0-957207402757"}
+],
+name:"buscar_alf_to_itm_menu",
+primaryDataSource:"db:/desal/tbl_itm_menu",
+typeid:22,
+uuid:"B0F2D632-570C-44C7-9C71-528ABF2BE97C"

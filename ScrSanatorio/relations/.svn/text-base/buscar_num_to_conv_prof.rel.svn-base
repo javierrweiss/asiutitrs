@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_conv_prof",
+items:[
+{foreignColumnName:"conv_profesional",operator:4,primaryDataProviderID:"scopes.globals.gbl_profesional",typeid:23,uuid:"E96FD83A-81C7-4EE4-8015-84DC717FFAFF"}
+],
+name:"buscar_num_to_conv_prof",
+primaryDataSource:"db:/maestros/tbc_especial",
+typeid:22,
+uuid:"46E70BD7-0D8B-42FA-BEE7-F50C2127CAD3"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_plan_obra",
+items:[
+{foreignColumnName:"ploobra1",primaryDataProviderID:"reservasobra",typeid:23,uuid:"2FC2782B-99ED-4D5D-A1AC-0416AE683962"},
+{foreignColumnName:"ploplanx10",primaryDataProviderID:"reservasobrpla",typeid:23,uuid:"EF005F36-196E-4A68-B4BF-7D037CEFF110"}
+],
+joinType:1,
+name:"atcons_tbc_reservas_to_tbc_plan_obra",
+primaryDataSource:"db:/asistencial/tbc_reservas",
+typeid:22,
+uuid:"1EA510DA-543A-40E0-B5E0-7823B67518A2"

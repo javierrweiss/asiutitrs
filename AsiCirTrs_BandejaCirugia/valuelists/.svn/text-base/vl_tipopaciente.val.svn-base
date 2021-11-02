@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Internado|0\r
+Ambulatorio|1",
+name:"vl_tipopaciente",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"10A8822E-5387-4E3B-825A-74CB325B9960"

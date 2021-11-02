@@ -1,0 +1,69 @@
+/**
+ * @type {Number}
+ *
+ * @properties={typeid:35,uuid:"6B806B6C-F053-441C-BADA-A66A98F3D50B",variableType:4}
+ */
+var admision_crud_nacimiento = 0;
+
+/**
+ * @type {Number}
+ *
+ * @properties={typeid:35,uuid:"65417D87-0CD9-447D-AC56-F910912669D0",variableType:4}
+ */
+var admision_crud_fecalta = 0;
+
+/**
+ * @type {Number}
+ *
+ * @properties={typeid:35,uuid:"C3AEEE5B-79CB-4C7B-8273-E023B95AAE0B",variableType:4}
+ */
+var admision_crud_fecing = 0;
+
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"CDC59812-FC8D-4AF5-8835-7CB9BE4E4D26"}
+ */
+var admision_habitacion = '';
+
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"33427165-5D66-42D0-8181-6FAF661FF6FE"}
+ */
+var admision_crud_cama = ' ';
+
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"7D819ACC-43AB-4403-97EF-74B6607D9B94"}
+ */
+var admision_crud_nombre = ' ';
+
+
+/**
+ * Perform the element right-click action.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @properties={typeid:24,uuid:"6DA767B7-8EC4-4435-954C-C6019A66EFA9"}
+ */
+function onRightClickNewRegister(event) {
+	// TODO Auto-generated method stub
+	// foreign key data is only filled in for equals (=) relation items
+	elements.tabs.tabIndex=2;
+	var idx = currentcontroller.newRecord();//default adds on top
+	//currentcontroller.newRecord(false); //adds at bottom
+	//currentcontroller.newRecord(2); //adds as second record
+	if(idx>=0){
+		forms.frm_admision_dtl.foundset.adm_apelnom = "";
+		forms.frm_admision_dtl.foundset.adm_cama = "";
+		forms.frm_admision_dtl.foundset.adm_habita ="";
+		forms.frm_admision_dtl.foundset.adm_fecnac = "";
+		forms.frm_admision_dtl.foundset.adm_fecaltaefec = "";
+		forms.frm_admision_dtl.foundset.adm_fecing = "";
+		forms.frm_admision_dtl.foundset.adm_obrsoc = "";
+		forms.frm_admision_dtl.foundset.adm_sexo = "";
+	}
+	
+}

@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Femenino|1
+Masculino|2",
+name:"AsiUtiTrs_vl_tipoSexo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"C299E76C-3556-4C93-9F31-440335BA51EA"

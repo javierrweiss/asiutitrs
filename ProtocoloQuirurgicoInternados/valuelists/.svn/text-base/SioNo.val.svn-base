@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Sin Dato|0\r
+Si|1\r
+No|2",
+name:"SioNo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"7C98DA22-6F89-482C-9760-28A99DA40E61"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/fichaaneste_cab",
+items:[
+{foreignColumnName:"tbc_anest_carga_fecha",primaryDataProviderID:"scopes.globals.FechaCargaAnes2259",typeid:23,uuid:"0651B0A7-C219-45F5-9946-2254A383D2C1"},
+{foreignColumnName:"tbc_anest_carga_hora",primaryDataProviderID:"scopes.globals.HoraCargaAnes2259",typeid:23,uuid:"25C55CE8-A16A-47D2-8F17-2DEE9E6C63A1"},
+{foreignColumnName:"histcli_unico",primaryDataProviderID:"scopes.globals.Histcli_unico2259",typeid:23,uuid:"603CCBBF-16D6-4D36-B950-F61BB580E87D"}
+],
+name:"bandeja_vs_to_fichaaneste_cab",
+primaryDataSource:"db:/desal/fichaaneste_cab",
+typeid:22,
+uuid:"C5A75174-9F80-4730-BF8A-FBBD16D0C71D"

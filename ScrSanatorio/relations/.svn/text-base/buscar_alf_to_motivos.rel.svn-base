@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_motivos",
+initialSort:"motdes asc",
+items:[
+{foreignColumnName:"motdes",operator:4,primaryDataProviderID:"scopes.globals.gbl_con_motivo_sus",typeid:23,uuid:"4ED054C2-7B3B-4F2B-BAC2-2A5C1F04A650"}
+],
+name:"buscar_alf_to_motivos",
+primaryDataSource:"db:/maestros/tbc_motivos",
+typeid:22,
+uuid:"E025F403-F4AE-4815-B840-C4D67D1DC751"

@@ -1,0 +1,14 @@
+dataSource:"db:/rrhh/tbc_personal_rrhh",
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"6082C244-D74B-479C-9A13-38112AE7E3D4"
+}
+],
+name:"frm_tbc_personal_rrhh",
+showInMenu:true,
+styleName:"rrhh",
+typeid:3,
+uuid:"44AA8F7D-9C34-46F2-ACFB-F65C35C8D9F7"

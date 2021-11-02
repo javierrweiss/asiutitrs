@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_empresas",
+items:[
+{foreignColumnName:"keyempresas",primaryDataProviderID:"per_19",typeid:23,uuid:"C6FBF9AF-49BA-4011-8804-2E56D5D44729"}
+],
+name:"tbl_personal_to_tbc_empresas",
+primaryDataSource:"db:/desal/tbl_personal",
+typeid:22,
+uuid:"0B37F3D7-C73C-43A1-AFE3-27BB54F00C9E"

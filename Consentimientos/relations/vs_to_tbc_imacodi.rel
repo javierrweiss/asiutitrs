@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_imacodi",
+items:[
+{foreignColumnName:"icodtiponom",primaryDataProviderID:"scopes.globals.tiponome",typeid:23,uuid:"2FF71A20-39B2-403C-825F-B70970183DB6"},
+{foreignColumnName:"icodcodinom",primaryDataProviderID:"scopes.globals.codnome9",typeid:23,uuid:"B242C94C-1570-4E85-8C14-E907A2ECB6B9"}
+],
+name:"vs_to_tbc_imacodi",
+primaryDataSource:"db:/maestros/tbc_imacodi",
+typeid:22,
+uuid:"72467F38-55F1-44E0-BC53-5E4BAD183419"

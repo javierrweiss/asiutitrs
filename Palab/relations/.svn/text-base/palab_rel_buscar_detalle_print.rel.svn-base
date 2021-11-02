@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_detalle",
+items:[
+{foreignColumnName:"det1",primaryDataProviderID:"scopes.globals.Palab_det1Print",typeid:23,uuid:"4D55CE60-9329-42AE-892C-74FFFBF3442F"},
+{foreignColumnName:"det2",primaryDataProviderID:"scopes.globals.Palab_det2Print",typeid:23,uuid:"755D7322-14C3-47F7-9582-5674AB373F03"},
+{foreignColumnName:"det3",primaryDataProviderID:"scopes.globals.Palab_det3Print",typeid:23,uuid:"FF1D82D2-A2CC-4AEF-804C-AE9CD997CA58"}
+],
+name:"palab_rel_buscar_detalle_print",
+primaryDataSource:"db:/asistencial/tbc_detalle",
+typeid:22,
+uuid:"5D597701-06F4-4DAA-91D5-C19EDCE2F3E2"

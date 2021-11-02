@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Vía Central|01viacen\r
+Vía Periférica|02viaper",
+name:"tipos_cateteres",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"133C1EF4-6591-4FB5-AD96-802B517E1F17"

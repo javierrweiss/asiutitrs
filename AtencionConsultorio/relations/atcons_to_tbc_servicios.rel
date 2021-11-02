@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_servicios",
+items:[
+{foreignColumnName:"servcodigo",primaryDataProviderID:"scopes.globals.AtCons_servicio",typeid:23,uuid:"89D9A5EC-75D5-4C02-A69B-916A9D7AD69B"}
+],
+name:"atcons_to_tbc_servicios",
+primaryDataSource:"db:/maestros/tbc_servicios",
+typeid:22,
+uuid:"AB2C5AEF-B0FE-4AEB-9067-1726ABCD2F9C"

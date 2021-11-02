@@ -1,0 +1,15 @@
+addEmptyValue:1,
+customValues:"Desarrollos en Salud S.A.|1\r
+Cobensil S.A.|4\r
+Desarrollos en Salud S.A.-Cons.-|5\r
+Fundamed|6\r
+Healthnes S.A.|7\r
+Centro Integral de Resonancia S.A.|9\r
+Farmacia Nobel S.A.|10\r
+Cirugía Endovascular S.A.|11\t\r
+",
+name:"vl_empresa",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"CD015B9F-65E0-4407-A7CA-4F4EF94941BE"

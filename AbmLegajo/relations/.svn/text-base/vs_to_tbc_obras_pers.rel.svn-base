@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_obras_pers",
+initialSort:"obpobra asc, obpplan asc",
+items:[
+{foreignColumnName:"obpplan",primaryDataProviderID:"scopes.globals.per_27",typeid:23,uuid:"1D07E4E0-DD0F-4049-9AAD-57D79675228D"},
+{foreignColumnName:"obpobra",primaryDataProviderID:"scopes.globals.per_23",typeid:23,uuid:"AEC450C8-1733-44A9-9752-5AD9A5C36C49"}
+],
+name:"vs_to_tbc_obras_pers",
+primaryDataSource:"db:/rrhh/tbc_obras_pers",
+typeid:22,
+uuid:"2FFA8DB4-65C4-498E-827E-90A5919E3A12"

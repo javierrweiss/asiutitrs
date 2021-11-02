@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_reservas",
+items:[
+{foreignColumnName:"reservasfech6",primaryDataProviderID:"scopes.globals.AtCons_vfecha_integer",typeid:23,uuid:"36A319A0-F072-4A79-B48A-E5F640CAEDD1"},
+{foreignColumnName:"reservasmed6",primaryDataProviderID:"scopes.globals.AtCons_vlegajo",typeid:23,uuid:"F47CE33A-8ED6-4F47-BDE7-B837DEB1D600"}
+],
+name:"atcons_vs_to_tbc_reservas_new",
+primaryDataSource:"db:/asistencial/tbc_reservas",
+typeid:22,
+uuid:"952B88DA-F17A-4AA7-AB76-0070234C3EB3"

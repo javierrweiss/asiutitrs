@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/asiutitrs_hojatitxt",
+items:[
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_fechaTxt",typeid:23,uuid:"187A9E9F-F085-447C-9EBE-3411DC3EC75B"},
+{foreignColumnName:"histclinica",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_hiiHisCli",typeid:23,uuid:"647EADCC-CE10-4228-AA34-897D5C695238"},
+{foreignColumnName:"hora",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_horaTxt",typeid:23,uuid:"8F1C8CCD-A324-4491-9326-4C6637C4AF22"}
+],
+joinType:1,
+name:"asiutitrs_rel_hojatitxt",
+primaryDataSource:"db:/desal/hcipiso_hciinttxt",
+typeid:22,
+uuid:"BF115828-00E4-4ACD-B1B7-704FA214B4C1"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.AsiUcoMod_Rep_medCodigo",typeid:23,uuid:"ACE4E76E-80FA-4A1A-A7AD-C0F72A98239B"}
+],
+name:"asiucomod_rep_rel_buscar_medicos",
+primaryDataSource:"db:/maestros/tbc_medicos",
+typeid:22,
+uuid:"B6AFDF49-5B93-46DE-AB15-E922C113F13D"

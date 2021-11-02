@@ -1,0 +1,15 @@
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"79183674-EC8E-43B1-8C43-37C65C52A108"
+}
+],
+name:"MostrarArchivos_frm_inicio",
+navigatorID:"-1",
+onShowMethodID:"4C3A1111-42BD-41A1-B344-D6CC4A5E3A0D",
+showInMenu:true,
+styleName:"Sanatorio",
+typeid:3,
+uuid:"28985D0A-6174-4C06-9759-07A2CF6BD779"

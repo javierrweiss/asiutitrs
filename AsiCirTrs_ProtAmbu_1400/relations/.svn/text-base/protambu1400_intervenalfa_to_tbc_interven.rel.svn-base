@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_interven",
+initialSort:"itv_descripredu asc",
+items:[
+{foreignColumnName:"itv_descripredu",operator:4,primaryDataProviderID:"scopes.globals.protambu1400_intervenAlfa",typeid:23,uuid:"1EEA2BA7-880A-41AE-AE89-7B268B48D073"}
+],
+name:"protambu1400_intervenalfa_to_tbc_interven",
+primaryDataSource:"db:/maestros/tbc_interven",
+typeid:22,
+uuid:"350629A7-06ED-4F93-8337-900480CFD720"

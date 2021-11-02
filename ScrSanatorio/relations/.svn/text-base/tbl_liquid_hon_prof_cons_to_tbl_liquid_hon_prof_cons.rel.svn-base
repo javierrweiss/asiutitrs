@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_liquid_hon_prof_cons",
+items:[
+{foreignColumnName:"profesional",primaryDataProviderID:"scopes.globals.gbl_profesional",typeid:23,uuid:"39731479-39C1-4575-B5A2-384C91EC84EC"},
+{foreignColumnName:"lote",primaryDataProviderID:"scopes.globals.gbl_lote",typeid:23,uuid:"5E2531AC-BFAA-42EF-9237-FD34FD64955A"},
+{foreignColumnName:"empresa",primaryDataProviderID:"scopes.globals.gbl_con_empresa",typeid:23,uuid:"A887A6E2-E248-4FFA-981E-7ED3A32E2AB5"}
+],
+joinType:1,
+name:"tbl_liquid_hon_prof_cons_to_tbl_liquid_hon_prof_cons",
+primaryDataSource:"db:/desal/tbl_liquid_hon_prof_cons",
+typeid:22,
+uuid:"A1AF51BB-CB5A-48DA-BE6B-E80BFAE98337"

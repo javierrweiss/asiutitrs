@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_guardia",
+items:[
+{foreignColumnName:"guar_fechaingreso",primaryDataProviderID:"scopes.globals.bandejaciru_fechaingreso_aux",typeid:23,uuid:"4E896E9F-5A78-4C41-8059-01435C370CBF"},
+{foreignColumnName:"guar_histclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"B4CC07A5-0C5C-46DC-93DA-57E99A9C0CFB"},
+{foreignColumnName:"guar_horaingreso",primaryDataProviderID:"scopes.globals.bandejaciru_horaingreso_aux",typeid:23,uuid:"F1EBE50D-C6B5-48E0-BAFC-BE5A4FE9690C"}
+],
+name:"bandejaciru_vhiscli_aux_to_tbc_guardia",
+primaryDataSource:"db:/asistencial/tbc_guardia",
+typeid:22,
+uuid:"0BE76F8B-F50F-48D3-B94A-E3CE5F754B55"

@@ -1,0 +1,17 @@
+addEmptyValue:1,
+customValues:"Quirofano 1|1
+Quirofano 2|2
+Quirofano 3|3
+Quirofano 4|4
+Quirofano 5|5
+Quirofano 6|6
+Quirofano 7|7
+Quirofano 8|8
+Quirofano 9|9
+Quirofano 10|10
+Quirofano 11|11",
+name:"Quirofanos_copy",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"D70A2D9D-569C-4E1F-9226-5DBA06192DEE"

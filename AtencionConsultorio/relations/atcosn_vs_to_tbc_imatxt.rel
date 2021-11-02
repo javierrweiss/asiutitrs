@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_imatxt",
+items:[
+{foreignColumnName:"itxtinforme",primaryDataProviderID:"scopes.globals.AtCons_nroinforme",typeid:23,uuid:"04795565-3E41-48DF-9E88-820C3A923C03"},
+{foreignColumnName:"itxtservicio",primaryDataProviderID:"scopes.globals.AtCons_servicio",typeid:23,uuid:"2BC2D728-6384-4B68-8F44-79CCCE59EB1D"},
+{foreignColumnName:"itxtpedido",primaryDataProviderID:"scopes.globals.AtCons_nroPedido",typeid:23,uuid:"9D87AB80-DB59-4DC6-8265-57DA01595661"},
+{foreignColumnName:"itxtgrupo",primaryDataProviderID:"scopes.globals.AtCons_grupo",typeid:23,uuid:"F4F63DBC-DC6B-411D-9E19-723BA40A99D9"}
+],
+name:"atcosn_vs_to_tbc_imatxt",
+primaryDataSource:"db:/asistencial/tbc_imatxt",
+typeid:22,
+uuid:"6063B11D-1DDD-4E33-944A-98460DCC26D2"

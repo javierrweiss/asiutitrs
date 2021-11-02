@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_his_lectora",
+initialSort:"hlec_estado asc, hlec_histclin asc, hlec_fec asc, hlec_hora asc",
+items:[
+{foreignColumnName:"hlec_estado",primaryDataProviderID:"scopes.globals.vestadolectora",typeid:23,uuid:"1A3D3B54-71A4-4501-81B9-9676642F4774"},
+{foreignColumnName:"hlec_hora",operator:4,primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"92AF7A0C-CAA7-45CA-8941-C71C5A5FFBEA"},
+{foreignColumnName:"hlec_fec",operator:4,primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"AFACD7B8-9350-4E3B-8464-5CF429E53E59"},
+{foreignColumnName:"hlec_histclin",primaryDataProviderID:"scopes.globals.vhiscli",typeid:23,uuid:"C141AF4F-14A9-4F9C-BAD3-9C8C20DD141F"}
+],
+name:"vhiscli2_to_tbc_his_lectora",
+primaryDataSource:"db:/asistencial/tbc_his_lectora",
+typeid:22,
+uuid:"71422204-4551-45A1-8D23-0CEF14E61ED4"

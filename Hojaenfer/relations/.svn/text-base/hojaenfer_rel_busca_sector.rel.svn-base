@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_utilcama",
+items:[
+{foreignColumnName:"utic_utiliza",primaryDataProviderID:"scopes.globals.Hojaenfer_utic_utiliza",typeid:23,uuid:"083ABE64-8C72-42CB-B0DD-89A16705ABFE"}
+],
+joinType:1,
+name:"hojaenfer_rel_busca_sector",
+primaryDataSource:"db:/maestros/tbc_utilcama",
+typeid:22,
+uuid:"BA93A5CC-8C0E-4E4E-943A-21ACA3CD7AC1"

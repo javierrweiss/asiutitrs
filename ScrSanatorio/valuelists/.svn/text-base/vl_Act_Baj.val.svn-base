@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"TODOS|0\r
+Operativo|1\r
+No Operativo|2",
+name:"vl_Act_Baj",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"7CFBE847-BA6B-4196-A62F-2E8A01D33AE0"

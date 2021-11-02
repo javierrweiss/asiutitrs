@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_imapedet_new",
+items:[
+{foreignColumnName:"idetcodinom",primaryDataProviderID:"scopes.globals.AtCons_codinom",typeid:23,uuid:"0E1AA96E-CACC-408E-BB8E-60B6D58A6029"},
+{foreignColumnName:"idetpedido",primaryDataProviderID:"scopes.globals.AtCons_nroPedido",typeid:23,uuid:"98F2E1BF-3145-49D7-931E-E4A80F888E74"},
+{foreignColumnName:"idetservicio",primaryDataProviderID:"scopes.globals.AtCons_servicio",typeid:23,uuid:"AF4AD070-3E9F-4F1C-8EA7-D91BD37A6A27"},
+{foreignColumnName:"idettiponom",primaryDataProviderID:"scopes.globals.AtCons_uno",typeid:23,uuid:"D474CC7A-C85E-44BF-9706-C8EB09559644"}
+],
+name:"atcons_to_tbc_imapedet_new",
+primaryDataSource:"db:/asistencial/tbc_imapedet_new",
+typeid:22,
+uuid:"B0A451F7-204B-4D9F-A24D-C8FAFD0B1C7E"

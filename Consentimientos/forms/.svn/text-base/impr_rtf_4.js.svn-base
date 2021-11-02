@@ -1,0 +1,125 @@
+/**
+ * @type {Date}
+ *
+ * @properties={typeid:35,uuid:"5BE05644-B18B-4C52-8FB3-ABA06E102995",variableType:93}
+ */
+var fecha_impre = new Date();
+
+/**
+ * @properties={typeid:24,uuid:"6C40D315-613B-4215-9E4D-C4F332E644BD"}
+ */
+function sub_buildReport() {
+	globals.campoHTML = ''
+	globals.campoRTF = texto_to_consentimientos.rtf_html
+	var html = ''
+	html += '<html><body>'
+	html += '<table width=100% cellpadding=1 cellspacing=0>'
+	html += '<tr>'
+	html += '<td width="15%" align="left"><p>Hist. Clinica : </p></td>'
+	html += '<td width="35%" align="left"><p>' + globals.hist_clinica + '</td>'
+	html += '<td width="15%" align="left"><p>Apellido y Nombre :</td>'
+	html += '<td width="35%" align="left"><p>' + globals.apeynom + '</td>'
+	html += '</tr>'
+	html += '<tr>'
+	html += '<td align="left"><p>&nbsp</p></td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '</tr>'		
+	html += '</table>'
+	html += '<table width=100% cellpadding=1 cellspacing=0>'
+	html += '<tr>'
+	html += '<td width="50%" align="left"><p>Firma del Paciente: __________________________________</p></td>'
+	html += '<td width="50%" align="left"><p>Aclaración :_____________________________________ </td>'
+	html += '</tr>'
+	html += '<tr>'
+	html += '<td align="left"><p>&nbsp</p></td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '</tr>'		
+	html += '</table>'
+	html += '<table width=100% cellpadding=0 cellspacing=0>'
+	html += '<tr>'
+	html += '<td width="20%" align="left"><p>Tipo y Nro. de Doc. : </p></td>'
+	html += '<td width="5%" align="left"><p>'+ globals.tipo_docu +'</p></td>'
+	html += '<td width="75%" align="left"><p>'+ globals.documento +'</p></td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '</tr>'
+	html += '<tr>'
+	html += '<td align="left"><p>&nbsp</p></td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '</tr>'
+	html += '<tr>'
+	html += '<td align="left"><p>&nbsp</p></td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '</tr>'		
+	html += '</table>'
+	html += '<table width=100% cellpadding=0 cellspacing=0>'	
+	html += '<tr>'
+	html += '<td width="50%" align="left"><p>Firma del Testigo:____________________________________ </p></td>'
+	html += '<td width="50%"align="left"><p>Aclaración :_____________________________________ </td>'
+	html += '</tr>'
+	html += '<tr>'
+	html += '<td align="left"><p>&nbsp</p></td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '</tr>'		
+	html += '</table>'
+	html += '<table width=100% cellpadding=0 cellspacing=0>'
+	html += '<tr>'
+	html += '<td align="left"><p>Tipo y Nro. de Doc.:______________________________ </p></td>'
+	html += '</tr>'
+	html += '<tr>'
+	html += '<td align="left"><p>&nbsp</p></td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '</tr>'		
+	html += '<tr>'
+	html += '<td align="left"><p>&nbsp</p></td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '</tr>'		
+	html += '</table>'
+	html += '<table width=100% cellpadding=0 cellspacing=0>'
+	html += '<tr>'
+	html += '<td width="50%" align="left"><p>Firma del Médico:____________________________________</p></td>'
+	html += '<td width="50%" align="left"><p>Aclaración :_____________________________________</td>'
+	html += '</tr>'
+	html += '<tr>'
+	html += '<td align="left"><p>&nbsp</p></td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '</tr>'		
+	html += '</table>'
+	html += '<table width=100% cellpadding=0 cellspacing=0>'
+	html += '<tr>'
+	html += '<td align="left"><p>Tipo y Nro. de Doc.:________________________________ </p></td>'
+	html += '</tr>'
+	html += '<tr>'
+	html += '<td align="left"><p>&nbsp</font></p></td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '<td align="left"><p>&nbsp</td>'
+	html += '</tr>'		
+	html += '<tr>'
+	html += '<td align="left"><p>Ciudad y Fecha :_______________________________________ </p></td>'
+	html += '</tr>'			
+	html += '</table></body></html>'
+	globals.campoHTML = html
+}
+
+/**
+ * TODO generated, please specify type and doc for the params
+ * @param event
+ *
+ * @properties={typeid:24,uuid:"E069F1C8-0FA9-456C-BD46-95A8A532A88C"}
+ */
+function onLoad_inicializa_fecha(event) {
+	fecha_impre = application.getServerTimeStamp()
+}

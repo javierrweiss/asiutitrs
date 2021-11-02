@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+initialSort:"per_legajo asc",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.Hcicir_vLega",typeid:23,uuid:"FD2C2C00-57B5-419B-944A-B69400EDA952"}
+],
+name:"hcicir_vlegajo_menu_cirugia_to_tbc_personal",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"E3217E49-FAFB-4D0B-B93C-3DB8552BBF1D"

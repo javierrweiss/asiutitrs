@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_perext",
+initialSort:"perext_lega asc",
+items:[
+{foreignColumnName:"perext_lega",primaryDataProviderID:"scopes.globals.Srv_Login_Sanatorio_vLega",typeid:23,uuid:"868F5990-46CA-4712-86D5-28E2E2493BC4"}
+],
+name:"srv_login_sanatorio_vlegajo_to_tbc_perext",
+primaryDataSource:"db:/validalegajo/tbc_perext",
+typeid:22,
+uuid:"60A1194E-B6B2-4BC8-BA3A-605759616729"

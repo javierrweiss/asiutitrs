@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_personal",
+items:[
+{foreignColumnName:"per_1",primaryDataProviderID:"per_1",typeid:23,uuid:"9354A8AA-CF49-4B9A-B24E-C8A07A892B23"}
+],
+name:"tbl_personal_to_tbl_personal",
+primaryDataSource:"db:/desal/tbl_personal",
+typeid:22,
+uuid:"1A3822D2-48DB-4550-9966-585B3DF67B4F"

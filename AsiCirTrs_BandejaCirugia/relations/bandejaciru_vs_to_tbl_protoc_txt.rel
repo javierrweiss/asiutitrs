@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_protoc_txt",
+items:[
+{foreignColumnName:"grupo",primaryDataProviderID:"scopes.globals.bandejaciru_grupo_texto",typeid:23,uuid:"31F0351D-1EC3-40F9-8A39-B7172B292449"},
+{foreignColumnName:"protocolo",primaryDataProviderID:"scopes.globals.bandejaciru_protocolo",typeid:23,uuid:"708AB3F6-EECC-4B1D-9E96-46627A8D2354"}
+],
+name:"bandejaciru_vs_to_tbl_protoc_txt",
+primaryDataSource:"db:/desal/tbl_protoc_txt",
+typeid:22,
+uuid:"9B91D696-ED51-4FAB-A419-4C03419C497D"

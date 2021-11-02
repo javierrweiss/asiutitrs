@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+initialSort:"histcabnrounico asc",
+items:[
+{foreignColumnName:"histcabnrounico",operator:4,primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"3A8D0976-787F-476B-842B-C270DD2E830F"}
+],
+name:"smsciru_ambu_num_to_tbc_hist_cab_new",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"86C26AAB-67C0-4B84-AE56-C858C11F85FA"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+items:[
+{foreignColumnName:"nome_codigo",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"21EE592A-9533-47D0-A6B0-EF1FB638793D"},
+{foreignColumnName:"nome_tipo",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"23022388-36FB-4A03-84F0-3D49108B3284"}
+],
+name:"palab_rel_buscar_nomencla_print",
+primaryDataSource:"db:/maestros/tbc_nomencla",
+typeid:22,
+uuid:"10554B43-931B-4DFA-8F3F-F2A1CDF44865"

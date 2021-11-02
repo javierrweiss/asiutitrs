@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_protocol",
+items:[
+{foreignColumnName:"prot5",primaryDataProviderID:"scopes.globals.Palab_proto5",typeid:23,uuid:"D0B67088-087F-4438-909D-9B43FEDBC81B"},
+{foreignColumnName:"prot4",primaryDataProviderID:"scopes.globals.Palab_proto4",typeid:23,uuid:"F8C1644E-2A92-4193-9683-91008CA52233"},
+{foreignColumnName:"prot1",primaryDataProviderID:"scopes.globals.Palab_proto1",typeid:23,uuid:"FBB14D4E-EBC6-4CA9-9CF5-345786C136DA"}
+],
+joinType:1,
+name:"palab_rel_protocol",
+primaryDataSource:"db:/asistencial/tbc_protocol",
+typeid:22,
+uuid:"D61D561E-E082-48A9-AAA6-6F659667425B"

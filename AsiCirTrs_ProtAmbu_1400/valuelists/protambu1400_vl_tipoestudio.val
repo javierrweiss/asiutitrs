@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Por disparos|1\r
+Uso continuo|2\r\r
+No uso|0",
+name:"protambu1400_vl_tipoestudio",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"FF52980F-0984-4209-B0E1-4B6D26C9AB39"

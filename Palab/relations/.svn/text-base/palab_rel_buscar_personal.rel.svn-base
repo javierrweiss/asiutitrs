@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.Palab_medCodigo",typeid:23,uuid:"B68AF8DC-8F87-4D85-8F47-C2401CBCD829"}
+],
+joinType:1,
+name:"palab_rel_buscar_personal",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"B4158DC8-1DF1-46BF-B7AA-D3F17B3F7341"

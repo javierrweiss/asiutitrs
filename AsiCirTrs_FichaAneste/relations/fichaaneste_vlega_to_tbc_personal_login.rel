@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_personal_login",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"per_legajo",typeid:23,uuid:"CE42A9AA-67D4-4D62-84DC-F32D36F88B70"}
+],
+name:"fichaaneste_vlega_to_tbc_personal_login",
+primaryDataSource:"db:/validalegajo/tbc_personal_login",
+typeid:22,
+uuid:"20DA11DF-A5EB-4883-A6B2-8EB0A852CBA9"

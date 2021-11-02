@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Arritmia|1
+HTA|2
+IAM| 3
+Otros|4
+",
+name:"AtCons_cual_cardio",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"C4523357-B326-4AF7-A4EB-366665B0918D"

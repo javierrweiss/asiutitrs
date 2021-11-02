@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hciti",
+items:[
+{foreignColumnName:"hithiscli",primaryDataProviderID:"scopes.globals.AsiUtiTrs_hiiHisCli",typeid:23,uuid:"8DE83FC7-ED82-44C8-8523-624DECEC10A9"}
+],
+joinType:1,
+name:"asiutitrs_rel_tbc_hciti_to_tbc_hciti",
+primaryDataSource:"db:/asistencial/tbc_hciti",
+typeid:22,
+uuid:"BA006CF2-E5AB-4335-802D-494AF253ADD3"

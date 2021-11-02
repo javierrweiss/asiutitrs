@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"A/C VC|1\r
+A/C PC|2\r
+CPAP/PS|3",
+name:"AsiArmTrs_Mod_vl_modoInvasiva",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"E0E52172-DE19-4984-823B-D33B25E205C5"

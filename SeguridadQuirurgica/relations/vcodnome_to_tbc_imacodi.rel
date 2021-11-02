@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_imacodi",
+items:[
+{foreignColumnName:"icodtiponom",operator:0,primaryDataProviderID:"globals.vtiponome",typeid:23,uuid:"68B5A219-0FF7-4A93-A423-2B63E869204B"},
+{foreignColumnName:"icodcodinom",operator:0,primaryDataProviderID:"globals.vcodnome",typeid:23,uuid:"EE9062E2-A264-4154-B994-70CF9FFFB968"},
+{foreignColumnName:"icodservicio1",operator:0,primaryDataProviderID:"globals.vservicio",typeid:23,uuid:"FD580E3E-B6CF-4B17-B708-0A23D4838120"}
+],
+joinType:0,
+name:"vcodnome_to_tbc_imacodi",
+primaryDataSource:"db:/maestros/tbc_imacodi",
+typeid:22,
+uuid:"8BFC7FBE-64D6-441E-9AD9-A24D3D205C40"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"scopes.globals.Anatpa_codObraSocial",typeid:23,uuid:"3B55E8DF-18C7-4DFF-ABE1-2059FC8FED24"}
+],
+joinType:1,
+name:"anatpa_buscar_obrasocial",
+primaryDataSource:"db:/maestros/tbc_obras",
+typeid:22,
+uuid:"B20049BA-8D37-4927-848E-147264C42165"

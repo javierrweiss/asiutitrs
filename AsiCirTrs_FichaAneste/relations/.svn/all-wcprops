@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/proyecto1/!svn/ver/2754/AsiCirTrs_FichaAneste/relations
+END
+fichaaneste_cab_to_tbc_patologia_oper.rel
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_cab_to_tbc_patologia_oper.rel
+END
+fichaaneste_cab_to_tbc_patologia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_cab_to_tbc_patologia.rel
+END
+fichaaneste_cab_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_cab_to_tbc_obras.rel
+END
+fichaaneste_medicion_grilla_1.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_medicion_grilla_1.rel
+END
+vs_ficha_to_fichaaneste_cab_fechcarga.rel
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/vs_ficha_to_fichaaneste_cab_fechcarga.rel
+END
+vs_ficha_to_tbc_anestesia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/vs_ficha_to_tbc_anestesia.rel
+END
+fichaaneste_cab_to_fichaaneste_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_cab_to_fichaaneste_cab.rel
+END
+fichaaneste_cab_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_cab_to_tbc_interven.rel
+END
+fichaaneste_num_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/2754/AsiCirTrs_FichaAneste/relations/fichaaneste_num_to_tbc_admision_scroll.rel
+END
+fichaaneste_vlega_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_vlega_to_tbc_personal.rel
+END
+fichaaneste_cab_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_cab_to_tbc_hist_cab.rel
+END
+vs_cab_to_fichaaneste_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/vs_cab_to_fichaaneste_cab.rel
+END
+fichaaneste_num_to_tbc_hist_cab_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_num_to_tbc_hist_cab_new.rel
+END
+fichaaneste_cirujanoalf_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/proyecto1/!svn/ver/2731/AsiCirTrs_FichaAneste/relations/fichaaneste_cirujanoalf_to_tbc_medicos_personal.rel
+END
+vs_ficha_to_tbc_anestesia_ambu.rel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/proyecto1/!svn/ver/2716/AsiCirTrs_FichaAneste/relations/vs_ficha_to_tbc_anestesia_ambu.rel
+END
+fichaaneste_vlega_to_tbc_personal_login.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_vlega_to_tbc_personal_login.rel
+END
+fichaaneste_cab_to_fichaaneste_det.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_cab_to_fichaaneste_det.rel
+END
+vs_ficha_to_fichaaneste_cab_unico.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/vs_ficha_to_fichaaneste_cab_unico.rel
+END
+fichaaneste_cab_to_tbc_interven_realizada.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_cab_to_tbc_interven_realizada.rel
+END
+fichaaneste_det_to_fichaaneste_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_det_to_fichaaneste_cab.rel
+END
+fichaaneste_vlega_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_vlega_to_tbc_medicos.rel
+END
+fichaaneste_det_to_fichaaneste_tipomedicion.rel
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_det_to_fichaaneste_tipomedicion.rel
+END
+fichaaneste_interven_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_interven_to_tbc_interven.rel
+END
+fichaaneste_medicion_grilla_1_cod.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/fichaaneste_medicion_grilla_1_cod.rel
+END
+vs_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/vs_to_tbc_hist_cab.rel
+END
+vs_ficha_to_tbc_habita.rel
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/proyecto1/!svn/ver/2683/AsiCirTrs_FichaAneste/relations/vs_ficha_to_tbc_habita.rel
+END

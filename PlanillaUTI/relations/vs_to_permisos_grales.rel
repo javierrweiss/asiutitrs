@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/permisos_grales",
+initialSort:"tipo_operador asc, nro_operador asc, name_solucion asc",
+items:[
+{foreignColumnName:"nro_operador",primaryDataProviderID:"scopes.globals.vLegajo",typeid:23,uuid:"32C77320-2A57-438F-B9B3-BC6D8796B99E"},
+{foreignColumnName:"name_solucion",primaryDataProviderID:"scopes.globals.vNameSolucion",typeid:23,uuid:"7FEAD144-BEB1-4262-942B-5B4B37F3C727"},
+{foreignColumnName:"tipo_operador",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"CC1F6D7C-254C-4B02-9A1E-A286A2AFB6D8"}
+],
+name:"vs_to_permisos_grales",
+primaryDataSource:"db:/enfermeria/permisos_grales",
+typeid:22,
+uuid:"87635348-8C55-4C51-8239-2DC2B2FECC90"

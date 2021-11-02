@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"Sala General|1\r
+Sala general con VNI|2\r
+Sala general con TQT|3\r
+Cuidados crónicos|4\r
+Cuidados crónicos con VNI|5\r
+Cuidados crónicos con TQT|6\r
+Cuidados crónicos con VM nocturna|7\r
+Cuidados crónicos con VM|8\r
+Domicilio|9\r
+Otro|10",
+name:"AsiVm_vl_derivacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"3031BB30-ADC0-43D2-92B8-3FF3771733F9"

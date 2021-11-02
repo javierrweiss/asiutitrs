@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Presion Arterial < 20% Nivel preanestésico|3\r
+Presión Arterial 20-49% Nivel preanestésico|2\r\r
+Presión Arterial > 50% Nivel preanestésico|1",
+name:"reimpresor_vl_aldrete_circulacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"635A9A40-11F4-434A-847D-4FDFE9E8BA36"

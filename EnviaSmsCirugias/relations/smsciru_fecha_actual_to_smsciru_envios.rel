@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/smsciru_envios",
+initialSort:"fecha asc, hora asc",
+items:[
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.smsciru_fecha_actual",typeid:23,uuid:"965612D0-854E-4938-9F2C-5B402D44716F"}
+],
+name:"smsciru_fecha_actual_to_smsciru_envios",
+primaryDataSource:"db:/desal/smsciru_envios",
+typeid:22,
+uuid:"D19926FE-BADF-44E1-9BE2-23015A36E146"

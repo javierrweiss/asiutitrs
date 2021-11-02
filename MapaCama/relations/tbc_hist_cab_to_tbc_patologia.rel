@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"96647A79-C169-4ADF-8E77-D7FE28E94C77"}
+],
+name:"tbc_hist_cab_to_tbc_patologia",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"B03E9B31-8EC1-4537-95B8-D90C1463B986"

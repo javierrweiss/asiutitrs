@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Positivo|1\r
+Negativo|2\r
+No Evaluable|3\r
+",
+name:"AsiVm_vl_cam_icu",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"8538F2E3-7CFD-4593-B4ED-AE16FAB5BF18"

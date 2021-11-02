@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"|0\r
+Extras|1\r
+Teléfono|2\r
+Hab. Indiv.|3\r
+Fotocopias|4\r
+Alquileres|5\r
+Comercial|6\r
+Interempresa|7\r
+Abonos|8\r
+Otros|9",
+name:"vl_subconcep",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"240D8D45-6F6B-46F5-9DA4-BCB9240AC682"

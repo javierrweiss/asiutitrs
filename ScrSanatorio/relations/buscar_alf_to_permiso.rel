@@ -1,0 +1,10 @@
+foreignDataSource:"db:/desal/tbl_permiso",
+initialSort:"descripcion_legajo asc",
+items:[
+{foreignColumnName:"codigo_legajo",operator:4,primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"11831BAC-6361-4771-8ECD-6D3196C88BCB"},
+{foreignColumnName:"codigo_perfil",primaryDataProviderID:"scopes.globals.vSpaces_1",typeid:23,uuid:"4ADE926A-98A5-49A8-B7FA-E0EE95DBB683"}
+],
+name:"buscar_alf_to_permiso",
+primaryDataSource:"db:/desal/tbl_permiso",
+typeid:22,
+uuid:"02B1C850-F6A3-41CA-8D10-E5DBE8F72B01"

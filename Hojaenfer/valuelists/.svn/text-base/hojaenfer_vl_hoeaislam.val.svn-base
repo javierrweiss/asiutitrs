@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"NO|0\r
+SI|1\r
+Contacto|2\r
+Neutropenico|3\r
+Respiratorio|4\r
+Social|5",
+name:"hojaenfer_vl_hoeaislam",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"D7668B68-2E6E-462A-8D32-56D6B417D995"

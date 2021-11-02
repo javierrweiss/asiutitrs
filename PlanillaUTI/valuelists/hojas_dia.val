@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"fecha",
+name:"hojas_dia",
+relationName:"vhiscli_to_hojauti",
+returnDataProviders:1,
+showDataProviders:1,
+sortOptions:"hiscli asc, fecha desc, hora desc",
+typeid:34,
+uuid:"FB770A96-6769-4D78-90F1-188E40C67EA2",
+valueListType:1

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_mae_est",
+initialSort:"maeest_des asc",
+items:[
+{foreignColumnName:"maeest_des",operator:4,primaryDataProviderID:"scopes.globals.vCajaAlfa",typeid:23,uuid:"AA7CDFE0-0C99-4394-9C6D-A40C305302F1"}
+],
+name:"protambu1400_vcajaalfa_to_tbc_mae_est",
+primaryDataSource:"db:/maestros/tbc_mae_est",
+typeid:22,
+uuid:"2BD6D2F3-5B9E-4282-BA1F-E0E1FB20C921"

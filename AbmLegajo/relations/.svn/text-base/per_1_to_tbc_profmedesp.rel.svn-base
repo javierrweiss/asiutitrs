@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_profmedesp",
+items:[
+{foreignColumnName:"prfme_tipmed",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"5D749D3F-4626-42CB-A7F7-B7004D637131"},
+{foreignColumnName:"prfme_codmed",primaryDataProviderID:"scopes.globals.per_1",typeid:23,uuid:"F68176A8-8C40-4270-A5C2-831E2AF9E6EC"}
+],
+name:"per_1_to_tbc_profmedesp",
+primaryDataSource:"db:/rrhh/tbc_profmedesp",
+typeid:22,
+uuid:"EDFA273A-1A80-41A4-8E77-80879451E9D5"

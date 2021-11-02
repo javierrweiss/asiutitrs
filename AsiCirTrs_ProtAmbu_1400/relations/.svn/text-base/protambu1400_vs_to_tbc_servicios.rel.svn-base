@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_servicios",
+items:[
+{foreignColumnName:"servthabilita_1",operator:2,primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"629E7825-E601-4756-ADED-FF55CF62C761"}
+],
+name:"protambu1400_vs_to_tbc_servicios",
+primaryDataSource:"db:/maestros/tbc_servicios",
+typeid:22,
+uuid:"DBFAC127-63EF-4534-82FA-922322863C7A"

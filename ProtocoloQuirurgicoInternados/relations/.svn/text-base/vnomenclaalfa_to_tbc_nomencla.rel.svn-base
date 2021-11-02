@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+initialSort:"nome_tipo_4 asc, nome_descr_4 asc",
+items:[
+{foreignColumnName:"nome_descr_4",operator:4,primaryDataProviderID:"globals.vNomenclaAlfa",typeid:23,uuid:"048E0E6B-5843-41E9-802B-D094FDAD6E22"},
+{foreignColumnName:"nome_tipo_4",operator:0,primaryDataProviderID:"globals.vTipoNome",typeid:23,uuid:"9BDDA2B4-F897-41C4-A9A3-03E1668091F4"}
+],
+joinType:0,
+name:"vnomenclaalfa_to_tbc_nomencla",
+primaryDataSource:"db:/maestros/tbc_nomencla",
+typeid:22,
+uuid:"347C5B2C-5EAE-4AE9-A9AB-7C91A8D5FC87"

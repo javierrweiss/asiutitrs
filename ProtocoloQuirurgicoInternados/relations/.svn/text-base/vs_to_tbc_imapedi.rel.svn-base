@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_imapedi_new",
+items:[
+{foreignColumnName:"ipedservicio",primaryDataProviderID:"scopes.globals.vServicio",typeid:23,uuid:"6C7AC194-1654-4CF5-B72B-BA01DDBBC7F8"},
+{foreignColumnName:"ipedpedido",primaryDataProviderID:"scopes.globals.vNroPedido",typeid:23,uuid:"E9E528D4-CC52-4661-86A4-D168B212B3FB"}
+],
+name:"vs_to_tbc_imapedi",
+primaryDataSource:"db:/asistencial/tbc_imapedi_new",
+typeid:22,
+uuid:"AA325EDF-E2AC-4930-9397-97D0DB00B067"

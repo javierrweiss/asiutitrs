@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_items",
+initialSort:"hiscli asc, fecha asc, hora asc, tipo asc, renglon asc",
+items:[
+{foreignColumnName:"tipo",operator:0,primaryDataProviderID:"globals.vTipoOtrosIngresos",typeid:23,uuid:"1677ECD9-6A8A-47F4-8987-3287B53ED507"},
+{foreignColumnName:"fecha",operator:0,primaryDataProviderID:"globals.vFecha",typeid:23,uuid:"32EE1A9A-ACF7-433F-9897-8291D4BFBD1C"},
+{foreignColumnName:"hora",operator:0,primaryDataProviderID:"globals.vHora",typeid:23,uuid:"498D18B2-E7A1-4B72-9991-646DD82892AE"},
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"C1491A08-DD8E-4AF2-A48F-F3C4AA896BC6"}
+],
+joinType:0,
+name:"otros_ingresos_to_hojauti_items",
+primaryDataSource:"db:/enfermeria/hojauti_items",
+typeid:22,
+uuid:"3413D4B0-E972-4D46-A361-719E173E2533"

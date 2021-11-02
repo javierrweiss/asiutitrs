@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_cajcirugia",
+items:[
+{foreignColumnName:"cajcirugia_fec",primaryDataProviderID:"scopes.globals.protambu1400_fechaingreso",typeid:23,uuid:"1DF64AAD-0971-418C-A9E3-653851E34EDA"},
+{foreignColumnName:"cajcirugia_caja",primaryDataProviderID:"scopes.globals.vCaja",typeid:23,uuid:"3BAB36C2-1742-4E05-A4A9-E5B80EE7930C"},
+{foreignColumnName:"cajcirugia_tipo",primaryDataProviderID:"LITERAL:1",typeid:23,uuid:"AD41946A-277E-4244-B0F5-EA60706EB518"},
+{foreignColumnName:"cajcirugia_histclin",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"E2B6E080-D7AE-4006-911E-220054AB5C57"},
+{foreignColumnName:"cajcirugia_hora",primaryDataProviderID:"scopes.globals.protambu1400_horaingreso_cajas",typeid:23,uuid:"E6829C8F-445C-4347-8D70-0BB33BDACED6"}
+],
+name:"protambu1400_vhiscli_to_tbc_cajcirugia",
+primaryDataSource:"db:/asistencial/tbc_cajcirugia",
+typeid:22,
+uuid:"2572E4ED-8641-40F6-9666-A0A9194C2F12"

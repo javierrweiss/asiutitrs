@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_resecod",
+items:[
+{foreignColumnName:"resecodmed",primaryDataProviderID:"scopes.globals.AtCons_vlegajo",typeid:23,uuid:"07516851-06F3-40E5-8449-B709711A319A"},
+{foreignColumnName:"resecoditem",operator:4,primaryDataProviderID:"scopes.globals.AtCons_uno",typeid:23,uuid:"5143FB9B-D850-4CB9-B55E-74E536449801"},
+{foreignColumnName:"resecodesp",primaryDataProviderID:"scopes.globals.AtCons_vespecial",typeid:23,uuid:"A2DA28E5-2517-48E1-BD1B-E82F9B895E98"},
+{foreignColumnName:"resecodhora",primaryDataProviderID:"scopes.globals.Atcons_vreservashora",typeid:23,uuid:"A759F55F-927E-43D0-887F-EF80A51E5CBD"},
+{foreignColumnName:"resecodtipcod",primaryDataProviderID:"scopes.globals.AtCons_uno",typeid:23,uuid:"C7D501AC-1C7C-4314-80E1-CF857517E35C"},
+{foreignColumnName:"resecodfech",primaryDataProviderID:"scopes.globals.AtCons_vfecha_integer",typeid:23,uuid:"FCB7DA40-C2AA-47C6-9F65-1B7DCE48C1C0"}
+],
+name:"atcons_reservas_to_tbc_resecod",
+primaryDataSource:"db:/asistencial/tbc_resecod",
+typeid:22,
+uuid:"A4F6A140-2D25-43A8-8DCE-F8902854BDCD"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/atcons_imapedet_inf",
+items:[
+{foreignColumnName:"imapedetservicio",primaryDataProviderID:"scopes.globals.AtCons_servicio",typeid:23,uuid:"F14DB8E5-BC66-4AFA-9C2C-906650ECAE09"},
+{foreignColumnName:"imapedetpedido",primaryDataProviderID:"scopes.globals.AtCons_nroPedido",typeid:23,uuid:"F1FAB4E5-37E1-431A-9088-EA9EB2EAC80E"}
+],
+name:"atcons_vs_to_atcons_imapedet_inf",
+primaryDataSource:"db:/bases_auxiliares/atcons_imapedet_inf",
+typeid:22,
+uuid:"14AB6780-1281-4576-A97C-48CA942524A5"

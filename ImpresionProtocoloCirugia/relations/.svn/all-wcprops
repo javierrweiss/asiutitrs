@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/proyecto1/!svn/ver/2743/ImpresionProtocoloCirugia/relations
+END
+interven_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/309/ImpresionProtocoloCirugia/relations/interven_to_tbc_interven.rel
+END
+tbc_cirugint_to_tbc_anestesia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/tbc_cirugint_to_tbc_anestesia.rel
+END
+vs_to_tbc_cirugint2.rel
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/vs_to_tbc_cirugint2.rel
+END
+vs_t_to_tbl_proamb_t.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/2743/ImpresionProtocoloCirugia/relations/vs_t_to_tbl_proamb_t.rel
+END
+protocolo_to_tbc_cirugint.rel
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/protocolo_to_tbc_cirugint.rel
+END
+vhiscli_unico2_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/577/ImpresionProtocoloCirugia/relations/vhiscli_unico2_to_tbc_admision_scroll.rel
+END
+tbc_anestesia_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/tbc_anestesia_to_tbc_medicos_personal.rel
+END
+vs_to_tbc_seguqui.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/1947/ImpresionProtocoloCirugia/relations/vs_to_tbc_seguqui.rel
+END
+varticulo_to_tbc_articulo_read.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/547/ImpresionProtocoloCirugia/relations/varticulo_to_tbc_articulo_read.rel
+END
+tbc_anatpaca2_to_tbc_anatpade.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/tbc_anatpaca2_to_tbc_anatpade.rel
+END
+vhiscli2_to_tbc_protesis.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/vhiscli2_to_tbc_protesis.rel
+END
+tbc_cirugint_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/tbc_cirugint_to_tbc_medicos_personal.rel
+END
+tbc_admision_scroll_2_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/1037/ImpresionProtocoloCirugia/relations/tbc_admision_scroll_2_to_tbc_obras.rel
+END
+tbc_admision_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/tbc_admision_to_tbc_obras.rel
+END
+vs1_to_tbl_protoc_txt.rel
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/proyecto1/!svn/ver/1227/ImpresionProtocoloCirugia/relations/vs1_to_tbl_protoc_txt.rel
+END
+tbc_admision2_scroll_to_tbc_hcicir_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/tbc_admision2_scroll_to_tbc_hcicir_new.rel
+END
+obra_mail_to_tbc_mail_obra.rel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/proyecto1/!svn/ver/1838/ImpresionProtocoloCirugia/relations/obra_mail_to_tbc_mail_obra.rel
+END
+tbc_cirugint_to_tbc_medic_cir.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/1946/ImpresionProtocoloCirugia/relations/tbc_cirugint_to_tbc_medic_cir.rel
+END
+vhisclin2_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/1834/ImpresionProtocoloCirugia/relations/vhisclin2_to_tbc_admision.rel
+END
+vhisclin3_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/1826/ImpresionProtocoloCirugia/relations/vhisclin3_to_tbc_admision.rel
+END
+tbc_cirugint_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/tbc_cirugint_to_tbc_interven.rel
+END
+vs2_to_tbc_marca_prot.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/vs2_to_tbc_marca_prot.rel
+END
+vs_to_cirugint_dtl.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/vs_to_cirugint_dtl.rel
+END
+vs_to_tbc_alerta.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/vs_to_tbc_alerta.rel
+END
+vs1_to_fichaaneste_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/2719/ImpresionProtocoloCirugia/relations/vs1_to_fichaaneste_cab.rel
+END
+vs_to_tbc_guardia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/2743/ImpresionProtocoloCirugia/relations/vs_to_tbc_guardia.rel
+END
+impresor_vhiscli_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/2743/ImpresionProtocoloCirugia/relations/impresor_vhiscli_to_tbc_hist_cab.rel
+END
+vhisclin_to_tbc_obstetri.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/vhisclin_to_tbc_obstetri.rel
+END
+vs2_to_tbc_anatpaca.rel
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/proyecto1/!svn/ver/825/ImpresionProtocoloCirugia/relations/vs2_to_tbc_anatpaca.rel
+END

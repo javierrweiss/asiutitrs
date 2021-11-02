@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab",
+items:[
+{foreignColumnName:"histcab_nrounico",primaryDataProviderID:"hiscli_nro",typeid:23,uuid:"1DADD89C-33C8-41D6-AC60-25E5B40599D2"}
+],
+joinType:1,
+name:"tbl_cronoambcab_to_tbc_hist_cab",
+primaryDataSource:"db:/bases_auxiliares/tbl_cronoambcab",
+typeid:22,
+uuid:"8452D671-4F81-40AF-B3EB-672EE3497388"

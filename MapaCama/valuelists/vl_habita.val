@@ -1,0 +1,9 @@
+addEmptyValue:1,
+dataProviderID1:"hab_nrohabi",
+dataSource:"db:/maestros/tbc_habita",
+name:"vl_habita",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"4D94C5E0-C4DC-4330-83FD-5982B9ED7659",
+valueListType:1

@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"No|1
+Incompleta|2
+Completa|3",
+name:"vl_residencia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"9C1F3FCA-CE74-426E-AB62-49E84EE128B5"

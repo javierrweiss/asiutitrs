@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/proyecto1/!svn/ver/985/Consulta_253/relations
+END
+hisclin_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/983/Consulta_253/relations/hisclin_to_tbc_hist_cab.rel
+END
+aux_253_to_tbc_anatpaob.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/941/Consulta_253/relations/aux_253_to_tbc_anatpaob.rel
+END
+hisclin_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/985/Consulta_253/relations/hisclin_to_tbc_admision_scroll.rel
+END
+aux_253_to_aux_253.rel
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/974/Consulta_253/relations/aux_253_to_aux_253.rel
+END
+tbc_anatinf_to_tbc_anatinf.rel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/941/Consulta_253/relations/tbc_anatinf_to_tbc_anatinf.rel
+END

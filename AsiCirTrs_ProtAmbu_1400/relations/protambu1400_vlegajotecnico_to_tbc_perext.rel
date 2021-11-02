@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_perext",
+items:[
+{foreignColumnName:"perext_lega",primaryDataProviderID:"scopes.globals.protambu1400_vLegajoTecnico",typeid:23,uuid:"5BA993C2-27DC-4270-817C-32628EBDC145"}
+],
+name:"protambu1400_vlegajotecnico_to_tbc_perext",
+primaryDataSource:"db:/validalegajo/tbc_perext",
+typeid:22,
+uuid:"D6288B55-B6CA-400B-8F15-C6CF8D773C3F"

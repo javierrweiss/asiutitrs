@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.vLega",typeid:23,uuid:"73B30B4C-1D45-4EF0-A8DF-12FC95EFF8FB"}
+],
+name:"fichaaneste_vlega_to_tbc_medicos",
+primaryDataSource:"db:/maestros/tbc_medicos",
+typeid:22,
+uuid:"AAD524CF-3CB8-4A55-AD96-775DDA6D52F1"

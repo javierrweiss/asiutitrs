@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"Alimentario|1\r
+Bilis|2\r
+Sangre|3\r
+Moco|4\r
+Pus|5\r
+No|0",
+name:"emesis",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"28D54A85-60DD-435D-90C4-6954BFA689FC"

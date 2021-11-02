@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_alerta",
+items:[
+{foreignColumnName:"aler_tipadmi",primaryDataProviderID:"scopes.globals.vtipo",typeid:23,uuid:"56DB8945-38DF-485C-9B68-13B7E7ECDA5A"},
+{foreignColumnName:"aler_histclin",primaryDataProviderID:"adm_histclin",typeid:23,uuid:"6A8E1E90-88F8-451B-80A6-151AFEDFA028"}
+],
+name:"tbc_admision_scroll_to_tbc_alerta",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"D07E6B6E-B517-43C6-8036-AE31C7F1B8BF"

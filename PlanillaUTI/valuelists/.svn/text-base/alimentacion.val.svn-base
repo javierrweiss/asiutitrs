@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Enteral|1\r
+Parenteral|2\r
+Oral|3\r
+Ninguno|0",
+name:"alimentacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"B14AA4B2-238C-471C-89E7-57A5E9D7D0CA"

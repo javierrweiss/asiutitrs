@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"|0\r
+Internación|1\r
+Ambulatorio|2\r
+Serv.Adic. a Pacientes|3\r
+Otros|4\r
+Escuela de Enfermería|5",
+name:"vl_concepto",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"021D3071-199F-4EE6-BFCD-07EC629B9F8C"

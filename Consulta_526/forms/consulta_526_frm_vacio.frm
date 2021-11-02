@@ -1,0 +1,15 @@
+items:[
+{
+height:239,
+partType:5,
+typeid:19,
+uuid:"AD08F1C7-DA7C-4C3C-B660-4A60022AD18F"
+}
+],
+name:"consulta_526_frm_vacio",
+navigatorID:"-1",
+scrollbars:36,
+showInMenu:true,
+styleName:"Sanatorio",
+typeid:3,
+uuid:"3AEC0B42-C22C-4EEE-B0E0-06D34FA42003"

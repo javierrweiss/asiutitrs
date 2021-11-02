@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Presión Control|Presión Control\r
+S/T|S/T\r
+T|T\r
+CPAP|CPAP\r
+Presión Soporte|Presión Soporte",
+name:"AsiVm_vl_seteo_modo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"6FB0D8CF-D34E-480D-A21D-6E4842D522BC"

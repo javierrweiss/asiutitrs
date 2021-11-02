@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_guardia",
+items:[
+{foreignColumnName:"guar_fechaingreso",primaryDataProviderID:"scopes.globals.AsiUtiTrs_fechaIngresoPrint",typeid:23,uuid:"1772F439-D2A4-43C0-A844-EE272D3F8958"},
+{foreignColumnName:"guar_histclinica",primaryDataProviderID:"scopes.globals.AsiUtiTrs_hcUnicaPrint",typeid:23,uuid:"4BD2EB30-BACB-47FC-8781-95DB5B4E6B51"},
+{foreignColumnName:"guar_horaingreso",primaryDataProviderID:"scopes.globals.AsiUtiTrs_horaIngresoPrint",typeid:23,uuid:"DA0ADEDF-EBEA-4FF1-A36A-675ACF8761E8"}
+],
+joinType:1,
+name:"asiutitrs_rel_buscar_guardia",
+primaryDataSource:"db:/asistencial/tbc_guardia",
+typeid:22,
+uuid:"FA547FAF-DDCC-403D-9011-01A8EE8E5A4B"

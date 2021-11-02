@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_camas",
+initialSort:"cam_habi asc, cam_cama asc",
+items:[
+{foreignColumnName:"cam_habi",primaryDataProviderID:"scopes.globals.bandejaciru_habita",typeid:23,uuid:"21497AEE-9289-4398-9823-789724657882"}
+],
+name:"bandejaciru_habita_to_tbc_camas",
+primaryDataSource:"db:/maestros/tbc_camas",
+typeid:22,
+uuid:"4993F7FC-CF0A-43FE-9B0E-17E808D17C6F"

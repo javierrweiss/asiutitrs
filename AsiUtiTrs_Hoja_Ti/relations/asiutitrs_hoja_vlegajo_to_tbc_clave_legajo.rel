@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_clave_legajo",
+items:[
+{foreignColumnName:"hor_peresemana",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"263CB1F7-1F2D-461E-9CED-76BA626D6CC2"},
+{foreignColumnName:"hor_pertipo",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"B5751482-19D3-496A-844C-128819DA42D3"},
+{foreignColumnName:"hor_perlega",primaryDataProviderID:"scopes.globals.Srv_Login_Sanatorio_vLega",typeid:23,uuid:"D173E979-6BD6-4319-BDC5-0D967974C86F"},
+{foreignColumnName:"hor_peredias",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"F6F4D9B1-88A5-4900-B6BE-39F6FCE8047A"}
+],
+name:"asiutitrs_hoja_vlegajo_to_tbc_clave_legajo",
+primaryDataSource:"db:/validalegajo/tbc_clave_legajo",
+typeid:22,
+uuid:"7F1AA2DA-1766-4A54-893D-36E3FFD49EA6"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/tbl_visitantes",
+items:[
+{foreignColumnName:"vis_nro_doc",primaryDataProviderID:"mov_nro_doc",typeid:23,uuid:"B0512B14-BB7C-4984-BBCD-3B1BDC6716DD"}
+],
+name:"tbl_movimientos_accesos_to_tbl_visitantes",
+primaryDataSource:"db:/bases_auxiliares/tbl_movimientos_accesos",
+typeid:22,
+uuid:"3062C4A2-0055-4954-AE6D-EB889D13A018"

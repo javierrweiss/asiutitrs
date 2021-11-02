@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_causa_rep",
+items:[
+{foreignColumnName:"crtipo",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"29D21256-0CF7-4CD7-9F8D-64FF591540A4"}
+],
+joinType:1,
+name:"palab_rel_causa_rep",
+primaryDataSource:"db:/asistencial/tbc_causa_rep",
+typeid:22,
+uuid:"AC58F3A7-7EA6-46B0-81C6-99B63EC1AF1F"

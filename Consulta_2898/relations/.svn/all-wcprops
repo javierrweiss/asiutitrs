@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/proyecto1/!svn/ver/2116/Consulta_2898/relations
+END
+tbc_liquid_to_tbc_conc.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1194/Consulta_2898/relations/tbc_liquid_to_tbc_conc.rel
+END
+tbl_tablas_to_res_ejec_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/proyecto1/!svn/ver/2099/Consulta_2898/relations/tbl_tablas_to_res_ejec_cab.rel
+END
+tbc_categ_to_tbc_categ.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/2116/Consulta_2898/relations/tbc_categ_to_tbc_categ.rel
+END
+tbc_maestros_to_tbc_maestros.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/1390/Consulta_2898/relations/tbc_maestros_to_tbc_maestros.rel
+END
+tbl_tablas_to_tres_ejec_gru.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/2099/Consulta_2898/relations/tbl_tablas_to_tres_ejec_gru.rel
+END

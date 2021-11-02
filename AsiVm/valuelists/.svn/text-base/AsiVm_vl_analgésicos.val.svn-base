@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Fentanilo|Fentanilo\r
+Morfina|Morfina\r
+AINE|AINE\r
+Otro|Otro\r
+No|No",
+name:"AsiVm_vl_analgésicos",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"EB80B5DC-AA0E-431D-B675-3C4B9E50028B"

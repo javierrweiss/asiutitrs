@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"histcab_obra",typeid:23,uuid:"2F69D1DB-5FA0-41BF-9F03-DC7CF3DF82F6"}
+],
+name:"alerta_tbc_hist_cab_to_tbc_obras",
+primaryDataSource:"db:/asistencial/tbc_hist_cab",
+typeid:22,
+uuid:"CEFD7336-3BFE-4092-83C5-569245C97BA4"

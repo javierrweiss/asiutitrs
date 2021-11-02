@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Cambiar de Usuario|0\r
+Cerrar Sesión|1\r
+Salir|2",
+name:"vl_Sanatorio",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"E35B3FD5-311C-499D-B42A-F8293947E8C5"

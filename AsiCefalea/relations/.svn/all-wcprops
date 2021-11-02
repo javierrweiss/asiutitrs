@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/proyecto1/!svn/ver/2946/AsiCefalea/relations
+END
+cefalea_vhiscli_txt_to_tbl_cefalea_txt.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/2911/AsiCefalea/relations/cefalea_vhiscli_txt_to_tbl_cefalea_txt.rel
+END
+cefalea_vhiscli_to_tbl_cefalea.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/2911/AsiCefalea/relations/cefalea_vhiscli_to_tbl_cefalea.rel
+END
+cefalea_vhiscli_to_tbc_hist_cab_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/2911/AsiCefalea/relations/cefalea_vhiscli_to_tbc_hist_cab_new.rel
+END
+cefalea_obra_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/2946/AsiCefalea/relations/cefalea_obra_to_tbc_obras.rel
+END
+tbc_hist_cab_new_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/proyecto1/!svn/ver/2911/AsiCefalea/relations/tbc_hist_cab_new_to_tbc_obras.rel
+END

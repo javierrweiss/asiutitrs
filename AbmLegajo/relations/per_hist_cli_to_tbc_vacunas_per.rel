@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_vacunas_per",
+items:[
+{foreignColumnName:"vachisclinica",primaryDataProviderID:"scopes.globals.per_hist_cli",typeid:23,uuid:"7D118F21-2F42-4C46-979E-FCCDBB9BBDFD"}
+],
+name:"per_hist_cli_to_tbc_vacunas_per",
+primaryDataSource:"db:/rrhh/tbc_vacunas_per",
+typeid:22,
+uuid:"F7B493C9-6CB2-4108-A247-91947476D593"

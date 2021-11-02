@@ -1,0 +1,10 @@
+columns:[
+{
+allowNull:true,
+creationOrderIndex:0,
+dataType:4,
+name:"valores"
+}
+],
+name:"prueba_estadistica",
+tableType:0

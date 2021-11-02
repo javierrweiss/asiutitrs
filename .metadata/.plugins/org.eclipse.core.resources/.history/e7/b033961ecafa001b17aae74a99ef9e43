@@ -1,0 +1,54 @@
+
+/**
+ * Perform the element default action.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @properties={typeid:24,uuid:"6C1E7FC7-067C-41FF-9751-3ABBC68CAFF8"}
+ * @AllowToRunInFind
+ */
+function onAction_Get_Patology(event) {
+	// TODO Auto-generated method stub
+	if (forms.frm_src_patologia.foundset.find()){
+		forms.frm_src_patologia.pat_codi = globals.gbl_patologia_n; 
+		forms.frm_src_patologia.foundset.search()
+	}
+	var win = application.createWindow("c",JSWindow.MODAL_DIALOG)
+	win.title = "Búsqueda de Patología";
+	win.setSize(850,550)
+	win.show(forms.frm_src_patologia)
+}
+
+/**
+ * Perform the element default action.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @properties={typeid:24,uuid:"C6840FB1-578A-4CBE-A470-85C5B945FBB2"}
+ * @AllowToRunInFind
+ */
+function onAction_Show_Row(event) {
+	// TODO Auto-generated method stub
+	if(forms.frm_src_admision.foundset.find()){
+		forms.frm_src_admision.adm_histclin = globals.gbl_histclin;
+		forms.frm_src_admision.foundset.search()
+	}
+}
+
+/**
+ * Perform the element default action.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @properties={typeid:24,uuid:"408DA5D5-46F2-42BC-89FC-DBCA02D04BCE"}
+ * @AllowToRunInFind
+ */
+function onAction_Show_Patient(event) {
+	// TODO Auto-generated method stub
+	
+	if(foundset.find()){
+		forms.frm_src_admision.adm_apellido = globals.gbl_admin_paciente.toLocaleUpperCase();
+		foundset.search()
+	}
+
+}

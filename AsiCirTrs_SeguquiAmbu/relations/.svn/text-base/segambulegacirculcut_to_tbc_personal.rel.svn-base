@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"seglegacirculcut",typeid:23,uuid:"36496392-12E5-4341-BB3B-DAE07A3A9AF1"}
+],
+name:"segambulegacirculcut_to_tbc_personal",
+primaryDataSource:"db:/asistencial/tbc_seguqui_new",
+typeid:22,
+uuid:"FF1930A9-2926-404C-898F-842330C7D276"

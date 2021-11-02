@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_medicos",
+initialSort:"med_codigo asc",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.AsiUtiTrs_vLega",typeid:23,uuid:"5159A4B7-DC2A-4EAF-9F11-FA0AAB0B70CA"}
+],
+name:"asiutitrs_vlegajo_to_tbc_medicos",
+primaryDataSource:"db:/validalegajo/tbc_medicos",
+typeid:22,
+uuid:"46F91FD5-1BE4-4844-AE44-307A58F0EB4E"

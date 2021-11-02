@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_personal",
+initialSort:"per_1 asc",
+items:[
+{foreignColumnName:"per_1",operator:4,primaryDataProviderID:"scopes.globals.per_1",typeid:23,uuid:"28DA28E8-6559-4F77-96A7-B5CAEFE15054"}
+],
+name:"vlega_to_tbc_personal_rrhh",
+primaryDataSource:"db:/desal/tbl_personal",
+typeid:22,
+uuid:"4B43A7B7-BD0A-438B-9D14-DC83919338F8"

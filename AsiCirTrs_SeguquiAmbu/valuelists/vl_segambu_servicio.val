@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Otras Cirugías|1\r
+Endoscopia Digestiva|6\r
+Hemodinamia|5",
+name:"vl_segambu_servicio",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"2A46A502-59BB-4B91-9FD3-0BD2E6451062"

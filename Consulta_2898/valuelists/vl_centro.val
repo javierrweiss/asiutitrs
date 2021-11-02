@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"ctrodescrip",
+dataProviderID2:"ctronumero",
+dataSource:"db:/maestros/tbc_centros",
+fallbackValueListID:"9FCAD421-9365-49D3-BAD1-44AEEB999E6D",
+name:"vl_centro",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"A2D69ACA-F399-47F0-A6BB-DE9C14F507E3",
+valueListType:1

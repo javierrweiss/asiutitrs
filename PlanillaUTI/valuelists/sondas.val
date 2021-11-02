@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"SNG|1\r
+SOG|2\r
+Ninguna|0",
+name:"sondas",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"A98DECB3-098D-41F7-B96B-912DAD0F4342"

@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Locación servicios|1
+Relación dependencia|2
+Becario|3
+Concurrente|4
+Otra modalidad|5",
+name:"vl_modalidad_contractual",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"4369A6B7-A997-4952-98C8-67D4E3C43534"

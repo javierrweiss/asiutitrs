@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+items:[
+{foreignColumnName:"medpercod",primaryDataProviderID:"anes_codlegamed",typeid:23,uuid:"54035FA8-AF0C-49C6-AD06-8280C1018D04"}
+],
+name:"tbc_anestesia_to_tbc_medicos_personal",
+primaryDataSource:"db:/asistencial/tbc_anestesia",
+typeid:22,
+uuid:"D01E6E66-789A-4EAA-9EB0-D6DAABD36F7E"

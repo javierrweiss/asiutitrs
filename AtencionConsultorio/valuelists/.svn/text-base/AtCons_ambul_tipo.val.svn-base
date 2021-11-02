@@ -1,0 +1,8 @@
+customValues:"Comun |1\r
+Comun con medico |2\r
+Alta Complejidad |3",
+name:"AtCons_ambul_tipo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"FA2A23F4-5761-4D60-A883-98714B2CD76B"

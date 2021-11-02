@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"histcabapellnom",
+dataProviderID2:"histcabnrounico",
+dataSource:"db:/asistencial/tbc_hist_cab_new",
+name:"fichaaneste_histcab",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"F5C1CBCC-7937-471B-8D19-609B77FC08E2",
+valueListType:1

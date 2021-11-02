@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"reservasobra",typeid:23,uuid:"237ECEAF-C8CF-4D83-8CA0-7760C3145D9F"}
+],
+joinType:1,
+name:"atcons_tbc_reservas_to_tbc_obras",
+primaryDataSource:"db:/asistencial/tbc_reservas",
+typeid:22,
+uuid:"B51E2E89-1333-4F7A-8310-A111998CC69F"

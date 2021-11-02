@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:null,
+dataProviderID1:"ciriprotocolo",
+dataProviderID2:"cirifechacarga",
+dataProviderID3:"cirihoracarga",
+dataSource:null,
+name:"protol",
+relationName:"protocolo_to_tbc_cirugint",
+returnDataProviders:7,
+showDataProviders:1,
+typeid:34,
+uuid:"CD37C3F6-57FC-40A3-8996-53A0F1D0B871",
+valueListType:1

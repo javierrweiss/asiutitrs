@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"descripcion",
+dataProviderID2:"codigo",
+dataSource:"db:/desal/fichaaneste_tipomedicion",
+name:"fichaaneste_tipomedicion",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"79E50188-0245-4666-A15B-05C759E5A0B6",
+valueListType:1

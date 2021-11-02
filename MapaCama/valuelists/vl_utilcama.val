@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"utic_usolargo",
+dataProviderID2:"utic_utiliza",
+dataSource:"db:/maestros/tbc_utilcama",
+name:"vl_utilcama",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"EB860E04-29F3-4F06-AA0A-607A185C73B6",
+valueListType:1

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_plan_obra",
+items:[
+{foreignColumnName:"plo_obra",primaryDataProviderID:"scopes.globals.Palab_ploObraPrint",typeid:23,uuid:"1A9942AD-B740-49E0-8990-7FA757FCE9AE"},
+{foreignColumnName:"plo_planx",primaryDataProviderID:"scopes.globals.Palab_ploPlanxPrint",typeid:23,uuid:"701DA97A-4EEF-4933-90E1-EC59427A9D9C"}
+],
+name:"palab_rel_buscar_plan_obra_print",
+primaryDataSource:"db:/maestros/tbc_plan_obra",
+typeid:22,
+uuid:"D8FC910E-3FF5-4C69-993A-B990A339CA9E"

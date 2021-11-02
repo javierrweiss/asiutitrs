@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_interven",
+initialSort:"itv_descripcion asc",
+items:[
+{foreignColumnName:"itv_descripredu",operator:4,primaryDataProviderID:"scopes.globals.fichaaneste_interven_des",typeid:23,uuid:"FE70309C-826A-4A00-8E46-73D3C1C17BC3"}
+],
+name:"fichaaneste_interven_to_tbc_interven",
+primaryDataSource:"db:/maestros/tbc_interven",
+typeid:22,
+uuid:"9E209CC4-1434-406E-868E-EF39C1B6C53F"

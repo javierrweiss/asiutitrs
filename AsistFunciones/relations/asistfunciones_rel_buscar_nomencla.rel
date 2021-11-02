@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+items:[
+{foreignColumnName:"nome_tipo",primaryDataProviderID:"scopes.globals.AsistFunciones_nomeTipo",typeid:23,uuid:"32341869-F8EF-4DFE-B988-BD8F431856D4"},
+{foreignColumnName:"nome_codigo",primaryDataProviderID:"scopes.globals.AsistFunciones_nomeCodigo",typeid:23,uuid:"E948FF15-FFFE-49FA-9B6E-AC94B03C62B1"}
+],
+name:"asistfunciones_rel_buscar_nomencla",
+primaryDataSource:"db:/maestros/tbc_nomencla",
+typeid:22,
+uuid:"68B05D7C-C8C5-450C-BD89-59FF8F6A3C61"

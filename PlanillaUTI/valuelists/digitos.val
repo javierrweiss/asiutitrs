@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"0|0\r
+1|1\r
+2|2\r
+3|3\r
+4|4\r
+5|5\r
+6|6\r
+7|7\r
+8|8\r
+9|9",
+name:"digitos",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"F67F83BB-7145-4626-B677-84F42C844E2E"

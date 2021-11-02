@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_personal_login",
+initialSort:"per_apelnom asc",
+items:[
+{foreignColumnName:"per_apelnom",operator:4,primaryDataProviderID:"globals.vProfeAlfa",typeid:23,uuid:"871D969C-29DD-48B6-8942-384D76297134"}
+],
+joinType:0,
+name:"vprofealfa_to_tbc_personal_login",
+primaryDataSource:"db:/validalegajo/tbc_personal_login",
+typeid:22,
+uuid:"0E867825-025D-43F4-9CC8-99855D9F1EE1"

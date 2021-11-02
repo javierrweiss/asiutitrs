@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_admision",
+initialSort:"",
+items:[
+{foreignColumnName:"adm_apelnom",operator:2,primaryDataProviderID:"scopes.globals.gbl_admin_histclin_a",typeid:23,uuid:"91AE8B7F-0613-4D21-BD03-F80739D08E97"}
+],
+name:"gbl_admision_a_to_tbc_admision",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"E0A9D30A-ED55-4215-AB5B-272AC06D3531"

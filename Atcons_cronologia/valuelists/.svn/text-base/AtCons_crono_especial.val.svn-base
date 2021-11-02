@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"esp_codi",
+dataProviderID2:"esp_descrip",
+dataSource:"db:/maestros/tbc_especial",
+name:"AtCons_crono_especial",
+returnDataProviders:1,
+showDataProviders:2,
+typeid:34,
+uuid:"77E0F217-4E60-40C6-8C50-8C25B21F3989",
+valueListType:1

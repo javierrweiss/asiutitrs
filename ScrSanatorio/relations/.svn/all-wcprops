@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/proyecto1/!svn/ver/2890/ScrSanatorio/relations
+END
+gbl_cob_to_motivos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/794/ScrSanatorio/relations/gbl_cob_to_motivos.rel
+END
+buscar_tbc_admision_scroll_unica_nombre.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/983/ScrSanatorio/relations/buscar_tbc_admision_scroll_unica_nombre.rel
+END
+gbl_prof_to_prof_cirendsa.rel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/2784/ScrSanatorio/relations/gbl_prof_to_prof_cirendsa.rel
+END
+buscar_tbc_admision_scroll_numero.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/1127/ScrSanatorio/relations/buscar_tbc_admision_scroll_numero.rel
+END
+buscar_alf_to_solucion.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1211/ScrSanatorio/relations/buscar_alf_to_solucion.rel
+END
+buscar_alf_to_carpeta.rel
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1751/ScrSanatorio/relations/buscar_alf_to_carpeta.rel
+END
+buscar_num_to_nomencla.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1888/ScrSanatorio/relations/buscar_num_to_nomencla.rel
+END
+buscar_num_to_conv_prof.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1913/ScrSanatorio/relations/buscar_num_to_conv_prof.rel
+END
+buscar_alf_to_formulario.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1218/ScrSanatorio/relations/buscar_alf_to_formulario.rel
+END
+buscar_alf_to_especialidad.rel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/1888/ScrSanatorio/relations/buscar_alf_to_especialidad.rel
+END
+buscar_alf_to_elemento.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1207/ScrSanatorio/relations/buscar_alf_to_elemento.rel
+END
+gbl_espe_to_especialidad.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1888/ScrSanatorio/relations/gbl_espe_to_especialidad.rel
+END
+buscar_tbc_admision_scroll_unica_numero.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/983/ScrSanatorio/relations/buscar_tbc_admision_scroll_unica_numero.rel
+END
+buscar_num_to_perfil.rel
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/1221/ScrSanatorio/relations/buscar_num_to_perfil.rel
+END
+buscar_num_to_profesional.rel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/1981/ScrSanatorio/relations/buscar_num_to_profesional.rel
+END
+gbl_cob_to_coberturas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/2890/ScrSanatorio/relations/gbl_cob_to_coberturas.rel
+END
+gbl_hiscli_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/779/ScrSanatorio/relations/gbl_hiscli_to_tbc_admision_scroll.rel
+END
+gbl_apeynom_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/832/ScrSanatorio/relations/gbl_apeynom_to_tbc_admision_scroll.rel
+END
+gbl_cob_to_coberturas_cirendsa.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/2453/ScrSanatorio/relations/gbl_cob_to_coberturas_cirendsa.rel
+END
+gbl_grup_to_grupo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/1888/ScrSanatorio/relations/gbl_grup_to_grupo.rel
+END
+buscar_num_to_cobertura.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1127/ScrSanatorio/relations/buscar_num_to_cobertura.rel
+END
+buscar_num_to_permiso.rel
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1239/ScrSanatorio/relations/buscar_num_to_permiso.rel
+END
+buscar_alf_to_profesional.rel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/1981/ScrSanatorio/relations/buscar_alf_to_profesional.rel
+END
+buscar_alf_to_nomencla.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1888/ScrSanatorio/relations/buscar_alf_to_nomencla.rel
+END
+buscar_alf_to_usuarios.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1236/ScrSanatorio/relations/buscar_alf_to_usuarios.rel
+END
+buscar_num_to_itm_menu.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1241/ScrSanatorio/relations/buscar_num_to_itm_menu.rel
+END
+buscar_alf_to_cobertura.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1127/ScrSanatorio/relations/buscar_alf_to_cobertura.rel
+END
+tbl_liquid_hon_prof_cons_to_tbl_liquid_hon_prof_cons.rel
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/proyecto1/!svn/ver/2391/ScrSanatorio/relations/tbl_liquid_hon_prof_cons_to_tbl_liquid_hon_prof_cons.rel
+END
+buscar_alf_to_permiso.rel
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1290/ScrSanatorio/relations/buscar_alf_to_permiso.rel
+END
+buscar_alf_to_perfil.rel
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/1221/ScrSanatorio/relations/buscar_alf_to_perfil.rel
+END
+buscar_num_to_motivos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/794/ScrSanatorio/relations/buscar_num_to_motivos.rel
+END
+buscar_tbc_admision_scroll_nombre.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/1261/ScrSanatorio/relations/buscar_tbc_admision_scroll_nombre.rel
+END
+gbl_prof_to_prof.rel
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/proyecto1/!svn/ver/2074/ScrSanatorio/relations/gbl_prof_to_prof.rel
+END
+gbl_nom_to_nomencla.rel
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/1888/ScrSanatorio/relations/gbl_nom_to_nomencla.rel
+END
+buscar_tipo_to_profesional.rel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/1981/ScrSanatorio/relations/buscar_tipo_to_profesional.rel
+END
+buscar_num_to_grupo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/1888/ScrSanatorio/relations/buscar_num_to_grupo.rel
+END
+buscar_num_to_solucion.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1211/ScrSanatorio/relations/buscar_num_to_solucion.rel
+END
+gbl_conv_to_convenio.rel
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/2381/ScrSanatorio/relations/gbl_conv_to_convenio.rel
+END
+buscar_num_to_usuario.rel
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1236/ScrSanatorio/relations/buscar_num_to_usuario.rel
+END
+buscar_alf_to_motivos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/794/ScrSanatorio/relations/buscar_alf_to_motivos.rel
+END
+gbl_prof_to_profesionales.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/748/ScrSanatorio/relations/gbl_prof_to_profesionales.rel
+END
+buscar_alf_to_itm_menu.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1241/ScrSanatorio/relations/buscar_alf_to_itm_menu.rel
+END
+buscar_alf_to_tbc_patologia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/proyecto1/!svn/ver/2380/ScrSanatorio/relations/buscar_alf_to_tbc_patologia.rel
+END
+buscar_num_to_formulario.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1211/ScrSanatorio/relations/buscar_num_to_formulario.rel
+END
+buscar_num_to_especialidad.rel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/1888/ScrSanatorio/relations/buscar_num_to_especialidad.rel
+END
+buscar_num_to_elemento.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1207/ScrSanatorio/relations/buscar_num_to_elemento.rel
+END
+gbl_usu_to_usuarios.rel
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/1236/ScrSanatorio/relations/gbl_usu_to_usuarios.rel
+END
+buscar_alf_to_grupo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/1888/ScrSanatorio/relations/buscar_alf_to_grupo.rel
+END

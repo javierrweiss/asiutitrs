@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_marca_prot",
+items:[
+{foreignColumnName:"mar_pedido",primaryDataProviderID:"LITERAL:prote_nroprote",typeid:23,uuid:"D39AA1DF-0110-4153-96F6-0BC9A0402F92"}
+],
+name:"tbc_protesis_to_tbc_marca_prot",
+primaryDataSource:"db:/asistencial/tbc_protesis",
+typeid:22,
+uuid:"44206807-9163-48AE-9B4A-E53946ADC949"

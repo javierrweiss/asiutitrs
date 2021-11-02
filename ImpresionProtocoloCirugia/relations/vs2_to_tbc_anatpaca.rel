@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anatpaca",
+items:[
+{foreignColumnName:"apca_protocolo",primaryDataProviderID:"scopes.globals.vNroProtocolo",typeid:23,uuid:"6BDFE896-396B-4DB1-9AA2-A9297AECD427"},
+{foreignColumnName:"apca_servicio",primaryDataProviderID:"scopes.globals.eleven_value",typeid:23,uuid:"E8B5136E-7E82-470B-8BB7-0D79715C2A4A"}
+],
+name:"vs2_to_tbc_anatpaca",
+primaryDataSource:"db:/asistencial/tbc_anatpaca",
+typeid:22,
+uuid:"565DB90A-D48D-45E4-802A-AC33AF56418D"

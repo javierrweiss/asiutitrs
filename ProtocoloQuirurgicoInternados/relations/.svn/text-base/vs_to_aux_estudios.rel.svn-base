@@ -1,0 +1,17 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/aux_estudios",
+initialSort:"aux_est_solucion asc, aux_est_frm asc, aux_est_hiscli asc, aux_est_operador asc, aux_est_fecha asc, aux_est_hora asc, aux_est_servicio asc, aux_est_linea asc",
+items:[
+{foreignColumnName:"aux_est_solucion",operator:0,primaryDataProviderID:"globals.vSolucion",typeid:23,uuid:"3F5F8E5F-8604-4E1F-8CA8-23994BA2CD92"},
+{foreignColumnName:"aux_est_servicio",operator:0,primaryDataProviderID:"globals.vServicio",typeid:23,uuid:"6141569E-AA32-43FF-9EEB-B39C690B81E3"},
+{foreignColumnName:"aux_est_hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"696C2E1D-B95E-4017-9409-EA94E312B7AA"},
+{foreignColumnName:"aux_est_frm",operator:0,primaryDataProviderID:"globals.vFormulario",typeid:23,uuid:"83539CF5-60C6-432D-B419-E1855ABAEABC"},
+{foreignColumnName:"aux_est_operador",operator:0,primaryDataProviderID:"globals.vLega",typeid:23,uuid:"BCAE7C17-0066-4365-983C-A944475F16C3"},
+{foreignColumnName:"aux_est_fecha",operator:0,primaryDataProviderID:"globals.vFechaCarga",typeid:23,uuid:"C20BFF2D-8CB6-468F-B845-358312891CDE"},
+{foreignColumnName:"aux_est_hora",operator:0,primaryDataProviderID:"globals.vHoraCarga",typeid:23,uuid:"E8A8CC45-A127-466E-B856-8BCE66187F25"}
+],
+joinType:0,
+name:"vs_to_aux_estudios",
+primaryDataSource:"db:/bases_auxiliares/aux_estudios",
+typeid:22,
+uuid:"0CB1CB44-04E0-41B4-8BF9-63E3BB5460BF"

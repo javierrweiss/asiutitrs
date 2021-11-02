@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"No toma|0\r
+< 1 toma / día|1\r
+< 2 tomas /día|2",
+name:"anesambu_vl_alcohol",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"7C20266F-CF75-4E97-A62C-03EB43872060"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_permiso",
+initialSort:"",
+items:[
+{foreignColumnName:"codigo_perfil",primaryDataProviderID:"scopes.globals.vSpaces",typeid:23,uuid:"02D9056C-2F34-4D87-8A92-37F8EFC26407"},
+{foreignColumnName:"codigo_legajo",operator:4,primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"CC614339-7624-4F69-A767-CABE11CE94BC"}
+],
+name:"buscar_num_to_permiso",
+primaryDataSource:"db:/desal/tbl_permiso",
+typeid:22,
+uuid:"487AD508-1EC4-4A2E-B598-A38BE1D4AA89"

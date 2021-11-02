@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+items:[
+{foreignColumnName:"histcabnrounico",primaryDataProviderID:"scopes.globals.AsiUcoMod_Rep_histCabNroUnico",typeid:23,uuid:"D0DB550F-D596-4B2E-B71A-9CF9B2756582"}
+],
+name:"asiucomod_rep_rel_buscar_hist_cab_new",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"EC2D9751-223E-407E-B471-E39FEE54F4CC"

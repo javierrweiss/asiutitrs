@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+items:[
+{foreignColumnName:"adm_histclin",primaryDataProviderID:"scopes.globals.bandejaciru_hiscli",typeid:23,uuid:"FB93ECA3-B013-4FB5-9A8E-F6F9F1AC3E07"}
+],
+name:"bandejaciru_vhiscli2259_unico_to_tbc_admision_scroll",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"3BDDEC9D-9CEC-4BA5-BDB4-F1E0BD96D047"

@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Central|1\r
+Periférica|2\r
+No|0",
+name:"cianosis",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"438529BD-DC24-435E-91DF-8708E4DCC1D8"

@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"MCP Definitivo|1\r
+MCP Transitorio|2\r
+CDI|3\r
+No|0",
+name:"marcapasos",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"4A351AC8-FB9D-4E08-A2B8-472B52FED720"

@@ -1,0 +1,13 @@
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"A4D43C33-CBBE-4CE9-9D29-E5F5430EB776"
+}
+],
+name:"AsiArmMod_Rep_subBuild",
+showInMenu:true,
+styleName:"Sanatorio",
+typeid:3,
+uuid:"67081564-C5FA-4343-8840-6BE17619D5D0"

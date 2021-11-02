@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/fichaaneste_cab",
+initialSort:"histcli_unico asc, tbc_anest_carga_fecha asc, tbc_anest_carga_hora asc",
+items:[
+{foreignColumnName:"histcli_unico",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"022C3D2A-A325-4B0B-97BD-E919F3D1CA60"},
+{foreignColumnName:"tbc_anest_carga_fecha",primaryDataProviderID:"scopes.globals.bandejaciru_fechaingreso",typeid:23,uuid:"87794801-7386-4763-9E69-7B6AD7A24465"},
+{foreignColumnName:"tbc_anest_carga_hora",primaryDataProviderID:"scopes.globals.bandejaciru_horaingreso",typeid:23,uuid:"AA450C0C-8992-4345-BCEB-66167B0D08E2"}
+],
+name:"bandejaciru_vs_to_fichaaneste_cab",
+primaryDataSource:"db:/desal/fichaaneste_cab",
+typeid:22,
+uuid:"50EA6045-F6C9-49F5-9945-250F1FC7FF1B"

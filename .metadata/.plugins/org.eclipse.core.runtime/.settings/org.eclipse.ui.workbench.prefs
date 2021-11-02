@@ -1,0 +1,4 @@
+ENABLED_DECORATORS=com.servoy.eclipse.team.ui.ResourceDecorator\:true,com.servoy.eclipse.team.ui.ResourceMappingDecorator\:true,com.servoy.eclipse.ui.views.solutionexplorer.ProblemDecorator\:true,org.eclipse.jdt.ui.override.decorator\:true,org.eclipse.jdt.ui.interface.decorator\:false,org.eclipse.jdt.ui.buildpath.decorator\:true,org.eclipse.team.svn.ui.decorator.SVNLightweightDecorator\:true,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,
+UIActivities.com.servoy.eclipse.activities.antDevelopment=true
+actionSet.initiallyHidden.org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo=true
+eclipse.preferences.version=1

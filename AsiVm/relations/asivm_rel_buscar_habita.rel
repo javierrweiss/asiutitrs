@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_habita",
+items:[
+{foreignColumnName:"hab_nrohabi",primaryDataProviderID:"scopes.globals.AsiVm_nroHabi",typeid:23,uuid:"4C8B06BC-7827-47E5-A806-9DED3CF09700"}
+],
+name:"asivm_rel_buscar_habita",
+primaryDataSource:"db:/maestros/tbc_habita",
+typeid:22,
+uuid:"25C0EBC8-16E7-4ABB-8AB6-FBFADA21D311"

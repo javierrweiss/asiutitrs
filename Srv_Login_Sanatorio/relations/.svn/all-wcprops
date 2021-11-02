@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/proyecto1/!svn/ver/2838/Srv_Login_Sanatorio/relations
+END
+srv_login_sanatorio_vlegajo_to_tbc_personal_login.rel
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/proyecto1/!svn/ver/2838/Srv_Login_Sanatorio/relations/srv_login_sanatorio_vlegajo_to_tbc_personal_login.rel
+END
+srv_login_sanatorio_vlegajo_to_tbc_personal_login_menu.rel
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/proyecto1/!svn/ver/2838/Srv_Login_Sanatorio/relations/srv_login_sanatorio_vlegajo_to_tbc_personal_login_menu.rel
+END
+srv_login_sanatorio_vlegajo_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/proyecto1/!svn/ver/2838/Srv_Login_Sanatorio/relations/srv_login_sanatorio_vlegajo_to_tbc_clave_legajo.rel
+END
+srv_login_sanatorio_vlegajo_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/2838/Srv_Login_Sanatorio/relations/srv_login_sanatorio_vlegajo_to_tbc_medicos.rel
+END
+srv_login_sanatorio_vlegajo_menu_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/proyecto1/!svn/ver/2838/Srv_Login_Sanatorio/relations/srv_login_sanatorio_vlegajo_menu_to_tbc_personal.rel
+END
+srv_login_sanatorio_vlegajo_to_tbc_perext.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/2838/Srv_Login_Sanatorio/relations/srv_login_sanatorio_vlegajo_to_tbc_perext.rel
+END
+srv_login_sanatorio_vlegajo1_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/proyecto1/!svn/ver/2838/Srv_Login_Sanatorio/relations/srv_login_sanatorio_vlegajo1_to_tbc_clave_legajo.rel
+END

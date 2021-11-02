@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Sin Dato|0\r
+Sentada|1\r
+Cuclillas|2\r
+Acostada|3",
+name:"Posicion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"F59BD58B-A5D0-41D6-9AE4-375C6D856813"

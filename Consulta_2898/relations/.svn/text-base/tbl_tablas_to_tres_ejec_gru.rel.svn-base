@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_tablas",
+items:[
+{foreignColumnName:"tabla_nro",primaryDataProviderID:"scopes.globals.gbl_res_ejec_cab",typeid:23,uuid:"8C841955-1CF7-4864-AAB0-4160F5871345"}
+],
+joinType:1,
+name:"tbl_tablas_to_tres_ejec_gru",
+primaryDataSource:"db:/desal/tbl_tablas",
+typeid:22,
+uuid:"79B9129B-A552-453A-855E-617F7132A387"

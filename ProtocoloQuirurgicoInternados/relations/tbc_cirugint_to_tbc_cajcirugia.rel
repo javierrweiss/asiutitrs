@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_cajcirugia",
+items:[
+{foreignColumnName:"cajcirugia_fec",primaryDataProviderID:"cirifechacarga",typeid:23,uuid:"34BDF993-1A51-423A-9F00-A16CF43E6E71"},
+{foreignColumnName:"cajcirugia_hora",primaryDataProviderID:"cirihoracarga",typeid:23,uuid:"CDADC194-414A-4820-8706-F5CE4E3E91A7"},
+{foreignColumnName:"cajcirugia_histclin",primaryDataProviderID:"cirihistcl",typeid:23,uuid:"CE283D9F-1273-4F08-83CB-8D2BA04906D1"},
+{foreignColumnName:"cajcirugia_tipo",primaryDataProviderID:"scopes.globals.zero_value",typeid:23,uuid:"DD692215-5458-44B0-B602-9EE893782808"}
+],
+name:"tbc_cirugint_to_tbc_cajcirugia",
+primaryDataSource:"db:/asistencial/tbc_cirugint",
+typeid:22,
+uuid:"03E376B9-D5E9-4434-ABC1-897352C05FF7"

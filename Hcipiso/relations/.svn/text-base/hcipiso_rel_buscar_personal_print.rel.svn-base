@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.Hcipiso_perLegajoPrint",typeid:23,uuid:"4D7E76FD-8AE5-4FCB-8DCD-A9F8AB63B535"}
+],
+joinType:1,
+name:"hcipiso_rel_buscar_personal_print",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"93459027-4781-4438-94A2-C38B5D6BBD31"

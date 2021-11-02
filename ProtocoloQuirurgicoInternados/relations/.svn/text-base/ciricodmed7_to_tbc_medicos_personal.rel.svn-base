@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"ciricodmed_7",typeid:23,uuid:"C7D22A9E-4C65-43EC-9404-62C1E15264F1"}
+],
+name:"ciricodmed7_to_tbc_medicos_personal",
+primaryDataSource:"db:/asistencial/tbc_cirugint_dtl",
+typeid:22,
+uuid:"6F01F66E-43F3-40C9-A15A-98E49210CAE2"

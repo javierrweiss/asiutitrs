@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_cargas",
+initialSort:"car1 asc, car2 asc",
+items:[
+{foreignColumnName:"car2",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"4376A51C-D8CC-40B2-BF29-97A32E0C5470"},
+{foreignColumnName:"car9",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"8195470F-5985-4FE0-B900-FFE10603F40A"},
+{foreignColumnName:"car1",primaryDataProviderID:"scopes.globals.per_1",typeid:23,uuid:"DE8FD900-404C-4B17-9253-E1898CBDEE43"}
+],
+name:"concubino_to_tbc_cargas",
+primaryDataSource:"db:/rrhh/tbc_cargas",
+typeid:22,
+uuid:"C8D31E90-DF2A-45F7-8D2E-641AA666011D"

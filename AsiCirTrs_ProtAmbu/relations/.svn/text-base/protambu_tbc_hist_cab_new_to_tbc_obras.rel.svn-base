@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"histcabobra",typeid:23,uuid:"E99FE172-28AA-402B-851A-EFB38077C21D"}
+],
+name:"protambu_tbc_hist_cab_new_to_tbc_obras",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"48998C6D-F7CE-4893-845A-04356A54D0C8"

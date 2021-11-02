@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_r_estr_cab",
+items:[
+{foreignColumnName:"reccodigo",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"11E6B959-8C26-4F9C-8DD5-DB6A28EB4E71"}
+],
+name:"palab_rel_buscar_r_estr_cab_print",
+primaryDataSource:"db:/maestros/tbc_r_estr_cab",
+typeid:22,
+uuid:"504A303A-5F95-4C26-9DFC-8C189B46B62E"

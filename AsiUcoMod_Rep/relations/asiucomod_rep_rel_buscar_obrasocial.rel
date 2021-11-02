@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"scopes.globals.AsiUcoMod_Rep_obrCodigo",typeid:23,uuid:"6FB8C0B8-F97E-4F85-95FB-4E17B03F62B1"}
+],
+name:"asiucomod_rep_rel_buscar_obrasocial",
+primaryDataSource:"db:/maestros/tbc_obras",
+typeid:22,
+uuid:"4DCC738A-9205-4528-8637-46C8688CEE91"

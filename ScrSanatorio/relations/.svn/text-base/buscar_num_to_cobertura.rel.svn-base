@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/vis_tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",operator:4,primaryDataProviderID:"scopes.globals.gbl_cobertura",typeid:23,uuid:"E6800508-E7BE-4087-9B1F-21BC1D6FE843"}
+],
+name:"buscar_num_to_cobertura",
+primaryDataSource:"db:/maestros/vis_tbc_obras",
+typeid:22,
+uuid:"622D31A7-6CEE-471A-B3B1-9091B87CAB39"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_protoc_txt",
+items:[
+{foreignColumnName:"protxt_protocolo",primaryDataProviderID:"scopes.globals.gbl_protocolo",typeid:23,uuid:"1E52EC42-EE23-4BE8-8024-F66D8AFE9083"},
+{foreignColumnName:"protxt_nro1",primaryDataProviderID:"scopes.globals.gbl_1",typeid:23,uuid:"36DB33BE-6FE9-4E6C-B0E4-CA3324ABDC37"},
+{foreignColumnName:"protxt_grupo",primaryDataProviderID:"scopes.globals.gbl_5",typeid:23,uuid:"9D241B74-EFE1-4626-8614-70C5B5FFBFF8"}
+],
+name:"vis_tbc_cirugint_to_tbc_protoc5_txt",
+primaryDataSource:"db:/asistencial/vis_tbc_cirugint",
+typeid:22,
+uuid:"E212F921-359D-4C31-9DE6-D1F19361C7AC"

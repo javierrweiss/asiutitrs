@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"General|0\r
+Peridural|1\r
+Raquídeo|2\r
+Plexual|3\r
+Local|4",
+name:"protambu1400_vl_tipo_bloqueo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"1C5560FA-DC0F-4CF8-848F-6CD6A7B3FD84"

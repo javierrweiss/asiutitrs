@@ -1,0 +1,6 @@
+firstFormID:"BA38CC3C-439C-48CA-ADB1-DFD536E47494",
+modulesNames:"EvaluacionAnestesicaPreoperatoria,ProtocoloQuirurgicoInternados,SeguridadQuirurgica,ImpresionProtocoloCirugia,ControlAlerta,CargaAlerta,IngresoMedicamentosCirugia,funciones,funcionesVarias,GenerarTXTInterfaseVisualMedica",
+onCloseMethodID:"920AAF52-05CA-47A2-ADE3-AC6F8FD599F5",
+onOpenMethodID:"648B8480-B9D6-414E-8763-83F3479AED97",
+typeid:43,
+uuid:"6E1EF89C-ADCF-4EF0-8CE2-BD6F31286C0A"

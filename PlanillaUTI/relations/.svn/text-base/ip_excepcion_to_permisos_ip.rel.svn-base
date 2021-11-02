@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/permisos_ip",
+items:[
+{foreignColumnName:"permiso_ip",primaryDataProviderID:"scopes.globals.ip_excepcion",typeid:23,uuid:"3EFF357C-3CD1-4E7F-BE0C-304955128EC4"}
+],
+name:"ip_excepcion_to_permisos_ip",
+primaryDataSource:"db:/enfermeria/permisos_ip",
+typeid:22,
+uuid:"F66656F8-9FEE-45A1-B127-5D026012D391"

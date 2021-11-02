@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Directo|0\r
+Indirecto|1",
+name:"vl_tipo_acceso_itm",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"347CA340-F0DD-488C-A7D5-1D215BDA46F0"

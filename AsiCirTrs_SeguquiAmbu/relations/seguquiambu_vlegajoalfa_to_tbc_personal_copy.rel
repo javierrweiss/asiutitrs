@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+initialSort:"per_apelnom asc",
+items:[
+{foreignColumnName:"per_apelnom",operator:4,primaryDataProviderID:"scopes.globals.vLegajoAlfa",typeid:23,uuid:"71F58451-43CE-4D3E-9E40-E69FC7B298A1"}
+],
+name:"seguquiambu_vlegajoalfa_to_tbc_personal_copy",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"7A10CC02-084E-46EE-A31E-5268AD51E9C0"

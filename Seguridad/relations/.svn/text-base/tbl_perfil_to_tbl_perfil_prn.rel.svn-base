@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_perfil",
+items:[
+{foreignColumnName:"codigo",primaryDataProviderID:"codigo_perfil",typeid:23,uuid:"FBEFA728-007D-427D-B0E2-837918DEC50B"}
+],
+name:"tbl_perfil_to_tbl_perfil_prn",
+primaryDataSource:"db:/desal/tbl_perfil_itm",
+typeid:22,
+uuid:"FD19D55B-C96A-4FA9-A20B-CB8C56C475C6"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_banco_cta",
+items:[
+{foreignColumnName:"bctacodigo",primaryDataProviderID:"scopes.globals.per_52",typeid:23,uuid:"6AB18F92-4085-472F-92B2-55661D1106BB"},
+{foreignColumnName:"bctacuenta",primaryDataProviderID:"scopes.globals.per_nrocta",typeid:23,uuid:"D168EF84-3080-4CC9-85DF-9861A8CB84E9"}
+],
+name:"vs_to_tbc_banco_cta",
+primaryDataSource:"db:/rrhh/tbc_banco_cta",
+typeid:22,
+uuid:"F3DFB8C3-073A-4770-8334-01D06D3947EA"

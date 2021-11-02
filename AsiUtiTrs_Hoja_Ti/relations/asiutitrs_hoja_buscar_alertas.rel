@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_alerta",
+items:[
+{foreignColumnName:"aler_histclin",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_hiiHisCli",typeid:23,uuid:"C2B4095C-78A1-4884-9819-867B1B8456A4"}
+],
+joinType:1,
+name:"asiutitrs_hoja_buscar_alertas",
+primaryDataSource:"db:/asistencial/tbc_alerta",
+typeid:22,
+uuid:"A92BC816-71D5-462C-AF58-ABFB1F20909D"

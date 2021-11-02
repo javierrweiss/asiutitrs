@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+initialSort:"obr_codigo asc",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"scopes.globals.consulta_1046_obra",typeid:23,uuid:"0984F20B-16BC-4FFA-B799-F00D14F01878"}
+],
+name:"consulta_1046_obra_to_tbc_obras",
+primaryDataSource:"db:/maestros/tbc_obras",
+typeid:22,
+uuid:"3946EC17-9580-4FFD-8D77-2895F146A1AD"

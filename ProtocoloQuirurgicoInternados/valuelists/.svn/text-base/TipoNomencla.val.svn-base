@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:null,
+dataProviderID1:"tip_descripcion",
+dataProviderID2:"tip_tipnome",
+dataSource:"db:/maestros/tbc_tipos",
+name:"TipoNomencla",
+relationName:null,
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"7C7462B4-92D6-41B2-99C1-7465F6F241F7",
+valueListType:1

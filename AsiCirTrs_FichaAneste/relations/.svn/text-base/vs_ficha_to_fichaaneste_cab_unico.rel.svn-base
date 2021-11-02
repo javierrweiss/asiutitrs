@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/fichaaneste_cab",
+items:[
+{foreignColumnName:"anestesiologo_legajo",primaryDataProviderID:"scopes.globals.fichaaneste_anestesiologo_legajo",typeid:23,uuid:"2AAB0817-2377-4834-B357-E312C52C4144"},
+{foreignColumnName:"histcli_unico",primaryDataProviderID:"scopes.globals.fichaaneste_histcliuni",typeid:23,uuid:"573E639D-C98F-4B76-94F0-3DCAA1DD2DE2"},
+{foreignColumnName:"estado",primaryDataProviderID:"scopes.globals.fichaaneste_vcero",typeid:23,uuid:"91270BDD-5193-4F79-B1AD-324C7F6FEF02"}
+],
+joinType:1,
+name:"vs_ficha_to_fichaaneste_cab_unico",
+primaryDataSource:"db:/desal/fichaaneste_cab",
+typeid:22,
+uuid:"E464F9C5-2106-440E-B6AD-BD8596F216AA"

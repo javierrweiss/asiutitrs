@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Sin Dato|0\r
+Espontáneo|1\r
+Fórceps|2\r
+Cesárea|3",
+name:"Terminacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"201ACEC2-0253-4A85-B3ED-19581549CAE4"

@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Por disparos|1
+Uso continuo|2
+No uso|0",
+name:"TipodeEstudio_copy",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"A9283AFF-7C5F-4A01-B06D-C4B2528776D3"

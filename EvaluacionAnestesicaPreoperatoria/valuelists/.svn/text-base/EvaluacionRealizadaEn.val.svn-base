@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"1.- Circuito Cerrado|1
+2.- Piso de Internación|2
+3.- Unidad Quirúrgica|3
+4.- Guardia|4",
+name:"EvaluacionRealizadaEn",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"0419044E-ED6A-41FD-8752-6619D1B1D3F3"

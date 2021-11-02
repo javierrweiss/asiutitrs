@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Femenino|1\r
+Masculino|2",
+name:"Hcipiso_vl_tipoSexo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"2BC25A03-11C1-493F-9387-A5EFDA5A88EB"

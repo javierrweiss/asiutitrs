@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+initialSort:"adm_apellido_5 asc",
+items:[
+{foreignColumnName:"adm_fecaltaefec",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"7F913E97-B11F-429A-9940-73C06DCC6E0D"},
+{foreignColumnName:"adm_apellido_5",operator:4,primaryDataProviderID:"scopes.globals.Anatpa_apeynom",typeid:23,uuid:"BD2DA4DE-BD94-4F9B-901F-D8A35348B13A"}
+],
+name:"anatpa_apeynom_to_tbc_admision",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"C8B992CE-0B23-4318-BF26-30EF8AE3E193"

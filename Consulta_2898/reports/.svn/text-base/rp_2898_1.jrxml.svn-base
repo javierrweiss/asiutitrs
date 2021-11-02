@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="rp_2898_1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1ec2a4cb-9440-45d3-bea6-b4cd5d4dc44c">
+	<property name="ireport.zoom" value="1.3310000000000008"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Titulos" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '0.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#FFFFFF" backcolor="#FFFFFF"/>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '1.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#FFFFFF" backcolor="#0080C0" fontName="SansSerif" fontSize="12" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '2.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" isBold="false" isItalic="false" isUnderline="true" isStrikeThrough="false"/>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '3.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" isBold="false" isItalic="true" isUnderline="false" isStrikeThrough="false"/>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '6.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" hAlign="Left" isBlankWhenNull="false" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false">
+				<paragraph leftIndent="16"/>
+			</style>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '7.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" fill="Solid" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '8.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#000000" backcolor="#DBDBDB" fill="Solid" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+		</conditionalStyle>
+	</style>
+	<style name="Detalle" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" pattern="">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '0.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" hAlign="Center" vAlign="Middle" fontSize="10" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false">
+				<box>
+					<pen lineWidth="1.5"/>
+					<topPen lineWidth="1.5"/>
+					<leftPen lineWidth="1.5"/>
+					<bottomPen lineWidth="1.5"/>
+					<rightPen lineWidth="1.5"/>
+				</box>
+			</style>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '4.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" fontSize="8">
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+			</style>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '6.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#808080" backcolor="#FFFFFF" fontSize="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false">
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+			</style>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '7.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#000000" backcolor="#DBDBDB" fontSize="8">
+				<box>
+					<pen lineWidth="1.5"/>
+					<topPen lineWidth="1.5"/>
+					<leftPen lineWidth="1.5"/>
+					<bottomPen lineWidth="1.5"/>
+					<rightPen lineWidth="1.5"/>
+				</box>
+			</style>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{tipo} == '8.0']]></conditionExpression>
+			<style mode="Opaque" forecolor="#000000" backcolor="#DBDBDB">
+				<box>
+					<pen lineWidth="1.5"/>
+					<topPen lineWidth="1.5"/>
+					<leftPen lineWidth="1.5"/>
+					<bottomPen lineWidth="1.5"/>
+					<rightPen lineWidth="1.5"/>
+				</box>
+			</style>
+		</conditionalStyle>
+	</style>
+	<parameter name="lbl_ano_0" class="java.lang.String"/>
+	<parameter name="lbl_mes_0" class="java.lang.String"/>
+	<parameter name="lbl_ano_1" class="java.lang.String"/>
+	<parameter name="lbl_mes_1" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="lbl_ano_2" class="java.lang.String"/>
+	<parameter name="lbl_mes_2" class="java.lang.String"/>
+	<parameter name="lbl_ano_3" class="java.lang.String"/>
+	<parameter name="lbl_mes_3" class="java.lang.String"/>
+	<parameter name="lbl_ano_4" class="java.lang.String"/>
+	<parameter name="lbl_mes_4" class="java.lang.String"/>
+	<parameter name="lbl_ano_5" class="java.lang.String"/>
+	<parameter name="lbl_mes_5" class="java.lang.String"/>
+	<parameter name="lbl_ano_6" class="java.lang.String"/>
+	<parameter name="lbl_mes_6" class="java.lang.String"/>
+	<parameter name="lbl_ano_7" class="java.lang.String"/>
+	<parameter name="lbl_mes_7" class="java.lang.String"/>
+	<parameter name="lbl_ano_8" class="java.lang.String"/>
+	<parameter name="lbl_mes_8" class="java.lang.String"/>
+	<parameter name="lbl_ano_9" class="java.lang.String"/>
+	<parameter name="lbl_mes_9" class="java.lang.String"/>
+	<parameter name="lbl_ano_10" class="java.lang.String"/>
+	<parameter name="lbl_mes_10" class="java.lang.String"/>
+	<parameter name="lbl_ano_11" class="java.lang.String"/>
+	<parameter name="lbl_mes_11" class="java.lang.String"/>
+	<parameter name="pr_img1" class="java.lang.String"/>
+	<parameter name="pr_img2" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="tit_1" class="java.lang.String"/>
+	<field name="col_1" class="java.math.BigDecimal"/>
+	<field name="col_2" class="java.math.BigDecimal"/>
+	<field name="tipo" class="java.lang.String"/>
+	<field name="col_3" class="java.math.BigDecimal"/>
+	<field name="col_4" class="java.math.BigDecimal"/>
+	<field name="sector" class="java.lang.Number"/>
+	<pageHeader>
+		<band height="91">
+			<textField>
+				<reportElement mode="Opaque" x="26" y="33" width="265" height="25" uuid="a2e28ea6-1bd6-4538-944f-2de884be259c"/>
+				<textElement textAlignment="Center">
+					<font size="13" isBold="true" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{sector}== 1 )? 'Resumen   ': ($F{sector}== 2 )? 'Ventas    ':
+($F{sector}== 3 )? 'Compras   ': ($F{sector}== 4 )? 'Prestaciones Médicas':
+($F{sector}== 5 )? 'Personal  ': ($F{sector}== 6 )? 'Finanzas  ':
+($F{sector}== 7 )? 'Contaduría': ($F{sector}== 8 )? 'Legales   ':
+($F{sector}== 9 )? 'SND       ': ($F{sector}== 10)? 'Varios    ':
+'']]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="51" y="10" width="152" height="26" uuid="e7d5437e-4e3c-4292-a174-b4a6029ba057"/>
+				<imageExpression><![CDATA[$P{pr_img2}]]></imageExpression>
+			</image>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="239" y="2" width="100" height="20" uuid="1c4a3fd2-becb-42b0-9574-be07eea95d06"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="383" y="2" width="117" height="20" uuid="7c817309-1de3-4d60-96f0-4bf81e30ac18"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Página "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="509" y="2" width="40" height="20" uuid="7278584c-f4e4-4d3e-adf2-db003f46297b"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="0" y="2" width="53" height="48" uuid="cf9c41db-5743-438a-9336-b50a706b9e7a"/>
+				<imageExpression><![CDATA[$P{pr_img1}]]></imageExpression>
+			</image>
+			<textField isBlankWhenNull="true">
+				<reportElement x="253" y="57" width="74" height="16" uuid="56b3f133-a82b-49d3-b8e7-181a25759314">
+					<printWhenExpression><![CDATA[$P{lbl_ano_0} != '' && $P{lbl_ano_0}!= null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{lbl_ano_0}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="253" y="73" width="74" height="16" uuid="6f367d9f-8ae1-4c17-9107-63da83f663c0">
+					<printWhenExpression><![CDATA[$P{lbl_mes_0} != '' && $P{lbl_mes_0}!= null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{lbl_mes_0}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="327" y="57" width="74" height="16" uuid="93590110-2510-425c-a729-11c36cac80d9">
+					<printWhenExpression><![CDATA[$P{lbl_ano_1} != '' && $P{lbl_ano_1}!= null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{lbl_ano_1}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="327" y="73" width="74" height="16" uuid="9ef5df6c-51c5-402d-8750-dc99f0bc0e9c">
+					<printWhenExpression><![CDATA[$P{lbl_mes_1} != '' && $P{lbl_mes_1}!= null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{lbl_mes_1}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="401" y="57" width="74" height="16" uuid="97083f63-4e0f-4be1-bf8f-a9fa4fcd67b2">
+					<printWhenExpression><![CDATA[$P{lbl_ano_2} != '' && $P{lbl_ano_2}!= null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{lbl_ano_2}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="401" y="73" width="74" height="16" uuid="5bc05e50-baef-4ae3-8d8e-eaba0de348e7">
+					<printWhenExpression><![CDATA[$P{lbl_mes_2} != '' && $P{lbl_mes_2}!= null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{lbl_mes_2}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="475" y="57" width="74" height="16" uuid="edfae60d-63e6-40e7-abee-fe9d1bd5fe57">
+					<printWhenExpression><![CDATA[$P{lbl_ano_3} != '' && $P{lbl_ano_3}!= null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{lbl_ano_3}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="475" y="73" width="74" height="16" uuid="893634c4-aff0-4a2d-b05b-cca58965bfe5">
+					<printWhenExpression><![CDATA[$P{lbl_mes_3} != '' && $P{lbl_mes_3}!= null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{lbl_mes_3}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="16">
+			<textField pattern="¤###,###,###.00" isBlankWhenNull="true">
+				<reportElement style="Detalle" mode="Opaque" x="327" y="0" width="74" height="16" uuid="da418d6d-9f5f-42f9-86c7-09d04347121d">
+					<printWhenExpression><![CDATA[$F{col_2} != '' && $F{col_2} != null]]></printWhenExpression>
+				</reportElement>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="none">
+					<font isBold="false" isUnderline="false" isStrikeThrough="false"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{col_2}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement style="Titulos" mode="Opaque" x="0" y="0" width="253" height="16" uuid="52d2e3ed-86d0-4d27-b52a-9629ec98617c"/>
+				<textElement verticalAlignment="Middle">
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tit_1}]]></textFieldExpression>
+			</textField>
+			<textField pattern="¤###,###,###.00" isBlankWhenNull="true">
+				<reportElement style="Detalle" x="253" y="0" width="74" height="16" uuid="3b487293-be4b-4d14-b9e3-31475dd547ad">
+					<printWhenExpression><![CDATA[$F{col_1} != '' && $F{col_1} != null]]></printWhenExpression>
+				</reportElement>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{col_1}]]></textFieldExpression>
+			</textField>
+			<textField pattern="¤###,###,###.00" isBlankWhenNull="true">
+				<reportElement style="Detalle" mode="Opaque" x="401" y="0" width="74" height="16" uuid="0544da55-cd8f-4383-8397-2042b39dc613">
+					<printWhenExpression><![CDATA[$F{col_3} != '' && $F{col_3} != null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{col_3}]]></textFieldExpression>
+			</textField>
+			<textField pattern="¤###,###,###.00" isBlankWhenNull="true">
+				<reportElement style="Detalle" mode="Opaque" x="475" y="0" width="74" height="16" uuid="f2adce47-89b4-4d9b-9116-2b78a23ef1c9">
+					<printWhenExpression><![CDATA[$F{col_4} != '' && $F{col_4} != null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{col_4}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

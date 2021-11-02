@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_prest_guar",
+items:[
+{foreignColumnName:"pregsecuencia",operator:4,primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"2188AA2B-EEA0-4425-BFB9-BDA92F373CAB"},
+{foreignColumnName:"pregtiponome",operator:4,primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"434E0598-F0F1-4971-9AA9-8D4FF495002B"},
+{foreignColumnName:"pregfechaingreso",primaryDataProviderID:"scopes.globals.reimpresor_fecha_ingreso",typeid:23,uuid:"8C5026DF-1BDC-410F-B3B3-8C374AF468D1"},
+{foreignColumnName:"pregcodnome",operator:4,primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"B4DE94FF-659B-4870-99A2-D3277EECA4C8"},
+{foreignColumnName:"preghistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"BB6ADA86-243B-4A67-AC17-CC7C3ABF8473"},
+{foreignColumnName:"preghoraingreso",primaryDataProviderID:"scopes.globals.reimpresor_hora_ingreso",typeid:23,uuid:"BE40F0A0-AF3D-4060-8412-8041244D9854"}
+],
+name:"reimpresor_vs_to_tbc_prest_guar",
+primaryDataSource:"db:/asistencial/tbc_prest_guar",
+typeid:22,
+uuid:"2F8DF924-0662-4F63-8B74-FB8153446E8D"

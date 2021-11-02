@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_especial",
+initialSort:"esp_codi asc",
+items:[
+{foreignColumnName:"esp_codi",operator:4,primaryDataProviderID:"scopes.globals.vEspecial",typeid:23,uuid:"111E59DA-8B3C-4FB5-BD24-0A3ACFD9F94B"}
+],
+name:"vespecial_to_tbc_especial",
+primaryDataSource:"db:/maestros/tbc_especial",
+typeid:22,
+uuid:"A12BC43D-5C0B-4ECF-B769-AF0F47731D40"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_interven",
+items:[
+{foreignColumnName:"itv_codi",operator:0,primaryDataProviderID:"globals.Interven",typeid:23,uuid:"9B765153-7E15-408C-88FD-A06EBB2D4A17"}
+],
+joinType:0,
+name:"interven_to_tbc_interven",
+primaryDataSource:"db:/maestros/tbc_interven",
+typeid:22,
+uuid:"3A4E7D69-A8D5-470C-8D15-36DF75FB67EC"

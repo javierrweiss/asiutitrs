@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_cateteres",
+initialSort:"hiscli asc, tipo asc, fecha asc, hora asc",
+items:[
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"02F94836-53E5-4D1B-8E01-82193C4F6DF3"},
+{foreignColumnName:"tipo",operator:0,primaryDataProviderID:"globals.viaPer",typeid:23,uuid:"17769852-CE30-488F-9B70-F3DAE8F473DE"},
+{foreignColumnName:"hora",operator:0,primaryDataProviderID:"globals.vHora",typeid:23,uuid:"BF7AE16C-4092-4B0B-A510-C28E22403D49"},
+{foreignColumnName:"fecha",operator:0,primaryDataProviderID:"globals.vFecha",typeid:23,uuid:"E8936292-970E-4901-B7ED-C17F48895A57"}
+],
+joinType:0,
+name:"viaper_to_hojauti_cateteres",
+primaryDataSource:"db:/enfermeria/hojauti_cateteres",
+typeid:22,
+uuid:"EC6818A8-015D-4DEF-90A6-328BC6AA0CD6"

@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"No|0\r
+< a 3 meses|1\r
+entre 3 y 6 meses|2\r
+> a 3 meses|3\r
+",
+name:"anesambu_vl_IM",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"BEA885CC-B8BD-48D3-9517-3829473F6173"

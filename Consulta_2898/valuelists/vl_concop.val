@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"ccopdescrip",
+dataProviderID2:"ccopcodigo",
+dataSource:"db:/maestros/tbc_concop_90",
+fallbackValueListID:"9FCAD421-9365-49D3-BAD1-44AEEB999E6D",
+name:"vl_concop",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"13F06F7F-719E-44CC-8E9A-855DA0B180BA",
+valueListType:1

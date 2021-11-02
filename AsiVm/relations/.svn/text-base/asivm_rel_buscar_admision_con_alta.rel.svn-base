@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+items:[
+{foreignColumnName:"adm_fecaltaefec",operator:2,primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"0ADFDD2D-983B-4D34-B562-97D2E6BF8821"},
+{foreignColumnName:"adm_histclin",primaryDataProviderID:"scopes.globals.AsiVm_adm_HistClin",typeid:23,uuid:"9A68AE14-D3E7-4B2B-BE35-1D1E680DAC8A"}
+],
+name:"asivm_rel_buscar_admision_con_alta",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"8E4EA996-298A-40C7-92B8-A2067016E48F"

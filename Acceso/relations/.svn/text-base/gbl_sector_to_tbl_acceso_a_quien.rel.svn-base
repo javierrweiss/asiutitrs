@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/tbl_acceso_a_quien",
+initialSort:"tbl_acceso_a_nombre asc",
+items:[
+{foreignColumnName:"tbl_acceso_id_sector",primaryDataProviderID:"scopes.globals.gbl_sector",typeid:23,uuid:"6840B736-CFD9-45CF-99F3-B45E7D328DC8"}
+],
+name:"gbl_sector_to_tbl_acceso_a_quien",
+primaryDataSource:"db:/bases_auxiliares/tbl_movimientos_accesos",
+typeid:22,
+uuid:"DB48BF8C-93C0-4F52-87F0-3DCDFA526BC5"

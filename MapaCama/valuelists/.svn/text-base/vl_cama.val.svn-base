@@ -1,0 +1,9 @@
+addEmptyValue:1,
+dataProviderID1:"cam_cama",
+name:"vl_cama",
+relationName:"tbc_camas_to_tbc_camas",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"A32FBCCD-AC84-4838-A892-BED72547EF6F",
+valueListType:1

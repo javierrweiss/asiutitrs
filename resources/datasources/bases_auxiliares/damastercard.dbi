@@ -1,0 +1,13 @@
+columns:[
+{
+allowNull:false,
+autoEnterSubType:0,
+autoEnterType:2,
+creationOrderIndex:0,
+dataType:4,
+flags:1,
+name:"afiliado"
+}
+],
+name:"damastercard",
+tableType:0

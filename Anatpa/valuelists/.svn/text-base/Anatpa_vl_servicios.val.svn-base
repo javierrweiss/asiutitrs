@@ -1,0 +1,13 @@
+addEmptyValue:1,
+dataProviderID1:"anat_servi_descri",
+dataProviderID2:"anat_servi_codigo",
+dataProviderID3:"anat_servi_proceso",
+dataSource:"db:/desal/anat_servicios",
+name:"Anatpa_vl_servicios",
+returnDataProviders:2,
+separator:"",
+showDataProviders:1,
+sortOptions:"anat_servi_codigo asc",
+typeid:34,
+uuid:"7DF398B3-DCC1-4579-88D5-004206C5375D",
+valueListType:1

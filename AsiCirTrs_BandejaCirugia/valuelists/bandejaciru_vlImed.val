@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Cirugía|1\r
+Anestesia|2",
+name:"bandejaciru_vlImed",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"7375A934-89A7-4B60-BD69-251FAD06F929"

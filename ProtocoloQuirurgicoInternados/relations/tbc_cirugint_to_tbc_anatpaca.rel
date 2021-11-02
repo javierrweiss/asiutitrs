@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anatpaca",
+initialSort:"apca_servicio asc, apca_protocolo asc",
+items:[
+{foreignColumnName:"apca_servicio",operator:0,primaryDataProviderID:"globals.eleven_value",typeid:23,uuid:"195DEB2D-8CDD-4C58-ADF8-81807ED6B3F6"},
+{foreignColumnName:"apca_protocolo",operator:0,primaryDataProviderID:"ciriprotocolo",typeid:23,uuid:"B0247C9C-0E19-4B2F-A6A7-EEFB4CE1B445"}
+],
+joinType:0,
+name:"tbc_cirugint_to_tbc_anatpaca",
+primaryDataSource:"db:/asistencial/tbc_cirugint",
+typeid:22,
+uuid:"0F329A6E-D96F-449D-8BAD-4E605ACD0EDA"

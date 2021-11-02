@@ -1,0 +1,383 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/proyecto1/!svn/ver/2677/protesis/forms
+END
+frm_scr_tbc_admision_N_protesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1642/protesis/forms/frm_scr_tbc_admision_N_protesis.js
+END
+frm_protesis_buscarAmbulatorio_dg.frm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/1513/protesis/forms/frm_protesis_buscarAmbulatorio_dg.frm
+END
+protesis_buscarProtesis_dg.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/1506/protesis/forms/protesis_buscarProtesis_dg.js
+END
+prote_tbl_intervenciones.frm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/proyecto1/!svn/ver/1618/protesis/forms/prote_tbl_intervenciones.frm
+END
+protesis_tbl_protesisCodigo.frm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/1506/protesis/forms/protesis_tbl_protesisCodigo.frm
+END
+tab_scr_tbc_admision_protesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1464/protesis/forms/tab_scr_tbc_admision_protesis.frm
+END
+prote_dlgAgregarNovedadItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1677/protesis/forms/prote_dlgAgregarNovedadItem.js
+END
+prote_tbl_medicos.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/proyecto1/!svn/ver/1647/protesis/forms/prote_tbl_medicos.js
+END
+prote_frmVacio.frm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/proyecto1/!svn/ver/1573/protesis/forms/prote_frmVacio.frm
+END
+frm_protesis_buscarInternado_dg.frm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1464/protesis/forms/frm_protesis_buscarInternado_dg.frm
+END
+prote_tblSolicitudProtesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/1613/protesis/forms/prote_tblSolicitudProtesis.js
+END
+frm_scr_hist_clin_unica_protesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1513/protesis/forms/frm_scr_hist_clin_unica_protesis.frm
+END
+prote_tbl_protesisItems.frm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/proyecto1/!svn/ver/1591/protesis/forms/prote_tbl_protesisItems.frm
+END
+prote_tbl_protesisSubItems.frm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1642/protesis/forms/prote_tbl_protesisSubItems.frm
+END
+prote_dlgProtesisItems.frm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/proyecto1/!svn/ver/1579/protesis/forms/prote_dlgProtesisItems.frm
+END
+prote_frmRecepcionProtesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/2677/protesis/forms/prote_frmRecepcionProtesis.js
+END
+prote_tbl_medicos.frm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/proyecto1/!svn/ver/1618/protesis/forms/prote_tbl_medicos.frm
+END
+prote_tbl_protesisNovedadItem.frm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1642/protesis/forms/prote_tbl_protesisNovedadItem.frm
+END
+prote_tbl_intervenciones.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/proyecto1/!svn/ver/1642/protesis/forms/prote_tbl_intervenciones.js
+END
+protesis_tbl_protesisDescripcion.frm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1510/protesis/forms/protesis_tbl_protesisDescripcion.frm
+END
+protesis_lst_protesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/proyecto1/!svn/ver/1590/protesis/forms/protesis_lst_protesis.frm
+END
+frm_scr_tbc_admision_L_protesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1464/protesis/forms/frm_scr_tbc_admision_L_protesis.frm
+END
+frm_tab_hist_clin_unica_protesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1636/protesis/forms/frm_tab_hist_clin_unica_protesis.js
+END
+frm_protesis_txtDiagnostico.frm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/1590/protesis/forms/frm_protesis_txtDiagnostico.frm
+END
+prote_frmRecepcionProtesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1677/protesis/forms/prote_frmRecepcionProtesis.frm
+END
+prote_dlgProtesisItems.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/proyecto1/!svn/ver/1579/protesis/forms/prote_dlgProtesisItems.js
+END
+prote_dlgAgregarProtesisItems.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/1590/protesis/forms/prote_dlgAgregarProtesisItems.js
+END
+prote_tbl_protesisItems.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/proyecto1/!svn/ver/1591/protesis/forms/prote_tbl_protesisItems.js
+END
+frm_scr_hist_clin_unica_protesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1642/protesis/forms/frm_scr_hist_clin_unica_protesis.js
+END
+frm_protesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/proyecto1/!svn/ver/1590/protesis/forms/frm_protesis.js
+END
+protesis_tab_buscarProtesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1510/protesis/forms/protesis_tab_buscarProtesis.js
+END
+protesis_buscarProtesis_dg.frm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1506/protesis/forms/protesis_buscarProtesis_dg.frm
+END
+prote_dlgModificarProtesisItems.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1747/protesis/forms/prote_dlgModificarProtesisItems.js
+END
+frm_scr_hist_clin_unica_n_protesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/1636/protesis/forms/frm_scr_hist_clin_unica_n_protesis.frm
+END
+prote_dlgModificarProtesisItems.frm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1677/protesis/forms/prote_dlgModificarProtesisItems.frm
+END
+frm_protesis_buscarAmbulatorio_dg.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1506/protesis/forms/frm_protesis_buscarAmbulatorio_dg.js
+END
+frm_protesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/proyecto1/!svn/ver/1590/protesis/forms/frm_protesis.frm
+END
+protesis_tab_buscarProtesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/1510/protesis/forms/protesis_tab_buscarProtesis.frm
+END
+prote_dlg_busquedaIntervencion.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1618/protesis/forms/prote_dlg_busquedaIntervencion.js
+END
+protesis_frm_agregarProtesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/1514/protesis/forms/protesis_frm_agregarProtesis.frm
+END
+protesis_frm_agregarProtesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/1515/protesis/forms/protesis_frm_agregarProtesis.js
+END
+frm_protesis_buscarInternado_dg.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1464/protesis/forms/frm_protesis_buscarInternado_dg.js
+END
+prote_tblSolicitudProtesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1642/protesis/forms/prote_tblSolicitudProtesis.frm
+END
+prote_frmSolicitudProtesisSearch.frm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1642/protesis/forms/prote_frmSolicitudProtesisSearch.frm
+END
+prote_dlg_busquedaMedicos.frm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/1605/protesis/forms/prote_dlg_busquedaMedicos.frm
+END
+frm_protesis_txtObservacion.frm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/1573/protesis/forms/frm_protesis_txtObservacion.frm
+END
+protesis_lst_protesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/proyecto1/!svn/ver/1573/protesis/forms/protesis_lst_protesis.js
+END
+frm_protesis_txtResumen.frm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/proyecto1/!svn/ver/1573/protesis/forms/frm_protesis_txtResumen.frm
+END
+frm_scr_hist_clin_unica_n_protesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/1642/protesis/forms/frm_scr_hist_clin_unica_n_protesis.js
+END
+frm_scr_tbc_admision_N_protesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1464/protesis/forms/frm_scr_tbc_admision_N_protesis.frm
+END
+protesis_tbl_protesisDescripcion.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1515/protesis/forms/protesis_tbl_protesisDescripcion.js
+END
+prote_txtIntervencion.frm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/proyecto1/!svn/ver/1590/protesis/forms/prote_txtIntervencion.frm
+END
+prote_dlg_busquedaMedicos.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/proyecto1/!svn/ver/1618/protesis/forms/prote_dlg_busquedaMedicos.js
+END
+prote_frmSolicitudProtesisSearch.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1655/protesis/forms/prote_frmSolicitudProtesisSearch.js
+END
+prote_tbl_protesisNovedadItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/1624/protesis/forms/prote_tbl_protesisNovedadItem.js
+END
+prote_dlgAgregarProtesisItems.frm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1605/protesis/forms/prote_dlgAgregarProtesisItems.frm
+END
+prote_tbl_protesisSubItems.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/1677/protesis/forms/prote_tbl_protesisSubItems.js
+END
+prote_dlg_busquedaIntervencion.frm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1618/protesis/forms/prote_dlg_busquedaIntervencion.frm
+END
+prote_dlgAgregarNovedadItem.frm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/1817/protesis/forms/prote_dlgAgregarNovedadItem.frm
+END
+protesis_tbl_protesisCodigo.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1515/protesis/forms/protesis_tbl_protesisCodigo.js
+END
+tab_scr_tbc_admision_protesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/1464/protesis/forms/tab_scr_tbc_admision_protesis.js
+END
+frm_tab_hist_clin_unica_protesis.frm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1636/protesis/forms/frm_tab_hist_clin_unica_protesis.frm
+END
+frm_scr_tbc_admision_L_protesis.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1642/protesis/forms/frm_scr_tbc_admision_L_protesis.js
+END

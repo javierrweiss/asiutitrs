@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Glóbulos Rojos|1\r
+Plasma|2\r
+Plaquetas|3\r
+Ninguno|0",
+name:"sangre",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"899FB50F-0612-43E3-AB40-D6B2108759E3"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+initialSort:"histcabnrounico asc",
+items:[
+{foreignColumnName:"histcabnrounico",operator:4,primaryDataProviderID:"scopes.globals.gbl_hiscli_protesis",typeid:23,uuid:"D270A9FB-E18D-487E-AE0D-4B5FB600CAD5"}
+],
+name:"protesis_ambulatorio_buscar_numero",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"D7136EAE-AB07-4144-A7E5-DC5B283CAEDE"

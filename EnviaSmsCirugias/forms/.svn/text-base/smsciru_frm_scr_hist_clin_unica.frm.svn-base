@@ -1,0 +1,71 @@
+dataSource:"db:/asistencial/tbc_hist_cab_new",
+items:[
+{
+background:"#c0c0c0",
+fontType:"Microsoft Sans Serif,0,12",
+horizontalAlignment:0,
+labelFor:"adm_histclinuni",
+location:"0,3",
+name:"adm_codigo_label",
+size:"116,20",
+text:"H. Clinica U.",
+typeid:7,
+uuid:"118ACD54-FB36-43F5-8EF5-CC6AAB2C6014"
+},
+{
+height:52,
+partType:5,
+typeid:19,
+uuid:"2F28848C-5377-4836-A6CC-5A532DF0D4AE"
+},
+{
+dataProviderID:"histcabapellnom",
+editable:false,
+fontType:"Microsoft Sans Serif,0,12",
+foreground:"#000000",
+location:"115,23",
+name:"adm_apellido_5",
+onActionMethodID:"84BC9D38-913A-4711-BD49-D5A8012176EA",
+onFocusGainedMethodID:"-1",
+selectOnEnter:true,
+size:"298,20",
+typeid:4,
+uuid:"96E52610-CB47-47C3-AF1F-A69EBC57E3D8"
+},
+{
+background:"#c0c0c0",
+fontType:"Microsoft Sans Serif,0,12",
+horizontalAlignment:0,
+labelFor:"adm_apellido_5",
+location:"115,3",
+name:"adm_nomadmis_label",
+size:"298,20",
+text:"Apellido y nombre del Paciente",
+typeid:7,
+uuid:"D2366333-4DB8-4AB3-AF96-CA64630D15FD"
+},
+{
+dataProviderID:"histcabnrounico",
+editable:false,
+fontType:"Microsoft Sans Serif,0,12",
+foreground:"#000000",
+horizontalAlignment:0,
+location:"0,23",
+name:"adm_histclinuni",
+onActionMethodID:"84BC9D38-913A-4711-BD49-D5A8012176EA",
+onFocusGainedMethodID:"-1",
+selectOnEnter:true,
+size:"116,20",
+typeid:4,
+uuid:"F07A18A3-59CB-4117-92CA-9B8C0408CBBD"
+}
+],
+name:"smsciru_frm_scr_hist_clin_unica",
+navigatorID:"-1",
+onHideMethodID:"-1",
+onShowMethodID:"-1",
+scrollbars:32,
+size:"415,52",
+typeid:3,
+uuid:"5B9BACC5-FB15-4407-A573-F01FAFC59E54",
+view:3

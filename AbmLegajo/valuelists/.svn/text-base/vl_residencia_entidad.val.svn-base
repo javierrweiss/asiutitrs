@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"Municipal|1
+Provincial|2
+Nacional|3
+Privado|4
+Fuerzas Seguridad|5
+Otros|9",
+name:"vl_residencia_entidad",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"719DFA92-28B6-4F40-AAF9-0D48A053CC27"

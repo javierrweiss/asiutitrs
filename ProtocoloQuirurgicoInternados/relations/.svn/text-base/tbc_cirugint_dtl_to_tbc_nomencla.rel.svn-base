@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+items:[
+{foreignColumnName:"nome_tipo",operator:0,primaryDataProviderID:"ciritiponome",typeid:23,uuid:"105CA72D-3404-4FAB-BAC6-D103F32D61B0"},
+{foreignColumnName:"nome_codigo",operator:0,primaryDataProviderID:"ciricodnome",typeid:23,uuid:"8D06F34B-7E74-4950-BA7B-5E9180D64BCE"}
+],
+joinType:0,
+name:"tbc_cirugint_dtl_to_tbc_nomencla",
+primaryDataSource:"db:/asistencial/tbc_cirugint_dtl",
+typeid:22,
+uuid:"53E6D983-DCA2-4E3C-BE7C-2D6BF606F9F0"

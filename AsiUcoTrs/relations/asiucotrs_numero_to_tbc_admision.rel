@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+initialSort:"adm_histclin asc",
+items:[
+{foreignColumnName:"adm_histclin",operator:4,primaryDataProviderID:"scopes.globals.AsiUcoTrs_hisclin",typeid:23,uuid:"9FC10D02-BF1E-4B1A-8AC2-34AFE54E6A33"},
+{foreignColumnName:"adm_fecaltaefec",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"B29289AC-D4F2-4DB1-82CE-22C37B201A0E"}
+],
+name:"asiucotrs_numero_to_tbc_admision",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"CFC4FC8D-6B0D-434D-B5EB-A918D9899E9C"

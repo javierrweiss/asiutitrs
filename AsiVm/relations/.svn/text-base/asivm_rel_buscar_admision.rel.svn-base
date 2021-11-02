@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_admision",
+items:[
+{foreignColumnName:"adm_histclin",primaryDataProviderID:"scopes.globals.AsiVm_hisclin",typeid:23,uuid:"66A31B7D-17B5-40A3-A955-A5FF106334ED"}
+],
+name:"asivm_rel_buscar_admision",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"5E55F318-7C28-4B06-AF52-D7F381F1A3B5"

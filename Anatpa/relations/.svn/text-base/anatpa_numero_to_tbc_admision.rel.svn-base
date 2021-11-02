@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+initialSort:"adm_histclin asc",
+items:[
+{foreignColumnName:"adm_histclin",operator:4,primaryDataProviderID:"scopes.globals.Anatpa_hiscli",typeid:23,uuid:"47D43CE4-A9B0-4D62-97DB-569E6D017893"}
+],
+name:"anatpa_numero_to_tbc_admision",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"0A6F2772-A3D8-4053-8307-011A2BCACADD"

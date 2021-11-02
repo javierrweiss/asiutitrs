@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/aux_253",
+initialSort:"aux_nrosolic asc",
+items:[
+{foreignColumnName:"aux_operador",primaryDataProviderID:"scopes.globals.vLega",typeid:23,uuid:"AC9ED694-EC08-4368-9F54-CE9FC194AC5A"},
+{foreignColumnName:"aux_nrosolic",primaryDataProviderID:"scopes.globals.gbl_solicitud",typeid:23,uuid:"EDF4C95D-B3F8-4F71-9030-C02785D9E2AA"}
+],
+name:"aux_253_to_aux_253",
+primaryDataSource:"db:/bases_auxiliares/aux_253",
+typeid:22,
+uuid:"71E2209F-E1FB-4CBE-93D9-EA80342550A7"

@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"Frecuencia respiratoria > 35 rpm|1\r
+Uso de músculos accesorios|2\r
+Secreciones copiosas|3\r
+pH < 7.30|4\r
+Hipercapnia|5\r
+SpO2 < 90% con FiO2 > 60%|6",
+name:"AsiVm_vl_causa_fracasos_cnaf",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"A67398A0-E277-47C9-B56E-EB67E46F3B3D"

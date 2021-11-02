@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Esfuerzo inspiratorio|Esfuerzo inspiratorio\r
+Esfuerzo espiratorio|Esfuerzo espiratorio\r
+Normal|Normal",
+name:"AsiVm_vl_mecanica",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"1FCFB90C-3D52-49F2-BE7A-B5440EEA500A"

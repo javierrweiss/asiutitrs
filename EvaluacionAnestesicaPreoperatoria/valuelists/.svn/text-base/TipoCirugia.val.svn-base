@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"1.- Traumatológica/Neurocirugía|1
+2.- Cardiovascular|2
+3.- Cesárea|3
+4.- Gral. debajo ángulo Treitz|4
+5.- Gral. arriba ángulo Treitz|5",
+name:"TipoCirugia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"CC1AFB51-EB95-436E-9CE4-D9BD1981B306"

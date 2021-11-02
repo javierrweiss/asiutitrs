@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_codauto",
+items:[
+{foreignColumnName:"codautohist4",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"24F03CE2-3EAC-4959-A776-28B16402FACB"},
+{foreignColumnName:"codautoobra4",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"2E59CF5C-8AE8-4EDF-B1AB-F19B98695D72"},
+{foreignColumnName:"codautoplan4",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"65992C9F-E985-4245-8863-81B846B096FD"},
+{foreignColumnName:"codautoesta4",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"AB0E8049-BC09-48DA-AB5F-C8352559B7CB"},
+{foreignColumnName:"codautoserv4",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"C6EF07F7-074A-429B-B40F-C72787A74A11"}
+],
+name:"palab_rel_codauto_print_update",
+primaryDataSource:"db:/asistencial/tbc_codauto",
+typeid:22,
+uuid:"35389573-A0D4-4C4A-A55A-D92688167ED1"

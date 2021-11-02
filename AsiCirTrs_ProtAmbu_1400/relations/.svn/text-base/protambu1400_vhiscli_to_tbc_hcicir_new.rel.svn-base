@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hcicir_new",
+items:[
+{foreignColumnName:"hcirfecha",primaryDataProviderID:"scopes.globals.protambu1400_fechaingreso",typeid:23,uuid:"4A6034A5-B6DF-4BBB-B309-7B118DE38DFD"},
+{foreignColumnName:"hcirhora",primaryDataProviderID:"scopes.globals.protambu1400_hora_ingreso",typeid:23,uuid:"762ABE8D-AA1B-44A6-B96C-C402655B5DF7"},
+{foreignColumnName:"hcirtipohc",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"CABF8DA5-64BB-4CC4-A864-3621B713EC57"},
+{foreignColumnName:"hcirhiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"EA17A86D-C98B-42B9-A03A-E5B284A4D758"}
+],
+name:"protambu1400_vhiscli_to_tbc_hcicir_new",
+primaryDataSource:"db:/asistencial/tbc_hcicir_new",
+typeid:22,
+uuid:"19229505-A68C-4F26-8854-075D228F7309"

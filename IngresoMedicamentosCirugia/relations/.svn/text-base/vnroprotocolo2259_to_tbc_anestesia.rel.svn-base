@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anestesia",
+items:[
+{foreignColumnName:"anes_protocolo",primaryDataProviderID:"scopes.globals.vNroProtocolo2259",typeid:23,uuid:"B04684D1-00E5-468E-A610-0191404CCF62"}
+],
+name:"vnroprotocolo2259_to_tbc_anestesia",
+primaryDataSource:"db:/asistencial/tbc_anestesia",
+typeid:22,
+uuid:"9426BF27-F65B-4266-8866-403CB4AEBD6A"

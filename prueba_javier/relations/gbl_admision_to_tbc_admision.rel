@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_admision",
+items:[
+{foreignColumnName:"adm_obrsoc",primaryDataProviderID:"scopes.globals.gbl_admin_obraSoc",typeid:23,uuid:"38C0EF53-D648-4C25-9DD8-5F0485344890"},
+{foreignColumnName:"adm_histclin",primaryDataProviderID:"adm_histclin",typeid:23,uuid:"507619BC-459D-46B4-A482-CBA8CF34E47D"}
+],
+name:"gbl_admision_to_tbc_admision",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"9E7AB74F-28DD-488D-8839-69D0AE807E4D"

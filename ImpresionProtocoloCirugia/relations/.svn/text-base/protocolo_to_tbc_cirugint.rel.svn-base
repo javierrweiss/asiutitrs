@@ -1,0 +1,15 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_cirugint",
+items:[
+{foreignColumnName:"cirihistcl",operator:0,primaryDataProviderID:"globals.vHisclin",typeid:23,uuid:"1052F74F-AA5E-4A9A-8EEB-ADB146618E97"},
+{foreignColumnName:"ciritiponome",operator:0,primaryDataProviderID:"globals.vTipnome",typeid:23,uuid:"43A94E91-AC7A-44D9-8EBA-07AA8BC3634D"},
+{foreignColumnName:"cirifechacarga",operator:4,primaryDataProviderID:"globals.vCodnome",typeid:23,uuid:"5C69CF3D-3382-4C92-8B25-C76D1BE0726E"},
+{foreignColumnName:"ciriprotocolo",operator:2,primaryDataProviderID:"globals.vTipnome",typeid:23,uuid:"8163FD10-B6AC-44D5-B885-4FC18B0FFD7E"},
+{foreignColumnName:"ciricodnome",operator:0,primaryDataProviderID:"globals.vCodnome",typeid:23,uuid:"E1F709D8-856C-4A3E-9112-702B32E60E2B"},
+{foreignColumnName:"cirihoracarga",operator:4,primaryDataProviderID:"globals.vTipnome",typeid:23,uuid:"F69C39DD-2FCE-463E-B48F-6D8F6052705B"}
+],
+joinType:0,
+name:"protocolo_to_tbc_cirugint",
+primaryDataSource:"db:/asistencial/tbc_cirugint",
+typeid:22,
+uuid:"3FDA7429-A892-4AB2-A15C-82065F628C75"

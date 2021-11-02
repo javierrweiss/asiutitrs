@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_protesis",
+items:[
+{foreignColumnName:"prote_histclin",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"D955AC45-2095-4069-9D8D-A1BA7C11D0C8"},
+{foreignColumnName:"prote_estprote",operator:1,primaryDataProviderID:"scopes.globals.nine_value",typeid:23,uuid:"FA653FAF-57FB-4227-87C7-5FD084D3052C"}
+],
+name:"vhiscli_to_tbc_protesis",
+primaryDataSource:"db:/asistencial/tbc_protesis",
+typeid:22,
+uuid:"20E8673F-139F-45CC-92BE-C569F057A6BC"

@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"No Ficha|0
+Reloj|1
+Interno|2
+Huella|3
+Consultorio|4",
+name:"vl_ficha_por",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"BBC95705-7DAE-46AA-B68C-08C10B3C1586"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"diagnostico_operatorio",typeid:23,uuid:"ACD26CC7-43AD-4EC0-AE9B-A34393F2CD4B"}
+],
+joinType:1,
+name:"fichaaneste_cab_to_tbc_patologia_oper",
+primaryDataSource:"db:/desal/fichaaneste_cab",
+typeid:22,
+uuid:"F98BBBA2-E2FD-4148-A026-14082479200C"

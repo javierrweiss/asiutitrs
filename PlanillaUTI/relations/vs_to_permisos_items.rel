@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/permisos_items",
+items:[
+{foreignColumnName:"name_forms",primaryDataProviderID:"scopes.globals.vNameForms",typeid:23,uuid:"2DD933DD-070D-4658-AFE9-55C657469EFE"},
+{foreignColumnName:"name_solucion",primaryDataProviderID:"scopes.globals.vNameSolucion",typeid:23,uuid:"68D34788-B5C3-479F-9BCF-BFD7EA9E7664"},
+{foreignColumnName:"nro_operador",primaryDataProviderID:"scopes.globals.vLegajo",typeid:23,uuid:"6A3EA61F-02E0-4E94-AFB4-4E347070E382"},
+{foreignColumnName:"name_modulo",primaryDataProviderID:"scopes.globals.name_modulo",typeid:23,uuid:"6FF457A5-826A-49A1-928F-E64758AEA7C0"},
+{foreignColumnName:"tipo_operador",primaryDataProviderID:"scopes.globals.vTipoOperador",typeid:23,uuid:"AA0C0CEB-7E1A-44DE-9AE1-96751F440A3B"}
+],
+name:"vs_to_permisos_items",
+primaryDataSource:"db:/enfermeria/permisos_items",
+typeid:22,
+uuid:"30E507D3-1CF9-4EB9-B10B-C93C73F8BC4E"

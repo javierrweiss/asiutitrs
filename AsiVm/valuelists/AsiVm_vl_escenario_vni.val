@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Prevención de falla|Prevención de falla\r
+Weaning|Weaning\r
+Rescate|Rescate\r
+",
+name:"AsiVm_vl_escenario_vni",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"EF8C29C5-E53F-4E3F-B248-15FC920EDBA4"

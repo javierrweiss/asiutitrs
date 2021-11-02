@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_motivos",
+items:[
+{foreignColumnName:"motnro",primaryDataProviderID:"scopes.globals.gbl_motivo_sus",typeid:23,uuid:"C25B7F66-28F3-49D0-85E0-B2CA245E7935"}
+],
+name:"gbl_cob_to_motivos",
+primaryDataSource:"db:/maestros/tbc_motivos",
+typeid:22,
+uuid:"9B8452EB-CF3F-48B4-A7F8-0C0F7EBBE5FA"

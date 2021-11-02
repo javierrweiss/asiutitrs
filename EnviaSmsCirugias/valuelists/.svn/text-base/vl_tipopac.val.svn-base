@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Ambulatorio|1\r
+Internado|0",
+name:"vl_tipopac",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"7AB3F67E-8A61-4433-BDEB-BFE7D717C212"

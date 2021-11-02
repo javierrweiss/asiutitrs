@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_ficha_kine",
+items:[
+{foreignColumnName:"histcli",primaryDataProviderID:"scopes.globals.AsiVm_adm_HistClin",typeid:23,uuid:"3A9E2AAB-793D-4D79-906F-8C4FE656D091"},
+{foreignColumnName:"con_soporte_ventilatorio",primaryDataProviderID:"LITERAL:2",typeid:23,uuid:"7676E2AC-B4C5-4B59-81FB-D4ECCD237BDF"}
+],
+joinType:1,
+name:"asivm_rel_buscar_ficha_kine_con_soporte",
+primaryDataSource:"db:/desal/tbl_ficha_kine",
+typeid:22,
+uuid:"D6FDBF6A-18F3-43C4-B885-323EA7FAC4BF"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/tbl_cronoambren",
+items:[
+{foreignColumnName:"hiscli_nro",primaryDataProviderID:"hiscli_nro",typeid:23,uuid:"64B9445D-1864-4517-9FB8-B9C93EC0829D"}
+],
+joinType:1,
+name:"tbl_cronoambcab_to_tbl_cronoambren_histcli",
+primaryDataSource:"db:/bases_auxiliares/tbl_cronoambcab",
+typeid:22,
+uuid:"FA77F21E-BFB1-4165-A8CC-C7FF0D10A818"

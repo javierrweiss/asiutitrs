@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Gotas|1\r
+Contacto|2\r
+Inmunocomprometivo|3\r
+Aereo|4\r
+",
+name:"vl_tipo_aislamiento_hoja",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"5D9A00D7-776E-4C24-8A83-7DDB93EA3E5D"

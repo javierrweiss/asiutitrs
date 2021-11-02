@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:"Sequedad de mucosas|1\r
+Lesión cutánea|2\r
+Distensión abdominal|3\r
+Fuga|4\r
+Broncoaspiración|5\r
+Shock|6\r
+Otra|7",
+name:"AsiVm_vl_complicaciones_vni",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"20BA0755-459A-4A67-A0E5-AD3F2D01754C"

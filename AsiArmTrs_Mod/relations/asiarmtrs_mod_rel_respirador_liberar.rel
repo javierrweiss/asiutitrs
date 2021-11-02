@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_respirador",
+items:[
+{foreignColumnName:"rsp_codint",primaryDataProviderID:"scopes.globals.AsiArmTrs_Mod_rspCodIntLib",typeid:23,uuid:"8588F0B6-70DA-4151-A412-C13D00A06F89"},
+{foreignColumnName:"rsp_codseq",primaryDataProviderID:"scopes.globals.AsiArmTrs_Mod_rspCodSeqLib",typeid:23,uuid:"C26C96EF-C5B4-420C-A940-5ABD0BC6A02C"}
+],
+name:"asiarmtrs_mod_rel_respirador_liberar",
+primaryDataSource:"db:/asistencial/tbc_respirador",
+typeid:22,
+uuid:"853B25E2-2C18-433C-B4D5-151CAFECD660"

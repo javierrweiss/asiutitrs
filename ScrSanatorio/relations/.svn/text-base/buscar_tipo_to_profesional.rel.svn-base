@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+initialSort:"medperestado asc, medperapeynom asc",
+items:[
+{foreignColumnName:"medpertipoie",primaryDataProviderID:"scopes.globals.gbl_campo_N1",typeid:23,uuid:"06ABE1D6-8614-4404-823F-A330E1FD7903"},
+{foreignColumnName:"medperestado",primaryDataProviderID:"scopes.globals.gbl_campo_N2",typeid:23,uuid:"11FCE9B0-674C-49C7-80F5-217804F2AA50"},
+{foreignColumnName:"medperapeynom",operator:4,primaryDataProviderID:"scopes.globals.gbl_con_profesional",typeid:23,uuid:"C54D3DD6-0A9A-4693-A25D-1650BAED0D4D"}
+],
+name:"buscar_tipo_to_profesional",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"7CB1B879-C70D-4B06-BB23-BE437D7B1B95"

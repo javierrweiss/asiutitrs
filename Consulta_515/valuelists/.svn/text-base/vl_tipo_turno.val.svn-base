@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Todos|0
+Confirmados|1
+Suspendidos|2
+Bajas|3",
+name:"vl_tipo_turno",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"A7907FBF-B9F3-42CA-8EC6-C257BFC1F782"

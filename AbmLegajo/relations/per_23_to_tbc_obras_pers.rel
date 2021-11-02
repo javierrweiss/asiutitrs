@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_obras_pers",
+items:[
+{foreignColumnName:"obpobra",operator:4,primaryDataProviderID:"scopes.globals.per_23",typeid:23,uuid:"06B527F1-9739-4554-A489-266FE9055ED1"}
+],
+name:"per_23_to_tbc_obras_pers",
+primaryDataSource:"db:/rrhh/tbc_obras_pers",
+typeid:22,
+uuid:"D08D5562-81C7-4049-94FD-1DFAF7F9AFFA"

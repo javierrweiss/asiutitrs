@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"guar_obra",typeid:23,uuid:"4B21D71A-21CF-4749-B424-D6804B33EEEE"}
+],
+name:"reimpresor_tbc_guardia_to_tbc_obras",
+primaryDataSource:"db:/asistencial/tbc_guardia",
+typeid:22,
+uuid:"277F2EAB-48C7-41E8-99BA-B26252297B40"

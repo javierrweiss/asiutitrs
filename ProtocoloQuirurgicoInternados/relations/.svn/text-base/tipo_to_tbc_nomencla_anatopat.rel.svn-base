@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla_anatopat",
+initialSort:"nome_tipo_6 asc, nome_grupo_6 asc, nome_descr_6 asc",
+items:[
+{foreignColumnName:"nome_tipo",operator:0,primaryDataProviderID:"globals.one_value",typeid:23,uuid:"980967E5-3E8D-4FFA-BDA6-6754492C74A3"}
+],
+joinType:0,
+name:"tipo_to_tbc_nomencla_anatopat",
+primaryDataSource:"db:/maestros/tbc_nomencla_anatopat",
+typeid:22,
+uuid:"2A1B1B75-61D5-413E-AF32-D3F5F444B687"

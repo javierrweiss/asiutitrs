@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_val_ciru",
+items:[
+{foreignColumnName:"vcirfechaingreso",primaryDataProviderID:"scopes.globals.protambu1400_fechaingreso",typeid:23,uuid:"34587D31-B332-4F15-822C-38999CD47D73"},
+{foreignColumnName:"vcirhistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"64BEC8B9-0196-4226-80B2-3BE5460313DB"},
+{foreignColumnName:"vcirhoraingreso",primaryDataProviderID:"scopes.globals.protambu1400_hora_ingreso",typeid:23,uuid:"E8012C2C-211F-4D54-A5D0-D34F9F975250"}
+],
+name:"protambu1400_vhiscli_to_tbc_val_ciru",
+primaryDataSource:"db:/asistencial/tbc_val_ciru",
+typeid:22,
+uuid:"B13CDDDF-2951-4346-B4B1-F1B24D112B79"

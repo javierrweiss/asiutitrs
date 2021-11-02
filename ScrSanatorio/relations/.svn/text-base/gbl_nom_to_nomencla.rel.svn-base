@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+items:[
+{foreignColumnName:"nome_codigo",primaryDataProviderID:"scopes.globals.gbl_nomencla",typeid:23,uuid:"1F5A80C9-0478-4A7D-B985-846A8CAA0733"},
+{foreignColumnName:"nome_tipo",primaryDataProviderID:"scopes.globals.gbl_tipo_nom",typeid:23,uuid:"3E613A40-19A3-453A-9F18-5ADE83F97642"}
+],
+name:"gbl_nom_to_nomencla",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"23522F73-DE39-46EC-B454-95E68542CB37"

@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:".   Camas Libres|1\r
+.   Ocupación por Cobertura|2\r
+.   Estadística de Camas Ocupadas|3",
+name:"vl_listados",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"0B1A290A-C980-4CE5-B666-4AB0666058EB"

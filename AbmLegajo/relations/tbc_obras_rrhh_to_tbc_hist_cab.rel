@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_hist_cab",
+items:[
+{foreignColumnName:"histcabobra",primaryDataProviderID:"obr1",typeid:23,uuid:"65534AE2-525B-4831-93FB-B33F8EDEA9A7"},
+{foreignColumnName:"histcabespersonal",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"FCBAF45E-DC2E-4EE9-87B2-9F1418912BC5"}
+],
+joinType:1,
+name:"tbc_obras_rrhh_to_tbc_hist_cab",
+primaryDataSource:"db:/rrhh/tbc_obras_rrhh",
+typeid:22,
+uuid:"DB189358-AB72-4FAA-A177-88637ECBC3A0"

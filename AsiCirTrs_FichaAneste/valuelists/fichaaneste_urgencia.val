@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"\r
+Programada|0\r
+Urgencia| 1",
+name:"fichaaneste_urgencia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"D41DC163-CEA5-4D44-9161-6435BC15FFAB"

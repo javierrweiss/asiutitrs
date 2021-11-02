@@ -1,0 +1,15 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_resumen",
+initialSort:"hiscli asc, fecha asc, item asc, subitems asc, concepto asc",
+items:[
+{foreignColumnName:"item",operator:0,primaryDataProviderID:"globals.items",typeid:23,uuid:"0D75F0BC-272E-4CA4-B3F9-988DD1ECDC45"},
+{foreignColumnName:"fecha",operator:0,primaryDataProviderID:"globals.vFecha",typeid:23,uuid:"45F69522-216D-439E-8832-B3D343E0D359"},
+{foreignColumnName:"nro_operador",operator:0,primaryDataProviderID:"globals.vLegajo",typeid:23,uuid:"55E408D9-18C7-44E0-91B1-9A4F4630889C"},
+{foreignColumnName:"tipo_opera",operator:0,primaryDataProviderID:"globals.vTipoOperador",typeid:23,uuid:"7C25BD10-3C7E-4470-A8A0-DA66F207DA42"},
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"F1972456-DF37-4BC3-A75E-1833D9352B3B"}
+],
+joinType:0,
+name:"vs_to_hojauti_resumen",
+primaryDataSource:"db:/enfermeria/hojauti_resumen",
+typeid:22,
+uuid:"4AD2FD0F-7170-4E2B-942A-B69692E00861"

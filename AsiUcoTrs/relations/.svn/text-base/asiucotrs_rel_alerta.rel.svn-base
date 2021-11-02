@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_alerta",
+items:[
+{foreignColumnName:"aler_histclin",primaryDataProviderID:"scopes.globals.AsiUcoTrs_alerHistClin",typeid:23,uuid:"8AD7873C-90F8-44B4-8A1C-56A54EC4FAE3"},
+{foreignColumnName:"aler_tipadmi",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"AD28D499-43AF-499B-B72F-5FAE1B1E3A86"}
+],
+joinType:1,
+name:"asiucotrs_rel_alerta",
+primaryDataSource:"db:/asistencial/tbc_alerta",
+typeid:22,
+uuid:"686042A0-8F7D-40BF-ADE7-279F9D97BADE"

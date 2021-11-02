@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"|0\r
+ Facturas|1 \r
+ Refacturas|2\r
+Débitos|3\r
+",
+name:"vl_tipmov",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"D416F49E-B9AA-4842-8CA2-9CD33124925B"

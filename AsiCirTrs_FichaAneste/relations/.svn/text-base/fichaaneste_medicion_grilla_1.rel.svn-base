@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/fichaaneste_tipomedicion",
+initialSort:"descripcion asc",
+items:[
+{foreignColumnName:"grilla_nro",primaryDataProviderID:"scopes.globals.fichaaneste_vuno",typeid:23,uuid:"AFF9ED8E-F9BE-4DAA-AC1A-4EE272696951"}
+],
+joinType:1,
+name:"fichaaneste_medicion_grilla_1",
+primaryDataSource:"db:/desal/fichaaneste_tipomedicion",
+typeid:22,
+uuid:"78559DA8-E076-4179-A3CF-D5C7210966BB"

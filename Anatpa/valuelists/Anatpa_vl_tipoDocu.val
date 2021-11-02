@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:"C.I.|1\r
+L.E.|2\r
+L.C.|3\r
+D.N.I.|4\r
+Pasap.|5\r
+\r
+",
+name:"Anatpa_vl_tipoDocu",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"4608F3AE-8CEA-4DDF-9125-15FBD719DF8D"

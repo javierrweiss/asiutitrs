@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Via área artificial|1\r
+Sin via área artificial|2",
+name:"AsiVm_vl_sin_soporte",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"4079E085-0583-4718-BE91-CFF56E4BDF3E"

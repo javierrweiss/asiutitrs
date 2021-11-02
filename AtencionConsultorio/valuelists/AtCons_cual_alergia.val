@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Droga |1
+Asma  |2
+Rinitis | 3
+Otros |4",
+name:"AtCons_cual_alergia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"4F75F2C1-9AB1-460B-918D-56FDA839B30A"

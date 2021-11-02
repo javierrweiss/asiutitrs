@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Costal|1\r
+Abdominal|2",
+name:"fichaaneste_respiracion_pos",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"0A9D8A9A-1744-420A-A45C-A8C0139D51F9"

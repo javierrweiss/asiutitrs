@@ -1,0 +1,14 @@
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"AA0AD831-CA24-494E-B634-FE89D88850A9"
+}
+],
+name:"reimpresor_frm_vacio",
+navigatorID:"-1",
+showInMenu:true,
+styleName:"Sanatorio",
+typeid:3,
+uuid:"B79FB9D8-DCAB-4B93-ACE4-9F7C439CF9E7"

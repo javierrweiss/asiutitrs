@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_obstetri",
+initialSort:"obstetri_histclin asc, obstetri_tiphistclin asc, obstetri_gesta asc",
+items:[
+{foreignColumnName:"obstetri_histclin",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"409465EA-EB46-4B29-A907-9435FF377228"},
+{foreignColumnName:"obstetri_tiphistclin",operator:0,primaryDataProviderID:"globals.zero_value",typeid:23,uuid:"B19F7767-11B6-4BAD-BDB6-571E287BE34F"}
+],
+joinType:0,
+name:"vhiscli_to_tbc_obstetri",
+primaryDataSource:"db:/asistencial/tbc_obstetri",
+typeid:22,
+uuid:"1F0CC885-1A37-4B7C-B7CD-72D30C552E2D"

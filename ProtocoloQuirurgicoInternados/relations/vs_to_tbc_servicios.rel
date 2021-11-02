@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_servicios",
+initialSort:"",
+items:[
+{foreignColumnName:"servthabilita_1",operator:2,primaryDataProviderID:"globals.vZero",typeid:23,uuid:"86B733EF-33A1-4AE0-A336-83CF5B85339E"}
+],
+joinType:0,
+name:"vs_to_tbc_servicios",
+primaryDataSource:"db:/maestros/tbc_servicios",
+typeid:22,
+uuid:"61DCF3E6-E1A9-42D4-AAA9-B631634E68D5"

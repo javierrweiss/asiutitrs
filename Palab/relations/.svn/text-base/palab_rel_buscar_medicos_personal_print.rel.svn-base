@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+items:[
+{foreignColumnName:"medpercod",primaryDataProviderID:"scopes.globals.Palab_medPerCodPrint",typeid:23,uuid:"8D2B6F2A-1C97-4298-8E1E-A0E707AEBE83"}
+],
+joinType:1,
+name:"palab_rel_buscar_medicos_personal_print",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"DDF5DE49-CC24-441F-A74F-D6DBE6302B86"

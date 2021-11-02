@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+items:[
+{foreignColumnName:"histcabnrounico",primaryDataProviderID:"adm_histclinuni",typeid:23,uuid:"16A633A2-5AE1-43E9-B257-B0B2378770CF"}
+],
+joinType:1,
+name:"tbc_admision_to_tbc_hist_cab_new",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"FCAFD88B-7F46-437E-B695-F8B4ACFE5384"

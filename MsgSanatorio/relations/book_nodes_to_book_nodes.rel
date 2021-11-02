@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_book_nodes",
+items:[
+{foreignColumnName:"parent_id",primaryDataProviderID:"node_id",typeid:23,uuid:"7C36860F-8885-4921-85C6-071E0F9E15FB"}
+],
+name:"book_nodes_to_book_nodes",
+primaryDataSource:"db:/desal/tbl_book_nodes",
+typeid:22,
+uuid:"8F92C2AA-9358-49DC-8E4A-D55003DC2627"

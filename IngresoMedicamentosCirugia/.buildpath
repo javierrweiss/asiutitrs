@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry excluding=".stp/|medias/" kind="src" path=""/>
+	<buildpathentry exported="true" kind="prj" path="/Call_2142"/>
+	<buildpathentry exported="true" kind="prj" path="/ImpresionProtocoloCirugia"/>
+	<buildpathentry exported="true" kind="prj" path="/funciones"/>
+</buildpath>

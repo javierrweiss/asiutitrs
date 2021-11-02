@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="32" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="32" y="32">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="153" y="23"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.servoy.eclipse.designer.editor.VisualFormEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.servoy.eclipse.ui.actions" itemType="typeToolBarContribution" x="63" y="23"/>
+<coolItem id="com.servoy.eclipse.ui.choosers" itemType="typeToolBarContribution" x="61" y="23"/>
+<coolItem id="com.servoy.eclipse.ui.start_actions" itemType="typeToolBarContribution" x="76" y="23"/>
+<coolItem id="org.eclipse.compare.CompareEditor" itemType="typeToolBarContribution" x="84" y="23"/>
+<coolItem id="org.eclipse.debug.ui.NoSourceFoundEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="53" y="23"/>
+<coolItem id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="23"/>
+<coolItem id="org.eclipse.team.ui.actionSet" itemType="typeToolBarContribution" x="53" y="23"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="23"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="221" y="23"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1629226551179" focus="true" label="Workspace - Debug">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" partName="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" title="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" tooltip="AsiUtiTrs/forms/HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/HciutiTrs_frm_hist_clin_ingreso_utiTrs.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6530" selectionTopPixel="4522"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="globals.js" partName="globals.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/globals.js" title="globals.js" tooltip="AsiUtiTrs/globals.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/globals.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="19505" selectionTopPixel="12096"/>
+</editor>
+<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_dlg_pideLegajoMedico.js" partName="AsiUtiTrs_dlg_pideLegajoMedico.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js" title="AsiUtiTrs_dlg_pideLegajoMedico.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7186" selectionTopPixel="3179"/>
+</editor>
+<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_print.js" partName="AsiUtiTrs_print.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/AsiUtiTrs_print.js" title="AsiUtiTrs_print.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_print.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/AsiUtiTrs_print.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="24919" selectionTopPixel="12359"/>
+</editor>
+<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_hciti.js" partName="AsiUtiTrs_tbl_hciti.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js" title="AsiUtiTrs_tbl_hciti.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="150"/>
+</editor>
+<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_internado_alfa.js" partName="AsiUtiTrs_tbl_internado_alfa.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js" title="AsiUtiTrs_tbl_internado_alfa.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="944" selectionTopPixel="17"/>
+</editor>
+<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_internado_num.js" partName="AsiUtiTrs_tbl_internado_num.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js" title="AsiUtiTrs_tbl_internado_num.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="221" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.team.svn.ui.repository.RepositoriesView" partName="SVN Repositories">
+<viewState/>
+</view>
+<view id="org.eclipse.dltk.callhierarchy.view" partName="Call Hierarchy">
+<viewState search_scope_type="1"/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="225" org.eclipse.ui.ide.resourceField="192" org.eclipse.ui.ide.severityAndDescriptionField="895"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="org.eclipse.dltk.ui.DLTKSearchResultPage" org.eclipse.dltk.search.resultpage.grouping="3" org.eclipse.dltk.search.resultpage.limit="1000" org.eclipse.dltk.search.resultpage.limit_enabled="TRUE" org.eclipse.dltk.search.resultpage.sorting="1" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2"/>
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="com.servoy.eclipse.uicom.servoy.eclipse.profiler.views.ProfilerView" partName="Profiler">
+<viewState profilerView.argsColumnWidth="120" profilerView.argumentsTableColumnWidth="100" profilerView.datasourceTableColumnWidth="100" profilerView.fileColumnWidth="400" profilerView.methodNameColumnWidth="200" profilerView.nameTableColumnWidth="100" profilerView.ownTimeColumnWidth="100" profilerView.queryTableColumnWidth="350" profilerView.tableWidth="500" profilerView.timeColumnWidth="80" profilerView.timeTableColumnWidth="70" profilerView.transactionTableColumnWidth="100" profilerView.treeWidth="500"/>
+</view>
+<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
+<viewState failuresOnly="false" layout="1" orientation="2" ratio="180" scroll="false" time="true"/>
+</view>
+<view id="org.eclipse.team.ui.GenericHistoryView" partName="History">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="com.servoy.eclipse.ui.views.SolutionExplorerView" partName="Solution Explorer">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.team.svn.ui.repository.browser.RepositoryBrowser" partName="SVN Repository Browser ">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.dltk.debug.ui.ScriptDisplayView" partName="Interactive Console">
+<viewState/>
+</view>
+<view id="org.eclipse.team.svn.ui.properties.PropertiesView" partName="SVN Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="400" org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.priorityField="40" org.eclipse.ui.ide.resourceField="120"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.BookmarkView" partName="Bookmarks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.descriptionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.bookmarksGenerator" partName="Bookmarks">
+<columnWidths org.eclipse.ui.ide.descriptionField="400" org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.debug.ui.DebugView" activePerspective="org.eclipse.debug.ui.DebugPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.servoy.eclipse.ui.DesignPerspective" id="com.servoy.eclipse.ui.DesignPerspective" label="Servoy Design"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.start_actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.designer.PlaceElementsActionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.designer.PlaceShapesActionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.open_actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.openURL"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.marketplace"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.choosers"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.StartPage"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.ServoyAdmin"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.servoy.eclipse.jsunit.RunJSTests"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.servoySearchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="com.servoy.eclipse.ui.views.SolutionExplorerView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.jdt.junit.ResultView"/>
+<show_view_action id="com.servoy.eclipse.debug.scriptingconsole"/>
+<show_view_action id="com.servoy.eclipse.uicom.servoy.eclipse.profiler.views.ProfilerView"/>
+<new_wizard_action id="com.servoy.eclipse.ui.NewServerWizard"/>
+<new_wizard_action id="com.servoy.eclipse.ui.NewFormWizard"/>
+<new_wizard_action id="com.servoy.eclipse.ui.NewMethodWizard"/>
+<new_wizard_action id="com.servoy.eclipse.ui.NewRelationWizard"/>
+<new_wizard_action id="com.servoy.eclipse.ui.NewSolutionWizard"/>
+<new_wizard_action id="com.servoy.eclipse.ui.NewStyleWizard"/>
+<new_wizard_action id="com.servoy.eclipse.ui.NewValueListWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@653703a4" orientation="256" selectedTabId="org.eclipse.jdt.junit.ResultView" style="0">
+<fastViews>
+<view id="org.eclipse.jdt.junit.ResultView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="com.servoy.eclipse.ui.views.SolutionExplorerView" style="0">
+<fastViews>
+<view id="com.servoy.eclipse.ui.views.SolutionExplorerView" ratio="0.29984662"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.debug.ui.DebugView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
+<view id="org.eclipse.ui.views.BookmarkView" ratio="0.3"/>
+<view id="org.eclipse.search.ui.views.SearchView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29951692"/>
+<view id="org.eclipse.debug.ui.DebugView" ratio="0.29951692"/>
+<view id="org.eclipse.dltk.callhierarchy.view" ratio="0.29951692"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.PropertySheet" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.29984662"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder appearance="2" expanded="0">
+<page content="com.servoy.eclipse.ui.views.SolutionExplorerView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="978" ratioRight="326" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.2898773" ratioLeft="378" ratioRight="926" relationship="2" relative="left"/>
+<info folder="true" part="right" ratio="0.64902806" ratioLeft="601" ratioRight="325" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.61488676" ratioLeft="380" ratioRight="238" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.dltk.callhierarchy.view" label="LabelNotFound"/>
+<page content="com.servoy.eclipse.debug.scriptingconsole" label="LabelNotFound"/>
+<page content="com.servoy.eclipse.uicom.servoy.eclipse.profiler.views.ProfilerView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@653703a4" ratio="0.5" ratioLeft="652" ratioRight="652" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.team.svn.ui.repository.RepositoryPerspective" id="org.eclipse.team.svn.ui.repository.RepositoryPerspective" label="SVN Repository Exploring"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.start_actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.designer.PlaceElementsActionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.designer.PlaceShapesActionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.open_actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.openURL"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.marketplace"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.choosers"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.StartPage"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.ServoyAdmin"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<show_view_action id="org.eclipse.team.svn.ui.repository.RepositoriesView"/>
+<show_view_action id="org.eclipse.team.svn.ui.repository.browser.RepositoryBrowser"/>
+<show_view_action id="org.eclipse.team.ui.GenericHistoryView"/>
+<show_view_action id="org.eclipse.team.svn.ui.properties.PropertiesView"/>
+<new_wizard_action id="org.eclipse.team.svn.ui.wizard.NewRepositoryLocationWizard"/>
+<perspective_action id="org.eclipse.team.svn.ui.repository.RepositoryPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.team.svn.ui.repository.RepositoriesView"/>
+<view id="org.eclipse.team.svn.ui.repository.browser.RepositoryBrowser"/>
+<view id="org.eclipse.team.ui.GenericHistoryView"/>
+<view id="org.eclipse.team.svn.ui.properties.PropertiesView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.team.svn.ui.repository.RepositoriesView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.svn.ui.repository.RepositoriesView" label="SVN Repositories"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.23321033" ratioLeft="316" ratioRight="1039" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.6440129" ratioLeft="398" ratioRight="220" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.svn.ui.repository.browser.RepositoryBrowser" label="SVN Repository Browser "/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="History"/>
+<page content="org.eclipse.team.svn.ui.properties.PropertiesView" label="SVN Properties"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.start_actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.designer.PlaceElementsActionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.designer.PlaceShapesActionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.open_actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.openURL"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.marketplace"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.choosers"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.StartPage"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.ServoyAdmin"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.servoy.eclipse.jsunit.RunJSTests"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.servoySearchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.dltk.debug.ui.ScriptDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.servoy.eclipse.uicom.servoy.eclipse.profiler.views.ProfilerView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.dltk.debug.ui.ScriptDisplayView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<perspective_action id="com.servoy.eclipse.ui.DesignPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.wst.xml.ui.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="org.eclipse.dltk.debug.ui.ScriptDisplayView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.debug.internal.ui.ConsoleFolderView" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.5958132"/>
+<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
+<view id="com.servoy.eclipse.uicom.servoy.eclipse.profiler.views.ProfilerView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.dltk.ui.ScriptExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7498122" ratioLeft="998" ratioRight="333" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7487923" ratioLeft="465" ratioRight="156" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="com.servoy.eclipse.uicom.servoy.eclipse.profiler.views.ProfilerView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.23786408" ratioLeft="147" ratioRight="471" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75424355" ratioLeft="1022" ratioRight="333" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.3512915" ratioLeft="476" ratioRight="879" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<page content="org.eclipse.dltk.debug.ui.ScriptDisplayView" label="Interactive Console"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.team.internal.ui.synchronize.TeamSynchronizingPerspective" id="org.eclipse.team.ui.TeamSynchronizingPerspective" label="Team Synchronizing"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.start_actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.designer.PlaceElementsActionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.designer.PlaceShapesActionSet"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.open_actions"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.openURL"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.marketplace"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.choosers"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.StartPage"/>
+<alwaysOnActionSet id="com.servoy.eclipse.ui.ServoyAdmin"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.team.ui.actionSet"/>
+<alwaysOffActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<show_view_action id="org.eclipse.team.sync.views.SynchronizeView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.project"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.team.ui.GenericHistoryView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="top">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.sync.views.SynchronizeView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="top">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44992638" ratioLeft="611" ratioRight="747" relationship="2" relative="top"/>
+<info folder="true" part="top2" ratio="0.7987118" ratioLeft="496" ratioRight="125" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.team.ui.GenericHistoryView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.ui.GenericHistoryView" label="History"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets>
+<workingSet IMemento.internal.id="Servoy Active Solution"/>
+</workingSets>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/HciutiTrs_frm_hist_clin_ingreso_utiTrs.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/AsiUtiTrs_print.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/globals.js"/>
+</editors>
+<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
+<position info="not_deleted" x="117429" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_print.js" index="2">
+<position info="not_deleted" x="24619" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_print.js" index="2">
+<position info="not_deleted" x="24671" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_print.js" index="2">
+<position info="not_deleted" x="24703" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_print.js" index="2">
+<position info="not_deleted" x="24763" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_print.js" index="2">
+<position info="not_deleted" x="24817" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_print.js" index="2">
+<position info="not_deleted" x="24848" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_print.js" index="2">
+<position info="not_deleted" x="24919" y="0"/>
+</item>
+<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
+<position info="not_deleted" x="117429" y="0"/>
+</item>
+<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
+<position info="not_deleted" x="115334" y="0"/>
+</item>
+<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
+<position info="not_deleted" x="5427" y="0"/>
+</item>
+<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
+<position info="not_deleted" x="6577" y="0"/>
+</item>
+<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
+<position info="not_deleted" x="6530" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_dlg_pideLegajoMedico.js" index="1">
+<position info="not_deleted" x="7186" y="0"/>
+</item>
+<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
+<position info="not_deleted" x="6530" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_hciti.js" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_num.js" index="5">
+<position info="not_deleted" x="221" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="221" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="1889" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="1944" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="1987" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="2005" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="2021" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="237" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="290" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="345" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="399" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="454" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="17792" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="17935" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="18010" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="18097" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="18124" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="808" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="873" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="18371" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="18378" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="18425" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="18491" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="18633" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="18663" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="19263" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="19286" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="19323" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="19365" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="19378" y="0"/>
+</item>
+<item historyLabel="globals.js" index="6">
+<position info="not_deleted" x="19409" y="0"/>
+</item>
+<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
+<position info="not_deleted" x="944" y="0"/>
+</item>
+<item active="true" historyLabel="globals.js" index="6">
+<position info="not_deleted" x="19409" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@653703a4"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.HeapStatus"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_internado_num.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js">
+<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_internado_alfa.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js">
+<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_hciti.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js">
+<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_print.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_print.js">
+<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_print.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_dlg_pideLegajoMedico.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js">
+<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="globals.js" tooltip="AsiUtiTrs/globals.js">
+<persistable path="/AsiUtiTrs/globals.js"/>
+</file>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.ui.editors.TableEditor" name="tbc_imapedet_new" tooltip="asistencial.tbc_imapedet_new">
+<persistable name="tbc_imapedet_new" serverName="asistencial" type="table"/>
+</file>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="HciutiTrs_frm_hist_clin_ingreso_utiTrs" tooltip="AsiUtiTrs.HciutiTrs_frm_hist_clin_ingreso_utiTrs">
+<persistable name="HciutiTrs_frm_hist_clin_ingreso_utiTrs" solutionName="AsiUtiTrs" type="persist" uuid="69388B89-273F-459A-9885-87142F7BDD72"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="globals.js" tooltip="mod_dialog/globals.js">
+<persistable path="/mod_dialog/globals.js"/>
+</file>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.ui.editors.RelationEditor" name="asiuti_apellido_to_tbc_admision_scroll" tooltip="AsiUtiTrs.asiuti_apellido_to_tbc_admision_scroll">
+<persistable name="asiuti_apellido_to_tbc_admision_scroll" solutionName="AsiUtiTrs" type="persist" uuid="BD46EA24-BB5C-47DF-A97A-D7448C23C32E"/>
+</file>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.ui.editors.RelationEditor" name="asiutitrs_numero_to_tbc_admision" tooltip="AsiUtiTrs.asiutitrs_numero_to_tbc_admision">
+<persistable name="asiutitrs_numero_to_tbc_admision" solutionName="AsiUtiTrs" type="persist" uuid="40AAA752-74B1-46B9-B0A2-FC4F3D9CC709"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_dlg_buscar_internado.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_dlg_buscar_internado.js">
+<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_dlg_buscar_internado.js"/>
+</file>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="AsiUtiTrs_dlg_buscar_internado" tooltip="AsiUtiTrs.AsiUtiTrs_dlg_buscar_internado">
+<persistable name="AsiUtiTrs_dlg_buscar_internado" solutionName="AsiUtiTrs" type="persist" uuid="B69C5CAF-4FE5-4A9F-B315-D3032184EA90"/>
+</file>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.ui.editors.ValueListEditor" name="vl_hist_clin_patologia" tooltip="AsiUtiTrs.vl_hist_clin_patologia">
+<persistable name="vl_hist_clin_patologia" solutionName="AsiUtiTrs" type="persist" uuid="20FB636D-E119-42DC-B649-8A67112A960E"/>
+</file>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.ui.editors.ValueListEditor" name="vl_histclin_procedencia" tooltip="AsiUtiTrs.vl_histclin_procedencia">
+<persistable name="vl_histclin_procedencia" solutionName="AsiUtiTrs" type="persist" uuid="BEB9C26B-ACC7-439A-81CD-4488C118521E"/>
+</file>
+</mruList>
+</workbench>

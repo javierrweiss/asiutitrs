@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_his_lectora",
+items:[
+{foreignColumnName:"hlec_histclin",primaryDataProviderID:"scopes.globals.vHiscli2259",typeid:23,uuid:"2CBF044A-1903-4ECD-9D05-AFA740CFA474"},
+{foreignColumnName:"hlec_imed",primaryDataProviderID:"scopes.globals.vImed",typeid:23,uuid:"41F9B9EA-6350-460B-B358-10E7FDA4A826"},
+{foreignColumnName:"hlec_estado",primaryDataProviderID:"scopes.globals.vEstado2259",typeid:23,uuid:"49FA5024-7D1A-4324-AB5C-D1EF8E8ACA07"},
+{foreignColumnName:"hlec_protocolo",primaryDataProviderID:"scopes.globals.vNroProtocolo2259",typeid:23,uuid:"7EB7CA9E-62F1-4FBD-AC0A-5758098BB249"}
+],
+name:"vestado2259_to_tbc_his_lectora",
+primaryDataSource:"db:/asistencial/tbc_his_lectora",
+typeid:22,
+uuid:"B0EF5AD4-410D-4954-9174-DF5BFC5BFFEA"

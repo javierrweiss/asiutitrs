@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"No Profesional|1\r
+Profesional|2",
+name:"vl_tipo_personal",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"566EB257-9D4D-45F7-B2BE-B4C88252C9B2"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anatpaca",
+initialSort:"apca_nrosolic asc",
+items:[
+{foreignColumnName:"apca_nrosolic",primaryDataProviderID:"scopes.globals.vNroSolicitud",typeid:23,uuid:"F70D87CB-ADCF-411C-8BD8-9C49BA4D9963"}
+],
+name:"vnrosolic_to_tbc_anatpaca",
+primaryDataSource:"db:/asistencial/tbc_anatpaca",
+typeid:22,
+uuid:"005AAB33-D6E5-49F7-9E0A-867F994803F5"

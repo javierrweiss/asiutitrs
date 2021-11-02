@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"NO|1\r
+SI|2\r
+TODOS|3",
+name:"AsiVm_vl_filtro_soporte",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"714E1B99-5FF6-464D-AF47-4AEA51C9C11F"

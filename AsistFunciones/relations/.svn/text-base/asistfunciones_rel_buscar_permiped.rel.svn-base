@@ -1,0 +1,15 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_permiped",
+items:[
+{foreignColumnName:"perpservi",primaryDataProviderID:"scopes.globals.AsistFunciones_perpServi",typeid:23,uuid:"013BB4E9-381B-4001-8410-47AF5EE43985"},
+{foreignColumnName:"perputilca",primaryDataProviderID:"scopes.globals.AsistFunciones_perpUtilCa",typeid:23,uuid:"2AE45F2C-797B-4DD8-A77D-A3F7A2A2CB10"},
+{foreignColumnName:"perpadmi",primaryDataProviderID:"scopes.globals.AsistFunciones_perpAdmi",typeid:23,uuid:"3D288B51-E80B-4137-B524-D98351E17FF3"},
+{foreignColumnName:"perptipnom",primaryDataProviderID:"scopes.globals.AsistFunciones_perpTipNom",typeid:23,uuid:"77ADBA60-ADDB-49B6-BAFE-7520A1567EF2"},
+{foreignColumnName:"perpnomen",primaryDataProviderID:"scopes.globals.AsistFunciones_perpNomen",typeid:23,uuid:"D951E92E-1CC6-4388-B4AB-1F0F149BB1C0"},
+{foreignColumnName:"perplegajo",primaryDataProviderID:"scopes.globals.AsistFunciones_perpLegajo",typeid:23,uuid:"FBC90115-93C6-443C-9E01-C78036D80BB0"},
+{foreignColumnName:"perptipleg",primaryDataProviderID:"scopes.globals.AsistFunciones_perpTipLeg",typeid:23,uuid:"FDCA30A2-63F0-40A4-A389-F9F789D17B39"}
+],
+name:"asistfunciones_rel_buscar_permiped",
+primaryDataSource:"db:/asistencial/tbc_permiped",
+typeid:22,
+uuid:"CE73F8B8-B817-42F0-B45B-1901F1290835"

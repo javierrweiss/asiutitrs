@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"BIPAP|1\r
+CPAP|2\r
+Otro|3",
+name:"vni",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"E31D82AD-0E7F-46EE-8044-F007FB3172D5"

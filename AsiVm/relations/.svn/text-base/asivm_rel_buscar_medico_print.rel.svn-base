@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.AsiVm_medCodigoPrint",typeid:23,uuid:"3542AA6E-3E88-45C0-858B-4E6A7E5FC7E5"}
+],
+joinType:1,
+name:"asivm_rel_buscar_medico_print",
+primaryDataSource:"db:/maestros/tbc_medicos",
+typeid:22,
+uuid:"431717FA-37F8-4CAA-9810-0C7A81310346"

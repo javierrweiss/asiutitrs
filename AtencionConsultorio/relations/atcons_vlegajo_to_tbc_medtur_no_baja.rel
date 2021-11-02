@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_medtur",
+items:[
+{foreignColumnName:"medturcod",primaryDataProviderID:"scopes.globals.AtCons_vlegajo",typeid:23,uuid:"8686924F-A8E0-4612-BDBF-4CFD40570850"},
+{foreignColumnName:"medturbaja",primaryDataProviderID:"scopes.globals.AtCons_cero",typeid:23,uuid:"C0173CD9-C400-41D1-8CF1-9FF05A1195C1"}
+],
+joinType:1,
+name:"atcons_vlegajo_to_tbc_medtur_no_baja",
+primaryDataSource:"db:/asistencial/tbc_medtur",
+typeid:22,
+uuid:"0906DCD4-6DBC-4BA4-9ECC-B11E03F61586"

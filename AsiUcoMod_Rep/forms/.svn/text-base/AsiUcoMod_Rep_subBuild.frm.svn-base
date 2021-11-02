@@ -1,0 +1,13 @@
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"DB5D7C76-3BD7-4297-A002-268B4133011D"
+}
+],
+name:"AsiUcoMod_Rep_subBuild",
+showInMenu:true,
+styleName:"Sanatorio",
+typeid:3,
+uuid:"368E1FA1-BB20-4F7D-8A3A-54C25BB48D11"

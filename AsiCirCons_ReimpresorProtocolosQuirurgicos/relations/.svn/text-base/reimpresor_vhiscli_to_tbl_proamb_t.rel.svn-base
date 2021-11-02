@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_proamb_t",
+items:[
+{foreignColumnName:"grupo",primaryDataProviderID:"scopes.globals.reimpresor_grupoTexto",typeid:23,uuid:"5C0840C4-503F-417D-919B-9349CEE67C35"},
+{foreignColumnName:"fecing",primaryDataProviderID:"scopes.globals.reimpresor_fecha_ingreso",typeid:23,uuid:"9AD427CF-ED9D-4425-BA14-0CBC07537210"},
+{foreignColumnName:"hiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"A21E8814-7A06-424D-A002-D6EB1CE5B680"},
+{foreignColumnName:"horing",primaryDataProviderID:"scopes.globals.reimpresor_hora_ingreso",typeid:23,uuid:"DED81E3F-0756-491F-B42D-95EDF958CCE4"}
+],
+name:"reimpresor_vhiscli_to_tbl_proamb_t",
+primaryDataSource:"db:/desal/tbl_proamb_t",
+typeid:22,
+uuid:"C2422B0D-6EE1-45FE-A573-5927337A6AEB"

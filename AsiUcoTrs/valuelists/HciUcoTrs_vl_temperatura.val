@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Axilar|1\r
+Rectal|2\r
+Oral|3",
+name:"HciUcoTrs_vl_temperatura",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"8C6F6311-7F47-42F6-A0ED-A0A3CE7EB655"

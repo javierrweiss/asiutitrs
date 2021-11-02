@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"htidiagnos1",typeid:23,uuid:"6E7DB3E0-11A0-4CB5-9C3E-EA10095B050E"}
+],
+joinType:1,
+name:"asiutitrs_hoja_rel_buscar_patologia_1",
+primaryDataSource:"db:/asistencial/tbc_hojati",
+typeid:22,
+uuid:"6EC3D158-BF03-4779-8AEC-220541DF2E63"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_perext",
+items:[
+{foreignColumnName:"perext_lega",primaryDataProviderID:"scopes.globals.Palab_vLega",typeid:23,uuid:"326B8F4C-65B7-4924-BE9C-1C747D112D2F"}
+],
+name:"palab_vlegajo_to_tbc_perext",
+primaryDataSource:"db:/validalegajo/tbc_perext",
+typeid:22,
+uuid:"71B96934-665E-45FC-998A-E90E70AC8D3D"

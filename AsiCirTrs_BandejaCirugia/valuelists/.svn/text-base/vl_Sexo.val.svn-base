@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Femenino|1\r
+Masculino|2",
+name:"vl_Sexo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"342E5BC0-006A-4ECE-AB2E-AF45374DF61B"

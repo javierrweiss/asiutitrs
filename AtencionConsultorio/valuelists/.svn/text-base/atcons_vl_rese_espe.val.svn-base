@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"esp_descrip",
+dataProviderID2:"esp_codi",
+name:"atcons_vl_rese_espe",
+relationName:"atcons_tbc_reservas_to_tbc_especial",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"390B19B8-6234-416B-BE40-DB214AE590FC",
+valueListType:1

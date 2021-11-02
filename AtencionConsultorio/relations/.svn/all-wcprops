@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/proyecto1/!svn/ver/3001/AtencionConsultorio/relations
+END
+atcons_tbc_reservas_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/2208/AtencionConsultorio/relations/atcons_tbc_reservas_to_tbc_medicos.rel
+END
+atcons_vs_to_atcons_imapedet_inf.rel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/proyecto1/!svn/ver/2946/AtencionConsultorio/relations/atcons_vs_to_atcons_imapedet_inf.rel
+END
+atcons_vs_to_tbc_reservas_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/2946/AtencionConsultorio/relations/atcons_vs_to_tbc_reservas_new.rel
+END
+atcons_dieta_to_tbc_dieta_uno.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_dieta_to_tbc_dieta_uno.rel
+END
+atcons_vs_to_tbl_cronoambcab_copy.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/2562/AtencionConsultorio/relations/atcons_vs_to_tbl_cronoambcab_copy.rel
+END
+atcons_obra_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/proyecto1/!svn/ver/2979/AtencionConsultorio/relations/atcons_obra_to_tbc_obras.rel
+END
+atcons_tbc_reservas_to_tbc_plan_obra.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2227/AtencionConsultorio/relations/atcons_tbc_reservas_to_tbc_plan_obra.rel
+END
+atcons_dieta_vs_to_tbc_dieta_uno.rel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_dieta_vs_to_tbc_dieta_uno.rel
+END
+atcons_dieta_to_tbc_dieta.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_dieta_to_tbc_dieta.rel
+END
+atcons_vlega_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_vlega_to_tbc_medicos.rel
+END
+atcons_to_tbc_reservas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/2946/AtencionConsultorio/relations/atcons_to_tbc_reservas.rel
+END
+atcons_reservas_to_tbc_resecod.rel
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/proyecto1/!svn/ver/2946/AtencionConsultorio/relations/atcons_reservas_to_tbc_resecod.rel
+END
+atcons_vs_to_tbc_plan_obra.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/2991/AtencionConsultorio/relations/atcons_vs_to_tbc_plan_obra.rel
+END
+atcons_especial_to_tbc_especial.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/2979/AtencionConsultorio/relations/atcons_especial_to_tbc_especial.rel
+END
+atcons_dietacod_to_tbc_dieta_tipo_uno.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2263/AtencionConsultorio/relations/atcons_dietacod_to_tbc_dieta_tipo_uno.rel
+END
+atcons_reservas_to_atcons_histpac_ing.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_reservas_to_atcons_histpac_ing.rel
+END
+atcons_dieta_to_tbc_dieta_dos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/2262/AtencionConsultorio/relations/atcons_dieta_to_tbc_dieta_dos.rel
+END
+atcons_to_tbc_imapedet_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/2946/AtencionConsultorio/relations/atcons_to_tbc_imapedet_new.rel
+END
+atcons_vs_to_tbc_rend_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/2979/AtencionConsultorio/relations/atcons_vs_to_tbc_rend_cab.rel
+END
+atcons_vs_to_atcons_histpac_ing.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/2948/AtencionConsultorio/relations/atcons_vs_to_atcons_histpac_ing.rel
+END
+atcons_tbc_reservas_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2167/AtencionConsultorio/relations/atcons_tbc_reservas_to_tbc_hist_cab.rel
+END
+atcons_vhistcli_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/2947/AtencionConsultorio/relations/atcons_vhistcli_to_tbc_hist_cab.rel
+END
+atcons_gbl_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/2979/AtencionConsultorio/relations/atcons_gbl_to_tbc_medicos_personal.rel
+END
+atcons_vlegajo_to_tbc_medtur_no_baja.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2348/AtencionConsultorio/relations/atcons_vlegajo_to_tbc_medtur_no_baja.rel
+END
+atcons_vlega_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_vlega_to_tbc_personal.rel
+END
+atcons_vs_to_tbc_rend_med.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/2979/AtencionConsultorio/relations/atcons_vs_to_tbc_rend_med.rel
+END
+atcons_tbc_reservas_to_tbc_histpac.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_tbc_reservas_to_tbc_histpac.rel
+END
+atcons_tbc_reservas_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_tbc_reservas_to_tbc_obras.rel
+END
+atcons_vs_to_tbc_reservas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_vs_to_tbc_reservas.rel
+END
+atcons_tbc_reservas_to_tbc_especial.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2946/AtencionConsultorio/relations/atcons_tbc_reservas_to_tbc_especial.rel
+END
+atcosn_vs_to_tbc_imatxt.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/2946/AtencionConsultorio/relations/atcosn_vs_to_tbc_imatxt.rel
+END
+atcons_dietacod_to_tbc_dieta_tipo_dos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2263/AtencionConsultorio/relations/atcons_dietacod_to_tbc_dieta_tipo_dos.rel
+END
+atcons_vs_to_tbc_rend_det.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/2979/AtencionConsultorio/relations/atcons_vs_to_tbc_rend_det.rel
+END
+atcons_to_tbc_imapedi_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/2946/AtencionConsultorio/relations/atcons_to_tbc_imapedi_new.rel
+END
+atcons_vlegajo_to_tbc_medtur.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/2348/AtencionConsultorio/relations/atcons_vlegajo_to_tbc_medtur.rel
+END
+atcons_vs_to_tbc_imacodi.rel
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/proyecto1/!svn/ver/2979/AtencionConsultorio/relations/atcons_vs_to_tbc_imacodi.rel
+END
+atcons_vs_to_tbc_imapedet_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/2946/AtencionConsultorio/relations/atcons_vs_to_tbc_imapedet_new.rel
+END
+atcons_histpac_ing_to_tbc_patologia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_histpac_ing_to_tbc_patologia.rel
+END
+atcons_to_tbc_servicios.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/2946/AtencionConsultorio/relations/atcons_to_tbc_servicios.rel
+END
+atcons_vs_to_tbc_nomencla.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/2979/AtencionConsultorio/relations/atcons_vs_to_tbc_nomencla.rel
+END
+atcons_vlegajo_to_tbc_medtur_esp.rel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/proyecto1/!svn/ver/2294/AtencionConsultorio/relations/atcons_vlegajo_to_tbc_medtur_esp.rel
+END
+atcons_unico_to_tbc_reservas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/3001/AtencionConsultorio/relations/atcons_unico_to_tbc_reservas.rel
+END
+atcons_vhorper_to_tbc_horper.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_vhorper_to_tbc_horper.rel
+END
+atcons_tbc_reservas_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_tbc_reservas_to_tbc_personal.rel
+END
+atcons_vs_to_tbc_estadtur.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/2979/AtencionConsultorio/relations/atcons_vs_to_tbc_estadtur.rel
+END
+tbc_reservas_to_tbc_reservas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/tbc_reservas_to_tbc_reservas.rel
+END
+atcons_vs_to_tbc_reservas_nrohist.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/2389/AtencionConsultorio/relations/atcons_vs_to_tbc_reservas_nrohist.rel
+END
+atcons_dieta_to_tbc_dieta_cero.rel
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_dieta_to_tbc_dieta_cero.rel
+END
+atcons_medtur_especial.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_medtur_especial.rel
+END
+atcons_vlegajo_especial_to_tbc_medtur.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2162/AtencionConsultorio/relations/atcons_vlegajo_especial_to_tbc_medtur.rel
+END

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+initialSort:"adm_apellido_5 asc, adm_fecaltaefec asc",
+items:[
+{foreignColumnName:"adm_apellido_5",operator:4,primaryDataProviderID:"globals.vAlfa",typeid:23,uuid:"5E926CF9-84B6-49D0-A1EC-71C3D465313A"},
+{foreignColumnName:"adm_fecaltaefec",primaryDataProviderID:"globals.vZero",typeid:23,uuid:"F64AF78B-7EE7-406A-870C-3D1A82A03AE2"}
+],
+name:"valfa_to_tbc_admision_scroll",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"F00D4D76-16AC-4C00-AD66-B1DD9405D3B6"

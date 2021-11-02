@@ -1,0 +1,25 @@
+addEmptyValue:1,
+customValues:"EPOC|1\r
+Asma|2\r
+Otra enfermedad respiratoria crónica|3\r
+SDRA|4\r
+POP|5\r
+EAP|6\r
+Aspiración|7\r
+Neumonía Adquirida en la Comunidad|8\r
+Neumonia COVID positivo|19\r
+Neumonía Intrahospitalaria|9\r
+Sepsis|10\r
+Trauma|11\r
+PCR|12\r
+Otro|13\r
+Coma Metabólico|14\r
+Coma inoxicación farmacológico|15\r
+Stroke|16\r
+TEC|17\r
+Enfermedad Neuromuscular|18",
+name:"AsiVm_vl_motivo_vm",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"EF6118F5-813E-4043-9417-BB1E3F0BA835"

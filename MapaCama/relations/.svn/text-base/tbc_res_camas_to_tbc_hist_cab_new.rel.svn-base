@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+items:[
+{foreignColumnName:"histcabnrounico",primaryDataProviderID:"rca_hcl",typeid:23,uuid:"076D4526-1DB4-405E-ADA7-04344096C3BF"}
+],
+joinType:1,
+name:"tbc_res_camas_to_tbc_hist_cab_new",
+primaryDataSource:"db:/asistencial/tbc_res_camas",
+typeid:22,
+uuid:"0253641F-4C1C-4D6B-86EE-558849C4FC77"

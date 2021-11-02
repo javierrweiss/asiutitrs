@@ -1,0 +1,41 @@
+addEmptyValue:1,
+customValues:"Administrador|0\r
+Admisión|14\r
+Arquitectura|22\r
+Bacteriología|31\r
+Calidad de Servicio|15\r
+Cirugía|16\r
+Compras|6\r
+Cómputos|12\r
+Contabilidad|3\r
+Dirección General|1\r
+Dirección Médica|2\r
+Enfermería|10\r
+Esterilización|27\r
+Facturación|4\r
+Finanzas|7\r
+Guardia|33\r
+Imagen|19\r
+Internación Piso|18\r
+Laboratorio|32\r
+Lavadero|28\r
+Legales|11\r
+Maestranza|24\r
+Mantenimiento|23\r
+Medicina Transfusional|21\r
+Mis documentos|30\r
+Orientación|9\r
+Prestaciones Médicas|34\r
+Recursos Humanos|8\r
+Seguridad|29\r
+Servicio de Alimentación|26\r
+Soporte|13\r
+Terapia Intensiva|17\r
+Tesorería|5\r
+Turnos|25\r
+Unidad Coronaria|20",
+name:"vl_modulo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"18D221F8-2C51-4E13-B680-7DA2ACACE662"

@@ -1,0 +1,17 @@
+addEmptyValue:1,
+customValues:"10|10\r
+9|9\r
+8|8\r
+7|7\r
+6|6\r
+5|5\r
+4|4\r
+3|3\r
+2|2\r
+1|1\r
+0|0",
+name:"protambu1400_vl_apgar",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"3686ABED-F542-4A94-852F-BC655CC763E9"

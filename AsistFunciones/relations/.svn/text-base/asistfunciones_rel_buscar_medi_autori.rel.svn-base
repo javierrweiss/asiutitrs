@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_medi_autori",
+items:[
+{foreignColumnName:"medautipleg",primaryDataProviderID:"scopes.globals.AsistFunciones_medAuTipLeg",typeid:23,uuid:"05D24344-3522-4A10-8987-7CB641A518BA"},
+{foreignColumnName:"medaucobertura",primaryDataProviderID:"scopes.globals.AsistFunciones_medAuCobertura",typeid:23,uuid:"6C6DA1D2-6FA4-46FC-993D-DDC68C7FC312"},
+{foreignColumnName:"medaulegmed",primaryDataProviderID:"scopes.globals.AsistFunciones_medAuLegMed",typeid:23,uuid:"733161CC-CD67-4EFD-A71A-C85897B6BEB2"}
+],
+name:"asistfunciones_rel_buscar_medi_autori",
+primaryDataSource:"db:/asistencial/tbc_medi_autori",
+typeid:22,
+uuid:"5A7151C4-1F82-4C4E-BE62-FCE86CCA3B22"

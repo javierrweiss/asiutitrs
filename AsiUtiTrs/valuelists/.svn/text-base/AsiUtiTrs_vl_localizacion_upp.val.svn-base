@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Sacra|1\r
+Trocanteria|2\r
+Maleolar|3\r
+Otro|4",
+name:"AsiUtiTrs_vl_localizacion_upp",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"34904095-0670-47E0-830D-38732FBB52B1"

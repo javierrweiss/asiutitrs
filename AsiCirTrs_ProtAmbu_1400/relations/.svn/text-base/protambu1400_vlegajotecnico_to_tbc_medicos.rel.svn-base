@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_medicos",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.protambu1400_vLegaTecnico",typeid:23,uuid:"80AE2D8F-1957-4D06-A892-76B31209450E"}
+],
+name:"protambu1400_vlegajotecnico_to_tbc_medicos",
+primaryDataSource:"db:/validalegajo/tbc_medicos",
+typeid:22,
+uuid:"5F7BC0A2-FD5B-454A-A3EB-E1236D716FDE"

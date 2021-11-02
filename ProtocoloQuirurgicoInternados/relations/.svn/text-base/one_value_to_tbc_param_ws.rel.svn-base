@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_param_ws",
+items:[
+{foreignColumnName:"key_param2",operator:0,primaryDataProviderID:"globals.one_value",typeid:23,uuid:"86C45E0A-05FD-4498-810F-3BE044E0BB8C"}
+],
+joinType:0,
+name:"one_value_to_tbc_param_ws",
+primaryDataSource:"db:/asistencial/tbc_param_ws",
+typeid:22,
+uuid:"4E9FEDFB-689F-46B3-976A-159C11F8DF83"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_perfil",
+items:[
+{foreignColumnName:"codigo",operator:4,primaryDataProviderID:"scopes.globals.gbl_perfil",typeid:23,uuid:"2C768CBB-FCE1-4A77-94A9-B748A753FFC0"}
+],
+name:"buscar_num_to_perfil",
+primaryDataSource:"db:/desal/tbl_perfil",
+typeid:22,
+uuid:"E04E9A2B-3C9F-4E6C-AE5D-521199BBFE8C"

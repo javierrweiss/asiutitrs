@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry excluding=".stp/|medias/" kind="src" path=""/>
+	<buildpathentry exported="true" kind="prj" path="/AsiArmMod_Rep"/>
+	<buildpathentry exported="true" kind="prj" path="/AsiArmTrs_Mod"/>
+	<buildpathentry exported="true" kind="prj" path="/AsistFunciones"/>
+	<buildpathentry exported="true" kind="prj" path="/MsgSanatorio"/>
+	<buildpathentry exported="true" kind="prj" path="/ScrSanatorio"/>
+	<buildpathentry exported="true" kind="prj" path="/Srv_Login_Sanatorio"/>
+	<buildpathentry exported="true" kind="prj" path="/funciones"/>
+	<buildpathentry exported="true" kind="prj" path="/funcionesVarias"/>
+	<buildpathentry exported="true" kind="prj" path="/mod_dialog"/>
+</buildpath>

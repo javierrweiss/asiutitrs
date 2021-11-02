@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry excluding=".stp/|medias/" kind="src" path=""/>
+	<buildpathentry exported="true" kind="prj" path="/ASiCirTrs_EvaluacionAnestesicaAmbulatoria"/>
+	<buildpathentry exported="true" kind="prj" path="/AsiCirCons_ReimpresorProtocolosQuirurgicos"/>
+	<buildpathentry exported="true" kind="prj" path="/AsiCirTrs_BandejaCirugia"/>
+	<buildpathentry exported="true" kind="prj" path="/AsiCirTrs_ProtAmbu_1400"/>
+	<buildpathentry exported="true" kind="prj" path="/AsiCirTrs_SeguquiAmbu"/>
+	<buildpathentry exported="true" kind="prj" path="/MsgSanatorio"/>
+	<buildpathentry exported="true" kind="prj" path="/funciones"/>
+</buildpath>

@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Ninguno|0\r
+UTI|1\r
+UCO|2\r
+PISO|3\r
+Recuperacion|4",
+name:"protambu1400_vl_sector",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"1D1D26AB-248E-4755-95E1-02497C40D6F2"

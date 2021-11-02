@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+items:[
+{foreignColumnName:"histcabnrounico",primaryDataProviderID:"scopes.globals.Hcipiso_hcUnicaPrint",typeid:23,uuid:"9BB65620-EDF8-4B0B-9982-7793E8E61EB9"}
+],
+joinType:1,
+name:"hcipiso_rel_tbc_hist_cab_new",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"D5A173C2-8CFC-4CE5-B438-CCD15EB116A1"

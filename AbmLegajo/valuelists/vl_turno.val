@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Mañana|1\r
+Tarde|2\r
+Noche|3\r
+Dia x medio|4\r
+Sin informar|0",
+name:"vl_turno",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"972B0B8A-F861-401A-84DA-D1FFDEC6E2C8"

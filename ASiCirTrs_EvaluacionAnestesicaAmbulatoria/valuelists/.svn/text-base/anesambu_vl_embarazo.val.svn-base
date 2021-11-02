@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"No|0\r
+1er trimestre|1\r
+2do trimestre|2\r
+3er trimestre|3",
+name:"anesambu_vl_embarazo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"AD4ED928-AC57-479C-9589-1249928559F7"

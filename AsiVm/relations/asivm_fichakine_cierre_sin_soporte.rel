@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_ficha_cierre_kine",
+items:[
+{foreignColumnName:"fecha_fin_ventilacion",primaryDataProviderID:"scopes.globals.AsiVm_fecha_null",typeid:23,uuid:"6435A823-54D5-4D18-B9AF-41D9729E56D6"},
+{foreignColumnName:"histcli",primaryDataProviderID:"scopes.globals.AsiVm_adm_HistClin",typeid:23,uuid:"98EA135A-6D5A-4E98-B133-44E89F52238E"}
+],
+joinType:1,
+name:"asivm_fichakine_cierre_sin_soporte",
+primaryDataSource:"db:/desal/tbl_ficha_kine",
+typeid:22,
+uuid:"16855097-D7CE-47F4-B7BA-C9BA2FFEDE38"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_conc",
+items:[
+{foreignColumnName:"conc1",primaryDataProviderID:"liq5",typeid:23,uuid:"EA716AE4-BCDC-4776-B30A-565430899BAF"}
+],
+joinType:1,
+name:"tbc_liquid_to_tbc_conc",
+primaryDataSource:"db:/rrhh/tbc_liquid",
+typeid:22,
+uuid:"5179070B-E202-45D0-9B4C-B91967778A76"

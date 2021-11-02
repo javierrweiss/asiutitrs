@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Despierto y Orientado|1\r
+Desorientado|2\r
+Letargico|3\r
+Comatoso|4",
+name:"vl_estado_mental",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"A81A89D7-0F10-4956-A64F-64CCB8F44105"

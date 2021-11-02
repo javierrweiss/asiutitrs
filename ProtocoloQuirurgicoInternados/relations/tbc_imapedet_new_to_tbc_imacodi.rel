@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_imacodi",
+items:[
+{foreignColumnName:"icodcodinom",primaryDataProviderID:"idetcodinom",typeid:23,uuid:"9D2C1EE9-583F-4F3F-A807-3392D323344B"},
+{foreignColumnName:"icodservicio1",primaryDataProviderID:"idetservicio",typeid:23,uuid:"C7646D3D-A7A6-4C26-9D6A-401610E0B95E"},
+{foreignColumnName:"icodtiponom",primaryDataProviderID:"idettiponom",typeid:23,uuid:"E4338D9D-5D0A-453F-83F0-ED617A71BAC7"}
+],
+name:"tbc_imapedet_new_to_tbc_imacodi",
+primaryDataSource:"db:/asistencial/tbc_imapedet_new",
+typeid:22,
+uuid:"F8B2C4E9-6B42-4F85-9204-E213D0710D9F"

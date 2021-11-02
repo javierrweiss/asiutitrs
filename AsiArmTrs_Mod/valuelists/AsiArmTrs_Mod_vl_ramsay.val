@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:"Agitado, con exitacion sicomotriz|1\r
+Tranquilo, colaborador|2\r
+Descansa, resp. a est. verbales|3\r
+Dormido, resp. a est. tactiles|4\r
+Dormido, resp. a est. nociorecept.|5\r
+Dormido, sin resp. a estimulos|6\r
+Paralizado|7",
+name:"AsiArmTrs_Mod_vl_ramsay",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"B89CC72D-7C02-4277-A78C-68C5DBA8603D"

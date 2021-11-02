@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"*|1\r
+**|2\r
+***|3\r
+Abundante|4",
+name:"cantidad_1",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"40175EC4-29B2-48A1-B4F8-51F6BE7524F9"

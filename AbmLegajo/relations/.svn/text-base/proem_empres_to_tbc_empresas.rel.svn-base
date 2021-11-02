@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_empresas",
+initialSort:"keyempresas asc",
+items:[
+{foreignColumnName:"keyempresas",operator:1,primaryDataProviderID:"scopes.globals.v99",typeid:23,uuid:"188FDFF6-DA64-4918-8101-FBA02C4046C8"},
+{foreignColumnName:"keyempresas",operator:4,primaryDataProviderID:"scopes.globals.proem_empres",typeid:23,uuid:"C9A28EC9-EEE4-4D35-87F3-C14B9B93FC5C"}
+],
+name:"proem_empres_to_tbc_empresas",
+primaryDataSource:"db:/rrhh/tbc_empresas",
+typeid:22,
+uuid:"68459D07-1DAF-4366-92BB-62579FFA9074"

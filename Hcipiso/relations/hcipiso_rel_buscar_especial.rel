@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_especial",
+items:[
+{foreignColumnName:"esp_codi",primaryDataProviderID:"scopes.globals.Hcipiso_espCodi",typeid:23,uuid:"C1773218-402F-498B-B837-04CF0FFA6CF7"}
+],
+joinType:1,
+name:"hcipiso_rel_buscar_especial",
+primaryDataSource:"db:/maestros/tbc_especial",
+typeid:22,
+uuid:"6C62EC4B-4D25-4DA9-8B7E-ED98217EBAD8"

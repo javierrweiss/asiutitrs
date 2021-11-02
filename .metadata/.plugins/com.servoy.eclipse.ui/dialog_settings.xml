@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="2" key="SolutionExplorerView.orientation"/>
+	<item value="608" key="SolutionExplorerView.ratio512"/>
+	<item value="499" key="SolutionExplorerView.ratio256"/>
+	<item value="true" key="SolutionExplorerView.useOpenAsDefaultAction"/>
+	<item value="false" key="SolutionExplorerView.includeEntriedFromModules"/>
+	<section name="serclipseDialogs">
+		<section name="tagsAndI18NTextDialog">
+			<item value="2" key="treePatternFilterMode"/>
+			<item value="890" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="558" key="DIALOG_HEIGHT"/>
+			<item value="137" key="DIALOG_Y_ORIGIN"/>
+			<item value="484" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="selectModules">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="288" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="416" key="DIALOG_HEIGHT"/>
+			<item value="95" key="DIALOG_Y_ORIGIN"/>
+			<item value="547" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="dataProviderDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="288" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="416" key="DIALOG_HEIGHT"/>
+			<item value="320" key="DIALOG_Y_ORIGIN"/>
+			<item value="852" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="sortDialog">
+			<item value="2" key="treePatternFilterMode"/>
+			<item value="583" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="395" key="DIALOG_HEIGHT"/>
+			<item value="261" key="DIALOG_Y_ORIGIN"/>
+			<item value="678" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="mediaDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="404" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="603" key="DIALOG_HEIGHT"/>
+			<item value="122" key="DIALOG_Y_ORIGIN"/>
+			<item value="767" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="tabDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="298" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="449" key="DIALOG_HEIGHT"/>
+			<item value="225" key="DIALOG_Y_ORIGIN"/>
+			<item value="820" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="selectImageDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="404" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="603" key="DIALOG_HEIGHT"/>
+			<item value="122" key="DIALOG_Y_ORIGIN"/>
+			<item value="767" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="relationSourceDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="288" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="416" key="DIALOG_HEIGHT"/>
+			<item value="225" key="DIALOG_Y_ORIGIN"/>
+			<item value="820" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="saveEditors">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="288" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="416" key="DIALOG_HEIGHT"/>
+			<item value="9" key="DIALOG_Y_ORIGIN"/>
+			<item value="296" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="methodDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="326" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="364" key="DIALOG_HEIGHT"/>
+			<item value="262" key="DIALOG_Y_ORIGIN"/>
+			<item value="755" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="selectRelationDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="580" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="506" key="DIALOG_HEIGHT"/>
+			<item value="451" key="DIALOG_Y_ORIGIN"/>
+			<item value="990" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="relationDestinationDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="288" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="416" key="DIALOG_HEIGHT"/>
+			<item value="225" key="DIALOG_Y_ORIGIN"/>
+			<item value="820" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="serverTableDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="298" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="449" key="DIALOG_HEIGHT"/>
+			<item value="225" key="DIALOG_Y_ORIGIN"/>
+			<item value="820" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="valuelistDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="228" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="367" key="DIALOG_HEIGHT"/>
+			<item value="212" key="DIALOG_Y_ORIGIN"/>
+			<item value="1018" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="formatDialog">
+			<item value="556" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="659" key="DIALOG_HEIGHT"/>
+			<item value="85" key="DIALOG_Y_ORIGIN"/>
+			<item value="691" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="Select form dialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="288" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="416" key="DIALOG_HEIGHT"/>
+			<item value="225" key="DIALOG_Y_ORIGIN"/>
+			<item value="820" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="newFormWizard">
+			<item value="true" key="placeLabels"/>
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="true" key="placeHorizontal"/>
+			<item value="true" key="fillName"/>
+			<item value="" key="servername"/>
+			<item value="false" key="placeAsLabels"/>
+			<item value="" key="templatename"/>
+			<item value="javier_Style" key="style"/>
+			<item value="true" key="fillText"/>
+			<item value="" key="tablename"/>
+		</section>
+		<section name="navigatorFormDialog">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="298" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="449" key="DIALOG_HEIGHT"/>
+			<item value="225" key="DIALOG_Y_ORIGIN"/>
+			<item value="820" key="DIALOG_X_ORIGIN"/>
+		</section>
+		<section name="Select modules">
+			<item value="1" key="treePatternFilterMode"/>
+			<item value="288" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="416" key="DIALOG_HEIGHT"/>
+			<item value="128" key="DIALOG_Y_ORIGIN"/>
+			<item value="868" key="DIALOG_X_ORIGIN"/>
+		</section>
+	</section>
+	<section name="I18NComposite.table.widths">
+		<item value="100" key="key.column"/>
+		<item value="100" key="default.column"/>
+		<item value="100" key="locale.column"/>
+	</section>
+	<section name="SolutionExportWizard">
+		<item value="C:\Users\fhuertas\Documents\SolucionesServoy\AsiUtiTrs-20211026.servoy" key="initialFileName"/>
+	</section>
+</section>

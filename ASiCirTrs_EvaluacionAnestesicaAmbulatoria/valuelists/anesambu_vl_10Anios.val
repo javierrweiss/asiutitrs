@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"No|0\r
+< 10 años|1\r
+10 y 20 años|2\r
+> 20 años|3",
+name:"anesambu_vl_10Anios",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"201E480E-A1F7-4099-B5C8-725FCBD02B85"

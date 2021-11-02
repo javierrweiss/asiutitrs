@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/atcons_histpac_ing",
+items:[
+{foreignColumnName:"histpacnro",primaryDataProviderID:"reservashiscli",typeid:23,uuid:"0942293A-9FD1-4267-A94D-95B6FDEC2B48"},
+{foreignColumnName:"histpacfec",primaryDataProviderID:"reservasfech",typeid:23,uuid:"35C5D22E-5E6C-4DD2-9E19-2C5AE04AD370"},
+{foreignColumnName:"histpacespfir",primaryDataProviderID:"reservasesp",typeid:23,uuid:"4EE75BE8-2A35-4EE4-814B-B349AD435FE5"},
+{foreignColumnName:"histpacmedfir",primaryDataProviderID:"reservasmed",typeid:23,uuid:"C5E48BA3-CB44-4BD3-BA5C-5B5E0A6A2697"},
+{foreignColumnName:"histpac_horareserva",primaryDataProviderID:"reservashora",typeid:23,uuid:"E4AC2A3F-1556-43BF-93CF-415F8C839576"}
+],
+joinType:1,
+name:"atcons_reservas_to_atcons_histpac_ing",
+primaryDataSource:"db:/asistencial/tbc_reservas",
+typeid:22,
+uuid:"A160717A-35AA-4FCE-A0B4-45414E1A544F"

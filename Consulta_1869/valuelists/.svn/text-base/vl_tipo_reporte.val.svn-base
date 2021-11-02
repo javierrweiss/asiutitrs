@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Detalle|0\r
+Detalle y Totales|1\r
+Totales|2",
+name:"vl_tipo_reporte",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"15F5B55B-74F6-4678-A164-1B3025CD74D9"

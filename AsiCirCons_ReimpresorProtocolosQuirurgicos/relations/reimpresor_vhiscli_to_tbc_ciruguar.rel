@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_ciruguar",
+items:[
+{foreignColumnName:"cirgfechaingreso",primaryDataProviderID:"scopes.globals.reimpresor_fecha_ingreso",typeid:23,uuid:"67B47EDB-D74D-4151-8BC8-48A83DBB91A4"},
+{foreignColumnName:"cirghoraingreso",primaryDataProviderID:"scopes.globals.reimpresor_hora_ingreso",typeid:23,uuid:"9DCDA8DC-5250-4B07-8A1C-48EB4DF47174"},
+{foreignColumnName:"cirghistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"A755F743-9B72-4597-86E5-3AABF73432A8"}
+],
+name:"reimpresor_vhiscli_to_tbc_ciruguar",
+primaryDataSource:"db:/asistencial/tbc_ciruguar",
+typeid:22,
+uuid:"A55FF9C6-D362-4B7F-A8D3-CFDB46C5034B"

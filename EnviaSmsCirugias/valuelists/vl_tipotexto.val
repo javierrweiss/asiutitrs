@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"La cirugía finalizó. Al paciente se le asigno la habitación|1\r
+La cirugía finalizó. El paciente paso a Terapia Intensiva, 3er. Piso|2\r
+La cirugía finalizó. El paciente paso a Unidad Coronaria, 2do. Piso|3\r
+La cirugía finalizó. El paciente se encuentra en recuperación postquirúrgica dentro del área quirúrgica|4",
+name:"vl_tipotexto",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"E811166D-D3ED-46BD-BF04-EDA3AB6E0328"

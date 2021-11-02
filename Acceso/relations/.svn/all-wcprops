@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/proyecto1/!svn/ver/726/Acceso/relations
+END
+gbl_dni_to_visitas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/proyecto1/!svn/ver/726/Acceso/relations/gbl_dni_to_visitas.rel
+END
+gbl_dni_to_movimientos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/proyecto1/!svn/ver/726/Acceso/relations/gbl_dni_to_movimientos.rel
+END
+buscar_num_to_visitantes.rel
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/726/Acceso/relations/buscar_num_to_visitantes.rel
+END
+gbl_sector_to_tbl_acceso_a_quien.rel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/726/Acceso/relations/gbl_sector_to_tbl_acceso_a_quien.rel
+END
+visitas_to_movimientos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/proyecto1/!svn/ver/726/Acceso/relations/visitas_to_movimientos.rel
+END
+cons_sin_salida_to_tbl_movimientos_accesos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/726/Acceso/relations/cons_sin_salida_to_tbl_movimientos_accesos.rel
+END
+buscar_alf_to_visitantes.rel
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/726/Acceso/relations/buscar_alf_to_visitantes.rel
+END
+tbl_movimientos_accesos_to_tbl_visitantes.rel
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/proyecto1/!svn/ver/726/Acceso/relations/tbl_movimientos_accesos_to_tbl_visitantes.rel
+END
+tbl_visitantes_to_tbl_movimientos_accesos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/proyecto1/!svn/ver/726/Acceso/relations/tbl_visitantes_to_tbl_movimientos_accesos.rel
+END

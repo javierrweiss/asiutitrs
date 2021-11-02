@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"guar_diagnostico",typeid:23,uuid:"7E353D45-255E-4AF6-B94C-250FEF89872C"}
+],
+name:"tbc_guardia_to_tbc_patologia",
+primaryDataSource:"db:/asistencial/tbc_guardia",
+typeid:22,
+uuid:"2A470AFC-C5EE-4147-9015-9E44494C1AAB"

@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Protocolo Completo|4\r
+1ra. Hoja|1\r
+2da. Hoja|2\r
+3er. Hoja y siguientes|3",
+name:"TipoListado",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"0EE2977A-5581-4BEB-B14F-06B38D619D23"

@@ -1,0 +1,14 @@
+items:[
+{
+height:239,
+partType:5,
+typeid:19,
+uuid:"F5FCCB90-1FCE-4953-AE29-7F10C2211DA9"
+}
+],
+name:"consulta_288_frm_vacio",
+navigatorID:"-1",
+scrollbars:36,
+showInMenu:true,
+typeid:3,
+uuid:"29BD79B1-EAC5-46E1-8099-40CCE65BE646"

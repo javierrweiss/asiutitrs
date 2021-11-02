@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_his_lectora",
+items:[
+{foreignColumnName:"hlec_tiphistclin",operator:0,primaryDataProviderID:"globals.vtipohist",typeid:23,uuid:"69504C82-D174-4E90-A78B-C4ECA2CB97E6"},
+{foreignColumnName:"hlec_histclin",operator:0,primaryDataProviderID:"globals.vhiscli",typeid:23,uuid:"755A8987-1288-4F45-A8A3-C13F73D1A12F"}
+],
+joinType:0,
+name:"vhiscli_to_tbc_hislectora",
+primaryDataSource:"db:/asistencial/tbc_his_lectora",
+typeid:22,
+uuid:"5DFA242D-5897-4717-A9B4-4088F54E1E2B"

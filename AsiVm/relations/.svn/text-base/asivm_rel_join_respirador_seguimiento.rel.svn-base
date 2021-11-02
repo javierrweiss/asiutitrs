@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_respirador",
+items:[
+{foreignColumnName:"rsp_histcli",primaryDataProviderID:"scopes.globals.AsiVm_adm_HistClinResp",typeid:23,uuid:"DE8D6E7C-028F-4746-8747-F24E1DBDB2E7"}
+],
+joinType:1,
+name:"asivm_rel_join_respirador_seguimiento",
+primaryDataSource:"db:/desal/tbl_ficha_kine",
+typeid:22,
+uuid:"BB93B338-B4AC-481A-902D-EAFB96D3E6AF"

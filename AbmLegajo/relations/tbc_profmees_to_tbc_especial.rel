@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_especial",
+items:[
+{foreignColumnName:"esp_codi",primaryDataProviderID:"proes_especi",typeid:23,uuid:"C7C754E5-7464-4931-9DB7-7EB7ABC5FC35"}
+],
+name:"tbc_profmees_to_tbc_especial",
+primaryDataSource:"db:/rrhh/tbc_profmees",
+typeid:22,
+uuid:"26DFC05D-3789-45B1-B0BB-FAF841427FB1"

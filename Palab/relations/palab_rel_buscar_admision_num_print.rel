@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_admision",
+items:[
+{foreignColumnName:"adm_histclin",primaryDataProviderID:"scopes.globals.Palab_hisclinPrint",typeid:23,uuid:"17458676-D0EC-4BAE-8600-87411A056F58"}
+],
+name:"palab_rel_buscar_admision_num_print",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"C2DD0DB7-2FCF-414F-BF8A-DDCDB253B0EF"

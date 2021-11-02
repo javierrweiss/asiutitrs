@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_protesis",
+items:[
+{foreignColumnName:"prote_histclin",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"08BD2A0B-6A98-4BCC-BDAD-DA4D4A8BC873"},
+{foreignColumnName:"prote_horasolic",primaryDataProviderID:"scopes.globals.protambu1400_hora_ingreso",typeid:23,uuid:"7CE5C16D-374C-40A2-8D39-F3230F0FA959"},
+{foreignColumnName:"prote_fecsolic",primaryDataProviderID:"scopes.globals.protambu1400_fechaingreso",typeid:23,uuid:"9E505E5A-2F6F-48DE-878B-CCD9284FEAE9"}
+],
+name:"protambu1400_vhiscli_to_tbc_protesis",
+primaryDataSource:"db:/asistencial/tbc_protesis",
+typeid:22,
+uuid:"0023C5FC-BE38-42B5-801D-2AF569FA9301"

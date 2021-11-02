@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"I|1\r
+II|2\r
+III|3\r
+IV|4",
+name:"AsiUtiTrs_vl_grado_upp",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"94DE8698-966E-4B03-8BE4-5446F3B021D9"

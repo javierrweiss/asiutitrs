@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/tbl_movimientos_accesos",
+items:[
+{foreignColumnName:"mov_nro_doc",primaryDataProviderID:"scopes.globals.gbl_dni",typeid:23,uuid:"8DAA5FCA-9045-4C57-8FFF-14CB534E7D1C"}
+],
+name:"gbl_dni_to_movimientos",
+primaryDataSource:"db:/bases_auxiliares/tbl_movimientos_accesos",
+typeid:22,
+uuid:"67F690E3-9A27-42D6-ADC4-80EDB2EF4C5F"

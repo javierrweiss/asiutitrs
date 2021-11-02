@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:"Sequedad mucosa|1\r
+Broncoaspiración|2\r
+Disfagia|3\r
+Epistaxis|4\r
+Barotrauma|5\r
+Lesión cutánea|6\r
+Otra|7",
+name:"AsiVm_vl_complicaciones_caf",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"96FC3F49-85B8-45B5-BE68-B923C0A009DF"

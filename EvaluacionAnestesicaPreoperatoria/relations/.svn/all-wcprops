@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/proyecto1/!svn/ver/825/EvaluacionAnestesicaPreoperatoria/relations
+END
+vhisclin_to_tbc_anestesia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/825/EvaluacionAnestesicaPreoperatoria/relations/vhisclin_to_tbc_anestesia.rel
+END
+tbc_anestesia_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/825/EvaluacionAnestesicaPreoperatoria/relations/tbc_anestesia_to_tbc_interven.rel
+END
+vs_to_tbc_aneste_txt.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/825/EvaluacionAnestesicaPreoperatoria/relations/vs_to_tbc_aneste_txt.rel
+END
+vinterven_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/305/EvaluacionAnestesicaPreoperatoria/relations/vinterven_to_tbc_interven.rel
+END
+vhisclin_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/825/EvaluacionAnestesicaPreoperatoria/relations/vhisclin_to_tbc_admision.rel
+END
+vintervenalfa_to_tbc_interven.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/305/EvaluacionAnestesicaPreoperatoria/relations/vintervenalfa_to_tbc_interven.rel
+END
+vs_to_tbc_anestesia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/proyecto1/!svn/ver/825/EvaluacionAnestesicaPreoperatoria/relations/vs_to_tbc_anestesia.rel
+END
+tbc_admision_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/825/EvaluacionAnestesicaPreoperatoria/relations/tbc_admision_to_tbc_obras.rel
+END

@@ -1,0 +1,9 @@
+addEmptyValue:1,
+dataProviderID1:"tbl_acceso_a_nombre",
+name:"vl_a_quien",
+relationName:"gbl_sector_to_tbl_acceso_a_quien",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"31E1478F-624D-489D-8CB0-30ED88B95D0A",
+valueListType:1

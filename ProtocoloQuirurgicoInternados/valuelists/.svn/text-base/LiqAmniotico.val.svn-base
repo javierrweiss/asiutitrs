@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Sin Dato|0\r
+Claro|1\r
+Sanguinolente|2\r
+Meconial|3\r
+Observaciones|4",
+name:"LiqAmniotico",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"EAD88137-4518-45AB-BD65-27B43CCA2F77"

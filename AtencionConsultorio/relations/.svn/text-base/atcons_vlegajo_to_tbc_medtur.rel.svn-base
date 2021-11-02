@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_medtur",
+items:[
+{foreignColumnName:"medturcod",primaryDataProviderID:"scopes.globals.AtCons_vlegajo",typeid:23,uuid:"1D70AAC8-F1C2-44E3-BE7F-384DAC89FD31"}
+],
+joinType:1,
+name:"atcons_vlegajo_to_tbc_medtur",
+primaryDataSource:"db:/asistencial/tbc_medtur",
+typeid:22,
+uuid:"BDBF000E-3508-4759-AA40-B3D6FD29546B"

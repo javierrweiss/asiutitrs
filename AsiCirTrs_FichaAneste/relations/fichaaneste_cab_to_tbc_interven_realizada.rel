@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_interven",
+items:[
+{foreignColumnName:"itv_codi",primaryDataProviderID:"oper_realizada",typeid:23,uuid:"2ED03BE3-C1E5-4D7A-BC62-8B70B7BDEB7F"}
+],
+joinType:1,
+name:"fichaaneste_cab_to_tbc_interven_realizada",
+primaryDataSource:"db:/desal/fichaaneste_cab",
+typeid:22,
+uuid:"D0668192-154C-4245-BF1E-28FBD67A2348"

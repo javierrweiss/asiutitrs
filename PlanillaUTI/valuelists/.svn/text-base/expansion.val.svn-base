@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"Sol.Fisiológica|1\r
+Ringer Lactato|2\r
+Voluven|3\r
+Haemaccel|4\r
+Albumina|5\r
+Ninguna|0",
+name:"expansion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"0D06B6F9-2C30-4E08-82DC-3FAFE36F5CA3"

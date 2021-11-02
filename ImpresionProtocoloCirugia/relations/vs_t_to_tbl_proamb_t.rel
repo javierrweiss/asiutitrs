@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_proamb_t",
+initialSort:"hiscli asc, fecing asc, horing asc, grupo asc",
+items:[
+{foreignColumnName:"grupo",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"174BACA8-D412-4569-AFB0-A84C43C61767"},
+{foreignColumnName:"hiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"820B3028-1ECC-4F6D-BB0A-84EBDDC32E38"},
+{foreignColumnName:"fecing",primaryDataProviderID:"scopes.globals.impresor_fechaingreso",typeid:23,uuid:"DB0ACEDB-B9AB-470C-AFE0-A3D45555BCCB"},
+{foreignColumnName:"horing",primaryDataProviderID:"scopes.globals.impresor_horaingreso",typeid:23,uuid:"EA7C35AE-E1A1-4A19-8AF7-266CF40BE53C"}
+],
+name:"vs_t_to_tbl_proamb_t",
+primaryDataSource:"db:/desal/tbl_proamb_t",
+typeid:22,
+uuid:"CBDED659-B66D-4DCF-A348-95F6978439FD"

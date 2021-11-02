@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hcicir_new",
+items:[
+{foreignColumnName:"hcirtipohc",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"380C715B-8F86-49BD-8B67-E8CB28736B85"},
+{foreignColumnName:"hcirhiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"529552FB-D956-4D8C-888D-E689F35D248E"}
+],
+name:"protambu1400_vs_to_tbc_hcicir_new",
+primaryDataSource:"db:/asistencial/tbc_hcicir_new",
+typeid:22,
+uuid:"A89857CF-0D4A-4BD1-AF03-79B65772F15A"

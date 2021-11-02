@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_categ",
+items:[
+{foreignColumnName:"categ1",primaryDataProviderID:"scopes.globals.per_10",typeid:23,uuid:"A2472A78-BAEC-42A3-93D2-80EBED1EB7BF"}
+],
+name:"vcategoria_to_tbc_categ",
+primaryDataSource:"db:/rrhh/tbc_categ",
+typeid:22,
+uuid:"FB52175F-9FE7-4280-B4A1-FC447D40B6A0"

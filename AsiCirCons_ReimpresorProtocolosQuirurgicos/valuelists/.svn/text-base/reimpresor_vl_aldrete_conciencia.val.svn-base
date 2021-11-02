@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Completamente Despierto|3\r
+
+Responde a la llamada|2\r
+
+No Responde|1",
+name:"reimpresor_vl_aldrete_conciencia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"4D69E773-35DE-4D3F-B898-AB5DB61EDA4C"

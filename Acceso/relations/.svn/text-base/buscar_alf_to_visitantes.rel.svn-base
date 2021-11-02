@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/tbl_visitantes",
+initialSort:"vis_apellido asc, vis_nombre asc",
+items:[
+{foreignColumnName:"vis_apellido",operator:4,primaryDataProviderID:"scopes.globals.gbl_buscar",typeid:23,uuid:"C7812B3E-DFB2-4EE6-87B4-5439473F53A2"}
+],
+name:"buscar_alf_to_visitantes",
+primaryDataSource:"db:/bases_auxiliares/tbl_visitantes",
+typeid:22,
+uuid:"08F2C32A-AC23-4E65-905B-638A8947F0F0"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"histcabobra",typeid:23,uuid:"9C79CB1B-1DFF-4717-B658-1D9D89C0D271"}
+],
+name:"seguquiambu_tbc_hist_cab_new_to_tbc_obras",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"89BB2B86-3E42-474F-BE9B-7377D27FF3D8"

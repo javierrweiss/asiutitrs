@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_apache",
+items:[
+{foreignColumnName:"achhistcl",primaryDataProviderID:"scopes.globals.Palab_achHistCl",typeid:23,uuid:"D2E23139-E7A5-4777-BE7D-A990AD9AABE9"}
+],
+name:"palab_rel_buscar_apache",
+primaryDataSource:"db:/asistencial/tbc_apache",
+typeid:22,
+uuid:"E1E7EAC3-800D-4F86-947F-3F9DB0FD50B9"

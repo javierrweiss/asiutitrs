@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_respirador",
+items:[
+{foreignColumnName:"rsp_enuso",primaryDataProviderID:"LITERAL:1",typeid:23,uuid:"0F0C9BE9-41CC-4844-B029-210866B1059F"}
+],
+joinType:1,
+name:"asivm_rel_join_respirador_en_uso",
+primaryDataSource:"db:/desal/tbl_ficha_kine",
+typeid:22,
+uuid:"02DFD823-55AA-481A-A0F1-4FB5340F18F4"

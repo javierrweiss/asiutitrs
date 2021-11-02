@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"No|0\r
+< 6 meses|1\r
+> 6 meses|2",
+name:"anesambu_vl_6Meses",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"B7E0A206-BC93-43D4-B256-ED37D713BABF"

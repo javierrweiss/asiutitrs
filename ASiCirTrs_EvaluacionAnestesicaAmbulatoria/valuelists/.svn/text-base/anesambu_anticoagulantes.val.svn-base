@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Ninguno|0\r
+Heparina|1\r
+Dicumarol|2",
+name:"anesambu_anticoagulantes",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"7E262B59-9C03-4489-BE9F-D50117C9DED5"

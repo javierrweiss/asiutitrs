@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Contacto|2\r
+Neutropenico|3\r
+Respiratorio|4\r
+Social|5",
+name:"hojaenfer_vl_aislamiento",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"25870995-6BED-4699-8F4E-2D0BA8DA63B0"

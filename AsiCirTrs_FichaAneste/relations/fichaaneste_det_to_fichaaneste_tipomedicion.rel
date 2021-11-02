@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/fichaaneste_tipomedicion",
+items:[
+{foreignColumnName:"codigo",primaryDataProviderID:"tipo_medicion_cod",typeid:23,uuid:"9B0BD537-84FD-41B8-871D-65423A0271F7"}
+],
+joinType:1,
+name:"fichaaneste_det_to_fichaaneste_tipomedicion",
+primaryDataSource:"db:/desal/fichaaneste_det",
+typeid:22,
+uuid:"0D8FFEB4-5D60-48A6-A336-6ABF87FDD7B3"

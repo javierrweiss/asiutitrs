@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_articulos",
+items:[
+{foreignColumnName:"art_codigo",primaryDataProviderID:"pregcodnome",typeid:23,uuid:"5537871D-AD14-4452-8C77-FAE1BEEEF1E9"}
+],
+name:"reimpresor_tbc_prest_guar_to_tbc_articulos",
+primaryDataSource:"db:/asistencial/tbc_prest_guar",
+typeid:22,
+uuid:"D5CD5E93-C80D-4F3B-A77F-929CAEF1FD1C"

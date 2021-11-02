@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hojauco",
+items:[
+{foreignColumnName:"huchiscli",primaryDataProviderID:"scopes.globals.AsiUcoMod_Rep_hiuHisCli",typeid:23,uuid:"586E005C-C8E1-4B2D-B69C-F015D4787284"},
+{foreignColumnName:"hucfecha",primaryDataProviderID:"scopes.globals.AsiUcoMod_Rep_hiuFecha",typeid:23,uuid:"8C136D2C-8276-4413-88D4-1CE3A83505C3"},
+{foreignColumnName:"huchora",primaryDataProviderID:"scopes.globals.AsiUcoMod_Rep_hiuHora",typeid:23,uuid:"ABC71DF4-5E4A-4A29-94DD-E37C112F2BD9"}
+],
+name:"asiucomod_rep_rel_buscar_hojauco",
+primaryDataSource:"db:/asistencial/tbc_hciuco",
+typeid:22,
+uuid:"458B21A5-C3F8-41CC-84DA-16E276B3729F"

@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/proyecto1/!svn/ver/2813/AbmLegajo/valuelists
+END
+vl_zona.val
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/proyecto1/!svn/ver/1102/AbmLegajo/valuelists/vl_zona.val
+END
+vl_Sexo.val
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_Sexo.val
+END
+vl_tipo_documento.val
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_tipo_documento.val
+END
+vl_servicios.val
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_servicios.val
+END
+vl_causas_tbl.val
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_causas_tbl.val
+END
+vl_servicios_que_atiende.val
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_servicios_que_atiende.val
+END
+vl_causas.val
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_causas.val
+END
+vl_pacientes.val
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_pacientes.val
+END
+vl_vacuna_modif.val
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_vacuna_modif.val
+END
+vl_nivel_formacion.val
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/proyecto1/!svn/ver/1102/AbmLegajo/valuelists/vl_nivel_formacion.val
+END
+vl_tipo_de_personal.val
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/1102/AbmLegajo/valuelists/vl_tipo_de_personal.val
+END
+vl_tipo_personal.val
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/proyecto1/!svn/ver/1081/AbmLegajo/valuelists/vl_tipo_personal.val
+END
+vl_provincia.val
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/proyecto1/!svn/ver/1102/AbmLegajo/valuelists/vl_provincia.val
+END
+vl_banco_cobro.val
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/proyecto1/!svn/ver/2813/AbmLegajo/valuelists/vl_banco_cobro.val
+END
+vl_caracter_contrato.val
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_caracter_contrato.val
+END
+vl_causas_exc.val
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_causas_exc.val
+END
+vl_informa_vac.val
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_informa_vac.val
+END
+vl_personal.val
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_personal.val
+END
+vl_residencia_entidad.val
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_residencia_entidad.val
+END
+vl_categoria.val
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_categoria.val
+END
+vl_sindicato.val
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/proyecto1/!svn/ver/1167/AbmLegajo/valuelists/vl_sindicato.val
+END
+vl_modalidad_en_empresa.val
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_modalidad_en_empresa.val
+END
+vl_modalidad_contractual.val
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_modalidad_contractual.val
+END
+vl_aplica.val
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_aplica.val
+END
+vl_tipo_residencia.val
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/proyecto1/!svn/ver/2680/AbmLegajo/valuelists/vl_tipo_residencia.val
+END
+vl_motivo_baja.val
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_motivo_baja.val
+END
+vl_tipo_contrato.val
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/proyecto1/!svn/ver/1102/AbmLegajo/valuelists/vl_tipo_contrato.val
+END
+vl_moneda.val
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_moneda.val
+END
+vl_residencia.val
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_residencia.val
+END
+vl_nosi.val
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_nosi.val
+END
+vl_sino.val
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_sino.val
+END
+vl_estado_civil.val
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/proyecto1/!svn/ver/1083/AbmLegajo/valuelists/vl_estado_civil.val
+END
+vl_tipo_atencion.val
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/proyecto1/!svn/ver/2504/AbmLegajo/valuelists/vl_tipo_atencion.val
+END
+vl_ficha_por.val
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_ficha_por.val
+END
+vl_tipo_liquidacion.val
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/1087/AbmLegajo/valuelists/vl_tipo_liquidacion.val
+END
+vl_turno.val
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/proyecto1/!svn/ver/1119/AbmLegajo/valuelists/vl_turno.val
+END
+vl_nacionalidad.val
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_nacionalidad.val
+END
+vl_escala_4ta.val
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/proyecto1/!svn/ver/1080/AbmLegajo/valuelists/vl_escala_4ta.val
+END

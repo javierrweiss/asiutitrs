@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.Hojaenfer_perLegajo",typeid:23,uuid:"505AE125-9809-40E0-99B5-91777CD9B31F"}
+],
+joinType:1,
+name:"hojaenfer_rel_busca_enfermero",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"1C152E68-AE32-46FE-AC2D-03FFE9030D97"

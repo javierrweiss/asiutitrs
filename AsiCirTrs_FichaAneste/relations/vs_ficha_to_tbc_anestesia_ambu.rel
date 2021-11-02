@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anes_ambu",
+items:[
+{foreignColumnName:"aneshoraingreso",primaryDataProviderID:"scopes.globals.vHoraIngreso",typeid:23,uuid:"4E500A99-939A-4826-9AE2-43B926328445"},
+{foreignColumnName:"anestippac",primaryDataProviderID:"scopes.globals.fichaaneste_vuno",typeid:23,uuid:"69879891-BC43-4055-9E00-75D3083A4283"},
+{foreignColumnName:"aneshc",primaryDataProviderID:"scopes.globals.fichaaneste_histcliuni",typeid:23,uuid:"7FDEB841-6525-4D7C-8703-8B93B7D1D38F"},
+{foreignColumnName:"anesfecingreso",primaryDataProviderID:"scopes.globals.vFecing",typeid:23,uuid:"AED855D5-AC62-4358-B403-65EDF2A5B58D"},
+{foreignColumnName:"anesestado",operator:4,primaryDataProviderID:"scopes.globals.fichaaneste_vcero",typeid:23,uuid:"C13D8FFB-362B-47B2-9FED-B092129761F0"}
+],
+joinType:1,
+name:"vs_ficha_to_tbc_anestesia_ambu",
+primaryDataSource:"db:/asistencial/tbc_anes_ambu",
+typeid:22,
+uuid:"8F16B08D-212F-4D39-A25E-F485F6C70EA5"

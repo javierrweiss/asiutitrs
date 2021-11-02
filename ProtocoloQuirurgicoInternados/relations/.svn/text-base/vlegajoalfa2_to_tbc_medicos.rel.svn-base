@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_medicos",
+items:[
+{foreignColumnName:"med_apenomred",operator:4,primaryDataProviderID:"scopes.globals.vLegajoAlfa",typeid:23,uuid:"CD43DC1C-A38C-4500-9ED3-4ADF7CFF4EA2"}
+],
+name:"vlegajoalfa2_to_tbc_medicos",
+primaryDataSource:"db:/validalegajo/tbc_medicos",
+typeid:22,
+uuid:"44CFEB44-2E49-478C-8E2A-3AEB0EAF71BC"

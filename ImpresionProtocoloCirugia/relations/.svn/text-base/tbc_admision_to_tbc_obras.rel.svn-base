@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",operator:0,primaryDataProviderID:"adm_obrsoc",typeid:23,uuid:"AA43051C-27BB-4245-87D7-60448B2BF78E"}
+],
+joinType:0,
+name:"tbc_admision_to_tbc_obras",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"964216F2-445D-4EFB-ACA3-787333EAE7BF"

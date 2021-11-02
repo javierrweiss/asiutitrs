@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+items:[
+{foreignColumnName:"adm_histclin",primaryDataProviderID:"scopes.globals.consulta_1002_histClinica",typeid:23,uuid:"7FB7A212-F253-4CC9-A299-4BDBA2FDF564"}
+],
+name:"vhiscli_to_tbc_admision_scroll",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"44B54673-8F7E-4AEF-A5D4-A2BDD02E647A"

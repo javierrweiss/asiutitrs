@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab",
+items:[
+{foreignColumnName:"histcab_nrounico",primaryDataProviderID:"scopes.globals.Hcipiso_histclinUnica",typeid:23,uuid:"44854CE4-687E-4F3C-BC2A-8BEF56AC3C5C"}
+],
+name:"hcipiso_unica_to_tbc_hist_cab",
+primaryDataSource:"db:/asistencial/tbc_hist_cab",
+typeid:22,
+uuid:"865B44A6-397C-4BB4-8AF8-94FD40A42869"

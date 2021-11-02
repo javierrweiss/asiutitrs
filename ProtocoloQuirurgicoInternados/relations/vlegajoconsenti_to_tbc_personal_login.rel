@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_personal_login_cirugia",
+items:[
+{foreignColumnName:"per_legajo",operator:0,primaryDataProviderID:"globals.vLegaConsenti",typeid:23,uuid:"9DC2B1BD-233D-4C8C-8798-3FA26EDEA55F"}
+],
+joinType:0,
+name:"vlegajoconsenti_to_tbc_personal_login",
+primaryDataSource:"db:/validalegajo/tbc_personal_login",
+typeid:22,
+uuid:"FB99AA4F-5254-405E-873B-514A3B027D9A"

@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"No se Informa|1
+No se Vacuna|2
+Acepta Vacunación|0",
+name:"vl_informa_vac",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"6734A8F3-2B23-46B6-9D26-2ADC2803DBAD"

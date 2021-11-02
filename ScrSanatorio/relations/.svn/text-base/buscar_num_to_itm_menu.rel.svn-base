@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_itm_menu",
+initialSort:"descripcion asc",
+items:[
+{foreignColumnName:"descripcion",operator:4,primaryDataProviderID:"scopes.globals.gbl_item",typeid:23,uuid:"B66899AA-B676-43F8-B116-E212ADD16BAF"}
+],
+name:"buscar_num_to_itm_menu",
+primaryDataSource:"db:/desal/tbl_itm_menu",
+typeid:22,
+uuid:"3118AB5E-7D4C-41E9-B0DC-ED042F23379D"

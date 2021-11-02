@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Buena|1\r
+Con areas enrojecidas|2\r
+Ulceras grado I|3\r
+Ulceras grado II|4",
+name:"lv_aspecto_piel",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"DB728E93-3FC2-4C03-91DC-F49CB88F4C07"

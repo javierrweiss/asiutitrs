@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_profmefa",
+items:[
+{foreignColumnName:"profa_tipmed",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"AE988A47-F8D0-46D0-A236-0CC98F8BA664"},
+{foreignColumnName:"profa_codmed",primaryDataProviderID:"scopes.globals.per_1",typeid:23,uuid:"D8DCF41B-89DB-4150-A94C-21C613B26302"}
+],
+name:"per_1_to_tbc_profmefa",
+primaryDataSource:"db:/rrhh/tbc_profmefa",
+typeid:22,
+uuid:"F25C366F-D206-46AF-A59B-098A19768578"

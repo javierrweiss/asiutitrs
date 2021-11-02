@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"|0\r
+Prestaciones Médicas|1\r
+Prestaciones No Médicas|2",
+name:"vl_tipoprest",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"E4D52415-7F5F-4EB1-8C26-AEB4E196FBD7"

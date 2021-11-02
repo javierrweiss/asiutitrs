@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/vis_tbc_hist_cab_nom",
+items:[
+{foreignColumnName:"histcabapellnom",operator:4,primaryDataProviderID:"scopes.globals.gbl_con_hiscli",typeid:23,uuid:"87747D4E-7C25-4DD1-B345-0E1091616018"}
+],
+name:"buscar_tbc_admision_scroll_unica_nombre",
+primaryDataSource:"db:/asistencial/vis_tbc_hist_cab_nom",
+typeid:22,
+uuid:"A42B6570-8D7A-4BD1-BDF1-CFBB7F918811"

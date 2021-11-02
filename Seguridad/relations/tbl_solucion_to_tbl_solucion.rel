@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_solucion",
+items:[
+{foreignColumnName:"codigo",primaryDataProviderID:"scopes.globals.gbl_codigo_solucion",typeid:23,uuid:"9B57722E-D283-4099-AB82-54F02F63C96E"}
+],
+name:"tbl_solucion_to_tbl_solucion",
+primaryDataSource:"db:/desal/tbl_solucion",
+typeid:22,
+uuid:"D21A387A-BB12-4FF6-937A-E66B6012C2B8"

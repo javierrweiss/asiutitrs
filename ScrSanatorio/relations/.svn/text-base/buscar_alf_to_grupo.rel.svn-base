@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_grupos",
+items:[
+{foreignColumnName:"gru3",operator:4,primaryDataProviderID:"scopes.globals.gbl_con_grupo_nom",typeid:23,uuid:"5F9C3B4B-1B87-4FAE-963A-83FEDE928819"}
+],
+name:"buscar_alf_to_grupo",
+primaryDataSource:"db:/maestros/tbc_grupos",
+typeid:22,
+uuid:"74D0EB0C-44B2-490A-BA55-A17B7926EBFE"

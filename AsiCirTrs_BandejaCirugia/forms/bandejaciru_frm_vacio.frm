@@ -1,0 +1,14 @@
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"4F5ABAE6-9952-4BFC-A8A4-97C81851847B"
+}
+],
+name:"bandejaciru_frm_vacio",
+navigatorID:"-1",
+showInMenu:true,
+styleName:"Sanatorio",
+typeid:3,
+uuid:"7C32B6D6-66FB-469D-B828-E92BF762DC93"

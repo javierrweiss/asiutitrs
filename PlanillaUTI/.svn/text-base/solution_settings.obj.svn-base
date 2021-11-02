@@ -1,0 +1,8 @@
+firstFormID:"0BF70FE6-4C45-4D2E-99BD-5C0152EAE4A6",
+i18nDataSource:"db:/svy_framework/i18n_messages",
+loginFormID:"-1",
+modulesNames:"funciones",
+onCloseMethodID:"FE5168BB-44C8-4B34-B71E-918CC66DC613",
+onOpenMethodID:"993AA764-0ED8-450D-9DD7-BB0AC5A416E1",
+typeid:43,
+uuid:"5FD10DD7-631C-4AAB-9044-E260A9F79B16"

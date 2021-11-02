@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_perext",
+initialSort:"perext_lega asc",
+items:[
+{foreignColumnName:"perext_lega",primaryDataProviderID:"scopes.globals.AsiUtiTrs_vLega",typeid:23,uuid:"AEE590A0-14F2-4EC2-A698-CDAB94E18A9D"}
+],
+name:"asiutitrs_vlegajo_to_tbc_perext",
+primaryDataSource:"db:/validalegajo/tbc_perext",
+typeid:22,
+uuid:"9DDD8501-9BEB-4526-904C-3433B24111D9"

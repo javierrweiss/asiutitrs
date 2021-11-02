@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"RRHH|5\r
+Finanzas|6\r
+SND|9",
+fallbackValueListID:"9FCAD421-9365-49D3-BAD1-44AEEB999E6D",
+name:"vl_varios",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"F4FFC987-6307-4F24-95DB-826EE06FA201"

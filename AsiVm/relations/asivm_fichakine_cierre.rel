@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_ficha_cierre_kine",
+items:[
+{foreignColumnName:"histcli",primaryDataProviderID:"scopes.globals.AsiVm_adm_HistClin",typeid:23,uuid:"0D56E446-66A7-46AE-A892-9679D4026D16"},
+{foreignColumnName:"fecha_fin",operator:5,primaryDataProviderID:"scopes.globals.AsiVm_fecha_null",typeid:23,uuid:"C3A7D0D9-F431-40EA-9739-3DC84933D2BE"}
+],
+joinType:1,
+name:"asivm_fichakine_cierre",
+primaryDataSource:"db:/desal/tbl_ficha_kine",
+typeid:22,
+uuid:"F9468C08-9BA4-4156-A0E5-6E712E24412A"

@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Volumen Control|Volumen Control\r
+Presión Control|Presión Control\r
+Presión Soporte|Presión Soporte\r
+CPAP|CPAP\r
+Otro|Otro",
+name:"AsiVm_vl_modo_ventilatorio",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"60E1DF1E-920D-4C46-98CA-9C0EF98C0723"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_elemento",
+items:[
+{foreignColumnName:"descripcion",operator:4,primaryDataProviderID:"scopes.globals.gbl_elemento",typeid:23,uuid:"08E7A744-E0A6-4748-8669-921A28D8E217"}
+],
+name:"buscar_alf_to_elemento",
+primaryDataSource:"db:/desal/tbl_solucion",
+typeid:22,
+uuid:"0988E176-1FD1-408C-A655-A3F7369F2B12"

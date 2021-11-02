@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/fichakine_monitoreo",
+items:[
+{foreignColumnName:"fichavm",primaryDataProviderID:"scopes.globals.AsiVm_ficha_id",typeid:23,uuid:"134524CC-0F58-4FD5-A021-C0306B216AF7"},
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.AsiVm_fecha_monitoreo",typeid:23,uuid:"58906959-11A7-4CE0-AD8A-3CD11D94E586"},
+{foreignColumnName:"histcli",primaryDataProviderID:"scopes.globals.AsiVm_hisclin",typeid:23,uuid:"AD92387A-431E-44B8-B3E5-177971EECB18"}
+],
+joinType:1,
+name:"asivm_ficha_monitoreo",
+primaryDataSource:"db:/desal/fichakine_monitoreo",
+typeid:22,
+uuid:"4236E7D9-786E-49F7-B2AD-B8C9646D1E79"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_cefalea_txt",
+items:[
+{foreignColumnName:"hiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"42F68DD9-D0D2-4B10-BDD4-DA70C4CD982B"},
+{foreignColumnName:"grupo",primaryDataProviderID:"scopes.globals.cefalea_grupo",typeid:23,uuid:"9AEF6AAF-19DB-4FAB-859D-E97DA40E26C4"},
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.cefalea_fecha",typeid:23,uuid:"BBF108A6-A615-4E08-B279-00BD3829E200"}
+],
+name:"cefalea_vhiscli_txt_to_tbl_cefalea_txt",
+primaryDataSource:"db:/desal/tbl_cefalea_txt",
+typeid:22,
+uuid:"7B403AD3-3CEB-4B42-AC7A-2C85EA624804"

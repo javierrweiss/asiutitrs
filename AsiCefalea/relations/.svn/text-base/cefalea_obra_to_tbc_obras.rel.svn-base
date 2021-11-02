@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"scopes.globals.cefalea_obra",typeid:23,uuid:"7540D21F-6B47-492F-B133-4253ED03398C"}
+],
+name:"cefalea_obra_to_tbc_obras",
+primaryDataSource:"db:/maestros/tbc_obras",
+typeid:22,
+uuid:"CF2D3B8B-5384-442E-AC31-4D81C9A65ED6"

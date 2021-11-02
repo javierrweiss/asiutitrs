@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"servdescripcion",
+dataProviderID2:"servcodigo",
+dataSource:"db:/maestros/tbc_servicios",
+name:"vl_servicios",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"7BF1A46F-3C0E-4B0F-BFCC-358EE6D35B5A",
+valueListType:1

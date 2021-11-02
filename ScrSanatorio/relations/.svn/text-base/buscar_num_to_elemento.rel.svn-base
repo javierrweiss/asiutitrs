@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_elemento",
+items:[
+{foreignColumnName:"codigo",operator:4,primaryDataProviderID:"scopes.globals.gbl_elemento",typeid:23,uuid:"4CE01653-CC43-4271-8447-0E8A6382E302"}
+],
+name:"buscar_num_to_elemento",
+primaryDataSource:"db:/maestros/vis_tbc_obras",
+typeid:22,
+uuid:"9FA01FFC-724A-4697-BB15-AC40285C1B05"

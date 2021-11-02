@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_items",
+initialSort:"hiscli asc, fecha asc, tipo asc, concepto asc, hora asc, renglon asc",
+items:[
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"422BD07E-D986-4AEB-A9B9-33987D7915EB"},
+{foreignColumnName:"tipo",operator:0,primaryDataProviderID:"globals.vTipoOtrosEgresos",typeid:23,uuid:"470EDBC0-3C31-4C0E-94A7-642038D615F8"},
+{foreignColumnName:"fecha",operator:0,primaryDataProviderID:"globals.vFecha",typeid:23,uuid:"C09B84CC-7BEC-44CA-895A-A834127E9F6B"}
+],
+joinType:0,
+name:"resumen_valoriz_to_hojauti_items",
+primaryDataSource:"db:/enfermeria/hojauti_items",
+typeid:22,
+uuid:"BE70F08F-2EE8-46E2-9D9F-EF477CDB6519"

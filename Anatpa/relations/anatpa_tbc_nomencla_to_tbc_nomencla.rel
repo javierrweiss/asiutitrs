@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+items:[
+{foreignColumnName:"nome_tipo",primaryDataProviderID:"LITERAL:1",typeid:23,uuid:"691E2BDE-BF1A-4F46-81DD-F5A692056EB4"}
+],
+name:"anatpa_tbc_nomencla_to_tbc_nomencla",
+primaryDataSource:"db:/maestros/tbc_nomencla",
+typeid:22,
+uuid:"EDF0CB75-63BF-4914-9775-E1CD95C3AAC9"

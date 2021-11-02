@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"Pleural|1\r
+Cefálico|2\r
+Abdominal|3\r
+Cadera|4\r
+Mediastínico|5\r
+Ninguno|0",
+name:"drenajes",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"4374136B-5987-4C2D-B0B4-8D79F57939D6"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_mae_prot",
+initialSort:"mp_descripcion asc",
+items:[
+{foreignColumnName:"mp_descripcion",operator:4,primaryDataProviderID:"scopes.globals.gbl_protesisDescripcion",typeid:23,uuid:"DE81EEAE-CDF7-47DE-8286-1B491E353E0B"}
+],
+name:"protesis_buscar_descripcion",
+primaryDataSource:"db:/asistencial/tbc_mae_prot",
+typeid:22,
+uuid:"DD22282E-6B5F-4FCB-9029-666281700CF7"

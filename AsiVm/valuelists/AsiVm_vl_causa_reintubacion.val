@@ -1,0 +1,15 @@
+addEmptyValue:1,
+customValues:"VAS|1\r
+WOB|2\r
+Deterioro del Sensorio|3\r
+Estridor|4\r
+Secreciones|5\r
+PCR|6\r
+Falla VNI|7\r
+Falla CNAF|8\r
+Otra|9",
+name:"AsiVm_vl_causa_reintubacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"91284474-F4AD-4548-B9A6-D74A2BDC8F8A"

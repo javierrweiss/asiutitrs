@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_ficha_kine",
+items:[
+{foreignColumnName:"fecha_inicio",operator:5,primaryDataProviderID:"scopes.globals.AsiVm_fecha_inicio_seguimiento",typeid:23,uuid:"9F6CC836-8537-40FB-BC87-78F91BE08E41"}
+],
+joinType:1,
+name:"asivm_rel_buscar_seguimientos",
+primaryDataSource:"db:/desal/tbl_ficha_kine",
+typeid:22,
+uuid:"A95D7241-F06B-4431-B833-91986EBCA7A4"

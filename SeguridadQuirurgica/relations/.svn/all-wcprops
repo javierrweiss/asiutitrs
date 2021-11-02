@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/proyecto1/!svn/ver/1947/SeguridadQuirurgica/relations
+END
+vhiscli_to_tbc_hislectora.rel
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/proyecto1/!svn/ver/825/SeguridadQuirurgica/relations/vhiscli_to_tbc_hislectora.rel
+END
+seglegaanestini_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/825/SeguridadQuirurgica/relations/seglegaanestini_to_tbc_medicos_personal.rel
+END
+seglegaciruini_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/825/SeguridadQuirurgica/relations/seglegaciruini_to_tbc_medicos_personal.rel
+END
+seglegaciruclini_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/825/SeguridadQuirurgica/relations/seglegaciruclini_to_tbc_personal.rel
+END
+vs_to_tbc_seguqui_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/proyecto1/!svn/ver/825/SeguridadQuirurgica/relations/vs_to_tbc_seguqui_new.rel
+END
+seglegacirculcut_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/825/SeguridadQuirurgica/relations/seglegacirculcut_to_tbc_personal.rel
+END
+vimacodialfa_to_tbc_imacodi.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/444/SeguridadQuirurgica/relations/vimacodialfa_to_tbc_imacodi.rel
+END
+seglegainstruini_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/825/SeguridadQuirurgica/relations/seglegainstruini_to_tbc_personal.rel
+END
+vlegajoalfa_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/518/SeguridadQuirurgica/relations/vlegajoalfa_to_tbc_personal.rel
+END
+vcodnome_to_tbc_imacodi.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/444/SeguridadQuirurgica/relations/vcodnome_to_tbc_imacodi.rel
+END
+vhiscli_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/755/SeguridadQuirurgica/relations/vhiscli_to_tbc_admision.rel
+END
+tbc_admision_scroll_to_tbc_seguqui_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/825/SeguridadQuirurgica/relations/tbc_admision_scroll_to_tbc_seguqui_new.rel
+END
+vlega_seguridad_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/1687/SeguridadQuirurgica/relations/vlega_seguridad_to_tbc_personal.rel
+END
+vhiscli2_to_tbc_his_lectora.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/825/SeguridadQuirurgica/relations/vhiscli2_to_tbc_his_lectora.rel
+END
+vcodnome_to_tbc_nomencla.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/513/SeguridadQuirurgica/relations/vcodnome_to_tbc_nomencla.rel
+END
+vprofealfaseguqui_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/444/SeguridadQuirurgica/relations/vprofealfaseguqui_to_tbc_medicos_personal.rel
+END
+tbc_admision_scroll_to_tbc_cirugint.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/825/SeguridadQuirurgica/relations/tbc_admision_scroll_to_tbc_cirugint.rel
+END
+tbc_admision2_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/430/SeguridadQuirurgica/relations/tbc_admision2_to_tbc_obras.rel
+END
+tbc_admision_to_tbc_hislectora.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/825/SeguridadQuirurgica/relations/tbc_admision_to_tbc_hislectora.rel
+END
+vhiscli_to_tbc_seguqui.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/1947/SeguridadQuirurgica/relations/vhiscli_to_tbc_seguqui.rel
+END

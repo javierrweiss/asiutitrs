@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Presion Arterial < 20% Nivel preanestésico|3
+Presión Arterial 20-49% Nivel preanestésico|2
+Presión Arterial > 50% Nivel preanestésico|1",
+name:"Aldrete_circulacion_copy",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"0802C099-01F8-44FD-B94E-F3D4B214508F"

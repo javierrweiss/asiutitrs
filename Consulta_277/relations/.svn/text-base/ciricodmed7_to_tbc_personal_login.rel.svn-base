@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_personal_login",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"ciricodmed_7",typeid:23,uuid:"B48E7144-8823-4DB3-A853-8C66D8DE89F5"}
+],
+name:"ciricodmed7_to_tbc_personal_login",
+primaryDataSource:"db:/asistencial/tbc_cirugint_dtl",
+typeid:22,
+uuid:"6C02BBDF-34AE-4E4C-8A96-AA11AAB22A2F"

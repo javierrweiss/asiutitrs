@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:"Mueve 4 extremidades volunt. o ante orden|3\r
+Mueve 2 extremidades volunt. o ante orden|2\r
+
+Incapaz de mover extremidades|1
+\r
+Nada|0\r
+",
+name:"protambu1400_vl_aldrete_actividad",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"DE463585-A63B-40DD-B47F-7CEBB6BFD085"

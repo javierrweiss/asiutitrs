@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Jefe de Equipo|1
+Integrante de Equipo|2
+Independiente|3
+Otro modo|4",
+name:"vl_modalidad_en_empresa",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"1E94CE5B-36A4-41E0-9A8C-1F7B96F91D3A"

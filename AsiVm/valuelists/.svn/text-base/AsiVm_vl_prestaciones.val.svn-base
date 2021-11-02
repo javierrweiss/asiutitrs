@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"VM|1\r
+VNI|2\r
+CNAF|3",
+name:"AsiVm_vl_prestaciones",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"282B9E61-D92E-493A-9CCF-09B5FA2115F8"

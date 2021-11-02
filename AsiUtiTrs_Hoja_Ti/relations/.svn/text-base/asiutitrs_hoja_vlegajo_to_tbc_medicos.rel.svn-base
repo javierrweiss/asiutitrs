@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_medicos",
+initialSort:"med_codigo asc",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.Srv_Login_Sanatorio_vLega",typeid:23,uuid:"8472016D-87E4-485D-BED8-7E7FB6F63D24"}
+],
+name:"asiutitrs_hoja_vlegajo_to_tbc_medicos",
+primaryDataSource:"db:/validalegajo/tbc_medicos",
+typeid:22,
+uuid:"A2172872-09FE-41BD-944F-04C1650F3ABF"

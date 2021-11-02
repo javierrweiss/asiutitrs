@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Microprocesador|Microprocesador\r
+Flujo continuo|Flujo continuo",
+name:"AsiVm_vl_seteo_ventilador",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"810D1ACC-95B9-4AB3-99F0-83A906B22D53"

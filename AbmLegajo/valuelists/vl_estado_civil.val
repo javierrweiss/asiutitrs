@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Soltero|1\r
+Casado|2\r
+Divorciado|3\r
+Viudo|4\r
+Unión de Hecho|5",
+name:"vl_estado_civil",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"2C98BFF1-E550-4388-9F4A-92F5CFCBC918"

@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"nombre",
+dataProviderID2:"id",
+dataSource:"db:/desal/prote_tipo_novedades",
+name:"vl_tipoNovedad",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"22AE0503-4003-4A7B-90B3-FF8BC2C7C8A8",
+valueListType:1

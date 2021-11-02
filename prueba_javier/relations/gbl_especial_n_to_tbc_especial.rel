@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_especial",
+items:[
+{foreignColumnName:"esp_codi",operator:4,primaryDataProviderID:"scopes.globals.gbl_especial_n",typeid:23,uuid:"180AE64C-6C00-4ABE-98D7-45F6174EA9DA"}
+],
+name:"gbl_especial_n_to_tbc_especial",
+primaryDataSource:"db:/maestros/tbc_especial",
+typeid:22,
+uuid:"473D918A-A620-46AC-88B6-F35163458A37"

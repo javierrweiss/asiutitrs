@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_interven",
+items:[
+{foreignColumnName:"itv_codi",operator:0,primaryDataProviderID:"ciriinterven",typeid:23,uuid:"3FC849E3-60A2-45E0-BF98-91272D44F236"}
+],
+joinType:0,
+name:"tbc_cirugint_to_tbc_interven",
+primaryDataSource:"db:/asistencial/tbc_cirugint",
+typeid:22,
+uuid:"117C3B2D-4D0E-4657-A97E-D4C1DA7A6232"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+initialSort:"",
+items:[
+{foreignColumnName:"histcabnrounico",operator:4,primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"36FC35A8-D8D9-4A99-8FA1-05824F17897E"}
+],
+name:"reimpresor_ambu_num_to_tbc_hist_cab_new",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"85AAB503-ED28-4E94-9157-8FDB9D833F11"

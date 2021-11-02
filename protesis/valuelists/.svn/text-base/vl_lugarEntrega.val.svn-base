@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"descripcion",
+dataProviderID2:"id",
+dataSource:"db:/desal/prote_lugar_entrega",
+name:"vl_lugarEntrega",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"1999CC87-C4F4-46F6-AAEF-F741274B996A",
+valueListType:1

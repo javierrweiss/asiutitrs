@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.hcipiso_medCodigoPrint",typeid:23,uuid:"C5AC0F52-4F55-47AB-A4E3-AEFB881B2F45"}
+],
+joinType:1,
+name:"hcipiso_rel_buscar_medico_print",
+primaryDataSource:"db:/maestros/tbc_medicos",
+typeid:22,
+uuid:"5D7F99E2-E80D-4D01-954D-69AAA91A6151"

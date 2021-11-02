@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_res_camas",
+initialSort:"rca_hab asc, rca_cam asc, rca_amd desc",
+items:[
+{foreignColumnName:"rca_hab",primaryDataProviderID:"scopes.globals.gbl_habita",typeid:23,uuid:"0D47BBE3-9EBF-4EE1-AE5A-9FB002F7FFCD"},
+{foreignColumnName:"rca_cam",primaryDataProviderID:"scopes.globals.gbl_cama",typeid:23,uuid:"B6108C0D-3B0B-4AD7-928D-C022F688C249"}
+],
+name:"tbc_camas_to_tbc_res_camas",
+primaryDataSource:"db:/maestros/tbc_camas",
+typeid:22,
+uuid:"0D09410D-006F-4038-8857-580A47D911AC"

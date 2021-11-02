@@ -1,0 +1,47 @@
+dataSource:"db:/admisionscroll/tbc_admision_scroll",
+items:[
+{
+dataProviderID:"adm_histclin",
+editable:false,
+location:"150,70",
+size:"140,20",
+text:"Adm Histclin",
+typeid:4,
+uuid:"26EACA44-A266-471E-9D8A-F900F6A4DB22"
+},
+{
+location:"60,70",
+size:"80,20",
+text:"Adm Histclin",
+transparent:true,
+typeid:7,
+uuid:"5865A2A1-68FB-4E36-A986-41BD113FEC17"
+},
+{
+dataProviderID:"adm_apelnom",
+location:"150,100",
+size:"140,20",
+text:"Adm Apelnom",
+typeid:4,
+uuid:"67C354A0-BE99-4D34-9B9D-4228B6F9FF28"
+},
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"9C5131E6-4261-49EB-8E61-86D8F9CDB380"
+},
+{
+location:"60,100",
+size:"80,20",
+text:"Adm Apelnom",
+transparent:true,
+typeid:7,
+uuid:"FB3A1E1F-359F-41D0-B864-ED0CF36102F7"
+}
+],
+name:"AsiUtiTrs_tbl_internado_alfab",
+showInMenu:true,
+styleName:"Sanatorio",
+typeid:3,
+uuid:"F90D2293-7A48-4BCA-914D-E686E1D1F2A1"

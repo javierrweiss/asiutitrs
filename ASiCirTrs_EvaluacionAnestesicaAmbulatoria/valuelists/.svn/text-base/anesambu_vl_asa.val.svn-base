@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"I|1\r
+II|2\r
+III|3\r
+IV|4\r
+V|5",
+name:"anesambu_vl_asa",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"44DA4C5B-4314-4D63-9427-183E5AD9DC0F"

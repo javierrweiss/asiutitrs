@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/fichaaneste_cab",
+items:[
+{foreignColumnName:"fichaaneste_cab_id",primaryDataProviderID:"fichaaneste_cab_id",typeid:23,uuid:"2E164AD5-BE46-471B-8211-B0D5E985557E"}
+],
+joinType:1,
+name:"fichaaneste_cab_to_fichaaneste_cab",
+primaryDataSource:"db:/desal/fichaaneste_cab",
+typeid:22,
+uuid:"76E0FB1D-DB19-42E0-820B-D3F4411C09AE"

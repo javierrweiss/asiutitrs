@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Mensual|1
+Trimestral|2
+Cuatrimestre|3
+Semestral|4
+Anual|5",
+name:"vl_agrupacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"2F6415DA-85AA-4321-A7AF-4FDACDABD4A0"

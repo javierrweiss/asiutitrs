@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"10 |1\r
+10y20s|2\r
+20|3",
+name:"reimpresor_vl_10Anios",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"757E8C4A-4B8C-4B34-8E45-169CF6D7CE0F"

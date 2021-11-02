@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/proyecto1/!svn/ver/2312/Anatpa/relations
+END
+anatpa_buscar_plan.rel
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/proyecto1/!svn/ver/1836/Anatpa/relations/anatpa_buscar_plan.rel
+END
+anatpa_buscar_obrasocial.rel
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1836/Anatpa/relations/anatpa_buscar_obrasocial.rel
+END
+anatpa_tbc_nomencla_to_tbc_nomencla.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/1836/Anatpa/relations/anatpa_tbc_nomencla_to_tbc_nomencla.rel
+END
+anatpa_tbl_protoc_txt_to_tbl_protoc_txt.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/1869/Anatpa/relations/anatpa_tbl_protoc_txt_to_tbl_protoc_txt.rel
+END
+anatpa_numero_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1836/Anatpa/relations/anatpa_numero_to_tbc_admision.rel
+END
+anatpa_apeynom_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1836/Anatpa/relations/anatpa_apeynom_to_tbc_admision.rel
+END
+anatpa_rel_buscar_reservas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/2312/Anatpa/relations/anatpa_rel_buscar_reservas.rel
+END
+anatpa_ambulatorio_buscar_numero.rel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/1836/Anatpa/relations/anatpa_ambulatorio_buscar_numero.rel
+END

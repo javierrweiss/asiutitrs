@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_articulos",
+initialSort:"art_descrip asc",
+items:[
+{foreignColumnName:"art_descrip",operator:4,primaryDataProviderID:"scopes.globals.vAlfaCodigoMed",typeid:23,uuid:"6ABD2EA4-BECA-47CF-BF2B-ECE342FA7A03"}
+],
+name:"valfa2259_to_tbc_articulos",
+primaryDataSource:"db:/maestros/tbc_articulos",
+typeid:22,
+uuid:"B97327FD-765F-479E-90DE-2133E8D41318"

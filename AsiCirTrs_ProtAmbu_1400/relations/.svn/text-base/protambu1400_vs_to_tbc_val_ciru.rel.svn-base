@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_val_ciru",
+items:[
+{foreignColumnName:"vcirfechaingreso",primaryDataProviderID:"scopes.globals.protambu1400_fechaingreso",typeid:23,uuid:"678540BC-D1F4-4E5A-AF27-1AD2DB3BF218"},
+{foreignColumnName:"vcirhoraingreso",primaryDataProviderID:"scopes.globals.protambu1400_hora_ingreso",typeid:23,uuid:"8EC4BC33-A406-4DF0-8C9C-87DEAE549719"},
+{foreignColumnName:"vcircodnome",primaryDataProviderID:"scopes.globals.protambu1400_codnome",typeid:23,uuid:"B2DAF1A6-A028-4BD0-BBB1-579A94DA6336"},
+{foreignColumnName:"vcirtiponome",primaryDataProviderID:"scopes.globals.protambu1400_tiponome",typeid:23,uuid:"DD61E13D-7B00-4EC4-B3FF-BB2494A8E75E"},
+{foreignColumnName:"vcirhistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"DE704860-2FB1-4B35-910C-B9AB132D8FB1"},
+{foreignColumnName:"vcirsecuencia",primaryDataProviderID:"scopes.globals.protambu1400_secuencia",typeid:23,uuid:"E11A15B4-FBBD-4D8D-8534-F5EBD7C70AB5"}
+],
+name:"protambu1400_vs_to_tbc_val_ciru",
+primaryDataSource:"db:/asistencial/tbc_val_ciru",
+typeid:22,
+uuid:"22659258-C829-4B65-AAFD-C002EC792CBF"

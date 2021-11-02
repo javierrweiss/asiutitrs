@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_intercons",
+items:[
+{foreignColumnName:"intercons1",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"27B28C81-CFDE-4072-8AA9-565DC31CF2FF"}
+],
+joinType:1,
+name:"hcipiso_rel_intercons",
+primaryDataSource:"db:/asistencial/tbc_intercons",
+typeid:22,
+uuid:"52D19971-8AA8-4D73-93BC-5544C983790F"

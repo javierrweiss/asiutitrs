@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_imacodi",
+initialSort:"icoddescrcod asc",
+items:[
+{foreignColumnName:"icodtiponom",primaryDataProviderID:"scopes.globals.segambu_tiponome",typeid:23,uuid:"348987E0-9276-484B-A151-62F50EABAA21"},
+{foreignColumnName:"icoddescrcod",operator:4,primaryDataProviderID:"scopes.globals.segambu_imacodialfa",typeid:23,uuid:"9BDE67FA-2110-4002-BFC5-282B80A84410"},
+{foreignColumnName:"icodservicio1",primaryDataProviderID:"scopes.globals.segambu_servicio",typeid:23,uuid:"D5B5DC95-B868-4CAC-B846-6F3D94437A18"}
+],
+name:"seguquiambu_vimacodialfa_to_tbc_imacodi",
+primaryDataSource:"db:/maestros/tbc_imacodi",
+typeid:22,
+uuid:"9EF364C0-BCB9-4E9C-A2D3-F2449C257695"

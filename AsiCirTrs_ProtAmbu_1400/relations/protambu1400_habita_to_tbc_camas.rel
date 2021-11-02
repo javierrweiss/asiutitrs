@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_camas",
+items:[
+{foreignColumnName:"cam_habi",primaryDataProviderID:"scopes.globals.protambu1400_habita",typeid:23,uuid:"FB4D712B-29BC-4A61-ADFB-03BD6318A656"}
+],
+name:"protambu1400_habita_to_tbc_camas",
+primaryDataSource:"db:/maestros/tbc_camas",
+typeid:22,
+uuid:"5E4AB32B-40D1-47A0-82F5-E074F18EA156"

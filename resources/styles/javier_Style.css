@@ -1,0 +1,139 @@
+/* 
+ * Default Styling for all Servoy objects
+ */
+
+
+tabpanel {
+	border: medium groove #69585F;
+	margin-left: 40px;
+	border-width: 10px
+
+}
+
+label, button, field, combobox, check, radio, listbox, spinner {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #3E5573;
+    color: #B2CC35;
+
+}
+
+field {
+	background-color: #FFFFFF;
+	color: #000;
+	border: 2px ridge #FFF;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+combobox {
+	background-color: #FFF;
+	color: #000;
+}
+
+check {}
+
+radio {}
+
+listbox {}
+
+spinner {}
+
+label {
+	color: #B2CC35;
+	font-style: bold;
+	font-size: 12px;
+}
+
+label.fieldlabel {
+	text-align: right;
+	
+}
+
+label.title {
+}
+
+button {
+background-color: #B2CC35;
+color: #3E5573;
+border: 4px groove #421820;
+}
+
+portal {}
+
+/* Example of odd/even/selected row styling in grids (Portals and TableViews)*/
+odd, even, selected {
+	
+}
+
+odd {
+	background-color:#37A1A6;
+	color:  #FFFFFF;
+}
+
+even {
+ background-color: #B2CC35
+ color:#37A1A6
+}
+
+selected {
+	background-color: #3E5573;
+	color: #FFFFFF;
+}
+
+/* 
+ * Example of additional grid styling (Portals and TableViews)
+ * The grid style class needs to be set on form; grid_header selector works if there are no 'label for' labels defined to style the header.
+ */
+form.grid odd,
+form.grid even,
+form.grid selected,
+form.grid grid_header {
+	}
+
+/*
+ *	The grid header can also be styled using 'label for' label. In order for this example to work you need to set the label style class to gridheader.
+ */
+label.gridheader {
+	text-align: left;
+	color: #5C5C5D;
+}
+
+tabpanel.grid { /*Style for a TabPanel that contains just a TableView*/
+	border: 12px solid #37A1A6;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px
+	
+}
+
+/*
+ * Example style for the main form of a solution
+ */
+form.main {
+	background-color:  #3E5573;
+	margin-left: 15px;
+	margin-top: 15px;
+	
+}
+
+/* 
+ * Example of how to define custom styling for a form with a specific StyleClass
+ * These styles are applied to form and its element on forms on which the StyleClass is set to "detail"
+ */
+form.detail {
+	background-image: linear-gradient(to right, #FFFFFF, #B2CC35, #3E5573, #37A1A6);
+}
+
+form.detail field.pk { /*Style for Fields having a StyleClass "pk" on a form having StyleClass ""detail*/
+	
+	background-color: #5B6B7B;
+	color: #FFF;
+	border: 0px solid #FFF;
+	border-left-width: 1px; /*This makes the field appear the same width when left aligned with a field that has a 2px ridge border*/
+}
+
+
+
+    

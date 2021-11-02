@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:" |-1\r
+Patología médica|1\r
+Cirugía de urgencia|2\r
+Cirugía programada|3\r
+Politraumatismos|4\r
+Desconocido|99",
+name:"vl_hist_clin_patologia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"20FB636D-E119-42DC-B649-8A67112A960E"

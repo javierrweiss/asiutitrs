@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_especial",
+items:[
+{foreignColumnName:"esp_codi",operator:4,primaryDataProviderID:"scopes.globals.gbl_especialidad",typeid:23,uuid:"3B6C8192-A97D-4AB0-A0E3-4A81B8FD9B3E"}
+],
+name:"buscar_num_to_especialidad",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"B5565A1B-BAC6-455F-8A6D-FCC22AFA4257"

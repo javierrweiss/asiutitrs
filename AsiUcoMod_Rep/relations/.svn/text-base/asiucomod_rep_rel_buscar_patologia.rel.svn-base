@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"scopes.globals.AsiUcoMod_Rep_patCodi",typeid:23,uuid:"8A06A14C-E925-48E2-8C5B-A2EA70884BF1"}
+],
+name:"asiucomod_rep_rel_buscar_patologia",
+primaryDataSource:"db:/maestros/tbc_patologia",
+typeid:22,
+uuid:"01985C0B-2561-4139-9B42-CB4558B5E70D"

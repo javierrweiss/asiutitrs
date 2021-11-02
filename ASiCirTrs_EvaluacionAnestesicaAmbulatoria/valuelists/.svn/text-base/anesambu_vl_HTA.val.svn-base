@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"No|0\r
+Diurético|1\r
+Otra droga|2",
+name:"anesambu_vl_HTA",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"6DD04746-65CF-47AC-9371-3BE7EA0EBB28"

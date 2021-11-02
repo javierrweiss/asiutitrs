@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_sector",
+items:[
+{foreignColumnName:"sector1",primaryDataProviderID:"scopes.globals.vSector",typeid:23,uuid:"1309763D-2653-4340-AC1B-887320C0E73E"}
+],
+name:"sector_to_tbc_sector",
+primaryDataSource:"db:/rrhh/tbc_sector",
+typeid:22,
+uuid:"15562942-22E1-427D-A653-9040050575AB"

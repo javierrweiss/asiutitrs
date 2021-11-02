@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"General|0
+Peridural|1
+Raquideo|2
+Plexual|3",
+name:"Bloqueo_copy",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"12E667FA-2A2B-4AE6-A286-D29C077B3725"

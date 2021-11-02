@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"|0\r
+Particular|1\r
+Prepaga|2\r
+Obra Social|3\r
+Empresa|4\r
+Companía de Seguro|5\r
+Personal Sanatorio|6\r
+Plan Salud|7\r
+Gerenciadora|8\r
+Profesionales|9",
+name:"vl_categclie",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"205F2B9A-30BF-4A0E-8929-36B3C4B17DD7"

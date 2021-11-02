@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_alerta",
+items:[
+{foreignColumnName:"aler_tipadmi",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"17EF5B60-7421-4F7A-B1A1-D6F6A04EE93B"},
+{foreignColumnName:"aler_histclin",primaryDataProviderID:"scopes.globals.Palab_hisclinPrint",typeid:23,uuid:"3B6C81AC-AF67-4A26-AAEA-90EACDDE556E"}
+],
+name:"palab_rel_buscar_alerta_print",
+primaryDataSource:"db:/asistencial/tbc_alerta",
+typeid:22,
+uuid:"BB4C6A4C-76AC-47BB-93FB-64ACE6D56009"

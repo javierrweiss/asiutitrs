@@ -1,0 +1,15 @@
+addEmptyValue:1,
+customValues:"DeSal.|1\r
+Cober|4\r
+Funda|6\r
+Health|7\r
+Cir.|9\r
+CESA|11\r
+UTE|12\r
+Reinsal|14\r
+Ps|90",
+name:"vl_empreori",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"5DD86B2C-8B3A-43ED-9F15-115AB68741A1"

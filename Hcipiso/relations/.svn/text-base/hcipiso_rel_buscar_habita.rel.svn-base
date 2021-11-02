@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_habita",
+items:[
+{foreignColumnName:"hab_nrohabi",primaryDataProviderID:"scopes.globals.Hcipiso_nroHabi",typeid:23,uuid:"0824EECF-78C4-4455-BF0F-5B08EAC18551"}
+],
+joinType:1,
+name:"hcipiso_rel_buscar_habita",
+primaryDataSource:"db:/maestros/tbc_habita",
+typeid:22,
+uuid:"D66474C5-8590-49F2-8C76-0D1F8AA2AEBA"

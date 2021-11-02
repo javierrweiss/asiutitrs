@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Completa|1\r
+Limitación ligera|2\r
+Limitación importante|3\r
+Inmovil(tetraplegico/comatoso)|4",
+name:"lv_movilidad",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"56B38891-3611-494D-B2A7-C3C297122103"

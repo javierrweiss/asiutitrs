@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hiscamas",
+items:[
+{foreignColumnName:"hisca2",primaryDataProviderID:"scopes.globals.bandejaciru_cama",typeid:23,uuid:"8994688C-9579-430E-9957-DDE7AC8AA8B0"},
+{foreignColumnName:"hisca1",primaryDataProviderID:"scopes.globals.bandejaciru_habita",typeid:23,uuid:"CD84B770-FD52-4969-B753-74E7C1CB8C7C"},
+{foreignColumnName:"hisca3",primaryDataProviderID:"scopes.globals.bandejaciru_fecha_hiscamas",typeid:23,uuid:"EA671258-E658-4C25-80FB-91BA45E1AD24"},
+{foreignColumnName:"hisca4",primaryDataProviderID:"scopes.globals.bandejaciru_hora_hiscamas",typeid:23,uuid:"F390B2A1-E702-436B-A7A4-E36B376C8BE5"}
+],
+name:"bandejaciru_habita_to_tbc_hiscamas",
+primaryDataSource:"db:/asistencial/tbc_hiscamas",
+typeid:22,
+uuid:"3BB0E869-E2B4-43EF-AB46-D9F13B6A663A"

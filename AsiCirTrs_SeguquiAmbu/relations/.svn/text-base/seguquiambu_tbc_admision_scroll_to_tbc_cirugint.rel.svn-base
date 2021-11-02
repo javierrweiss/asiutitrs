@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_cirugint",
+items:[
+{foreignColumnName:"cirihistcl",primaryDataProviderID:"adm_histclin",typeid:23,uuid:"86EA1EE8-C451-41FF-9890-D25A0CE225A7"}
+],
+name:"seguquiambu_tbc_admision_scroll_to_tbc_cirugint",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"A8ACDBE3-3A8F-430E-A2B3-DA7B8F0DC2FA"

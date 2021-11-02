@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Primario|0\r
+Secundario|1\r
+Terciario|2\r
+Universitario|3",
+name:"vl_nivel_formacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"C75845EB-AF82-4079-A976-64C67E13E871"

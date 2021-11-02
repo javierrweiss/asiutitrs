@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+items:[
+{foreignColumnName:"histcabnrounico",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"7B6ED03D-9541-49D7-9C97-C081A629510F"}
+],
+name:"seguquiambu_vhiscli_to_tbc_hist_cab_new",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"C340FC9F-8683-44B1-AFD9-C5C5DDCA96EE"

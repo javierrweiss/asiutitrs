@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_profmeem",
+items:[
+{foreignColumnName:"proem_tipmed",primaryDataProviderID:"scopes.globals.vTipoMedico",typeid:23,uuid:"B3CC67A3-FA20-4E4B-B7D5-E47F1C8ACA0B"},
+{foreignColumnName:"proem_empres",primaryDataProviderID:"scopes.globals.proem_empres",typeid:23,uuid:"B7A27C1E-2F0E-4443-8DDF-E498A6EA564B"},
+{foreignColumnName:"proem_codmed",primaryDataProviderID:"scopes.globals.vLega",typeid:23,uuid:"E1EB9860-4DFC-46C8-81F3-F9D658A1EEB2"}
+],
+name:"vs_to_tbc_profmeem",
+primaryDataSource:"db:/rrhh/tbc_profmeem",
+typeid:22,
+uuid:"3D63AAEB-12D1-44DC-8FE2-FF428C7ACD7E"

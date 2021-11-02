@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Normal|0\r
+Alta|1\r
+Baja|2\r
+Desconoce|3",
+name:"anesambu_vl_presion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"79D9773F-2A9B-4009-8536-5D4D5EE079D6"

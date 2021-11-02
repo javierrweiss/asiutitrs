@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_utilcama",
+items:[
+{foreignColumnName:"utic_utiliza",primaryDataProviderID:"scopes.globals.Palab_utiliza",typeid:23,uuid:"7BC53B77-EDDD-4464-B984-6965F4F789C3"}
+],
+joinType:1,
+name:"palab_rel_buscar_utilcama",
+primaryDataSource:"db:/maestros/tbc_utilcama",
+typeid:22,
+uuid:"987EF056-1458-43E8-863F-112503099D21"

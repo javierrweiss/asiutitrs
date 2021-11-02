@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/fichakine_observacion",
+items:[
+{foreignColumnName:"histcli",primaryDataProviderID:"scopes.globals.AsiVm_adm_HistClin",typeid:23,uuid:"47020BFC-4929-4C1B-8669-D066123F0449"},
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.AsiVm_fecha_observacion",typeid:23,uuid:"E60B74E7-8016-4DF2-AADF-3D3E0F0034A8"}
+],
+joinType:1,
+name:"asivm_observacion",
+primaryDataSource:"db:/desal/fichakine_observacion",
+typeid:22,
+uuid:"9CE30F50-C488-40B8-9C6C-CDE7099DFCC1"

@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/proyecto1/!svn/ver/1969/AsiCirTrs_SeguquiAmbu/relations
+END
+seguquiambu_tbc_hist_cab_new_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_tbc_hist_cab_new_to_tbc_obras.rel
+END
+segambulegaanestini_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/segambulegaanestini_to_tbc_medicos_personal.rel
+END
+segambulegaciruini_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/segambulegaciruini_to_tbc_medicos_personal.rel
+END
+segambulegaciruclini_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/segambulegaciruclini_to_tbc_personal.rel
+END
+seguquiambu_vhiscli_to_tbc_hislectora.rel
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_vhiscli_to_tbc_hislectora.rel
+END
+segambulegacirculcut_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/segambulegacirculcut_to_tbc_personal.rel
+END
+seguquiambu_vs_to_tbc_seguqui_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_vs_to_tbc_seguqui_new.rel
+END
+seguquiambu_vhiscli_to_tbc_hist_cab_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_vhiscli_to_tbc_hist_cab_new.rel
+END
+segambulegainstruini_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/segambulegainstruini_to_tbc_personal.rel
+END
+seguquiambu_tbc_admision_scroll_to_tbc_seguqui_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_tbc_admision_scroll_to_tbc_seguqui_new.rel
+END
+seguquiambu_vimacodialfa_to_tbc_imacodi.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_vimacodialfa_to_tbc_imacodi.rel
+END
+seguquiambu_vcodnome_to_tbc_nomencla.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_vcodnome_to_tbc_nomencla.rel
+END
+seguquiambu_vcodnome_to_tbc_imacodi.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_vcodnome_to_tbc_imacodi.rel
+END
+seguquiambu_tbc_admision2_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_tbc_admision2_to_tbc_obras.rel
+END
+seguquiambu_tbc_admision_to_tbc_hislectora.rel
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_tbc_admision_to_tbc_hislectora.rel
+END
+seguquiambu_vlegajoalfa_to_tbc_personal_copy.rel
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_vlegajoalfa_to_tbc_personal_copy.rel
+END
+seguquiambu_vhiscli_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_vhiscli_to_tbc_admision.rel
+END
+seguquiambu_vhiscli_to_tbc_seguqui.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/1969/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_vhiscli_to_tbc_seguqui.rel
+END
+seguquiambu_vlega_seguridad_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_vlega_seguridad_to_tbc_personal.rel
+END
+seguqui_vhiscli2_to_tbc_his_lectora.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguqui_vhiscli2_to_tbc_his_lectora.rel
+END
+seguquiambu_vprofealfaseguqui_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_vprofealfaseguqui_to_tbc_medicos_personal.rel
+END
+seguquiambu_tbc_admision_scroll_to_tbc_cirugint.rel
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/proyecto1/!svn/ver/1854/AsiCirTrs_SeguquiAmbu/relations/seguquiambu_tbc_admision_scroll_to_tbc_cirugint.rel
+END

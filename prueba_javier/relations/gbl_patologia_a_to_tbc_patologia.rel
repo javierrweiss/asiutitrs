@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+initialSort:"pat_descripredu asc",
+items:[
+{foreignColumnName:"pat_descripredu",operator:4,primaryDataProviderID:"scopes.globals.gbl_patologia_a",typeid:23,uuid:"58803BC4-D1D7-4CD9-A543-1D67F12CC15A"}
+],
+name:"gbl_patologia_a_to_tbc_patologia",
+primaryDataSource:"db:/maestros/tbc_patologia",
+typeid:22,
+uuid:"D5304966-BAB3-42E0-9F1D-DD63B9F0627A"

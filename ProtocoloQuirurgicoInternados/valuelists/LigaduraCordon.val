@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Sin Dato|0\r
+Precoz|1\r
+Tardía|2\r
+Observaciones|4",
+name:"LigaduraCordon",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"C493ED2C-8688-4657-AC79-10559F9C119F"

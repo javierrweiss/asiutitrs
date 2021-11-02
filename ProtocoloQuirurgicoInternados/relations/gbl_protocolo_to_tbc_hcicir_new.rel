@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hcicir_new",
+items:[
+{foreignColumnName:"hcirtipohc",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"C4134ECA-D876-4336-A259-C370C2091FC2"},
+{foreignColumnName:"hcirhiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"CB857DCD-A0E8-4B72-AB6D-A53A264155C6"},
+{foreignColumnName:"hcirprotocolo",primaryDataProviderID:"scopes.globals.vNroProtocolo",typeid:23,uuid:"CBA1A740-4018-4B1E-8AC3-DEE5D22B0023"}
+],
+name:"gbl_protocolo_to_tbc_hcicir_new",
+primaryDataSource:"db:/asistencial/tbc_hcicir_new",
+typeid:22,
+uuid:"E017526D-89D3-45D0-8EED-062FB65DEA4E"

@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Femenino|1\r
+Masculino|2",
+name:"anesambu_vl_sexo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"251AEC73-FC32-417F-9351-5D68CA4D37DF"

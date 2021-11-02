@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"descripcion",
+dataProviderID2:"codigo",
+name:"fichaaneste_medicion_grilla_1",
+relationName:"fichaaneste_medicion_grilla_1",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"7BD4BCC5-E674-4679-9B0C-E9B31274B854",
+valueListType:1

@@ -1,0 +1,15 @@
+addEmptyValue:1,
+customValues:"Renuncia|1
+Despido Justificado|2
+Despido Injustificado|3
+Abandono Trabajo|4
+Fallecimiento|5
+Resc. Contrato|6
+Jubilación|7
+Art.247 LCT|8
+Cambio de Empresa|9",
+name:"vl_motivo_baja",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"E96D0131-84AA-467C-82E1-767D57E1E3F3"

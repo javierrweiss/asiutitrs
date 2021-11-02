@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_cargas",
+initialSort:"car1 asc, car2 asc",
+items:[
+{foreignColumnName:"car2",primaryDataProviderID:"scopes.globals.car2",typeid:23,uuid:"3FDF054E-7DE1-4DDE-991E-C8597B35F284"},
+{foreignColumnName:"car1",primaryDataProviderID:"scopes.globals.per_1",typeid:23,uuid:"44A4A627-135A-47BA-AF3E-57F0280A096F"}
+],
+name:"per_1_to_tbc_cargas",
+primaryDataSource:"db:/rrhh/tbc_cargas",
+typeid:22,
+uuid:"3C779E06-A930-4D1E-94BB-47DC47D0D637"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_respirador",
+items:[
+{foreignColumnName:"rsp_histcli",primaryDataProviderID:"scopes.globals.AsiVm_adm_HistClin",typeid:23,uuid:"94EF9506-832C-4016-B8A8-293FECDE67CE"}
+],
+name:"asivm_rel_respirador",
+primaryDataSource:"db:/asistencial/tbc_respirador",
+typeid:22,
+uuid:"D0BB83A2-268D-4278-9972-8F485638B3B2"

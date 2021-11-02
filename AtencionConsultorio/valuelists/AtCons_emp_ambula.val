@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"eamnomempre",
+dataProviderID2:"eamcodempre",
+dataSource:"db:/asistencial/tbc_emp_ambula",
+name:"AtCons_emp_ambula",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"56027D7E-F2D9-4409-8CFA-2B7C283857EF",
+valueListType:1

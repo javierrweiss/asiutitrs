@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Convencionado|1\r
+Médicos|2\r
+No Convencionado|3\r
+Jerárquico|4",
+name:"vl_tipo_de_personal",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"BED60F95-75B5-44A4-957D-76032FBAC4E4"

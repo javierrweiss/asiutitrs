@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_itm_menu",
+items:[
+{foreignColumnName:"codigo_item",primaryDataProviderID:"scopes.globals.gbl_codigo_item",typeid:23,uuid:"FBFB1EFE-C1FE-42AA-9FBE-5827AC08C979"}
+],
+joinType:1,
+name:"tbl_itm_menu_to_tbl_itm_menu2",
+primaryDataSource:"db:/desal/tbl_itm_menu",
+typeid:22,
+uuid:"90F88028-12FA-4F16-BB6C-6EE5B369D360"

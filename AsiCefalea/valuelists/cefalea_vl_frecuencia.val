@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Diaria|1\r
+Semanal|2\r
+Mensual|3\r
+Anual|4\r
+Otros|5",
+name:"cefalea_vl_frecuencia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"F7BAB273-7BE9-4C92-9766-45649451C7DB"

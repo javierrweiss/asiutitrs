@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/smsciru_envios",
+initialSort:"fecha asc, hcu asc",
+items:[
+{foreignColumnName:"hcu",primaryDataProviderID:"scopes.globals.smsciru_hiscliunica",typeid:23,uuid:"34C8DE83-F740-493B-8FE4-B76E1031DAF0"},
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.smsciru_fecha_actual",typeid:23,uuid:"958EEFEB-C1B0-466B-9725-7FB9C58E7524"}
+],
+name:"vs_to_smsciru_envios",
+primaryDataSource:"db:/desal/smsciru_envios",
+typeid:22,
+uuid:"BBB35C1C-A485-48B4-96FC-3E1D6DF08ACD"

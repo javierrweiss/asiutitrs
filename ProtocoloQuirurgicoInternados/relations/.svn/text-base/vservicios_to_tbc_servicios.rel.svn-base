@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_servicios",
+items:[
+{foreignColumnName:"servcodigo",operator:0,primaryDataProviderID:"globals.vServicio",typeid:23,uuid:"D277CDB2-BA85-41A7-A848-04905BA0CDAF"}
+],
+joinType:0,
+name:"vservicios_to_tbc_servicios",
+primaryDataSource:"db:/maestros/tbc_servicios",
+typeid:22,
+uuid:"22E1AB64-2B17-4BEF-B3DA-2535E670E599"

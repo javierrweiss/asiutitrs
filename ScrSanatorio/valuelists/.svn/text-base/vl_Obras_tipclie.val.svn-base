@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"TODOS|0\r
+Particular|1\r
+Prepaga|2\r
+Obra Social|3\r
+Empresa|4\r
+Comp. Seguro|5\r
+Pers. Sanatorio|6\r
+Plan Salud|7\r
+Gerenciadora|8\r
+Profesionales|9",
+name:"vl_Obras_tipclie",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"F5453435-1A2E-4947-A9C3-40330F64A37A"

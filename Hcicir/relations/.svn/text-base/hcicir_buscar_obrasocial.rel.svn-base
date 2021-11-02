@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"scopes.globals.Hcicir_codObraSocial",typeid:23,uuid:"BB27DC43-4B45-490E-908C-0DDF57E3214A"}
+],
+joinType:1,
+name:"hcicir_buscar_obrasocial",
+primaryDataSource:"db:/maestros/tbc_obras",
+typeid:22,
+uuid:"9827509C-F579-4D4D-BC12-D32BE067E03C"

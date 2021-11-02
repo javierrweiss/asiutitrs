@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Cirugía|1\r
+Anestesia|2",
+name:"vl_tipo_medicam",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"33317CB5-1875-48FD-9914-D922CD7EA585"

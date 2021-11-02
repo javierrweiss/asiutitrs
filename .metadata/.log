@@ -1,0 +1,1435 @@
+!SESSION 2021-10-27 17:22:03.716 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_302
+java.vendor=GraalVM Community
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Users\fhuertas\Documents\BackupSoporte\servoy6_Hciint\.metadata\.bak_0.log
+Created Time: 2021-10-27 17:22:19.499
+
+!ENTRY org.eclipse.ui 4 4 2021-10-27 17:22:19.500
+!MESSAGE Unable to associate action set with part: org.eclipse.dltk.javascript.ui.editor.JavascriptEditor. Action set org.eclipse.debug.ui.launchActionSet not found.
+
+!ENTRY org.eclipse.ui 4 4 2021-10-27 18:01:29.851
+!MESSAGE Invalid preference page path: HTML Syntax
+!SESSION 2021-10-28 09:03:29.844 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_302
+java.vendor=GraalVM Community
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.279
+!MESSAGE Time taken to read in the solution AsiUtiTrs: 368
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.527
+!MESSAGE Time taken to read in the solution ScrSanatorio: 213
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.611
+!MESSAGE Time taken to read in the solution funciones: 84
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.627
+!MESSAGE Time taken to read in the solution mod_dialog: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.759
+!MESSAGE Time taken to read in the solution MsgSanatorio: 132
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.780
+!MESSAGE Time taken to read in the solution AsistFunciones: 21
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.780
+!MESSAGE Time taken to read in the solution Call_2142: 0
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.796
+!MESSAGE Time taken to read in the solution GenerarTXTInterfaseVisualMedica: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.811
+!MESSAGE Time taken to read in the solution ControlAlerta: 15
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.827
+!MESSAGE Time taken to read in the solution CargaAlerta: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.842
+!MESSAGE Time taken to read in the solution AsiArmMod_Rep: 15
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 09:03:48.896
+!MESSAGE Time taken to read in the solution AsiArmTrs_Mod: 54
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-10-28 09:03:49.212
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-10-28 09:03:49.212
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@4c012563),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@4c012563)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@4c012563),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@4c012563)),sourcePriority=16640)
+
+!ENTRY org.eclipse.ui 4 4 2021-10-28 09:04:10.110
+!MESSAGE Unable to associate action set with part: org.eclipse.dltk.javascript.ui.editor.JavascriptEditor. Action set org.eclipse.debug.ui.launchActionSet not found.
+
+!ENTRY com.servoy.eclipse.model 4 0 2021-10-28 09:04:25.586
+!MESSAGE Unexpected Exception
+!STACK 0
+com.servoy.j2db.persistence.RepositoryException: The dataprovider hitpat2 or column pat_codi does not exist as defined in the relation asiutitrs_re_buscar_patologia_2
+	at com.servoy.j2db.persistence.Relation.makePrimaryDataProviders(Relation.java:739)
+	at com.servoy.j2db.persistence.Relation.getPrimaryDataProviders(Relation.java:582)
+	at com.servoy.eclipse.debug.script.TypeCreator.addRelations(TypeCreator.java:3056)
+	at com.servoy.eclipse.debug.script.TypeCreator.access$6(TypeCreator.java:3045)
+	at com.servoy.eclipse.debug.script.TypeCreator$RelationsScopeCreator.createType(TypeCreator.java:2594)
+	at com.servoy.eclipse.debug.script.TypeCreator.createDynamicType(TypeCreator.java:826)
+	at com.servoy.eclipse.debug.script.TypeCreator.createDynamicType(TypeCreator.java:818)
+	at com.servoy.eclipse.debug.script.TypeCreator.createType(TypeCreator.java:472)
+	at org.eclipse.dltk.javascript.typeinfo.TypeCache.getType(TypeCache.java:204)
+	at org.eclipse.dltk.javascript.typeinfo.TypeCache$TypeCacheResourceSet.resolve(TypeCache.java:334)
+	at org.eclipse.dltk.javascript.typeinfo.TypeUtil.resolve(TypeUtil.java:208)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.TypeImpl.eResolveProxy(TypeImpl.java:668)
+	at org.eclipse.emf.ecore.util.EcoreEList.resolveProxy(EcoreEList.java:206)
+	at org.eclipse.emf.ecore.util.EcoreEList.resolve(EcoreEList.java:161)
+	at org.eclipse.emf.ecore.util.EObjectResolvingEList.resolve(EObjectResolvingEList.java:60)
+	at org.eclipse.emf.common.util.BasicEList.get(BasicEList.java:348)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.doNext(AbstractEList.java:703)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.next(AbstractEList.java:690)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.buildType(TypeSystemImpl.java:201)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertType(TypeSystemImpl.java:172)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.buildType(TypeSystemImpl.java:195)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertType(TypeSystemImpl.java:172)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert1(TypeSystemImpl.java:129)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert0(TypeSystemImpl.java:115)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert(TypeSystemImpl.java:106)
+	at org.eclipse.dltk.javascript.typeinfo.RSimpleType.<init>(RSimpleType.java:28)
+	at com.servoy.eclipse.debug.script.ServoyDynamicRuntimeType.<init>(ServoyDynamicRuntimeType.java:51)
+	at com.servoy.eclipse.debug.script.ServoyDynamicMetaType.toRType(ServoyDynamicMetaType.java:47)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.TypeImpl.toRType(TypeImpl.java:681)
+	at org.eclipse.dltk.javascript.typeinfo.RTypes.simple(RTypes.java:175)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.SimpleTypeImpl.toRType(SimpleTypeImpl.java:143)
+	at org.eclipse.dltk.javascript.typeinfo.RTypes.create(RTypes.java:349)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert(TypeSystemImpl.java:258)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertProperty(TypeSystemImpl.java:286)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertMember(TypeSystemImpl.java:277)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencer2.resolve(TypeInferencer2.java:566)
+	at org.eclipse.dltk.internal.javascript.ti.TopValueCollection$TopValue.findMember(TopValueCollection.java:44)
+	at org.eclipse.dltk.internal.javascript.ti.ImmutableValue.getChild(ImmutableValue.java:321)
+	at org.eclipse.dltk.internal.javascript.ti.ChildReference.findChild(ChildReference.java:51)
+	at org.eclipse.dltk.internal.javascript.ti.ChildReference.getValue(ChildReference.java:37)
+	at org.eclipse.dltk.internal.javascript.ti.AbstractReference.getKind(AbstractReference.java:138)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.isVarOrFunction(TypeInfoValidator.java:1641)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIdentifier(TypeInfoValidator.java:1669)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIdentifier(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:129)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitPropertyExpression(TypeInferencerVisitor.java:1300)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitPropertyExpression(TypeInfoValidator.java:1619)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitPropertyExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:143)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitCallExpression(TypeInfoValidator.java:928)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitCallExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:103)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitBinaryOperation(TypeInferencerVisitor.java:269)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitBinaryOperation(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:97)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIfStatement(TypeInfoValidator.java:2371)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:131)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1466)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:151)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatements(TypeInferencerVisitor.java:1054)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIfStatement(TypeInfoValidator.java:2384)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:131)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1466)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:151)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionBody(TypeInferencerVisitor.java:897)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionStatement(TypeInferencerVisitor.java:851)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitFunctionStatement(TypeInfoValidator.java:760)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:125)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitVoidExpression(TypeInferencerVisitor.java:1567)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitVoidExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:167)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:26)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitScript(TypeInferencerVisitor.java:1375)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitScript(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:149)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencer2.doInferencing(TypeInferencer2.java:111)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator.build(TypeInfoValidator.java:165)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.run(ReconcileBuilder.java:103)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.build(ReconcileBuilder.java:81)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:91)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:58)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.initialReconcile(ScriptReconcilingStrategy.java:200)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:130)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.initialReconcile(ScriptCompositeReconcilingStrategy.java:114)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconciler.initialProcess(ScriptReconciler.java:401)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+
+!ENTRY com.servoy.eclipse.model 4 0 2021-10-28 09:04:25.602
+!MESSAGE Unexpected Exception
+!STACK 0
+com.servoy.j2db.persistence.RepositoryException: The dataprovider hitpat3 or column pat_codi does not exist as defined in the relation asiutitrs_re_buscar_patologia_3
+	at com.servoy.j2db.persistence.Relation.makePrimaryDataProviders(Relation.java:739)
+	at com.servoy.j2db.persistence.Relation.getPrimaryDataProviders(Relation.java:582)
+	at com.servoy.eclipse.debug.script.TypeCreator.addRelations(TypeCreator.java:3056)
+	at com.servoy.eclipse.debug.script.TypeCreator.access$6(TypeCreator.java:3045)
+	at com.servoy.eclipse.debug.script.TypeCreator$RelationsScopeCreator.createType(TypeCreator.java:2594)
+	at com.servoy.eclipse.debug.script.TypeCreator.createDynamicType(TypeCreator.java:826)
+	at com.servoy.eclipse.debug.script.TypeCreator.createDynamicType(TypeCreator.java:818)
+	at com.servoy.eclipse.debug.script.TypeCreator.createType(TypeCreator.java:472)
+	at org.eclipse.dltk.javascript.typeinfo.TypeCache.getType(TypeCache.java:204)
+	at org.eclipse.dltk.javascript.typeinfo.TypeCache$TypeCacheResourceSet.resolve(TypeCache.java:334)
+	at org.eclipse.dltk.javascript.typeinfo.TypeUtil.resolve(TypeUtil.java:208)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.TypeImpl.eResolveProxy(TypeImpl.java:668)
+	at org.eclipse.emf.ecore.util.EcoreEList.resolveProxy(EcoreEList.java:206)
+	at org.eclipse.emf.ecore.util.EcoreEList.resolve(EcoreEList.java:161)
+	at org.eclipse.emf.ecore.util.EObjectResolvingEList.resolve(EObjectResolvingEList.java:60)
+	at org.eclipse.emf.common.util.BasicEList.get(BasicEList.java:348)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.doNext(AbstractEList.java:703)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.next(AbstractEList.java:690)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.buildType(TypeSystemImpl.java:201)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertType(TypeSystemImpl.java:172)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.buildType(TypeSystemImpl.java:195)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertType(TypeSystemImpl.java:172)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert1(TypeSystemImpl.java:129)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert0(TypeSystemImpl.java:115)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert(TypeSystemImpl.java:106)
+	at org.eclipse.dltk.javascript.typeinfo.RSimpleType.<init>(RSimpleType.java:28)
+	at com.servoy.eclipse.debug.script.ServoyDynamicRuntimeType.<init>(ServoyDynamicRuntimeType.java:51)
+	at com.servoy.eclipse.debug.script.ServoyDynamicMetaType.toRType(ServoyDynamicMetaType.java:47)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.TypeImpl.toRType(TypeImpl.java:681)
+	at org.eclipse.dltk.javascript.typeinfo.RTypes.simple(RTypes.java:175)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.SimpleTypeImpl.toRType(SimpleTypeImpl.java:143)
+	at org.eclipse.dltk.javascript.typeinfo.RTypes.create(RTypes.java:349)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert(TypeSystemImpl.java:258)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertProperty(TypeSystemImpl.java:286)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertMember(TypeSystemImpl.java:277)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencer2.resolve(TypeInferencer2.java:566)
+	at org.eclipse.dltk.internal.javascript.ti.TopValueCollection$TopValue.findMember(TopValueCollection.java:44)
+	at org.eclipse.dltk.internal.javascript.ti.ImmutableValue.getChild(ImmutableValue.java:321)
+	at org.eclipse.dltk.internal.javascript.ti.ChildReference.findChild(ChildReference.java:51)
+	at org.eclipse.dltk.internal.javascript.ti.ChildReference.getValue(ChildReference.java:37)
+	at org.eclipse.dltk.internal.javascript.ti.AbstractReference.getKind(AbstractReference.java:138)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.isVarOrFunction(TypeInfoValidator.java:1641)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIdentifier(TypeInfoValidator.java:1669)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIdentifier(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:129)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitPropertyExpression(TypeInferencerVisitor.java:1300)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitPropertyExpression(TypeInfoValidator.java:1619)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitPropertyExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:143)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitCallExpression(TypeInfoValidator.java:928)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitCallExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:103)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitBinaryOperation(TypeInferencerVisitor.java:269)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitBinaryOperation(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:97)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIfStatement(TypeInfoValidator.java:2371)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:131)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1466)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:151)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatements(TypeInferencerVisitor.java:1054)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIfStatement(TypeInfoValidator.java:2384)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:131)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1466)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:151)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionBody(TypeInferencerVisitor.java:897)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionStatement(TypeInferencerVisitor.java:851)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitFunctionStatement(TypeInfoValidator.java:760)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:125)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitVoidExpression(TypeInferencerVisitor.java:1567)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitVoidExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:167)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:26)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitScript(TypeInferencerVisitor.java:1375)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitScript(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:149)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencer2.doInferencing(TypeInferencer2.java:111)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator.build(TypeInfoValidator.java:165)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.run(ReconcileBuilder.java:103)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.build(ReconcileBuilder.java:81)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:91)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:58)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.initialReconcile(ScriptReconcilingStrategy.java:200)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:130)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.initialReconcile(ScriptCompositeReconcilingStrategy.java:114)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconciler.initialProcess(ScriptReconciler.java:401)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+
+!ENTRY com.servoy.eclipse.model 4 0 2021-10-28 09:04:25.602
+!MESSAGE Unexpected Exception
+!STACK 0
+com.servoy.j2db.persistence.RepositoryException: The dataprovider hitpat1 or column pat_codi does not exist as defined in the relation asiutitrs_rel_buscar_hciti_to_patologia1
+	at com.servoy.j2db.persistence.Relation.makePrimaryDataProviders(Relation.java:739)
+	at com.servoy.j2db.persistence.Relation.getPrimaryDataProviders(Relation.java:582)
+	at com.servoy.eclipse.debug.script.TypeCreator.addRelations(TypeCreator.java:3056)
+	at com.servoy.eclipse.debug.script.TypeCreator.access$6(TypeCreator.java:3045)
+	at com.servoy.eclipse.debug.script.TypeCreator$RelationsScopeCreator.createType(TypeCreator.java:2594)
+	at com.servoy.eclipse.debug.script.TypeCreator.createDynamicType(TypeCreator.java:826)
+	at com.servoy.eclipse.debug.script.TypeCreator.createDynamicType(TypeCreator.java:818)
+	at com.servoy.eclipse.debug.script.TypeCreator.createType(TypeCreator.java:472)
+	at org.eclipse.dltk.javascript.typeinfo.TypeCache.getType(TypeCache.java:204)
+	at org.eclipse.dltk.javascript.typeinfo.TypeCache$TypeCacheResourceSet.resolve(TypeCache.java:334)
+	at org.eclipse.dltk.javascript.typeinfo.TypeUtil.resolve(TypeUtil.java:208)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.TypeImpl.eResolveProxy(TypeImpl.java:668)
+	at org.eclipse.emf.ecore.util.EcoreEList.resolveProxy(EcoreEList.java:206)
+	at org.eclipse.emf.ecore.util.EcoreEList.resolve(EcoreEList.java:161)
+	at org.eclipse.emf.ecore.util.EObjectResolvingEList.resolve(EObjectResolvingEList.java:60)
+	at org.eclipse.emf.common.util.BasicEList.get(BasicEList.java:348)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.doNext(AbstractEList.java:703)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.next(AbstractEList.java:690)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.buildType(TypeSystemImpl.java:201)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertType(TypeSystemImpl.java:172)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.buildType(TypeSystemImpl.java:195)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertType(TypeSystemImpl.java:172)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert1(TypeSystemImpl.java:129)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert0(TypeSystemImpl.java:115)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert(TypeSystemImpl.java:106)
+	at org.eclipse.dltk.javascript.typeinfo.RSimpleType.<init>(RSimpleType.java:28)
+	at com.servoy.eclipse.debug.script.ServoyDynamicRuntimeType.<init>(ServoyDynamicRuntimeType.java:51)
+	at com.servoy.eclipse.debug.script.ServoyDynamicMetaType.toRType(ServoyDynamicMetaType.java:47)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.TypeImpl.toRType(TypeImpl.java:681)
+	at org.eclipse.dltk.javascript.typeinfo.RTypes.simple(RTypes.java:175)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.SimpleTypeImpl.toRType(SimpleTypeImpl.java:143)
+	at org.eclipse.dltk.javascript.typeinfo.RTypes.create(RTypes.java:349)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert(TypeSystemImpl.java:258)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertProperty(TypeSystemImpl.java:286)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertMember(TypeSystemImpl.java:277)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencer2.resolve(TypeInferencer2.java:566)
+	at org.eclipse.dltk.internal.javascript.ti.TopValueCollection$TopValue.findMember(TopValueCollection.java:44)
+	at org.eclipse.dltk.internal.javascript.ti.ImmutableValue.getChild(ImmutableValue.java:321)
+	at org.eclipse.dltk.internal.javascript.ti.ChildReference.findChild(ChildReference.java:51)
+	at org.eclipse.dltk.internal.javascript.ti.ChildReference.getValue(ChildReference.java:37)
+	at org.eclipse.dltk.internal.javascript.ti.AbstractReference.getKind(AbstractReference.java:138)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.isVarOrFunction(TypeInfoValidator.java:1641)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIdentifier(TypeInfoValidator.java:1669)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIdentifier(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:129)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitPropertyExpression(TypeInferencerVisitor.java:1300)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitPropertyExpression(TypeInfoValidator.java:1619)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitPropertyExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:143)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitCallExpression(TypeInfoValidator.java:928)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitCallExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:103)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitBinaryOperation(TypeInferencerVisitor.java:269)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitBinaryOperation(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:97)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIfStatement(TypeInfoValidator.java:2371)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:131)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1466)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:151)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatements(TypeInferencerVisitor.java:1054)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIfStatement(TypeInfoValidator.java:2384)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:131)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1466)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:151)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionBody(TypeInferencerVisitor.java:897)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionStatement(TypeInferencerVisitor.java:851)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitFunctionStatement(TypeInfoValidator.java:760)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:125)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitVoidExpression(TypeInferencerVisitor.java:1567)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitVoidExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:167)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:26)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitScript(TypeInferencerVisitor.java:1375)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitScript(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:149)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencer2.doInferencing(TypeInferencer2.java:111)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator.build(TypeInfoValidator.java:165)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.run(ReconcileBuilder.java:103)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.build(ReconcileBuilder.java:81)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:91)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:58)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.initialReconcile(ScriptReconcilingStrategy.java:200)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:130)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.initialReconcile(ScriptCompositeReconcilingStrategy.java:114)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconciler.initialProcess(ScriptReconciler.java:401)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+
+!ENTRY com.servoy.eclipse.model 4 0 2021-10-28 09:04:25.618
+!MESSAGE Unexpected Exception
+!STACK 0
+com.servoy.j2db.persistence.RepositoryException: The dataprovider hitpat1 or column pat_codi does not exist as defined in the relation asiutitrs_rel_buscar_patologia_1
+	at com.servoy.j2db.persistence.Relation.makePrimaryDataProviders(Relation.java:739)
+	at com.servoy.j2db.persistence.Relation.getPrimaryDataProviders(Relation.java:582)
+	at com.servoy.eclipse.debug.script.TypeCreator.addRelations(TypeCreator.java:3056)
+	at com.servoy.eclipse.debug.script.TypeCreator.access$6(TypeCreator.java:3045)
+	at com.servoy.eclipse.debug.script.TypeCreator$RelationsScopeCreator.createType(TypeCreator.java:2594)
+	at com.servoy.eclipse.debug.script.TypeCreator.createDynamicType(TypeCreator.java:826)
+	at com.servoy.eclipse.debug.script.TypeCreator.createDynamicType(TypeCreator.java:818)
+	at com.servoy.eclipse.debug.script.TypeCreator.createType(TypeCreator.java:472)
+	at org.eclipse.dltk.javascript.typeinfo.TypeCache.getType(TypeCache.java:204)
+	at org.eclipse.dltk.javascript.typeinfo.TypeCache$TypeCacheResourceSet.resolve(TypeCache.java:334)
+	at org.eclipse.dltk.javascript.typeinfo.TypeUtil.resolve(TypeUtil.java:208)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.TypeImpl.eResolveProxy(TypeImpl.java:668)
+	at org.eclipse.emf.ecore.util.EcoreEList.resolveProxy(EcoreEList.java:206)
+	at org.eclipse.emf.ecore.util.EcoreEList.resolve(EcoreEList.java:161)
+	at org.eclipse.emf.ecore.util.EObjectResolvingEList.resolve(EObjectResolvingEList.java:60)
+	at org.eclipse.emf.common.util.BasicEList.get(BasicEList.java:348)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.doNext(AbstractEList.java:703)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.next(AbstractEList.java:690)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.buildType(TypeSystemImpl.java:201)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertType(TypeSystemImpl.java:172)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.buildType(TypeSystemImpl.java:195)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertType(TypeSystemImpl.java:172)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert1(TypeSystemImpl.java:129)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert0(TypeSystemImpl.java:115)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert(TypeSystemImpl.java:106)
+	at org.eclipse.dltk.javascript.typeinfo.RSimpleType.<init>(RSimpleType.java:28)
+	at com.servoy.eclipse.debug.script.ServoyDynamicRuntimeType.<init>(ServoyDynamicRuntimeType.java:51)
+	at com.servoy.eclipse.debug.script.ServoyDynamicMetaType.toRType(ServoyDynamicMetaType.java:47)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.TypeImpl.toRType(TypeImpl.java:681)
+	at org.eclipse.dltk.javascript.typeinfo.RTypes.simple(RTypes.java:175)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.SimpleTypeImpl.toRType(SimpleTypeImpl.java:143)
+	at org.eclipse.dltk.javascript.typeinfo.RTypes.create(RTypes.java:349)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert(TypeSystemImpl.java:258)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertProperty(TypeSystemImpl.java:286)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertMember(TypeSystemImpl.java:277)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencer2.resolve(TypeInferencer2.java:566)
+	at org.eclipse.dltk.internal.javascript.ti.TopValueCollection$TopValue.findMember(TopValueCollection.java:44)
+	at org.eclipse.dltk.internal.javascript.ti.ImmutableValue.getChild(ImmutableValue.java:321)
+	at org.eclipse.dltk.internal.javascript.ti.ChildReference.findChild(ChildReference.java:51)
+	at org.eclipse.dltk.internal.javascript.ti.ChildReference.getValue(ChildReference.java:37)
+	at org.eclipse.dltk.internal.javascript.ti.AbstractReference.getKind(AbstractReference.java:138)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.isVarOrFunction(TypeInfoValidator.java:1641)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIdentifier(TypeInfoValidator.java:1669)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIdentifier(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:129)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitPropertyExpression(TypeInferencerVisitor.java:1300)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitPropertyExpression(TypeInfoValidator.java:1619)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitPropertyExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:143)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitCallExpression(TypeInfoValidator.java:928)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitCallExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:103)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitBinaryOperation(TypeInferencerVisitor.java:269)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitBinaryOperation(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:97)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIfStatement(TypeInfoValidator.java:2371)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:131)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1466)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:151)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatements(TypeInferencerVisitor.java:1054)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIfStatement(TypeInfoValidator.java:2384)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:131)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1466)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:151)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionBody(TypeInferencerVisitor.java:897)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionStatement(TypeInferencerVisitor.java:851)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitFunctionStatement(TypeInfoValidator.java:760)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:125)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitVoidExpression(TypeInferencerVisitor.java:1567)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitVoidExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:167)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:26)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitScript(TypeInferencerVisitor.java:1375)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitScript(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:149)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencer2.doInferencing(TypeInferencer2.java:111)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator.build(TypeInfoValidator.java:165)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.run(ReconcileBuilder.java:103)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.build(ReconcileBuilder.java:81)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:91)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:58)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.initialReconcile(ScriptReconcilingStrategy.java:200)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:130)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.initialReconcile(ScriptCompositeReconcilingStrategy.java:114)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconciler.initialProcess(ScriptReconciler.java:401)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+
+!ENTRY com.servoy.eclipse.model 4 0 2021-10-28 09:04:25.618
+!MESSAGE Unexpected Exception
+!STACK 0
+com.servoy.j2db.persistence.RepositoryException: The dataprovider hitpat1 or column pat_codi does not exist as defined in the relation asiutitrs_rel_hciti_to_patologia1
+	at com.servoy.j2db.persistence.Relation.makePrimaryDataProviders(Relation.java:739)
+	at com.servoy.j2db.persistence.Relation.getPrimaryDataProviders(Relation.java:582)
+	at com.servoy.eclipse.debug.script.TypeCreator.addRelations(TypeCreator.java:3056)
+	at com.servoy.eclipse.debug.script.TypeCreator.access$6(TypeCreator.java:3045)
+	at com.servoy.eclipse.debug.script.TypeCreator$RelationsScopeCreator.createType(TypeCreator.java:2594)
+	at com.servoy.eclipse.debug.script.TypeCreator.createDynamicType(TypeCreator.java:826)
+	at com.servoy.eclipse.debug.script.TypeCreator.createDynamicType(TypeCreator.java:818)
+	at com.servoy.eclipse.debug.script.TypeCreator.createType(TypeCreator.java:472)
+	at org.eclipse.dltk.javascript.typeinfo.TypeCache.getType(TypeCache.java:204)
+	at org.eclipse.dltk.javascript.typeinfo.TypeCache$TypeCacheResourceSet.resolve(TypeCache.java:334)
+	at org.eclipse.dltk.javascript.typeinfo.TypeUtil.resolve(TypeUtil.java:208)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.TypeImpl.eResolveProxy(TypeImpl.java:668)
+	at org.eclipse.emf.ecore.util.EcoreEList.resolveProxy(EcoreEList.java:206)
+	at org.eclipse.emf.ecore.util.EcoreEList.resolve(EcoreEList.java:161)
+	at org.eclipse.emf.ecore.util.EObjectResolvingEList.resolve(EObjectResolvingEList.java:60)
+	at org.eclipse.emf.common.util.BasicEList.get(BasicEList.java:348)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.doNext(AbstractEList.java:703)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.next(AbstractEList.java:690)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.buildType(TypeSystemImpl.java:201)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertType(TypeSystemImpl.java:172)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.buildType(TypeSystemImpl.java:195)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertType(TypeSystemImpl.java:172)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert1(TypeSystemImpl.java:129)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert0(TypeSystemImpl.java:115)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert(TypeSystemImpl.java:106)
+	at org.eclipse.dltk.javascript.typeinfo.RSimpleType.<init>(RSimpleType.java:28)
+	at com.servoy.eclipse.debug.script.ServoyDynamicRuntimeType.<init>(ServoyDynamicRuntimeType.java:51)
+	at com.servoy.eclipse.debug.script.ServoyDynamicMetaType.toRType(ServoyDynamicMetaType.java:47)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.TypeImpl.toRType(TypeImpl.java:681)
+	at org.eclipse.dltk.javascript.typeinfo.RTypes.simple(RTypes.java:175)
+	at org.eclipse.dltk.javascript.typeinfo.model.impl.SimpleTypeImpl.toRType(SimpleTypeImpl.java:143)
+	at org.eclipse.dltk.javascript.typeinfo.RTypes.create(RTypes.java:349)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convert(TypeSystemImpl.java:258)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertProperty(TypeSystemImpl.java:286)
+	at org.eclipse.dltk.internal.javascript.ti.TypeSystemImpl.convertMember(TypeSystemImpl.java:277)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencer2.resolve(TypeInferencer2.java:566)
+	at org.eclipse.dltk.internal.javascript.ti.TopValueCollection$TopValue.findMember(TopValueCollection.java:44)
+	at org.eclipse.dltk.internal.javascript.ti.ImmutableValue.getChild(ImmutableValue.java:321)
+	at org.eclipse.dltk.internal.javascript.ti.ChildReference.findChild(ChildReference.java:51)
+	at org.eclipse.dltk.internal.javascript.ti.ChildReference.getValue(ChildReference.java:37)
+	at org.eclipse.dltk.internal.javascript.ti.AbstractReference.getKind(AbstractReference.java:138)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.isVarOrFunction(TypeInfoValidator.java:1641)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIdentifier(TypeInfoValidator.java:1669)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIdentifier(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:129)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitPropertyExpression(TypeInferencerVisitor.java:1300)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitPropertyExpression(TypeInfoValidator.java:1619)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitPropertyExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:143)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitCallExpression(TypeInfoValidator.java:928)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitCallExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:103)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitBinaryOperation(TypeInferencerVisitor.java:269)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitBinaryOperation(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:97)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIfStatement(TypeInfoValidator.java:2371)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:131)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1466)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:151)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatements(TypeInferencerVisitor.java:1054)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitIfStatement(TypeInfoValidator.java:2384)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitIfStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:131)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1466)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitStatementBlock(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:151)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionBody(TypeInferencerVisitor.java:897)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionStatement(TypeInferencerVisitor.java:851)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visitFunctionStatement(TypeInfoValidator.java:760)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitFunctionStatement(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:125)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitVoidExpression(TypeInferencerVisitor.java:1567)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitVoidExpression(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:167)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:26)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitScript(TypeInferencerVisitor.java:1375)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitor.visitScript(TypeInferencerVisitor.java:1)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.handle(ASTVisitor.java:149)
+	at org.eclipse.dltk.javascript.ast.ASTVisitor.visit(ASTVisitor.java:200)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencerVisitorBase.visit(TypeInferencerVisitorBase.java:142)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator$ValidationVisitor.visit(TypeInfoValidator.java:545)
+	at org.eclipse.dltk.internal.javascript.ti.TypeInferencer2.doInferencing(TypeInferencer2.java:111)
+	at org.eclipse.dltk.internal.javascript.validation.TypeInfoValidator.build(TypeInfoValidator.java:165)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.run(ReconcileBuilder.java:103)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.core.ReconcileBuilder.build(ReconcileBuilder.java:81)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:91)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:58)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.initialReconcile(ScriptReconcilingStrategy.java:200)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:130)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.initialReconcile(ScriptCompositeReconcilingStrategy.java:114)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconciler.initialProcess(ScriptReconciler.java:401)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SESSION 2021-10-28 17:54:55.848 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_302
+java.vendor=GraalVM Community
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-10-28 17:54:56.673
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.232
+!MESSAGE Time taken to read in the solution AsiUtiTrs: 393
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.512
+!MESSAGE Time taken to read in the solution ScrSanatorio: 220
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.570
+!MESSAGE Time taken to read in the solution funciones: 58
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.592
+!MESSAGE Time taken to read in the solution mod_dialog: 18
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.732
+!MESSAGE Time taken to read in the solution MsgSanatorio: 140
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.741
+!MESSAGE Time taken to read in the solution AsistFunciones: 9
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.748
+!MESSAGE Time taken to read in the solution Call_2142: 7
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.768
+!MESSAGE Time taken to read in the solution GenerarTXTInterfaseVisualMedica: 12
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.772
+!MESSAGE Time taken to read in the solution ControlAlerta: 0
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.788
+!MESSAGE Time taken to read in the solution CargaAlerta: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.801
+!MESSAGE Time taken to read in the solution AsiArmMod_Rep: 13
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-28 17:55:12.840
+!MESSAGE Time taken to read in the solution AsiArmTrs_Mod: 39
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-10-28 17:55:13.148
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-10-28 17:55:13.148
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@420a85c4),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@420a85c4)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@420a85c4),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@420a85c4)),sourcePriority=16640)
+
+!ENTRY org.eclipse.ui 4 4 2021-10-28 17:55:24.208
+!MESSAGE Unable to associate action set with part: org.eclipse.dltk.javascript.ui.editor.JavascriptEditor. Action set org.eclipse.debug.ui.launchActionSet not found.
+
+!ENTRY org.eclipse.ui 4 4 2021-10-28 18:10:41.847
+!MESSAGE Invalid preference page path: HTML Syntax
+!SESSION 2021-10-29 08:07:57.057 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_302
+java.vendor=GraalVM Community
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:14.587
+!MESSAGE Time taken to read in the solution AsiUtiTrs: 358
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:14.826
+!MESSAGE Time taken to read in the solution ScrSanatorio: 187
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:14.872
+!MESSAGE Time taken to read in the solution funciones: 46
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:14.888
+!MESSAGE Time taken to read in the solution mod_dialog: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:15.019
+!MESSAGE Time taken to read in the solution MsgSanatorio: 131
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:15.040
+!MESSAGE Time taken to read in the solution AsistFunciones: 21
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:15.056
+!MESSAGE Time taken to read in the solution Call_2142: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:15.071
+!MESSAGE Time taken to read in the solution GenerarTXTInterfaseVisualMedica: 15
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:15.071
+!MESSAGE Time taken to read in the solution ControlAlerta: 0
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:15.103
+!MESSAGE Time taken to read in the solution CargaAlerta: 32
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:15.118
+!MESSAGE Time taken to read in the solution AsiArmMod_Rep: 15
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-10-29 08:08:15.155
+!MESSAGE Time taken to read in the solution AsiArmTrs_Mod: 37
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-10-29 08:08:15.468
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-10-29 08:08:15.468
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@4c012563),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@4c012563)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@4c012563),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@4c012563)),sourcePriority=16640)
+
+!ENTRY org.eclipse.ui 4 4 2021-10-29 08:08:22.940
+!MESSAGE Unable to associate action set with part: org.eclipse.dltk.javascript.ui.editor.JavascriptEditor. Action set org.eclipse.debug.ui.launchActionSet not found.
+
+!ENTRY org.eclipse.ui 4 4 2021-10-29 14:37:16.508
+!MESSAGE Part already exists in page layout: org.eclipse.debug.ui.ExpressionView.
+
+!ENTRY org.eclipse.ui 4 4 2021-10-29 14:37:16.508
+!MESSAGE Unable to find Action Set: org.eclipse.debug.ui.launchActionSet
+
+!ENTRY org.eclipse.ui 4 4 2021-10-29 19:04:34.043
+!MESSAGE Invalid preference page path: HTML Syntax
+!SESSION 2021-11-01 08:36:30.231 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_302
+java.vendor=GraalVM Community
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:39.917
+!MESSAGE Time taken to read in the solution AsiUtiTrs: 270
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:40.134
+!MESSAGE Time taken to read in the solution ScrSanatorio: 184
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:40.186
+!MESSAGE Time taken to read in the solution funciones: 52
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:40.218
+!MESSAGE Time taken to read in the solution mod_dialog: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:40.334
+!MESSAGE Time taken to read in the solution MsgSanatorio: 116
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:40.349
+!MESSAGE Time taken to read in the solution AsistFunciones: 15
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:40.349
+!MESSAGE Time taken to read in the solution Call_2142: 0
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:40.365
+!MESSAGE Time taken to read in the solution GenerarTXTInterfaseVisualMedica: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:40.365
+!MESSAGE Time taken to read in the solution ControlAlerta: 0
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:40.403
+!MESSAGE Time taken to read in the solution CargaAlerta: 38
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:40.419
+!MESSAGE Time taken to read in the solution AsiArmMod_Rep: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 08:36:40.466
+!MESSAGE Time taken to read in the solution AsiArmTrs_Mod: 47
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-11-01 08:36:40.768
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-11-01 08:36:40.768
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@4c012563),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@4c012563)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@4c012563),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@4c012563)),sourcePriority=16640)
+
+!ENTRY org.eclipse.ui 4 4 2021-11-01 09:02:21.290
+!MESSAGE Unable to associate action set with part: org.eclipse.dltk.javascript.ui.editor.JavascriptEditor. Action set org.eclipse.debug.ui.launchActionSet not found.
+
+!ENTRY org.eclipse.ui 4 4 2021-11-01 12:41:43.721
+!MESSAGE Part already exists in page layout: org.eclipse.debug.ui.ExpressionView.
+
+!ENTRY org.eclipse.ui 4 4 2021-11-01 12:41:43.751
+!MESSAGE Unable to find Action Set: org.eclipse.debug.ui.launchActionSet
+
+!ENTRY org.eclipse.dltk.javascript.parser 4 0 2021-11-01 14:25:08.605
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFor(JSTransformer.java:861)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:309)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitBlock(JSTransformer.java:692)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:198)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFunction(JSTransformer.java:1052)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:373)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformScript(JSTransformer.java:423)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:401)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:328)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:1)
+	at org.eclipse.dltk.core.SourceParserUtil.parse(SourceParserUtil.java:136)
+	at org.eclipse.dltk.javascript.internal.ui.text.folding.JavaScriptCodeFoldingBlockProvider.parse(JavaScriptCodeFoldingBlockProvider.java:55)
+	at org.eclipse.dltk.javascript.internal.ui.text.folding.JavaScriptCodeFoldingBlockProvider.computeFoldableBlocks(JavaScriptCodeFoldingBlockProvider.java:113)
+	at org.eclipse.dltk.ui.text.folding.DelegatingFoldingStructureProvider.computeFoldingStructure(DelegatingFoldingStructureProvider.java:766)
+	at org.eclipse.dltk.ui.text.folding.DelegatingFoldingStructureProvider.update0(DelegatingFoldingStructureProvider.java:691)
+	at org.eclipse.dltk.ui.text.folding.DelegatingFoldingStructureProvider.update(DelegatingFoldingStructureProvider.java:680)
+	at org.eclipse.dltk.ui.text.folding.DelegatingFoldingStructureProvider$ElementChangedListener.elementChanged(DelegatingFoldingStructureProvider.java:460)
+	at org.eclipse.dltk.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1636)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1623)
+	at org.eclipse.dltk.internal.core.DeltaProcessor.fireReconcileDelta(DeltaProcessor.java:1487)
+	at org.eclipse.dltk.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1443)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:743)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:192)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:97)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.reconcile(ScriptCompositeReconcilingStrategy.java:100)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.dltk.javascript.parser 4 0 2021-11-01 14:25:10.142
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFor(JSTransformer.java:861)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:309)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitBlock(JSTransformer.java:692)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:198)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFunction(JSTransformer.java:1052)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:373)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformScript(JSTransformer.java:423)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:401)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:328)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:1)
+	at org.eclipse.dltk.core.SourceParserUtil.parse(SourceParserUtil.java:136)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:35)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:45)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parse(JavaScriptSourceElementParser3.java:53)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parseSourceModule(JavaScriptSourceElementParser3.java:37)
+	at org.eclipse.dltk.internal.core.AbstractSourceModule.buildStructure(AbstractSourceModule.java:507)
+	at org.eclipse.dltk.internal.core.Openable.generateInfos(Openable.java:195)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.SourceModule.makeConsistent(SourceModule.java:274)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:78)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:58)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:192)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:97)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.reconcile(ScriptCompositeReconcilingStrategy.java:100)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SESSION 2021-11-01 14:34:09.406 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_302
+java.vendor=GraalVM Community
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-11-01 14:34:10.181
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.032
+!MESSAGE Time taken to read in the solution AsiUtiTrs: 333
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.230
+!MESSAGE Time taken to read in the solution ScrSanatorio: 153
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.299
+!MESSAGE Time taken to read in the solution funciones: 69
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.315
+!MESSAGE Time taken to read in the solution mod_dialog: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.415
+!MESSAGE Time taken to read in the solution MsgSanatorio: 84
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.416
+!MESSAGE Time taken to read in the solution AsistFunciones: 0
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.436
+!MESSAGE Time taken to read in the solution Call_2142: 20
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.454
+!MESSAGE Time taken to read in the solution GenerarTXTInterfaseVisualMedica: 18
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.454
+!MESSAGE Time taken to read in the solution ControlAlerta: 0
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.485
+!MESSAGE Time taken to read in the solution CargaAlerta: 31
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.500
+!MESSAGE Time taken to read in the solution AsiArmMod_Rep: 15
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-01 14:34:20.558
+!MESSAGE Time taken to read in the solution AsiArmTrs_Mod: 58
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-11-01 14:34:20.885
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-11-01 14:34:20.885
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@420a85c4),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@420a85c4)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@420a85c4),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@420a85c4)),sourcePriority=16640)
+
+!ENTRY org.eclipse.ui 4 4 2021-11-01 14:34:30.342
+!MESSAGE Unable to associate action set with part: org.eclipse.dltk.javascript.ui.editor.JavascriptEditor. Action set org.eclipse.debug.ui.launchActionSet not found.
+
+!ENTRY org.eclipse.dltk.javascript.parser 4 0 2021-11-01 14:40:31.960
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFor(JSTransformer.java:861)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:309)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitBlock(JSTransformer.java:692)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:198)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFunction(JSTransformer.java:1052)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:373)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformScript(JSTransformer.java:423)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:401)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:328)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:1)
+	at org.eclipse.dltk.core.SourceParserUtil.parse(SourceParserUtil.java:136)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:35)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:45)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parse(JavaScriptSourceElementParser3.java:53)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parseSourceModule(JavaScriptSourceElementParser3.java:37)
+	at org.eclipse.dltk.internal.core.AbstractSourceModule.buildStructure(AbstractSourceModule.java:507)
+	at org.eclipse.dltk.internal.core.Openable.generateInfos(Openable.java:195)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.SourceModule.makeConsistent(SourceModule.java:274)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:78)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:58)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:192)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:97)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.reconcile(ScriptCompositeReconcilingStrategy.java:100)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.dltk.javascript.parser 4 0 2021-11-01 14:40:33.479
+!MESSAGE FORSTEP or FORITER expected
+!STACK 0
+java.lang.IllegalArgumentException: FORSTEP or FORITER expected
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFor(JSTransformer.java:883)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:309)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitBlock(JSTransformer.java:692)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:198)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFunction(JSTransformer.java:1052)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:373)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformScript(JSTransformer.java:423)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:401)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:328)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:1)
+	at org.eclipse.dltk.core.SourceParserUtil.parse(SourceParserUtil.java:136)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:35)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:45)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parse(JavaScriptSourceElementParser3.java:53)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parseSourceModule(JavaScriptSourceElementParser3.java:37)
+	at org.eclipse.dltk.internal.core.AbstractSourceModule.buildStructure(AbstractSourceModule.java:507)
+	at org.eclipse.dltk.internal.core.Openable.generateInfos(Openable.java:195)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.SourceModule.makeConsistent(SourceModule.java:274)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:78)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:58)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:192)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:97)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.reconcile(ScriptCompositeReconcilingStrategy.java:100)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.dltk.javascript.parser 4 0 2021-11-01 14:40:35.501
+!MESSAGE FORSTEP or FORITER expected
+!STACK 0
+java.lang.IllegalArgumentException: FORSTEP or FORITER expected
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFor(JSTransformer.java:883)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:309)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitBlock(JSTransformer.java:692)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:198)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFunction(JSTransformer.java:1052)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:373)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformScript(JSTransformer.java:423)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:401)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:328)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:1)
+	at org.eclipse.dltk.core.SourceParserUtil.parse(SourceParserUtil.java:136)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:35)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:45)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parse(JavaScriptSourceElementParser3.java:53)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parseSourceModule(JavaScriptSourceElementParser3.java:37)
+	at org.eclipse.dltk.internal.core.AbstractSourceModule.buildStructure(AbstractSourceModule.java:507)
+	at org.eclipse.dltk.internal.core.Openable.generateInfos(Openable.java:195)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.SourceModule.makeConsistent(SourceModule.java:274)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:78)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:58)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:192)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:97)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.reconcile(ScriptCompositeReconcilingStrategy.java:100)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.dltk.javascript.parser 4 0 2021-11-01 14:40:36.504
+!MESSAGE FORSTEP or FORITER expected
+!STACK 0
+java.lang.IllegalArgumentException: FORSTEP or FORITER expected
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFor(JSTransformer.java:883)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:309)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitBlock(JSTransformer.java:692)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:198)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFunction(JSTransformer.java:1052)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:373)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformScript(JSTransformer.java:423)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:401)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:328)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:1)
+	at org.eclipse.dltk.core.SourceParserUtil.parse(SourceParserUtil.java:136)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:35)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:45)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parse(JavaScriptSourceElementParser3.java:53)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parseSourceModule(JavaScriptSourceElementParser3.java:37)
+	at org.eclipse.dltk.internal.core.AbstractSourceModule.buildStructure(AbstractSourceModule.java:507)
+	at org.eclipse.dltk.internal.core.Openable.generateInfos(Openable.java:195)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.SourceModule.makeConsistent(SourceModule.java:274)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:78)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:58)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:192)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:97)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.reconcile(ScriptCompositeReconcilingStrategy.java:100)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.dltk.javascript.parser 4 0 2021-11-01 14:40:39.529
+!MESSAGE FORSTEP or FORITER expected
+!STACK 0
+java.lang.IllegalArgumentException: FORSTEP or FORITER expected
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFor(JSTransformer.java:883)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:309)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitBlock(JSTransformer.java:692)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:198)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitFunction(JSTransformer.java:1052)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.internalVisit(JSTransformer.java:373)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visit(JSTransformer.java:591)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.visitNode(JSTransformer.java:176)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformNode(JSTransformer.java:465)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformStatementNode(JSTransformer.java:559)
+	at org.eclipse.dltk.javascript.parser.JSTransformer.transformScript(JSTransformer.java:423)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:401)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:328)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParser.parse(JavaScriptParser.java:1)
+	at org.eclipse.dltk.core.SourceParserUtil.parse(SourceParserUtil.java:136)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:35)
+	at org.eclipse.dltk.javascript.parser.JavaScriptParserUtil.parse(JavaScriptParserUtil.java:45)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parse(JavaScriptSourceElementParser3.java:53)
+	at org.eclipse.dltk.internal.javascript.parser.structure.JavaScriptSourceElementParser3.parseSourceModule(JavaScriptSourceElementParser3.java:37)
+	at org.eclipse.dltk.internal.core.AbstractSourceModule.buildStructure(AbstractSourceModule.java:507)
+	at org.eclipse.dltk.internal.core.Openable.generateInfos(Openable.java:195)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.SourceModule.makeConsistent(SourceModule.java:274)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:78)
+	at org.eclipse.dltk.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:58)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:764)
+	at org.eclipse.dltk.internal.core.SourceModule.reconcile(SourceModule.java:330)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:164)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.access$0(ScriptReconcilingStrategy.java:153)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy$1.run(ScriptReconcilingStrategy.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:120)
+	at org.eclipse.dltk.internal.ui.text.ScriptReconcilingStrategy.reconcile(ScriptReconcilingStrategy.java:192)
+	at org.eclipse.dltk.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:97)
+	at org.eclipse.dltk.internal.ui.text.ScriptCompositeReconcilingStrategy.reconcile(ScriptCompositeReconcilingStrategy.java:100)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.servoy.eclipse.model 4 0 2021-11-01 14:59:01.957
+!MESSAGE Timeout/cancel while waiting for solution to be loaded in test app.
+
+!ENTRY com.servoy.eclipse.jsunit 4 0 2021-11-01 14:59:01.963
+!MESSAGE Timeout or cancel while waiting for solution to be loaded in test app.
+
+!ENTRY org.eclipse.ui 4 4 2021-11-01 18:01:38.374
+!MESSAGE Invalid preference page path: HTML Syntax
+!SESSION 2021-11-02 08:47:52.066 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_302
+java.vendor=GraalVM Community
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.293
+!MESSAGE Time taken to read in the solution AsiUtiTrs: 379
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.499
+!MESSAGE Time taken to read in the solution ScrSanatorio: 167
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.568
+!MESSAGE Time taken to read in the solution funciones: 69
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.599
+!MESSAGE Time taken to read in the solution mod_dialog: 31
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.715
+!MESSAGE Time taken to read in the solution MsgSanatorio: 116
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.731
+!MESSAGE Time taken to read in the solution AsistFunciones: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.747
+!MESSAGE Time taken to read in the solution Call_2142: 0
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.752
+!MESSAGE Time taken to read in the solution GenerarTXTInterfaseVisualMedica: 5
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.752
+!MESSAGE Time taken to read in the solution ControlAlerta: 0
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.784
+!MESSAGE Time taken to read in the solution CargaAlerta: 32
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.800
+!MESSAGE Time taken to read in the solution AsiArmMod_Rep: 16
+
+!ENTRY com.servoy.eclipse.model 1 0 2021-11-02 08:48:03.852
+!MESSAGE Time taken to read in the solution AsiArmTrs_Mod: 52
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-11-02 08:48:04.126
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-11-02 08:48:04.126
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@52815fa3),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@52815fa3)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@52815fa3),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@52815fa3)),sourcePriority=16640)
+
+!ENTRY org.eclipse.ui 4 4 2021-11-02 08:49:03.749
+!MESSAGE Unable to associate action set with part: org.eclipse.dltk.javascript.ui.editor.JavascriptEditor. Action set org.eclipse.debug.ui.launchActionSet not found.

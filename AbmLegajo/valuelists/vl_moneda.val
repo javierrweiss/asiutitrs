@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Pesos|0
+Dolares|1",
+name:"vl_moneda",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"63CE780D-DB01-41A7-9C13-0807C9A41564"

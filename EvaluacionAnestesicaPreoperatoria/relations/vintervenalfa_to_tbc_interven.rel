@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_interven",
+initialSort:"itv_descripcion asc",
+items:[
+{foreignColumnName:"itv_descripcion",operator:4,primaryDataProviderID:"globals.vIntervenAlfa",typeid:23,uuid:"497A8E99-1B94-4529-82BD-B68534653A71"}
+],
+joinType:0,
+name:"vintervenalfa_to_tbc_interven",
+primaryDataSource:"db:/maestros/tbc_interven",
+typeid:22,
+uuid:"189F38C2-8ADF-4934-BE70-CAA347B1BAD5"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_carpetas",
+items:[
+{foreignColumnName:"carpeta",operator:4,primaryDataProviderID:"scopes.globals.gbl_solucion",typeid:23,uuid:"56E8AB36-D0C8-453E-8971-1BAACA9F0BC2"},
+{foreignColumnName:"id",operator:4,primaryDataProviderID:"scopes.globals.vSpaces",typeid:23,uuid:"6605FF13-0E7F-41A8-8099-881E198EA822"}
+],
+name:"buscar_alf_to_carpeta",
+primaryDataSource:"db:/maestros/vis_tbc_obras",
+typeid:22,
+uuid:"C106658E-3418-4D65-BB54-6DE14A7D567E"

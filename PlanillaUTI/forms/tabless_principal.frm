@@ -1,0 +1,621 @@
+extendsID:"-1",
+items:[
+{
+fontType:"Verdana,0,12",
+formIndex:11,
+items:[
+{
+containsFormID:"B863BED9-7554-4493-8098-302EBE537FD9",
+location:"647,247",
+name:"cuidados",
+text:"Plan de Cuidados",
+typeid:15,
+uuid:"15F392BE-6332-415C-8525-0A77DA171BD7"
+},
+{
+containsFormID:"78CC6C57-D262-4D1A-8ACA-A09CB1268DE7",
+location:"433,223",
+name:"ingresos",
+text:"Balance Ingresos",
+typeid:15,
+uuid:"608C491F-1759-469E-AB9E-11F43F1F1AB4"
+},
+{
+containsFormID:"366AB024-07B2-4B40-AE38-1D3298EC7643",
+location:"295,217",
+name:"valoracion_3",
+text:"Valoración-III",
+typeid:15,
+uuid:"67AB0C35-D149-499E-974B-695A92ABF2BE"
+},
+{
+containsFormID:"2E6AC661-DCE6-4D0B-A928-693A8BF5F846",
+location:"113,212",
+name:"valoracion_1",
+text:"Valoracion-I",
+typeid:15,
+uuid:"6C2192AD-CF92-4BB0-B2AC-D26F4290AE84"
+},
+{
+containsFormID:"AA02D3BA-7542-47E9-A1E6-BCD75BCB8EEC",
+location:"980,268",
+text:"Observaciones",
+typeid:15,
+uuid:"972544A1-C1DB-4E61-AB62-4CFBC95399DA"
+},
+{
+containsFormID:"D696D05E-8F08-4A77-A098-F4A464B033A8",
+location:"540,237",
+name:"egresos",
+text:"Balance Egresos",
+typeid:15,
+uuid:"A87C4758-EF27-40DA-8E02-68553F46DB6F"
+},
+{
+containsFormID:"157DE143-9ED8-491F-A8CD-2B0FD5CD391F",
+location:"33,212",
+name:"parametros",
+text:"Parametros",
+typeid:15,
+uuid:"C9479852-A33C-4ABD-9FA9-AA417D8FD28D"
+},
+{
+containsFormID:"C038971F-9C1C-4421-8486-6B8E48CBC0DA",
+location:"193,212",
+name:"valoracion_2",
+text:"Valoracion-II",
+typeid:15,
+uuid:"D7151CD9-45CA-4807-BD18-BAB38197C1BB"
+},
+{
+containsFormID:"012A1067-45F1-4BA8-80C3-2043F7FAAF9F",
+location:"846,256",
+name:"cateteres",
+text:"Control de Cateteres",
+typeid:15,
+uuid:"D8EBA8C6-7CFE-412F-86F1-A3117E253906"
+},
+{
+containsFormID:"2C907E86-BA09-4854-8A78-E6A5F6C65355",
+location:"770,256",
+name:"cultivos",
+relationName:"vs_to_hojauti_cultivos",
+text:"Cultivos",
+typeid:15,
+uuid:"DB456B6D-804C-4284-A028-92BD3F94F031"
+}
+],
+location:"10,154",
+name:"tabs_154",
+onChangeMethodID:"62C3CA65-3D38-42DD-8BD4-6232C3F0B70D",
+printable:false,
+size:"1295,529",
+transparent:true,
+typeid:16,
+uuid:"0ABAF324-9B0E-4810-92B6-19A2FDBF32F3"
+},
+{
+fontType:"Tahoma,1,12",
+formIndex:5,
+location:"670,87",
+size:"41,20",
+text:"H.C.U.",
+transparent:true,
+typeid:7,
+uuid:"14FF5B0B-B7E4-4445-B89E-3BC9ED7F26E9"
+},
+{
+displaysTags:true,
+fontType:"Tahoma,1,12",
+formIndex:15,
+location:"10,117",
+name:"btn_consulta",
+onActionMethodID:"85231DFE-EDB9-4BDC-A7DA-AAFEB2E2AC20",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+size:"131,27",
+text:"Consulta Hojas",
+toolTipText:"<html><body><H4>Haga un click sobre este botón para consultar<BR>\r
+los valores ingresados en la hoja de enfermería<BR>\r
+del paciente %%globals.vApeyNom%%<BR>\r
+en la fecha y hora que seleccione<\/H4>\r
+<\/body><\/html>",
+typeid:7,
+uuid:"15FB950F-3FFD-41E5-890B-F278DB6B793D"
+},
+{
+imageMediaID:"97E0E77B-A2D4-4886-866B-60FA2A9917B2",
+location:"5,5",
+size:"323,56",
+text:"",
+typeid:7,
+uuid:"2938746D-A7EB-4B59-8B31-EAF8F86EE6C9"
+},
+{
+dataProviderID:"globals.vOperador",
+displaysTags:true,
+fontType:"Tahoma,0,12",
+formIndex:28,
+location:"1086,77",
+size:"212,20",
+text:"type",
+transparent:true,
+typeid:7,
+uuid:"2B28A187-1381-410D-AB18-3AA561C5F142"
+},
+{
+fontType:"Tahoma,1,12",
+formIndex:29,
+location:"1019,77",
+size:"63,20",
+text:"Operador:",
+transparent:true,
+typeid:7,
+uuid:"2B69E769-4044-45C3-B59B-061D473C4FE4"
+},
+{
+borderType:"TitledBorder,Datos del Paciente,4,0",
+lineSize:1,
+location:"5,66",
+size:"805,53",
+transparent:true,
+typeid:21,
+uuid:"3051E2C2-42AF-48A5-917A-69C6EEBA5D61"
+},
+{
+fontType:"Tahoma,1,12",
+formIndex:13,
+location:"275,124",
+name:"lbl_1",
+size:"182,20",
+text:"Seleccione Hoja del día y hora",
+transparent:true,
+typeid:7,
+uuid:"370F28B8-644A-4E03-9D42-94844F945332"
+},
+{
+displaysTags:true,
+formIndex:12,
+imageMediaID:"18C3A590-6587-42EB-9FF9-6D290D6CFB0B",
+location:"829,7",
+mediaOptions:6,
+name:"btn_graba",
+onActionMethodID:"4E166B72-E1E3-4C1A-8947-69A77534272D",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+size:"58,58",
+toolTipText:"<html><body><H4>Haga click sobre este botón para grabar<BR>\r
+la Hoja de Enfermería del paciente<BR>\r
+ %%globals.vApeyNom%%<BR>\r
+del día %%fecha_edit%% y hora %%hora_edit%%<BR>\r
+Sólo podrá hacerlo cuando todos los campos<BR>\r
+obligatorios hayan sido ingresados<\/H4>\r
+<\/body><\/html>",
+transparent:true,
+typeid:7,
+uuid:"3EF1D79D-9444-4660-937A-B11FC271B274"
+},
+{
+displaysTags:true,
+fontType:"Tahoma,1,16",
+formIndex:18,
+location:"911,7",
+mediaOptions:1,
+name:"btn_salir",
+onActionMethodID:"495C883C-83D0-41D6-A331-0B6171EFF748",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+size:"86,31",
+text:"Volver",
+toolTipText:"<html><body><H4>Haga click aquí para volver a la pantalla anterior.<BR>\r
+Si no grabó perderá todos los cambios.<\/H4>\r
+<\/body><\/html>",
+typeid:7,
+uuid:"4993E45B-CB34-4777-8E35-723DEAF9DE08"
+},
+{
+fontType:"Tahoma,1,14",
+formIndex:30,
+horizontalAlignment:4,
+location:"685,10",
+size:"51,26",
+text:"Hora",
+transparent:true,
+typeid:7,
+uuid:"513EAA9A-B17A-493E-8B81-66880119B157"
+},
+{
+fontType:"Tahoma,1,14",
+formIndex:23,
+horizontalAlignment:4,
+location:"448,10",
+size:"109,26",
+text:"Fecha Actual",
+transparent:true,
+typeid:7,
+uuid:"60AFA1DC-925B-47E5-8683-D8F05D210F06"
+},
+{
+dataProviderID:"scopes.globals.vFechaActualEnfermeria",
+editable:false,
+enabled:false,
+fontType:"Times New Roman,1,16",
+formIndex:24,
+format:"dd-MM-yyyy|dd-MM-yyyy",
+horizontalAlignment:0,
+location:"564,10",
+size:"111,26",
+transparent:true,
+typeid:4,
+uuid:"612C3157-C07E-4BC9-9983-606D3A2D3FA6"
+},
+{
+fontType:"Tahoma,1,12",
+formIndex:3,
+location:"778,117",
+name:"lbl_3",
+size:"36,27",
+text:"Hora",
+transparent:true,
+typeid:7,
+uuid:"6490CC2C-E25F-43EF-AFC8-769BFD1A7BD4"
+},
+{
+fontType:"Tahoma,1,12",
+foreground:"#040404",
+formIndex:19,
+location:"904,117",
+name:"btn_nuevo_registro",
+onActionMethodID:"A96A326E-9ED0-464F-80F1-57E61F95CFF3",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+size:"114,27",
+text:"Abrir Nueva",
+typeid:7,
+uuid:"66628357-B317-4E51-9D6F-B10137C9B9C6"
+},
+{
+dataProviderID:"globals.vFechayHora",
+displayType:2,
+displaysTags:true,
+formIndex:14,
+location:"459,117",
+name:"box_fecha_hora",
+onActionMethodID:"5CB4466E-56BB-468E-B8D3-96AC5B4E8A6F",
+onDataChangeMethodID:"-1",
+size:"143,27",
+toolTipText:"Seleccione la fecha y hora que desea ver.",
+typeid:4,
+uuid:"690C494C-A124-4089-A920-A89FDA230258",
+valuelistID:"796E5A56-E0C9-4615-8912-F5369C981885"
+},
+{
+fontType:"Tahoma,1,12",
+formIndex:4,
+horizontalAlignment:0,
+location:"598,87",
+size:"46,20",
+text:"Cama",
+transparent:true,
+typeid:7,
+uuid:"7F66D78D-6B02-4099-88AF-5AD4E1D617A2"
+},
+{
+dataProviderID:"scopes.globals.vHora_aux",
+displayType:2,
+fontType:"Tahoma,1,13",
+formIndex:2,
+location:"815,117",
+name:"box_hora",
+onActionMethodID:"E0092884-6DDC-4282-A1FB-0355AF8830D7",
+onDataChangeMethodID:"F875D3E4-4D69-4955-9E77-2D8A9C05D316",
+size:"84,27",
+typeid:4,
+uuid:"82BA7633-6BEC-4D74-A115-175360623970",
+valuelistID:"803266C5-2537-45FF-971D-E6602AE6E98D"
+},
+{
+displaysTags:true,
+fontType:"Tahoma,1,16",
+formIndex:27,
+horizontalAlignment:0,
+location:"911,53",
+name:"btn_limpia",
+onActionMethodID:"29E6040F-7397-429E-AE88-49E1283C552D",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+size:"86,29",
+text:"Limpia",
+toolTipText:"<html><body><H4>Haga click aquí para limpiar la pantalla.<BR>\r
+Si no grabó perderá todos los cambios.<\/H4>\r
+<\/body><\/html>",
+typeid:7,
+uuid:"82BABBCB-6205-484E-92F7-7F321E5E34E5"
+},
+{
+borderType:"EtchedBorder,0,null,null",
+dataProviderID:"globals.vEstadoAccion",
+displaysTags:true,
+fontType:"Tahoma,1,16",
+formIndex:25,
+horizontalAlignment:0,
+location:"1043,10",
+size:"181,31",
+text:"type",
+transparent:true,
+typeid:7,
+uuid:"88C56D7D-2E6C-4467-8315-3F8D4DC39891"
+},
+{
+fontType:"Tahoma,1,12",
+formIndex:1,
+horizontalAlignment:0,
+location:"607,117",
+name:"lbl_2",
+size:"49,27",
+text:"Fecha",
+transparent:true,
+typeid:7,
+uuid:"94352A83-7C67-41DB-A07B-F720C9079BA3"
+},
+{
+borderType:"LineBorder,1,#000000",
+dataProviderID:"vhiscli_to_tbc_admision_scroll.adm_histclinuni",
+formIndex:7,
+horizontalAlignment:4,
+location:"718,87",
+margin:"0,0,0,5",
+transparent:true,
+typeid:7,
+uuid:"97A78BCC-B5B5-4D0B-9F39-C5F9D37DD5CF",
+verticalAlignment:0
+},
+{
+beanClassName:"com.ibm.clock.IClock",
+beanXML:"<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<java version=\"1.7.0_21\" class=\"java.beans.XMLDecoder\">
+ <object class=\"com.ibm.clock.IClock\">
+  <void property=\"size\">
+   <object class=\"java.awt.Dimension\" id=\"Dimension0\">
+    <void class=\"java.awt.Dimension\" method=\"getField\">
+     <string>width<\/string>
+     <void method=\"set\">
+      <object idref=\"Dimension0\"/>
+      <int>95<\/int>
+     <\/void>
+    <\/void>
+    <void class=\"java.awt.Dimension\" method=\"getField\">
+     <string>height<\/string>
+     <void method=\"set\">
+      <object idref=\"Dimension0\"/>
+      <int>24<\/int>
+     <\/void>
+    <\/void>
+   <\/object>
+  <\/void>
+  <void property=\"analogNumeralFont\">
+   <object class=\"javax.swing.plaf.FontUIResource\">
+    <string>Segoe UI<\/string>
+    <int>0<\/int>
+    <int>12<\/int>
+   <\/object>
+  <\/void>
+  <void property=\"digitalBackGroundColor\">
+   <object class=\"java.awt.Color\">
+    <int>193<\/int>
+    <int>224<\/int>
+    <int>255<\/int>
+    <int>255<\/int>
+   <\/object>
+  <\/void>
+  <void property=\"digitalDisplayAMPM\">
+   <boolean>false<\/boolean>
+  <\/void>
+  <void property=\"digitalDisplayStyle\">
+   <int>2<\/int>
+  <\/void>
+  <void property=\"digitalNumeralFont\">
+   <object class=\"java.awt.Font\">
+    <string>Tahoma<\/string>
+    <int>1<\/int>
+    <int>16<\/int>
+   <\/object>
+  <\/void>
+  <void property=\"digitalTwelveHourMode\">
+   <boolean>false<\/boolean>
+  <\/void>
+  <void property=\"displayMode\">
+   <int>5<\/int>
+  <\/void>
+  <void property=\"timeZone\">
+   <void property=\"ID\">
+    <string>America/Argentina/Buenos_Aires<\/string>
+   <\/void>
+  <\/void>
+ <\/object>
+<\/java>
+",
+formIndex:22,
+location:"736,12",
+name:"bean_417",
+size:"69,24",
+typeid:12,
+uuid:"9D5E3B83-1B0F-4248-8217-D84EEE49C470"
+},
+{
+fontType:"Tahoma,1,12",
+formIndex:10,
+horizontalAlignment:0,
+location:"506,87",
+size:"43,20",
+text:"Habit.",
+transparent:true,
+typeid:7,
+uuid:"B0CE7233-0BD2-4BEF-9F0B-54E99990E9B3"
+},
+{
+borderType:"LineBorder,1,#000000",
+dataProviderID:"vhiscli_to_tbc_admision_scroll.adm_apelnom",
+formIndex:9,
+horizontalAlignment:2,
+location:"211,87",
+margin:"0,5,0,0",
+size:"292,20",
+transparent:true,
+typeid:7,
+uuid:"B74ACB03-F546-4F0D-BF45-ADF41844D827",
+verticalAlignment:0
+},
+{
+fontType:"Tahoma,1,12",
+foreground:"#000000",
+formIndex:32,
+location:"275,117",
+name:"btn_modifica",
+onActionMethodID:"598CD2A8-6866-460D-B8DE-64085429AC80",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+size:"135,27",
+text:"Modifica Hoja",
+typeid:7,
+uuid:"B8341895-FF6E-4B11-8C2E-FDD1AA06E990"
+},
+{
+formIndex:20,
+horizontalAlignment:0,
+labelFor:"",
+location:"808,71",
+name:"lbl_4",
+size:"106,20",
+transparent:true,
+typeid:7,
+uuid:"C5EC8F97-FE91-4DAD-9F20-2F444CD576AA"
+},
+{
+dataProviderID:"scopes.globals.tit_tabless_pricipal",
+displaysTags:true,
+fontType:"Tahoma,1,18",
+foreground:"#000000",
+formIndex:26,
+horizontalAlignment:0,
+location:"333,38",
+size:"470,28",
+transparent:true,
+typeid:7,
+uuid:"CB5CE8C1-5C52-4FF0-9E4F-D94601791D1D"
+},
+{
+height:688,
+partType:5,
+typeid:19,
+uuid:"CE7A2BAA-302A-4D4A-8578-DD69890139E6"
+},
+{
+dataProviderID:"globals.vFecha",
+displayType:5,
+formIndex:4,
+format:"dd-MM-yyyy|dd-MM-yyyy",
+location:"654,117",
+name:"fld_fecha",
+size:"118,27",
+toolTipText:"<html><body><H4>Seleccione la fecha de la Hoja de Enfermería a crear.<BR>\r
+Si el turno que informa es el de 22:00 a 6:00 hs, <BR>\r
+la fecha seleccionada puede ser del día anterior, <BR>\r
+si es así, la hora seleccionada no debe ser menor<BR>\r
+a las 22:00 hs. En todos los demás casos la fecha<BR>\r
+debe ser la fecha actual<\/H4>\r
+<\/body><\/html>",
+typeid:4,
+uuid:"D302DA32-8067-4658-B1FD-4CB23BE1B928"
+},
+{
+borderType:"LineBorder,1,#000000",
+dataProviderID:"vhiscli_to_tbc_admision_scroll.adm_histclin",
+formIndex:6,
+horizontalAlignment:4,
+location:"119,87",
+margin:"0,0,0,5",
+size:"87,20",
+transparent:true,
+typeid:7,
+uuid:"D504E879-4CBA-4E5D-970B-B56E8BC41596",
+verticalAlignment:0
+},
+{
+fontType:"Tahoma,1,12",
+formIndex:8,
+location:"15,87",
+size:"105,20",
+text:"Nro. Internación",
+transparent:true,
+typeid:7,
+uuid:"D9D9D3AE-AADD-4FDA-9600-BC5179FDEE2B"
+},
+{
+borderType:"EmptyBorder,0,0,0,0",
+displaysTags:true,
+enabled:false,
+formIndex:31,
+location:"1055,101",
+size:"243,48",
+text:"<html><body><H4>(*) Datos de ingreso obligatorio<BR>en la primer evolución de cada turno<\/H4><\/body><\/html>",
+transparent:true,
+typeid:7,
+uuid:"DBDFA1C9-E25D-49D4-99E6-6B4322E0A9A9",
+verticalAlignment:3
+},
+{
+borderType:"LineBorder,1,#000000",
+dataProviderID:"vhiscli_to_tbc_admision_scroll.adm_cama",
+formIndex:3,
+horizontalAlignment:0,
+location:"647,87",
+size:"18,20",
+transparent:true,
+typeid:7,
+uuid:"E9A07F8A-E987-4B9A-B083-814BFCEAD0B1",
+verticalAlignment:0
+},
+{
+displaysTags:true,
+fontType:"Tahoma,1,12",
+formIndex:16,
+location:"155,117",
+name:"btn_nueva",
+onActionMethodID:"0A13C2D7-939F-4F90-8BB5-87D89C4B3744",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+size:"107,27",
+text:"Nueva Hoja",
+toolTipText:"<html><body><H4>Haga click sobre este botón para crear<BR>\r
+una nueva hoja de enfermería <BR>\r
+del paciente %%globals.vApeyNom%%<\/H4>\r
+<\/body><\/html>",
+typeid:7,
+uuid:"F3A7BFA5-48DA-407E-9DA1-A7A0111D0D69"
+},
+{
+borderType:"LineBorder,1,#000000",
+dataProviderID:"vhiscli_to_tbc_admision_scroll.adm_habita",
+formIndex:5,
+horizontalAlignment:0,
+location:"551,87",
+size:"45,20",
+transparent:true,
+typeid:7,
+uuid:"F411ACCD-E5F5-439A-AC58-108DBB909CB1",
+verticalAlignment:0
+}
+],
+name:"tabless_principal",
+navigatorID:"-2",
+onHideMethodID:"-1",
+onLoadMethodID:"-1",
+onShowMethodID:"BB3F7790-AACD-4A13-9437-0BC4EB838A48",
+onUnLoadMethodID:"6468447E-5EBF-469E-AEB2-2FF1FA06739B",
+showInMenu:true,
+size:"1313,688",
+styleName:"planillaUti",
+typeid:3,
+uuid:"54890DC7-5310-4CEE-B959-F6A60668FD60",
+view:0

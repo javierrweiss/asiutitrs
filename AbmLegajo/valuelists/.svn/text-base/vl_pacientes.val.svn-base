@@ -1,0 +1,17 @@
+addEmptyValue:1,
+customValues:"P A M I|1
+Obras Sociales|2
+Prepagas|3
+Particulares|4
+Empresas|5
+Personal Sanatorio|6
+Plan Salud|7
+
+
+
+",
+name:"vl_pacientes",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"95587275-DD60-4A2F-A5EE-856068881042"

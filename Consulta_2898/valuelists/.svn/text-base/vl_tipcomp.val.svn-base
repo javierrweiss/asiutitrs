@@ -1,0 +1,28 @@
+addEmptyValue:1,
+customValues:"|0\r
+Factura|1\r
+Nota de Débito|2\r
+Nota de Crédito|3\r
+Pago|4\r
+Nota de Crédito|6\r
+Nota de Cr. x Deb.|7\r
+Refactura|9\r
+Liquidación|12\r
+Factura|21\r
+Nota de Crédito|23\r
+Sueldo|31\r
+Aguinaldo|32\r
+Vacaciones|33\r
+Liq. Final|34\r
+Est. Aguinaldo|35\r
+Bono Sanidad|39\r
+H. Ext. 50%|40\r
+H. Ext. 100%|41\r
+H. Ext. 150%|42\r
+Prefactura|88\r
+CP|77",
+name:"vl_tipcomp",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"66A5FBB1-82DF-47FF-8F9F-E546B9F8D73D"

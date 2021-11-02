@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_articulos",
+items:[
+{foreignColumnName:"art_codigo",primaryDataProviderID:"scopes.globals.gbl_vArticulo",typeid:23,uuid:"FC83A0D6-A585-4079-9C25-A02F70E30DCB"}
+],
+name:"tbc_articulos_to_tbc_articulos",
+primaryDataSource:"db:/maestros/tbc_articulos",
+typeid:22,
+uuid:"7C1768F1-6F00-47E7-9899-A6416D540650"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_mae_prot",
+initialSort:"mp_codiprot asc",
+items:[
+{foreignColumnName:"mp_codiprot",operator:4,primaryDataProviderID:"scopes.globals.gbl_protesisCodigo",typeid:23,uuid:"4984123F-4173-4CD6-9013-A53EB2B5CE74"}
+],
+name:"protesis_buscar_codigo",
+primaryDataSource:"db:/asistencial/tbc_mae_prot",
+typeid:22,
+uuid:"17F3F94A-7B4E-48DF-B116-3B312EBCE29C"

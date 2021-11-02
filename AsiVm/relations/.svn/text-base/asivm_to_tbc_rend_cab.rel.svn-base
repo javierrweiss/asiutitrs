@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_rend_cab",
+items:[
+{foreignColumnName:"rcperiodo",primaryDataProviderID:"scopes.globals.AsiVm_Mod_rcPeriodo",typeid:23,uuid:"2EC0DBE2-4F8A-43F1-B2CC-D85B68D65747"},
+{foreignColumnName:"rcempresa",primaryDataProviderID:"scopes.globals.AsiVm_Mod_rcEmpresa",typeid:23,uuid:"3B8FD5C9-2F6E-4C5D-9801-20CA77E2E317"},
+{foreignColumnName:"rcadmision",primaryDataProviderID:"scopes.globals.AsiVm_Mod_rcAdmision",typeid:23,uuid:"73A0A040-29E1-4F3B-AD50-7474E6942B05"},
+{foreignColumnName:"rchclinica",primaryDataProviderID:"scopes.globals.AsiVm_Mod_rcHClinica",typeid:23,uuid:"B4A4804A-0806-4B96-958D-6C7FABA9F6C3"},
+{foreignColumnName:"rccierre",primaryDataProviderID:"scopes.globals.AsiVm_Mod_rcCierre",typeid:23,uuid:"EA96348B-2035-4E37-B365-6D5938779EB5"}
+],
+joinType:1,
+name:"asivm_to_tbc_rend_cab",
+primaryDataSource:"db:/asistencial/tbc_rend_cab",
+typeid:22,
+uuid:"304156A2-F84E-4682-BAA2-D7CF5CAA7F36"

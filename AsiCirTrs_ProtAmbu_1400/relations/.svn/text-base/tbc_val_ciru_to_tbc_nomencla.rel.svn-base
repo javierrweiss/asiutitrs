@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+items:[
+{foreignColumnName:"nome_tipo",primaryDataProviderID:"vcirtiponome",typeid:23,uuid:"632D9D48-7774-41EE-B81C-C581B34FA46D"},
+{foreignColumnName:"nome_codigo",primaryDataProviderID:"vcircodnome",typeid:23,uuid:"91D4A34D-4B42-4864-B248-7A093A72BF70"}
+],
+name:"tbc_val_ciru_to_tbc_nomencla",
+primaryDataSource:"db:/asistencial/tbc_val_ciru",
+typeid:22,
+uuid:"74674D6E-24DA-42D9-9109-AACC001762D5"

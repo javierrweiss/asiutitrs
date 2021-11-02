@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"A prueba x 3 meses|1\r
+Eventual|2\r
+Plazo Fijo|3\r
+Residente|4",
+name:"vl_tipo_contrato",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"DF962B99-ED57-4D29-939F-260AA04F2DE5"

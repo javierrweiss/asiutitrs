@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"No|1\r
+Ocasional, nocturno o stress|2\r
+Urinaria solamente|3\r
+Urinaria e intestinal|4",
+name:"vl_incontinencia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"8A3519F7-A44C-4EFA-8C8A-828C41C09CEB"

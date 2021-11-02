@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+items:[
+{foreignColumnName:"medpercod",primaryDataProviderID:"scopes.globals.AtCons_vlega",typeid:23,uuid:"BE473E11-3F94-45EA-8D01-1D51F415A8DE"}
+],
+name:"atcons_gbl_to_tbc_medicos_personal",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"CF360799-362F-470E-809C-90DF987A3ED1"

@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"24 Hs.|1\r
+48 Hs.|2\r
+72 Hs.|3\r
+96 Hs.|4",
+name:"Palab_vl_diferido",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"BBA8BFD0-246D-4430-948C-E5D12E17DA55"

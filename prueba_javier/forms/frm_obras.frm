@@ -1,0 +1,92 @@
+dataSource:"db:/maestros/tbc_obras",
+items:[
+{
+dataProviderID:"obr_cuit",
+location:"140,20",
+name:"obr_cuit",
+size:"140,20",
+text:"Obr Cuit",
+typeid:4,
+uuid:"15E4A65B-D6A6-408C-97C2-30E192305F41"
+},
+{
+labelFor:"obr_telefonos",
+location:"576,0",
+name:"obr_telefonos_label",
+size:"211,20",
+text:"Obr Telefonos",
+transparent:true,
+typeid:7,
+uuid:"17AA4E13-13F3-432B-B9EB-C4A591A28385"
+},
+{
+labelFor:"obr_codigo",
+location:"0,0",
+name:"obr_codigo_label",
+size:"140,20",
+text:"Obr Codigo",
+transparent:true,
+typeid:7,
+uuid:"2C4C2E0A-34ED-4F85-A06F-992D9E46FFB6"
+},
+{
+labelFor:"obr_cuit",
+location:"140,0",
+name:"obr_cuit_label",
+size:"140,20",
+text:"Obr Cuit",
+transparent:true,
+typeid:7,
+uuid:"566C0242-CF34-4B1F-8AEE-427070F2E085"
+},
+{
+labelFor:"obr_nomadmis",
+location:"280,0",
+name:"obr_nomadmis_label",
+size:"296,20",
+text:"Obr Nomadmis",
+transparent:true,
+typeid:7,
+uuid:"6A901E2C-7BF3-4CE2-B03B-D71B25FD6B33"
+},
+{
+dataProviderID:"obr_telefonos",
+location:"576,20",
+name:"obr_telefonos",
+size:"211,20",
+text:"Obr Telefonos",
+typeid:4,
+uuid:"991DB930-5B41-4F24-B856-09ACCE92ED0D"
+},
+{
+dataProviderID:"obr_nomadmis",
+location:"280,20",
+name:"obr_nomadmis",
+size:"296,20",
+text:"Obr Nomadmis",
+typeid:4,
+uuid:"9FC037C0-0428-47C9-BC67-7EE73E1AF682"
+},
+{
+dataProviderID:"obr_codigo",
+editable:false,
+location:"0,20",
+name:"obr_codigo",
+size:"140,20",
+text:"Obr Codigo",
+typeid:4,
+uuid:"F63707EB-11DD-481E-BB4E-8B49D66B93D8"
+},
+{
+height:587,
+partType:5,
+typeid:19,
+uuid:"FDA99176-F3C0-4699-B00B-5D13CD614457"
+}
+],
+name:"frm_obras",
+showInMenu:true,
+size:"797,587",
+typeid:3,
+uuid:"A585F497-0A36-427F-80BB-34EFFDF55362",
+view:3

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_conc",
+items:[
+{foreignColumnName:"conc1",primaryDataProviderID:"scopes.globals.vConcepto",typeid:23,uuid:"143E0A7A-0E66-4AA5-93FE-331FA7863EE3"}
+],
+name:"vconcepto_to_tbc_conc",
+primaryDataSource:"db:/rrhh/tbc_conc",
+typeid:22,
+uuid:"4405C058-CE24-4386-9AF8-13FF7A4C36DF"

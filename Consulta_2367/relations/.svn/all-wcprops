@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/proyecto1/!svn/ver/1682/Consulta_2367/relations
+END
+tbc_personal_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/1682/Consulta_2367/relations/tbc_personal_to_tbc_personal.rel
+END
+tbc_hist_cab_new_to_tbc_hist_cab_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/proyecto1/!svn/ver/1682/Consulta_2367/relations/tbc_hist_cab_new_to_tbc_hist_cab_new.rel
+END
+tbc_obras_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1682/Consulta_2367/relations/tbc_obras_to_tbc_obras.rel
+END
+tbc_admision_scroll_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/1682/Consulta_2367/relations/tbc_admision_scroll_to_tbc_admision_scroll.rel
+END
+tbc_medicos_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/proyecto1/!svn/ver/1682/Consulta_2367/relations/tbc_medicos_to_tbc_medicos.rel
+END

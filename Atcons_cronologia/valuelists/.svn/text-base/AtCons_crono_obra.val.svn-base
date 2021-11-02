@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"obr_codigo",
+dataProviderID2:"obr_razonsoc",
+dataSource:"db:/maestros/tbc_obras",
+name:"AtCons_crono_obra",
+returnDataProviders:1,
+showDataProviders:2,
+typeid:34,
+uuid:"438C333E-DA9F-4EE0-9B9D-E32916504DB8",
+valueListType:1

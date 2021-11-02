@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_causas",
+initialSort:"cau1 asc",
+items:[
+{foreignColumnName:"cau1",primaryDataProviderID:"scopes.globals.vCausa",typeid:23,uuid:"CAE1C3D7-8F90-48C1-A362-5758C71976C4"}
+],
+name:"vcausa_to_tbc_causas",
+primaryDataSource:"db:/rrhh/tbc_causas",
+typeid:22,
+uuid:"B086B5A2-6F38-4C5C-B8D8-BA60C3D8B39F"

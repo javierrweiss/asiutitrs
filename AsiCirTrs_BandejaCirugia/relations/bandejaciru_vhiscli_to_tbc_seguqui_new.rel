@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_seguqui_new",
+items:[
+{foreignColumnName:"segtipohc",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"562CC89C-AC0D-46DD-B07A-38EA57AF6BFE"},
+{foreignColumnName:"seghistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"AB784EE8-C73A-4A8C-A71F-C897AE6D5341"},
+{foreignColumnName:"segfechacarga",primaryDataProviderID:"scopes.globals.bandejaciru_fechaingreso",typeid:23,uuid:"C37CFA70-F3D9-4BF0-9036-D7CEAB4D1B86"},
+{foreignColumnName:"seghoracarga",primaryDataProviderID:"scopes.globals.bandejaciru_horaingreso",typeid:23,uuid:"D0355069-50BD-4DBC-B818-DB738C59862C"}
+],
+name:"bandejaciru_vhiscli_to_tbc_seguqui_new",
+primaryDataSource:"db:/asistencial/tbc_seguqui_new",
+typeid:22,
+uuid:"FE747ECF-C8BD-43DA-91D5-A9794F50001F"

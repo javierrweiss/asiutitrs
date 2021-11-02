@@ -1,0 +1,17 @@
+addEmptyValue:1,
+customValues:"-5|-5\r
+-4|-4\r
+-3|-3\r
+-2|-2\r
+-1|-1\r
+0|0\r
+1|1\r
+2|2\r
+3|3\r
+4|4\r
+",
+name:"AsiVm_vl_rass",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"83A75489-B7EF-495D-A58F-4F0A3FC45ACA"

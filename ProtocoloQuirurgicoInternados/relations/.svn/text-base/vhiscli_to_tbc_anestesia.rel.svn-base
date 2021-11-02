@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anestesia",
+items:[
+{foreignColumnName:"anes_horcarga",primaryDataProviderID:"scopes.globals.vHorcarga",typeid:23,uuid:"05789B9C-128F-4FD9-ADE3-43F8520DAF43"},
+{foreignColumnName:"anes_histclin",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"617B9A1C-A46F-4801-8A63-DE929C73C2B8"},
+{foreignColumnName:"anes_feccarga",primaryDataProviderID:"scopes.globals.vFeccarga",typeid:23,uuid:"FA6D7A6A-2372-4B19-975C-5BC206D372F4"}
+],
+name:"vhiscli_to_tbc_anestesia",
+primaryDataSource:"db:/asistencial/tbc_anestesia",
+typeid:22,
+uuid:"13D32893-2708-40FC-8641-16B23D9DEA09"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_imapedi_new",
+items:[
+{foreignColumnName:"ipedservicio",primaryDataProviderID:"scopes.globals.Hcipiso_ipedServicio",typeid:23,uuid:"06A8ECC8-8C6C-4D19-B03F-A24AC6BCA3C7"},
+{foreignColumnName:"ipedpedido",primaryDataProviderID:"scopes.globals.Hcipiso_ipedPedido",typeid:23,uuid:"B16CE05C-8470-43D7-8BC2-43EF2F1A7481"}
+],
+joinType:1,
+name:"hcipiso_rel_imapedi_new",
+primaryDataSource:"db:/asistencial/tbc_imapedi_new",
+typeid:22,
+uuid:"F1D57E04-DAEA-45C4-9ACB-979A6A278378"

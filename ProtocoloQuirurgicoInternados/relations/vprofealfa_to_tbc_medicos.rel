@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_medicos",
+initialSort:"med_apenomred asc",
+items:[
+{foreignColumnName:"med_apenomred",operator:4,primaryDataProviderID:"globals.vProfeAlfa",typeid:23,uuid:"EA863F0F-7BB2-4632-AE03-3494ECB53F51"}
+],
+joinType:0,
+name:"vprofealfa_to_tbc_medicos",
+primaryDataSource:"db:/validalegajo/tbc_medicos",
+typeid:22,
+uuid:"C171AC9D-620D-4C7D-8FAC-5F4C18469894"

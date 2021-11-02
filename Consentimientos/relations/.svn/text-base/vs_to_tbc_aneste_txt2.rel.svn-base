@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_aneste_txt",
+initialSort:"anestxt_protocolo asc, anestxt_grupo asc, anestxt_nro1 asc, anestxt_secuen asc",
+items:[
+{foreignColumnName:"anestxt_nro1",primaryDataProviderID:"scopes.globals.nro1",typeid:23,uuid:"8CE6179E-BADD-485B-A9A7-E77E8A948880"},
+{foreignColumnName:"anestxt_grupo",primaryDataProviderID:"scopes.globals.grupo",typeid:23,uuid:"9F787899-BB39-4561-B44B-620E0221C99E"},
+{foreignColumnName:"anestxt_protocolo",primaryDataProviderID:"scopes.globals.hisclin",typeid:23,uuid:"C806CC0C-B3E9-48CC-A0F1-3E66D153C5DB"}
+],
+name:"vs_to_tbc_aneste_txt2",
+primaryDataSource:"db:/asistencial/tbc_aneste_txt",
+typeid:22,
+uuid:"A4E311F9-2B54-44E4-BF82-BE8348CC8851"

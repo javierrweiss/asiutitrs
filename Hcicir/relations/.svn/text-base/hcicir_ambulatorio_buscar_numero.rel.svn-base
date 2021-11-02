@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hist_cab_new",
+initialSort:"",
+items:[
+{foreignColumnName:"histcabnrounico",operator:4,primaryDataProviderID:"scopes.globals.Hcicir_hiscli",typeid:23,uuid:"0C3C060D-E30B-427E-9760-BD1F9838C434"}
+],
+name:"hcicir_ambulatorio_buscar_numero",
+primaryDataSource:"db:/asistencial/tbc_hist_cab_new",
+typeid:22,
+uuid:"134B36F1-E487-43D8-93EA-EB1D1EB6A577"

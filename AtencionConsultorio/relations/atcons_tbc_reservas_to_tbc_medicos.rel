@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.AtCons_vlega",typeid:23,uuid:"755515EB-33C5-4E19-8C7C-E6070D83A4E8"}
+],
+joinType:1,
+name:"atcons_tbc_reservas_to_tbc_medicos",
+primaryDataSource:"db:/asistencial/tbc_reservas",
+typeid:22,
+uuid:"C392A8EA-94F1-40E4-A847-242A9901D29C"

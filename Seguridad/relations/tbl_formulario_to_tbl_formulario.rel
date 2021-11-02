@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_formulario",
+items:[
+{foreignColumnName:"codigo",primaryDataProviderID:"scopes.globals.gbl_codigo_formulario",typeid:23,uuid:"AFD7B0F7-F013-45CC-84C3-8D332CC9CEB9"},
+{foreignColumnName:"codigo_solucion",primaryDataProviderID:"scopes.globals.gbl_codigo_solucion",typeid:23,uuid:"DC61347D-EA1B-4106-BB01-A66CF577B949"}
+],
+name:"tbl_formulario_to_tbl_formulario",
+primaryDataSource:"db:/desal/tbl_formulario",
+typeid:22,
+uuid:"9B53384C-2A5A-4C43-AC2A-FCD6D2F12543"

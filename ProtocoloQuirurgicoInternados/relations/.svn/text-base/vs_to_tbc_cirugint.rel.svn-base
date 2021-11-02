@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_cirugint",
+initialSort:"cirihistcl asc, ciritiponome asc, ciricodnome asc, ciriestado asc",
+items:[
+{foreignColumnName:"ciriestado",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"31AC7507-77DA-4414-817F-B81E59F2F5ED"},
+{foreignColumnName:"ciricodnome",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"57CB9C8C-F546-4D36-A231-857C1A99A4F6"},
+{foreignColumnName:"cirihistcl",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"6F8BE0E8-9BA1-4F54-AC7B-C6CD587E2167"},
+{foreignColumnName:"ciritiponome",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"BB6E0E8D-D634-41CA-A763-B9CDDB3EFC2D"}
+],
+name:"vs_to_tbc_cirugint",
+primaryDataSource:"db:/asistencial/tbc_cirugint",
+typeid:22,
+uuid:"66702545-DF1F-4A67-ABB9-20F7BE7C4725"

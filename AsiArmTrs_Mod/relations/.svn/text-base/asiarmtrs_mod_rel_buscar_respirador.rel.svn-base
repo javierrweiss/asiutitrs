@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_respirador",
+items:[
+{foreignColumnName:"rsp_enuso",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"D2F05A33-806D-4E86-830D-D89810CF0E77"}
+],
+name:"asiarmtrs_mod_rel_buscar_respirador",
+primaryDataSource:"db:/asistencial/tbc_respirador",
+typeid:22,
+uuid:"887E84AB-3BB0-4E32-B569-CDBBFBE0B76A"

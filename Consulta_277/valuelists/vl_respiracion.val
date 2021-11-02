@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"|0
+Espontanea|1
+Asistida|2",
+name:"vl_respiracion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"5CABF3DC-B272-426E-9840-36249D0493E4"

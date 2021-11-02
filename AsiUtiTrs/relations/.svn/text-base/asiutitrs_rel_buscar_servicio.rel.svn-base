@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_servicios",
+items:[
+{foreignColumnName:"servcodigo",primaryDataProviderID:"scopes.globals.AsiUtiTrs_servCodigo",typeid:23,uuid:"07D6D444-6118-4B6B-BD95-90EEA37F6F61"}
+],
+joinType:1,
+name:"asiutitrs_rel_buscar_servicio",
+primaryDataSource:"db:/maestros/tbc_servicios",
+typeid:22,
+uuid:"7A30BC0A-06BE-41A0-82EC-48FDFAFD72DA"

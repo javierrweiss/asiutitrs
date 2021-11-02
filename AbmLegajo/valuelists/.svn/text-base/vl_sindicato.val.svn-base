@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Ninguno|0\r
+A.T.S.A.|1\r
+SADOP.|2",
+name:"vl_sindicato",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"5BBA156E-A662-4387-893A-1C3912E8FDA6"

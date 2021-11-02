@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_admision",
+items:[
+{foreignColumnName:"adm_fecing",primaryDataProviderID:"scopes.globals.gbl_admin_fechaIngreso",typeid:23,uuid:"6804DEA6-825A-490A-A2B7-5CA13961EDA2"}
+],
+name:"tbc_admision_to_tbc_admision",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"9499D167-BA07-4072-8C51-B3CB1CD2F275"

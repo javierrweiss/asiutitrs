@@ -1,0 +1,18 @@
+addEmptyValue:1,
+customValues:"No mejoría clínica|1\r
+No mejoría EAB|2\r
+Deterioro del sensorio|3\r
+Agitación|4\r
+Falla de interfase|5\r
+Asincronía PV|6\r
+Intolerancia|7\r
+VAS|8\r
+Shock|9\r
+PCR|10\r
+Secreciones|11\r
+Otro|12",
+name:"AsiVm_vl_causa_fracasos_vni",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"C34DAD46-5401-48FD-A014-CB0630E3BAF8"

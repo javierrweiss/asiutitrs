@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"En curso| 0\r
+Cerrada|1",
+name:"fichaaneste_estado",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"E2F42D38-0700-4529-865B-44ED7AE67284"

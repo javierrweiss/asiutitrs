@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"tabla_desc",
+dataProviderID2:"tabla_valor_num",
+fallbackValueListID:"9FCAD421-9365-49D3-BAD1-44AEEB999E6D",
+name:"vl_res_ejec_gru",
+relationName:"tbl_tablas_to_tres_ejec_gru",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"08008C83-DF06-425D-99DA-59260B6A96A4",
+valueListType:1

@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"No|0\r
+Si|1",
+name:"vl_NoSi",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"5E94C223-0822-47F3-8723-30D0972DF422"

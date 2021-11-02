@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"$|1\r
+ |2\r
+$|3",
+name:"vl_tipo_valor$",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"1F224EFB-FF67-4368-90AD-B37728D07398"

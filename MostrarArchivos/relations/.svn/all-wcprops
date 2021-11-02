@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/proyecto1/!svn/ver/1752/MostrarArchivos/relations
+END
+mostrararchivos_vlegajo_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/proyecto1/!svn/ver/1600/MostrarArchivos/relations/mostrararchivos_vlegajo_to_tbc_clave_legajo.rel
+END
+mostrararchivos_vlegajo_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/1600/MostrarArchivos/relations/mostrararchivos_vlegajo_to_tbc_medicos.rel
+END
+mostrararchivos_vlegajo_to_tbc_perext.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/1600/MostrarArchivos/relations/mostrararchivos_vlegajo_to_tbc_perext.rel
+END
+mostrararchivos_vlegajo1_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/1600/MostrarArchivos/relations/mostrararchivos_vlegajo1_to_tbc_clave_legajo.rel
+END
+mostrararchivos_vlegajo_to_tbc_personal_login.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/1600/MostrarArchivos/relations/mostrararchivos_vlegajo_to_tbc_personal_login.rel
+END
+vlega_to_permi_legajo_carpetas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/1752/MostrarArchivos/relations/vlega_to_permi_legajo_carpetas.rel
+END

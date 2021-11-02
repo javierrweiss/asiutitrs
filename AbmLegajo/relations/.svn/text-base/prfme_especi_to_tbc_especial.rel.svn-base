@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_especial",
+initialSort:"esp_codi asc",
+items:[
+{foreignColumnName:"esp_codi",primaryDataProviderID:"prfme_especi",typeid:23,uuid:"2526FA60-7251-48C0-8219-8A98FF996E08"}
+],
+name:"prfme_especi_to_tbc_especial",
+primaryDataSource:"db:/rrhh/tbc_profmedesp",
+typeid:22,
+uuid:"CB37DFA2-8FA3-4B64-A5BD-0E970A2B218A"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hciint",
+items:[
+{foreignColumnName:"hiihiscli",primaryDataProviderID:"scopes.globals.Hcipiso_hiiHisCli",typeid:23,uuid:"E6DB6D65-248D-451B-B9E3-A718C70076C0"}
+],
+joinType:1,
+name:"hcipiso_rel_buscar_hciint",
+primaryDataSource:"db:/asistencial/tbc_hciint",
+typeid:22,
+uuid:"91367E0A-F2FF-4666-BC7C-580AA09D5ECD"

@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Mantiene SaO2 > 92% con aire ambiente|3\r
+
+Necesita O2 para mantener SaO2 > 90%|2\r
+
+SaO2 < 90% con O2 suplementario|1",
+name:"protambu1400_vl_aldrete_saturacion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"48A2590B-D005-42F7-A42F-1A70CCA83226"

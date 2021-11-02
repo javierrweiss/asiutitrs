@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"1|1
+2|2
+3|3
+4|4
+5|5
+6|6
+7|7
+8|8
+9|9
+10|10",
+name:"Apgar_copy",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"45CE3760-8AB1-41A2-B6E0-0DDB547E2753"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_servicios",
+items:[
+{foreignColumnName:"servcodigo",primaryDataProviderID:"scopes.globals.Hcipiso_servCodigo",typeid:23,uuid:"921D6D18-3246-4DE5-A7A9-2AC353B9AF69"}
+],
+joinType:1,
+name:"hcipiso_rel_buscar_servicio",
+primaryDataSource:"db:/maestros/tbc_servicios",
+typeid:22,
+uuid:"38024469-DCD2-4AE7-8B69-B7394695A107"

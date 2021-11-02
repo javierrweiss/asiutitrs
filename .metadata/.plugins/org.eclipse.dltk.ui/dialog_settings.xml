@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="CallHierarchyViewPart.call_mode"/>
+	<item value="3" key="CallHierarchyViewPart.orientation"/>
+	<item value="500" key="CallHierarchyViewPart.ratio1"/>
+	<item value="1" key="SearchScopeActionGroup.search_scope_type"/>
+	<item value="500" key="CallHierarchyViewPart.ratio3"/>
+	<list key="SearchScopeActionGroup.working_set">
+	</list>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="CallHierarchySearchScope">
+		<list key="lastUsedWorkingSetNames0">
+			<item value="Servoy Active Solution"/>
+		</list>
+	</section>
+	<section name="ExtractMethodWizard">
+	</section>
+	<section name="org.eclipse.dltk.internal.ui.text.QuickOutline">
+		<item value="false" key="org.eclipse.dltk.ui.text.ScriptOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+		<item value="false" key="org.eclipse.dltk.ui.text.ScriptOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+	</section>
+	<section name="ModelElementSearchActions">
+		<list key="lastUsedWorkingSetNames0">
+			<item value="Servoy Active Solution"/>
+		</list>
+	</section>
+	<section name="JavascriptDLTKSearchPage">
+		<item value="12" key="HISTORY_SIZE"/>
+		<item value="false" key="CASE_SENSITIVE"/>
+		<section name="HISTORY6">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="modelElement"/>
+			<item value="0" key="scope"/>
+			<item value="asi_bloqueos" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="true" key="includeInterpreterEnvironment"/>
+			<item value="0" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY7">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="modelElement"/>
+			<item value="0" key="scope"/>
+			<item value="ARM" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="true" key="includeInterpreterEnvironment"/>
+			<item value="0" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY10">
+			<item value="true" key="isCaseSensitive"/>
+			<item value="=AtencionConsultorio/&lt;forms{AtCons_reservas.js^f_idmensaje_requesteg" key="modelElement"/>
+			<item value="2" key="scope"/>
+			<item value="f_idmensaje_requesteg" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="false" key="includeInterpreterEnvironment"/>
+			<item value="2" key="searchFor"/>
+			<list key="workingSets">
+				<item value="Servoy Active Solution"/>
+			</list>
+		</section>
+		<section name="HISTORY4">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="modelElement"/>
+			<item value="2" key="scope"/>
+			<item value="txt" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="true" key="includeInterpreterEnvironment"/>
+			<item value="0" key="searchFor"/>
+			<list key="workingSets">
+				<item value="Servoy Active Solution"/>
+			</list>
+		</section>
+		<section name="HISTORY5">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="modelElement"/>
+			<item value="2" key="scope"/>
+			<item value="/export" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="true" key="includeInterpreterEnvironment"/>
+			<item value="0" key="searchFor"/>
+			<list key="workingSets">
+				<item value="Servoy Active Solution"/>
+			</list>
+		</section>
+		<section name="HISTORY11">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="modelElement"/>
+			<item value="2" key="scope"/>
+			<item value="tbc_reservas" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="false" key="includeInterpreterEnvironment"/>
+			<item value="1" key="searchFor"/>
+			<list key="workingSets">
+				<item value="Servoy Active Solution"/>
+			</list>
+		</section>
+		<section name="HISTORY8">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="modelElement"/>
+			<item value="2" key="scope"/>
+			<item value="AsiArmTrs_Mod_wGraboARM" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="true" key="includeInterpreterEnvironment"/>
+			<item value="0" key="searchFor"/>
+			<list key="workingSets">
+				<item value="Servoy Active Solution"/>
+			</list>
+		</section>
+		<section name="HISTORY9">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="modelElement"/>
+			<item value="2" key="scope"/>
+			<item value="btn_editar" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="false" key="includeInterpreterEnvironment"/>
+			<item value="2" key="searchFor"/>
+			<list key="workingSets">
+				<item value="Servoy Active Solution"/>
+			</list>
+		</section>
+		<section name="HISTORY2">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="modelElement"/>
+			<item value="2" key="scope"/>
+			<item value="serv_codigo" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="true" key="includeInterpreterEnvironment"/>
+			<item value="0" key="searchFor"/>
+			<list key="workingSets">
+				<item value="Servoy Active Solution"/>
+			</list>
+		</section>
+		<section name="HISTORY3">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="modelElement"/>
+			<item value="2" key="scope"/>
+			<item value="AsiUtiTrs_isValidForm" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="true" key="includeInterpreterEnvironment"/>
+			<item value="0" key="searchFor"/>
+			<list key="workingSets">
+				<item value="Servoy Active Solution"/>
+			</list>
+		</section>
+		<section name="HISTORY0">
+			<item value="true" key="isCaseSensitive"/>
+			<item value="=AsiUtiTrs/&lt;forms{AsiUtiTrs_dlg_buscar_internado.js~creoDatasetInternadosAlfabetico" key="modelElement"/>
+			<item value="0" key="scope"/>
+			<item value="creoDatasetInternadosAlfabetico()" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="false" key="includeInterpreterEnvironment"/>
+			<item value="1" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY1">
+			<item value="false" key="isCaseSensitive"/>
+			<item value="" key="modelElement"/>
+			<item value="0" key="scope"/>
+			<item value="asiutitrs_rel_alerta" key="pattern"/>
+			<item value="1" key="limitTo"/>
+			<item value="true" key="includeInterpreterEnvironment"/>
+			<item value="0" key="searchFor"/>
+			<list key="workingSets">
+			</list>
+		</section>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+</section>

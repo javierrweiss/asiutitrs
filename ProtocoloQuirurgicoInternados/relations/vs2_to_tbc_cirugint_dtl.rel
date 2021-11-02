@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_cirugint_dtl",
+items:[
+{foreignColumnName:"cirihistcl",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"1441DA64-6A19-4B20-B703-237BA07863A7"},
+{foreignColumnName:"cirifechacarga",primaryDataProviderID:"scopes.globals.vciri_fechacarga",typeid:23,uuid:"19192CB3-378F-47BE-AAB3-0906B45389CB"},
+{foreignColumnName:"cirihoracarga",primaryDataProviderID:"scopes.globals.vciri_horacarga",typeid:23,uuid:"40347921-1F7B-4CC5-8288-E95F1153FD4C"},
+{foreignColumnName:"ciricodnome",primaryDataProviderID:"scopes.globals.vciri_codnome",typeid:23,uuid:"4B9AAC10-4E6E-4FA4-A1D6-7DD126F3F7E8"},
+{foreignColumnName:"ciritiponome",primaryDataProviderID:"scopes.globals.vciri_tiponome",typeid:23,uuid:"8BBE3552-ECB2-46B7-8F5E-0D2FA8F355E4"}
+],
+name:"vs2_to_tbc_cirugint_dtl",
+primaryDataSource:"db:/asistencial/tbc_cirugint_dtl",
+typeid:22,
+uuid:"E804209A-F1A3-4472-84C0-86729E2940FD"

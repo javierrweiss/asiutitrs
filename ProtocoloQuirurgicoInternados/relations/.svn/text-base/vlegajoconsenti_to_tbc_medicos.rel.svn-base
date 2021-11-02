@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_medicos",
+items:[
+{foreignColumnName:"med_codigo",operator:0,primaryDataProviderID:"globals.vLegaConsenti",typeid:23,uuid:"15B0B111-D5A5-4EF4-9BBF-EBAAF6EE583F"}
+],
+joinType:0,
+name:"vlegajoconsenti_to_tbc_medicos",
+primaryDataSource:"db:/validalegajo/tbc_medicos",
+typeid:22,
+uuid:"F3DA74D0-5C1E-4B3D-9530-183F71AF6F6A"

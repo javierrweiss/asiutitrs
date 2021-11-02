@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/consentimientos",
+items:[
+{foreignColumnName:"tipo",primaryDataProviderID:"scopes.globals.vTextoNorma",typeid:23,uuid:"E5AB5051-9EA7-4EDC-866C-C627916A26BF"}
+],
+name:"textonorma_to_consentimientos",
+primaryDataSource:"db:/bases_auxiliares/consentimientos",
+typeid:22,
+uuid:"D4113025-DD5B-43EA-B34B-596DDF8E7734"

@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Otra Cirugia|1
+Endoscopia Digestiva|6
+Hemodinamia|5
+",
+name:"vlservicio",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"64EFBA7B-3137-4458-95AF-D493C8997A81"

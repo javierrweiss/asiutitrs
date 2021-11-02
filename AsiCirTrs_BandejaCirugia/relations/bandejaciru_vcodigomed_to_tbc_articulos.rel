@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_articulos",
+items:[
+{foreignColumnName:"art_codigo",primaryDataProviderID:"scopes.globals.bandejaciru_vCodigoMed",typeid:23,uuid:"914BAB19-769F-417A-8DED-E74C1160C4A4"}
+],
+name:"bandejaciru_vcodigomed_to_tbc_articulos",
+primaryDataSource:"db:/maestros/tbc_articulos",
+typeid:22,
+uuid:"25244715-C7AA-4572-B524-C9DAECA60D08"

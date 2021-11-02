@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"ccopdescrip",
+dataProviderID2:"ccopcodigo",
+dataSource:"db:/prusis/tbc_concop",
+fallbackValueListID:"9FCAD421-9365-49D3-BAD1-44AEEB999E6D",
+name:"vl_prusis_concop",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"8A0B64A8-CF9C-4389-8170-4B0DB55068BF",
+valueListType:1

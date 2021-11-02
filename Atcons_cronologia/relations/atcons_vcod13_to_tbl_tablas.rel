@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_tablas",
+items:[
+{foreignColumnName:"tabla_nro",primaryDataProviderID:"scopes.globals.AtCons_vcod_tabla13",typeid:23,uuid:"23D46435-AE75-4BD6-8126-574DE653ECD0"},
+{foreignColumnName:"tabla_ord",operator:2,primaryDataProviderID:"scopes.globals.AtCons_crono_cero",typeid:23,uuid:"BF80F647-3C85-4C8F-9808-C5F8156E675D"}
+],
+joinType:1,
+name:"atcons_vcod13_to_tbl_tablas",
+primaryDataSource:"db:/bases_auxiliares/tbl_cronoambcab",
+typeid:22,
+uuid:"4267B483-5985-4587-B35C-5CEA600288E0"

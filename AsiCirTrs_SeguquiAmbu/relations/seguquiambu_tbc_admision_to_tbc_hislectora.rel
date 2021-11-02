@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_his_lectora",
+items:[
+{foreignColumnName:"hlec_tiphistclin",primaryDataProviderID:"scopes.globals.segambu_tipohist",typeid:23,uuid:"9D210E58-B0E2-42D0-A517-219449E38152"},
+{foreignColumnName:"hlec_histclin",primaryDataProviderID:"adm_histclin",typeid:23,uuid:"B1EC68AD-F8F3-40E4-B27A-87F35310CA72"}
+],
+joinType:1,
+name:"seguquiambu_tbc_admision_to_tbc_hislectora",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"50448FE5-CED5-43A9-AABB-EB968CF99D10"

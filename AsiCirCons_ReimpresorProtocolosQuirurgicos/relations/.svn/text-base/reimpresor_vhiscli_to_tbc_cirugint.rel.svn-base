@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_cirugint",
+initialSort:"",
+items:[
+{foreignColumnName:"cirihistcl",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"05D34F43-66AA-46EF-AE2F-06FC5B4E8DF1"},
+{foreignColumnName:"ciriestado",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"6C8DD837-35D8-4D11-8A67-F490DDCB6C46"}
+],
+name:"reimpresor_vhiscli_to_tbc_cirugint",
+primaryDataSource:"db:/asistencial/tbc_cirugint",
+typeid:22,
+uuid:"D56AA2D2-E464-4798-915F-8C30E8DD5155"

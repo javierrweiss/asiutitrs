@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_especial",
+initialSort:"esp_descripredu asc",
+items:[
+{foreignColumnName:"esp_descripredu",operator:4,primaryDataProviderID:"scopes.globals.vAlfaEspe",typeid:23,uuid:"F0BD5D5F-227B-41A3-9754-41AE4DA1063D"}
+],
+name:"valfaespecial_to_tbc_especial",
+primaryDataSource:"db:/maestros/tbc_especial",
+typeid:22,
+uuid:"9FCA8F54-803F-4CBE-9AB1-04A89F38240B"

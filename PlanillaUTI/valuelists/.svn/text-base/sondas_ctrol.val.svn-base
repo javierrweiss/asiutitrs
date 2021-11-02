@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"Contenido Gástrico|Contenido Gastrico\r
+Bilioso|Bilioso\r
+Borraceo|Borraceo\r
+Fecaloide|Fecaloide\r
+Hemático|Hematico\r
+Informe|Informe",
+name:"sondas_ctrol",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"B9EEFE9B-A862-4E19-87FB-496C50AA1BF3"

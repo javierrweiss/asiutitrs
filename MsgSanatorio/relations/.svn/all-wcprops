@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/proyecto1/!svn/ver/3027/MsgSanatorio/relations
+END
+aux_legajo_to_tbc_perext.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1725/MsgSanatorio/relations/aux_legajo_to_tbc_perext.rel
+END
+vlegajo_to_tbc_personal_login.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/735/MsgSanatorio/relations/vlegajo_to_tbc_personal_login.rel
+END
+aux_legajo_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/1725/MsgSanatorio/relations/aux_legajo_to_tbc_medicos.rel
+END
+book_nodes_to_book_nodes.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1247/MsgSanatorio/relations/book_nodes_to_book_nodes.rel
+END
+aux_legajo_to_tbc_personal_login.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/1725/MsgSanatorio/relations/aux_legajo_to_tbc_personal_login.rel
+END
+psw_login_vlega_to_tbl_clavelega.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/3027/MsgSanatorio/relations/psw_login_vlega_to_tbl_clavelega.rel
+END
+aux_legajo1_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/proyecto1/!svn/ver/1725/MsgSanatorio/relations/aux_legajo1_to_tbc_clave_legajo.rel
+END
+vlegajo_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1725/MsgSanatorio/relations/vlegajo_to_tbc_medicos.rel
+END
+vlegajo_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/735/MsgSanatorio/relations/vlegajo_to_tbc_clave_legajo.rel
+END
+tbl_itm_menu_to_tbl_itm_menu.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/1247/MsgSanatorio/relations/tbl_itm_menu_to_tbl_itm_menu.rel
+END
+vlegajo_to_tbc_perext.rel
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/735/MsgSanatorio/relations/vlegajo_to_tbc_perext.rel
+END
+aux_legajo_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/1725/MsgSanatorio/relations/aux_legajo_to_tbc_clave_legajo.rel
+END
+vlegajo1_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/proyecto1/!svn/ver/735/MsgSanatorio/relations/vlegajo1_to_tbc_clave_legajo.rel
+END

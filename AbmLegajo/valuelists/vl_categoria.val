@@ -1,0 +1,14 @@
+addEmptyValue:1,
+customValues:"Médico|1
+Técnico Laboratorio|2
+Técnico medicina transfusional|3
+Técnico imágenes|4
+Otro técnico|5
+Instrumentador|6
+Enfermero|7
+Otra categoría|8",
+name:"vl_categoria",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"3D4F9260-4DAC-42D5-88E8-F97800CC5957"

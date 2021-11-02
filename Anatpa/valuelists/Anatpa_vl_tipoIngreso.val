@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Internado|0\r
+Guardia|1\r
+Consult. Externos|2\r
+Paciente externo|3\r
+",
+name:"Anatpa_vl_tipoIngreso",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"6BD656E3-E46A-4AE0-A806-24B71A8C8681"

@@ -1,0 +1,13 @@
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"62F2F613-453B-4666-894A-2FD052A29B0D"
+}
+],
+name:"AtCons_vacio",
+showInMenu:true,
+styleName:"Sanatorio",
+typeid:3,
+uuid:"7881D332-ADEA-4043-A6CC-154F15193C86"

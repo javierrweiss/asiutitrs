@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_ciruguar",
+items:[
+{foreignColumnName:"cirgprotocolo",primaryDataProviderID:"scopes.globals.vNroProtocolo",typeid:23,uuid:"0BD11EC4-F8E9-43E8-91E3-74DC15A5B45B"},
+{foreignColumnName:"cirghistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"0F11CF68-FC0C-4C38-BB58-E3316F513F8B"}
+],
+name:"reimpresor_protocolo_to_tbc_ciruguar",
+primaryDataSource:"db:/asistencial/tbc_ciruguar",
+typeid:22,
+uuid:"DD06955F-C3AA-4337-9156-743945AA18D2"

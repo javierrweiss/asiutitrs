@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+initialSort:"adm_apellido_5 asc",
+items:[
+{foreignColumnName:"adm_apellido_5",operator:4,primaryDataProviderID:"scopes.globals.gbl_apeynom",typeid:23,uuid:"4E681589-B694-4F58-8D21-4831575FEDF0"}
+],
+name:"gbl_apeynom_to_tbc_admision_scroll",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"ECE41D2D-9295-4C12-8FB1-292124E2CEE5"

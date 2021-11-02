@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_plan_obra",
+items:[
+{foreignColumnName:"plo_planx10",primaryDataProviderID:"scopes.globals.AsiVm_Mod_ploPlanx10",typeid:23,uuid:"A9C23B6B-384B-4EC3-93C9-5FC8D2C57686"},
+{foreignColumnName:"plo_obra",primaryDataProviderID:"scopes.globals.AsiVm_Mod_ploObra",typeid:23,uuid:"F4208725-CABF-4CC2-A815-3D897DEB2F2F"}
+],
+joinType:1,
+name:"asvim_buscar_plan",
+primaryDataSource:"db:/maestros/tbc_plan_obra",
+typeid:22,
+uuid:"C0D870F9-976A-4E01-80D8-9CBB10A50E96"

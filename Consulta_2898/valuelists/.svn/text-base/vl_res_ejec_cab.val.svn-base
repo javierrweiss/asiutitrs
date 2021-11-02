@@ -1,0 +1,11 @@
+addEmptyValue:1,
+dataProviderID1:"tabla_desc",
+dataProviderID2:"tabla_nro",
+fallbackValueListID:"9FCAD421-9365-49D3-BAD1-44AEEB999E6D",
+name:"vl_res_ejec_cab",
+relationName:"tbl_tablas_to_res_ejec_cab",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"27EC60AB-E3E6-4843-A5DB-67E381067037",
+valueListType:1

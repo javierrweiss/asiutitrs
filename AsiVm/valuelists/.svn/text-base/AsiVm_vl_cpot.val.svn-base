@@ -1,0 +1,17 @@
+addEmptyValue:1,
+customValues:"0|0\r
+1|1\r
+2|2\r
+3|3\r
+4|4\r
+5|5\r
+6|6\r
+7|7\r
+8|8\r
+no evaluable|no evaluable\r
+",
+name:"AsiVm_vl_cpot",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"53F42EFA-F7E5-456E-959A-3082DBB49EBB"

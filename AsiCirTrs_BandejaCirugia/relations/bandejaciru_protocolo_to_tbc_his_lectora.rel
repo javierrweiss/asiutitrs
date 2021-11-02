@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_his_lectora",
+items:[
+{foreignColumnName:"hlec_protocolo",primaryDataProviderID:"scopes.globals.bandejaciru_protocolo",typeid:23,uuid:"189BE676-9E2E-4F03-8A80-2D8C0FE83D60"},
+{foreignColumnName:"hlec_histclin",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"3F4E5E2F-F11F-406A-B100-7D6B43E66A92"},
+{foreignColumnName:"hlec_sector",primaryDataProviderID:"scopes.globals.bandejaciru_vSector",typeid:23,uuid:"D35C65AA-E0ED-45BA-82A7-7CA05B3B1C66"}
+],
+name:"bandejaciru_protocolo_to_tbc_his_lectora",
+primaryDataSource:"db:/asistencial/tbc_his_lectora",
+typeid:22,
+uuid:"4670DBA8-962A-44BF-9F09-85E89E6831CA"

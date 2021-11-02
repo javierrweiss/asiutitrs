@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/proyecto1/!svn/ver/1632/MenuCirugia/relations
+END
+vhiscli_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/760/MenuCirugia/relations/vhiscli_to_tbc_admision_scroll.rel
+END
+vlegajo_menu_cirugia_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/1632/MenuCirugia/relations/vlegajo_menu_cirugia_to_tbc_personal.rel
+END
+vlegajo_to_tbc_personal_login.rel
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/proyecto1/!svn/ver/760/MenuCirugia/relations/vlegajo_to_tbc_personal_login.rel
+END
+valfa_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/760/MenuCirugia/relations/valfa_to_tbc_admision_scroll.rel
+END
+vlegajo_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/760/MenuCirugia/relations/vlegajo_to_tbc_medicos.rel
+END
+vlegajo_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/967/MenuCirugia/relations/vlegajo_to_tbc_clave_legajo.rel
+END
+vlegajo_to_tbc_personal_login_cirugia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/760/MenuCirugia/relations/vlegajo_to_tbc_personal_login_cirugia.rel
+END
+vlegajo_to_tbc_perext.rel
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/proyecto1/!svn/ver/760/MenuCirugia/relations/vlegajo_to_tbc_perext.rel
+END
+vlegajo1_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/600/MenuCirugia/relations/vlegajo1_to_tbc_clave_legajo.rel
+END
+vs1_to_tbc_cirugint.rel
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/proyecto1/!svn/ver/761/MenuCirugia/relations/vs1_to_tbc_cirugint.rel
+END

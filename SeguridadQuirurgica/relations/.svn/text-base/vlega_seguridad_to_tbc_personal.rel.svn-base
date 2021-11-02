@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.vLegajoAnestesista",typeid:23,uuid:"D20192B5-0AA0-465A-9A4B-8E80D8F01B75"}
+],
+name:"vlega_seguridad_to_tbc_personal",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"E8618E58-FDDF-4E31-A253-5E1784083719"

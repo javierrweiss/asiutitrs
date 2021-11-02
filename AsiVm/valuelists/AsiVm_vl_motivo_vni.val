@@ -1,0 +1,17 @@
+addEmptyValue:1,
+customValues:"POP|1\r
+Neumonía|2\r
+EAP|3\r
+EPOC|4\r
+Enfermedad respiratoria crónica no EPOC|5\r
+Neuromuscular|6\r
+Tratamiento de Falla de EOT|7\r
+Prevención de Falla de EOT|8\r
+Continuación de la VM|9\r
+Paliativos|10\r
+Otra|11",
+name:"AsiVm_vl_motivo_vni",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"400BEC28-3124-45C0-BC3B-3B0E6AA3EC42"

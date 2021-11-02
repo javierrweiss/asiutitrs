@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_solucion",
+initialSort:"codigo asc",
+items:[
+{foreignColumnName:"codigo",operator:4,primaryDataProviderID:"scopes.globals.gbl_solucion",typeid:23,uuid:"F3E69AFD-C384-4E85-BB54-27EB9135D40E"}
+],
+name:"buscar_num_to_solucion",
+primaryDataSource:"db:/maestros/vis_tbc_obras",
+typeid:22,
+uuid:"DF115A13-79AF-48F4-AC37-32BFB9E273C1"

@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_obstetri",
+items:[
+{foreignColumnName:"obstetri_tiphistclin",operator:0,primaryDataProviderID:"globals.Tipopac",typeid:23,uuid:"3AFF5D85-DE32-4741-8BD0-B89D279B290E"},
+{foreignColumnName:"obstetri_histclin",operator:0,primaryDataProviderID:"globals.vHisclin",typeid:23,uuid:"4592894F-598E-4EC7-87CB-A1A4B2D727C3"},
+{foreignColumnName:"obstetri_protocolo_quiru",operator:0,primaryDataProviderID:"globals.Nprotocolo",typeid:23,uuid:"829C29C5-1CD3-4888-8E01-66FAF20D3353"}
+],
+joinType:0,
+name:"vhisclin_to_tbc_obstetri",
+primaryDataSource:"db:/asistencial/tbc_obstetri",
+typeid:22,
+uuid:"D84B8E18-E215-4980-B551-510AB21BE1E8"

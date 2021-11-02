@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Gotas|1\r
+Contacto|2\r
+Inmunocomprometivo|3\r
+Aereo|4\r
+",
+name:"vl_motivo_aislamiento",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"8C379DB0-B6AD-46E0-B479-69921C06F8F4"

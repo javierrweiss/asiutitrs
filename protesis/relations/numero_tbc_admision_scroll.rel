@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+initialSort:"adm_histclin asc",
+items:[
+{foreignColumnName:"adm_histclin",operator:4,primaryDataProviderID:"scopes.globals.gbl_hiscli_protesis",typeid:23,uuid:"ED229B44-6D1F-4EEA-AC57-9B35988C9F13"}
+],
+name:"numero_tbc_admision_scroll",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"969A014E-7F49-4A9E-9F2A-2B427410F85A"

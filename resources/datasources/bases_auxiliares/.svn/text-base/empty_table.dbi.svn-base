@@ -1,0 +1,13 @@
+columns:[
+{
+allowNull:false,
+autoEnterSubType:0,
+autoEnterType:2,
+creationOrderIndex:0,
+dataType:4,
+flags:1,
+name:"empty_tableid"
+}
+],
+name:"empty_table",
+tableType:0

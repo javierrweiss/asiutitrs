@@ -1,0 +1,12 @@
+dataSource:"db:/desal/tbl_rrhh",
+items:[
+{
+dataProviderIDToAggregate:"importe",
+name:"suma_importe",
+type:4,
+typeid:40,
+uuid:"5EE4DA6E-5178-43C1-9B52-646EA1CC5944"
+}
+],
+typeid:39,
+uuid:"1CD675A4-E2E8-4050-8A18-DEE0B30583F0"

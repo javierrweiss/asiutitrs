@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"histpacpatolo",typeid:23,uuid:"9EA7DADB-189D-48C2-979E-F8B41ECBB635"}
+],
+joinType:1,
+name:"atcons_histpac_ing_to_tbc_patologia",
+primaryDataSource:"db:/bases_auxiliares/atcons_histpac_ing",
+typeid:22,
+uuid:"22CC709B-84C0-46DD-AD75-B0EC35DFE502"

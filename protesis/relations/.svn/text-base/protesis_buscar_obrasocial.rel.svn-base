@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"scopes.globals.gbl_protesis_codObraSocial",typeid:23,uuid:"C62BE8B5-F71B-4964-8D2B-3EF85B9F296F"}
+],
+joinType:1,
+name:"protesis_buscar_obrasocial",
+primaryDataSource:"db:/maestros/tbc_obras",
+typeid:22,
+uuid:"DCF91F8A-BEA4-4A9F-AC74-8513AFF993FB"

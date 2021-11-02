@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Mioclónicos|1\r
+Atónicos|2\r
+Tónico Clónicos|3\r
+Generalizados|4\r
+No|0",
+name:"convulsiones",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"78481907-86B7-4928-ADA8-04D572AC7B9D"

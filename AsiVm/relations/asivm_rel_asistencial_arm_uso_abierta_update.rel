@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_arm_uso",
+initialSort:"armusofecing desc, armusohoring desc",
+items:[
+{foreignColumnName:"armusofecegr",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"02F524B1-1AFA-45DD-820D-B70302A8F93D"},
+{foreignColumnName:"armusohoregr",primaryDataProviderID:"LITERAL:0",typeid:23,uuid:"2A265AD1-1B48-45EE-9ED4-DE3B6D5C0C84"},
+{foreignColumnName:"armusohcli",primaryDataProviderID:"scopes.globals.AsiVm_adm_HistClin",typeid:23,uuid:"A4EFF5E4-6B59-4CE2-BC40-DB8548250116"}
+],
+name:"asivm_rel_asistencial_arm_uso_abierta_update",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"85BBAB96-6282-442F-9ED8-AEC28025B4F1"

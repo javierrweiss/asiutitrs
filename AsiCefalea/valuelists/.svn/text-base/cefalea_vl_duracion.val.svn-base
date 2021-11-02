@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:"Segundos|1\r
+Minutos|2\r
+Horas|3\r
+Días|4\r
+Semanas|5\r
+Meses|6\r
+Contínua|7",
+name:"cefalea_vl_duracion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"93A4E221-B5F7-47A8-9EAA-933B6D9BA62C"

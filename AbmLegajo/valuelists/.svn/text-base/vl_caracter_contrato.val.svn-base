@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"no contratado|0
+monto fijo|1
+prestacion|2
+capita|3
+por horas|4
+otro caracter|5",
+name:"vl_caracter_contrato",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"4A3BA1F2-3AC5-49F3-BAF7-3D1A9FF66576"

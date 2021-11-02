@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.vLegajoAnestesista",typeid:23,uuid:"8AF1AFB1-165F-48BE-88A2-962025BF27E6"}
+],
+name:"seguquiambu_vlega_seguridad_to_tbc_personal",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"76A783CF-9777-4A02-96EC-B1113065E9E7"

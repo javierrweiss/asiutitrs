@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:"Protocolo Quirúrgico\r
+Hoja de Anestesia\r
+Seguridad Quirúrgica\r
+Certificado de Implante\r
+Solicitud de Anatomía Patológica\r
+Historia Clinica de Ingreso\r
+Ficha Anestésica",
+name:"Listado",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"4AE4B223-EFEF-4FF4-B628-240ABB5F1A9F"

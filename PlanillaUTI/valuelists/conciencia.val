@@ -1,0 +1,15 @@
+addEmptyValue:1,
+customValues:"Lúcido|0\r
+Confuso|1\r
+Omnubilado|2\r
+Somnoliento|3\r
+Estuporoso|4\r
+Coma|5\r
+Excitación|6\r
+Manía|7\r
+Delirio|8",
+name:"conciencia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"AF03244F-2241-4F62-B924-EC89191378B1"

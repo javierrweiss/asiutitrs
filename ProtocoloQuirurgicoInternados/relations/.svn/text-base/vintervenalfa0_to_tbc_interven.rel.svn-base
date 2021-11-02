@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_interven",
+initialSort:"itv_descripredu asc",
+items:[
+{foreignColumnName:"itv_descripredu",operator:4,primaryDataProviderID:"scopes.globals.vIntervenAlfa0",typeid:23,uuid:"506B6108-76E8-4C94-91CB-A3B1C84CF455"}
+],
+name:"vintervenalfa0_to_tbc_interven",
+primaryDataSource:"db:/maestros/tbc_interven",
+typeid:22,
+uuid:"B656578A-27D8-46BA-8F80-7CCF4608CFE8"

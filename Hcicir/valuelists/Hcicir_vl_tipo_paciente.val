@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Internado|0\r
+Ambulatorio|1",
+name:"Hcicir_vl_tipo_paciente",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"59C59009-FA67-4AE1-AA52-A38342E243F4"

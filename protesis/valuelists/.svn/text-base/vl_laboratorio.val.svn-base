@@ -1,0 +1,14 @@
+addEmptyValue:1,
+customValues:"ST JUDE MEDICAL|1\r
+BANCO|2\r
+SAN JORGE|3\r
+PROMEDON|4\r
+TOTAL BONE|5\r
+ACHER|6\r
+TECNIPRAX|7\r
+CONAD|8",
+name:"vl_laboratorio",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"ED6FCE3A-0FDA-4EF8-A004-61B7D53CE80D"

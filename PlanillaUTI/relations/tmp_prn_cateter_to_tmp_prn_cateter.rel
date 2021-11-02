@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/tmp_prn_cateter",
+initialSort:"hiscli asc, tipo_opera asc, nro_operador asc, fecha asc, renglon asc",
+items:[
+{foreignColumnName:"nro_operador",operator:0,primaryDataProviderID:"globals.vLegajo",typeid:23,uuid:"4932089D-DA46-4215-9E7A-7B1A9420D354"},
+{foreignColumnName:"tipo_opera",operator:0,primaryDataProviderID:"globals.vTipoOperador",typeid:23,uuid:"71CCACBE-79E3-43CD-B094-E01E5222E91D"},
+{foreignColumnName:"fecha",operator:0,primaryDataProviderID:"globals.vFecha",typeid:23,uuid:"D0872B68-DE6E-4098-894A-990916F30523"},
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"E9A8D1F0-DDF3-4FFF-90F4-91B331955744"}
+],
+joinType:0,
+name:"tmp_prn_cateter_to_tmp_prn_cateter",
+primaryDataSource:"db:/enfermeria/tmp_prn_cateter",
+typeid:22,
+uuid:"1D39D1EA-EA6D-4597-B90D-7477062DEFF2"

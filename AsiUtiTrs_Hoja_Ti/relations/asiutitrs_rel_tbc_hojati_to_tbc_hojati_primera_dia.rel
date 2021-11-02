@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hojati",
+items:[
+{foreignColumnName:"htifecha",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_fechaHciint",typeid:23,uuid:"2B4168A5-DBE8-4E8C-AB24-B91F4D29F5CA"},
+{foreignColumnName:"htihistclinica",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_hiiHisCli",typeid:23,uuid:"318CAB55-9AEB-47A0-96B4-F170355E20BD"},
+{foreignColumnName:"hties1erevoldia",primaryDataProviderID:"scopes.globals.AsiUtiTrs_es_primer_evol_dia",typeid:23,uuid:"7E53273C-1E87-4058-BFDA-0A6868592D8A"}
+],
+joinType:1,
+name:"asiutitrs_rel_tbc_hojati_to_tbc_hojati_primera_dia",
+primaryDataSource:"db:/asistencial/tbc_hojati",
+typeid:22,
+uuid:"69509475-2586-497E-BA64-DA3226FA4F17"

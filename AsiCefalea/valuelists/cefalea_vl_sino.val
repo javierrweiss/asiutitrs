@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"No|0\r
+Si|1",
+name:"cefalea_vl_sino",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"D849800E-C496-4DB1-9880-86B105F27FF5"

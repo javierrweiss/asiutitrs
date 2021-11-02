@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"hcirpatcod2",typeid:23,uuid:"769302DF-D4F6-41CD-9BAE-9C7B3D3C28CB"}
+],
+name:"protambu1400_patcod2_to_tbc_patologia",
+primaryDataSource:"db:/asistencial/tbc_hcicir_new",
+typeid:22,
+uuid:"4CD28666-D1F4-4DA7-9EC3-B90CCFF8C54F"

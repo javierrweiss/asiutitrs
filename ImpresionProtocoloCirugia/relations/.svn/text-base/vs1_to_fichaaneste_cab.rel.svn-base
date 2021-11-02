@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/fichaaneste_cab",
+items:[
+{foreignColumnName:"tbc_anest_carga_hora",primaryDataProviderID:"scopes.globals.impresor_carga_hora",typeid:23,uuid:"079BF1C7-212F-4C8E-9568-490E8C4F9C44"},
+{foreignColumnName:"tbc_anest_carga_fecha",primaryDataProviderID:"scopes.globals.impresor_carga_fecha",typeid:23,uuid:"130B23E1-F312-4551-A38E-68E22DCAF881"},
+{foreignColumnName:"histcli_unico",primaryDataProviderID:"scopes.globals.impresor_histcli_unico",typeid:23,uuid:"A47AA6E1-ED50-49EB-A915-397A1835E704"}
+],
+name:"vs1_to_fichaaneste_cab",
+primaryDataSource:"db:/desal/fichaaneste_cab",
+typeid:22,
+uuid:"DFAD3D87-1310-40F4-8A31-EF5E3309F415"

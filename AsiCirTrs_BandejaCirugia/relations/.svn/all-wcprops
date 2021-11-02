@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/proyecto1/!svn/ver/2915/AsiCirTrs_BandejaCirugia/relations
+END
+bandejaciru_habita_to_tbc_habita.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2867/AsiCirTrs_BandejaCirugia/relations/bandejaciru_habita_to_tbc_habita.rel
+END
+bandejaciru_habita_to_tbc_hiscamas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_habita_to_tbc_hiscamas.rel
+END
+bandejaciru_medico_to_tbc_medicos_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_medico_to_tbc_medicos_personal.rel
+END
+bandejaciru_camas_to_tbc_camas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2868/AsiCirTrs_BandejaCirugia/relations/bandejaciru_camas_to_tbc_camas.rel
+END
+bandejaciru_tbc_hist_cab_new_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_tbc_hist_cab_new_to_tbc_obras.rel
+END
+bandejaciru_univoco_to_tbc_reposicion.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_univoco_to_tbc_reposicion.rel
+END
+bandejaciru_vhiscli_to_tbc_seguqui_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vhiscli_to_tbc_seguqui_new.rel
+END
+bandejaciru_valfacodigomed_to_tbc_articulos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/proyecto1/!svn/ver/2871/AsiCirTrs_BandejaCirugia/relations/bandejaciru_valfacodigomed_to_tbc_articulos.rel
+END
+bandejaciru_vs_to_tbc_cajcirugia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vs_to_tbc_cajcirugia.rel
+END
+bandejaciru_vs3_to_tbc_cirugint.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2871/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vs3_to_tbc_cirugint.rel
+END
+bandejaciru_vcombomed_to_tbc_combo_med.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vcombomed_to_tbc_combo_med.rel
+END
+bandejaciru_vs4_to_tbc_cirugint.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2890/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vs4_to_tbc_cirugint.rel
+END
+bandejaciru_vhiscli_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vhiscli_to_tbc_hist_cab.rel
+END
+bandejaciru_hiscli_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/proyecto1/!svn/ver/1885/AsiCirTrs_BandejaCirugia/relations/bandejaciru_hiscli_to_tbc_admision_scroll.rel
+END
+bandejaciru_vcodigoart_tmp_to_tbc_articulos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vcodigoart_tmp_to_tbc_articulos.rel
+END
+bandejaciru_vs_to_tbl_proamb_t.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vs_to_tbl_proamb_t.rel
+END
+bandejaciru_vs_to_tbc_prest_guar.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vs_to_tbc_prest_guar.rel
+END
+bandejaciru_habita_to_tbc_camas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_habita_to_tbc_camas.rel
+END
+bandejaciru_vhiscli_to_tbc_guardia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vhiscli_to_tbc_guardia.rel
+END
+bandejaciru_vs_to_fichaaneste_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vs_to_fichaaneste_cab.rel
+END
+bandejaciru_vcodigomed_to_tbc_articulos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vcodigomed_to_tbc_articulos.rel
+END
+bandejaciru_vs_to_tbl_protoc_txt.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2871/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vs_to_tbl_protoc_txt.rel
+END
+bandejaciru_vhiscli_to_tbc_prest_guar.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vhiscli_to_tbc_prest_guar.rel
+END
+bandejaciru_tbc_admision_scroll_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_tbc_admision_scroll_to_tbc_obras.rel
+END
+tbc_admision_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/proyecto1/!svn/ver/2861/AsiCirTrs_BandejaCirugia/relations/tbc_admision_to_tbc_obras.rel
+END
+bandejaciru_nomencla_to_tbc_nomencla.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_nomencla_to_tbc_nomencla.rel
+END
+bandejaciru_vestado2259_to_tbc_his_lectora.rel
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/proyecto1/!svn/ver/2915/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vestado2259_to_tbc_his_lectora.rel
+END
+bandejaciru_protocolo_to_tbc_anestesia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/2871/AsiCirTrs_BandejaCirugia/relations/bandejaciru_protocolo_to_tbc_anestesia.rel
+END
+bandejaciru_vhiscli_to_tbc_ciruguar.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vhiscli_to_tbc_ciruguar.rel
+END
+bandejaciru_alfamedicam_to_tbc_articulos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/proyecto1/!svn/ver/2861/AsiCirTrs_BandejaCirugia/relations/bandejaciru_alfamedicam_to_tbc_articulos.rel
+END
+bandejaciru_vs_t_to_tbc_proamb_t.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vs_t_to_tbc_proamb_t.rel
+END
+bandejaciru_protocolo_to_tbc_his_lectora.rel
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/proyecto1/!svn/ver/2890/AsiCirTrs_BandejaCirugia/relations/bandejaciru_protocolo_to_tbc_his_lectora.rel
+END
+bandejaciru_vhiscli2259_unico_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/proyecto1/!svn/ver/2871/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vhiscli2259_unico_to_tbc_admision_scroll.rel
+END
+bandejaciru_vhiscli_aux_to_tbc_guardia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/2869/AsiCirTrs_BandejaCirugia/relations/bandejaciru_vhiscli_aux_to_tbc_guardia.rel
+END
+bandejaciru_hiscli_to_tbc_hist_cab_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/1885/AsiCirTrs_BandejaCirugia/relations/bandejaciru_hiscli_to_tbc_hist_cab_new.rel
+END

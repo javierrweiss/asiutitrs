@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_prest_guar",
+items:[
+{foreignColumnName:"preghistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"2F6CBE9A-02DB-40C3-8EE8-B92787F3FA82"},
+{foreignColumnName:"pregtiponome",primaryDataProviderID:"scopes.globals.protambu1400_tiponome",typeid:23,uuid:"7EAA6A78-381B-485F-A4C9-3FA971CD9375"},
+{foreignColumnName:"pregcodnome",primaryDataProviderID:"scopes.globals.protambu1400_codnome",typeid:23,uuid:"7EDAD5E0-CF96-41C7-8A06-E7A33A267409"},
+{foreignColumnName:"preghoraingreso",primaryDataProviderID:"scopes.globals.protambu1400_hora_ingreso",typeid:23,uuid:"9D4EF7A9-936C-4719-B051-3F9B49CA9AED"},
+{foreignColumnName:"pregsecuencia",primaryDataProviderID:"scopes.globals.protambu1400_secuencia",typeid:23,uuid:"C60DC69B-38A5-4C9D-8272-B649C28E5683"},
+{foreignColumnName:"pregfechaingreso",primaryDataProviderID:"scopes.globals.protambu1400_fechaingreso",typeid:23,uuid:"E16CC996-5DC2-45E3-A299-CBC2E79AADCC"}
+],
+name:"protambu1400_vhiscli_to_tbc_prest_guar",
+primaryDataSource:"db:/asistencial/tbc_prest_guar",
+typeid:22,
+uuid:"4BD644AE-866F-4A93-888F-A5BA87764638"

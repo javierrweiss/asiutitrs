@@ -1,0 +1,77 @@
+dataSource:"db:/maestros/tbc_medicos",
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"20523601-92FD-494C-9811-88A95EA7197F"
+},
+{
+dataProviderID:"med_codigo",
+editable:false,
+location:"0,20",
+name:"med_codigo",
+onActionMethodID:"869C1CAE-387C-469D-A6D7-DCD38914D8D7",
+size:"140,20",
+text:"Med Codigo",
+typeid:4,
+uuid:"3B0923E8-1BAA-4055-B432-CCCAE32ED15F"
+},
+{
+labelFor:"med_domiciprof",
+location:"280,0",
+name:"med_domiciprof_label",
+size:"140,20",
+text:"Med Domiciprof",
+transparent:true,
+typeid:7,
+uuid:"4207D03A-D0B4-4231-AFF2-2DAEB065B75E"
+},
+{
+labelFor:"med_apenom",
+location:"140,0",
+name:"med_apenom_label",
+size:"140,20",
+text:"Med Apenom",
+transparent:true,
+typeid:7,
+uuid:"C2727FC0-5333-4286-913F-2B3ACA7A28BE"
+},
+{
+dataProviderID:"med_domiciprof",
+editable:false,
+location:"280,20",
+name:"med_domiciprof",
+onActionMethodID:"869C1CAE-387C-469D-A6D7-DCD38914D8D7",
+size:"140,20",
+text:"Med Domiciprof",
+typeid:4,
+uuid:"D58169EB-A5F7-42B5-BEC4-808147A3F9F8"
+},
+{
+dataProviderID:"med_apenom",
+editable:false,
+location:"140,20",
+name:"med_apenom",
+onActionMethodID:"869C1CAE-387C-469D-A6D7-DCD38914D8D7",
+size:"140,20",
+text:"Med Apenom",
+typeid:4,
+uuid:"DD07D016-4EDB-4AE4-AD03-28F8ED6291E6"
+},
+{
+labelFor:"med_codigo",
+location:"0,0",
+name:"med_codigo_label",
+size:"140,20",
+text:"Med Codigo",
+transparent:true,
+typeid:7,
+uuid:"F01E65E2-E820-4672-9A14-A894CC017CC3"
+}
+],
+name:"frm_src_medicos_n",
+showInMenu:true,
+typeid:3,
+uuid:"FCF8667F-C594-43DB-AF1C-BC7CC5FEE7E1",
+view:3

@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Diferido|0\r
+Urgente|1",
+name:"Palab_vl_estado",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"7B92701D-54B2-4205-8B2B-89570E8EB06B"

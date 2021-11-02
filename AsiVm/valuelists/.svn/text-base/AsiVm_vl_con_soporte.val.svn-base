@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Ventilación Mecánica Invasiva|1\r
+Ventilación Mecánica No Invasiva|2\r
+Cánula de Alto Flujo|3",
+name:"AsiVm_vl_con_soporte",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"39B642DF-6F1F-4AB3-85EE-223F37EA61A8"

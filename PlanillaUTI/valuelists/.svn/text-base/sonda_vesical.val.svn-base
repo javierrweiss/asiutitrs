@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Colocación|Colocacion\r
+Higiene|Higiene\r
+Extracción|Extraccion\r
+Cambio|Cambio",
+name:"sonda_vesical",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"120E0CC1-6D28-45EA-9CDD-0C2BCAE24AAB"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_persegu",
+items:[
+{foreignColumnName:"perse_codper",primaryDataProviderID:"scopes.globals.per_1",typeid:23,uuid:"6310A57B-EC36-493C-84DC-D4F6DDAFDACE"}
+],
+name:"per_1_to_tbc_persegu",
+primaryDataSource:"db:/rrhh/tbc_persegu",
+typeid:22,
+uuid:"67687121-208A-4A2C-9078-F020735B9F6A"

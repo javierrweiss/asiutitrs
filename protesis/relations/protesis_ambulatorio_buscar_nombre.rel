@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/vis_tbc_hist_cab_nom",
+initialSort:"histcabapellnom asc",
+items:[
+{foreignColumnName:"histcabapellnom",operator:4,primaryDataProviderID:"scopes.globals.gbl_apeynom_protesis",typeid:23,uuid:"E55D10D7-02AD-4EF4-9DF3-A3F4D1BB56A8"}
+],
+name:"protesis_ambulatorio_buscar_nombre",
+primaryDataSource:"db:/asistencial/vis_tbc_hist_cab_nom",
+typeid:22,
+uuid:"12343DFB-5FF9-469B-841C-0C6EE23B646F"

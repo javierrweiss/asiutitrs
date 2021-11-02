@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"obr_razonsoc",
+dataProviderID2:"obr_codigo",
+dataSource:"db:/maestros/tbc_obras",
+name:"fichaaneste_obrasoc",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"D5C8F2E8-72AC-40FC-9CA0-A666179813BB",
+valueListType:1

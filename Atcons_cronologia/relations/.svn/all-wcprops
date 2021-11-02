@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/proyecto1/!svn/ver/2564/Atcons_cronologia/relations
+END
+atcons_vcod12_to_tbl_tablas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/2564/Atcons_cronologia/relations/atcons_vcod12_to_tbl_tablas.rel
+END
+atcons_tbl_cronoambcab_to_tbl_cronoambren.rel
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/proyecto1/!svn/ver/2564/Atcons_cronologia/relations/atcons_tbl_cronoambcab_to_tbl_cronoambren.rel
+END
+atcons_vcod13_to_tbl_tablas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/2564/Atcons_cronologia/relations/atcons_vcod13_to_tbl_tablas.rel
+END
+tbl_cronoambcab_to_tbl_tablas13.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/2564/Atcons_cronologia/relations/tbl_cronoambcab_to_tbl_tablas13.rel
+END
+tbl_cronoambcab_to_tbl_cronoambren_histcli.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/2564/Atcons_cronologia/relations/tbl_cronoambcab_to_tbl_cronoambren_histcli.rel
+END
+tbl_cronoambcab_to_tbc_especial.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/2564/Atcons_cronologia/relations/tbl_cronoambcab_to_tbc_especial.rel
+END
+atcons_vs_to_tbl_cronoambcab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/2564/Atcons_cronologia/relations/atcons_vs_to_tbl_cronoambcab.rel
+END
+tbl_cronoambcab_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/proyecto1/!svn/ver/2564/Atcons_cronologia/relations/tbl_cronoambcab_to_tbc_hist_cab.rel
+END

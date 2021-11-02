@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Sólo Totales|1\r
+Totales + Detalle|2",
+name:"tableroasis_vl_tipodetalle",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"E90932C8-781C-468B-9D2F-A68AAB9EB6A2"

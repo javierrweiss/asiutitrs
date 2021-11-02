@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Adm.|0\r
+Enfermero|1\r
+Médico|2",
+name:"vl_tipo_atencion",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"64FCFB92-C0D8-4E4A-BF07-37277CE111D8"

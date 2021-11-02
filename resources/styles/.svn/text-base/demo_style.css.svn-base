@@ -1,0 +1,177 @@
+field
+{
+	background-color: #f0f0f0; 
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #ddccbb;
+	font: 11pt "Verdana"; 
+	text-align: left; 
+	margin: 0px 2px 0px 2px;
+}
+field.table_field
+{
+	background-color: #ffffff; 
+	color: #000000;
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	border-color: #cccccc;
+	margin: 0px 2px 0px 2px;
+}
+field.currency_field
+{
+	background-color: #ffffff; 
+	text-align: right;
+	color: #008000;
+	border-width: 0px 0px 1px 0px;
+	border-color: #ffffff #ffffff #ffffff #ffffff;
+	margin: 0px 2px 0px 2px;
+}
+field.currency_field_bold
+{
+	text-align: right;
+	color: #008000;
+	font: bold 11pt Verdana; 
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+}
+field.checkbox
+{
+	border-width: 0px 0px 0px 0px;
+}
+form
+{
+	background-color: #ffffff; 
+}
+form.table_form
+{
+	background-color: #ffffff; 
+	border-style: inset; 
+	border-width: 0px 0px 2px 0px;
+	border-color: #004080 #004080 #004080 #004080;
+}
+
+label
+{
+	color: #444444 ;
+	font: bold 11pt Verdana; 
+}
+label.feedback_label
+{
+	color: #005080
+	font: bold 12pt Verdana; 
+}
+label.header
+{
+	color: #0050d5;
+	vertical-align: middle; 
+	font: bold 14pt Verdana; 
+}
+label.banner
+{
+	border-style: solid;
+	border-width: 0px 0px 3px 0px;
+	border-color: #ff8000;
+	font: bold italic 20pt Verdana; 
+	color: #444444;
+	text-align: right;
+	vertical-align: bottom;
+	margin: 2px 2px 2px 2px;
+}
+label.field_label
+{
+	text-align: right;
+}
+label.bg_label
+{
+	background-color: #444444;
+}
+label.separator
+{
+	background-color: #444444;
+	color: white;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: #444444;
+	text-align: center;
+}
+label.tool_bar_label
+{
+	background-color: #ffffff;	
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-color: #444444;
+}
+label.frame_label
+{
+	background-color: #e0e0e0;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #ddccbb;
+}
+label.table_label
+{
+	background-color: #ffffff; 
+	color: #000000;
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	border-color: #cccccc;
+	font: 11pt "Verdana"; 
+}
+label.tab_control
+{
+	color: #444444;
+	background-color: #ffffff;	
+	font: bold 11pt Verdana; 
+	text-align: center;
+}
+label.button_label
+{
+	color: #ffffff;
+	background-color: #444444;	
+	font: bold 11pt Verdana; 
+	text-align: center;
+}
+label.link_control
+{
+	color: #444444;
+	background-color: #ffffff;	
+	font: bold 14pt Verdana; 
+	text-align: left;
+}
+label.record_scroller
+{
+	color: #444444;
+	font: bold italic 11pt Verdana; 
+	text-align: center;
+}
+label.error_msg
+{
+	font: bold 12pt Verdana; 
+	color: #cc0000;
+	text-align: center;
+}
+label.column_header
+{
+	font: bold 12pt Verdana; 
+	background-color: #444444;
+	color: #ffffff;
+	text-align: left;
+	margin: 0px 2px 0px 2px;
+}
+label.hyperlink
+{
+	font: bold 11pt Tahoma;
+	color: #0000FF;
+	text-align: center;
+}
+tabpanel
+{
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;	
+}
+tabpanel.border
+{
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #888888;
+}

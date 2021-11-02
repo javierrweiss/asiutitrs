@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+items:[
+{foreignColumnName:"adm_histclin",primaryDataProviderID:"scopes.globals.Hojaenfer_histClinPrint",typeid:23,uuid:"5ADC66E1-5F54-4D18-8D72-48DD20C4FDCC"}
+],
+joinType:1,
+name:"hojaenfer_rel_busca_inter",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"1F0D1408-2C9C-4E8A-BE2F-C2A14019458C"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_protesis",
+initialSort:"prote_histclin asc, prote_estprote asc",
+items:[
+{foreignColumnName:"prote_histclin",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"3B8F7D94-FAA8-4FC4-92C0-24788A972CC2"},
+{foreignColumnName:"prote_estprote",operator:1,primaryDataProviderID:"scopes.globals.nine_value",typeid:23,uuid:"4B7B2C24-B3FB-46DB-B29F-A4FF40F13242"}
+],
+name:"vhiscli2_to_tbc_protesis",
+primaryDataSource:"db:/asistencial/tbc_protesis",
+typeid:22,
+uuid:"E46FFC1F-7D68-472E-A90F-A8DF07179FB1"

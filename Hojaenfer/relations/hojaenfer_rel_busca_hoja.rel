@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hojenfer",
+items:[
+{foreignColumnName:"hoehora",primaryDataProviderID:"scopes.globals.Hojaenfer_horaPrint",typeid:23,uuid:"1979A8F9-C5BB-495E-9BF4-36D9FB8334AE"},
+{foreignColumnName:"hoefecha",primaryDataProviderID:"scopes.globals.Hojaenfer_fechaPrint",typeid:23,uuid:"42AD10B9-A1CB-4E70-9F8D-D8FF018B42F8"},
+{foreignColumnName:"hoehistclinica",primaryDataProviderID:"scopes.globals.Hojaenfer_histClinPrint",typeid:23,uuid:"4BF9FFE2-2C20-4418-88E2-2587EF050C99"}
+],
+joinType:1,
+name:"hojaenfer_rel_busca_hoja",
+primaryDataSource:"db:/asistencial/tbc_hojenfer",
+typeid:22,
+uuid:"CAD35659-679D-441B-8EB4-AD0F357594B8"

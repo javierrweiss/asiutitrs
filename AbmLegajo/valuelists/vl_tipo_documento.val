@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"C.I.|1
+L.E.|2
+L.C.|3
+D.N.I.|4
+PASAPORTE|5",
+name:"vl_tipo_documento",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"56030BFC-D8EA-4A5F-85C5-9CB947EF79D3"

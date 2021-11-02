@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"C.A.B.A.|1\r
+Zona Sur|2\r
+Zona Norte|3\r
+Zona Oeste|4\r
+Interior|5",
+name:"vl_zona",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"1D7E9F2D-5EC9-497A-9616-977F8507717D"

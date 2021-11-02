@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Conversa orientado|1
+Frases simples|2
+Palabras inapropiadas|3
+Sonidos incomprensibles|4
+Ninguna respuesta|5",
+name:"vl_respuesta_verbal",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"F53EDEBB-0D24-48E6-808D-A185ABAF8591"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_admision",
+initialSort:"adm_apelnom asc, adm_histclin_1 asc",
+items:[
+{foreignColumnName:"adm_apelnom",operator:4,primaryDataProviderID:"scopes.globals.vAlfa",typeid:23,uuid:"2EE16A70-9873-497E-8BDC-6C67B6F16331"},
+{foreignColumnName:"adm_histclin_1",operator:4,primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"6A3C534B-6727-4773-B834-FF889941B982"}
+],
+name:"reimpresor_alfa_to_tbc_admision_scroll",
+primaryDataSource:"db:/asistencial/tbc_admision",
+typeid:22,
+uuid:"1E396B0E-61A7-4410-8601-A2760CE4A15E"

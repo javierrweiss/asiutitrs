@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Diarréica|1\r
+Semisólida|2\r
+Sólida|3\r
+No|0",
+name:"colostomia",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"319E6C74-6C1F-42CD-8AA1-1B8D6D3290B2"

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/proyecto1/!svn/ver/2187/Hcicir/relations
+END
+hcicir_menu_cirugia_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/1958/Hcicir/relations/hcicir_menu_cirugia_to_tbc_personal.rel
+END
+hcicir_vlegajo_to_tbc_personal_login.rel
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/proyecto1/!svn/ver/1958/Hcicir/relations/hcicir_vlegajo_to_tbc_personal_login.rel
+END
+hcicir_vlegajo_menu_cirugia_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/proyecto1/!svn/ver/1958/Hcicir/relations/hcicir_vlegajo_menu_cirugia_to_tbc_personal.rel
+END
+hcicir_buscar_obrasocial.rel
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1954/Hcicir/relations/hcicir_buscar_obrasocial.rel
+END
+hcicir_apeynom_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1954/Hcicir/relations/hcicir_apeynom_to_tbc_admision.rel
+END
+hcicir_vlegajo_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/1958/Hcicir/relations/hcicir_vlegajo_to_tbc_clave_legajo.rel
+END
+hcicir_vlegajo_to_tbc_personal_login_cirugia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/1958/Hcicir/relations/hcicir_vlegajo_to_tbc_personal_login_cirugia.rel
+END
+hcicir_vlegajo_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1958/Hcicir/relations/hcicir_vlegajo_to_tbc_medicos.rel
+END
+hcicir_ambulatorio_buscar_numero.rel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/1975/Hcicir/relations/hcicir_ambulatorio_buscar_numero.rel
+END
+hcicir_numero_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/proyecto1/!svn/ver/1954/Hcicir/relations/hcicir_numero_to_tbc_admision.rel
+END
+hcicir_vlegajo_to_tbc_perext.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1958/Hcicir/relations/hcicir_vlegajo_to_tbc_perext.rel
+END
+hcicir_vlegajo1_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/2187/Hcicir/relations/hcicir_vlegajo1_to_tbc_clave_legajo.rel
+END

@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_prest_guar",
+items:[
+{foreignColumnName:"pregfechaingreso",primaryDataProviderID:"scopes.globals.protambu1400_fechaingreso",typeid:23,uuid:"04C0F718-129B-4B56-B0AD-641BF5742DCA"},
+{foreignColumnName:"preghistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"61CFFF62-EF63-4DAB-94BB-E9C29BB13D72"},
+{foreignColumnName:"pregcodnome",primaryDataProviderID:"scopes.globals.protambu1400_codnome",typeid:23,uuid:"84A7E7A4-C9B1-49D3-BCD5-60589E0B0DF2"},
+{foreignColumnName:"preghoraingreso",primaryDataProviderID:"scopes.globals.protambu1400_hora_ingreso",typeid:23,uuid:"B9A15DCA-09C1-4CAC-B3BF-632B31675C68"},
+{foreignColumnName:"pregtiponome",primaryDataProviderID:"scopes.globals.protambu1400_tiponome",typeid:23,uuid:"E7C807D5-9391-40C3-B98A-D633B3E10A5F"}
+],
+name:"protambu1400_vs_to_tbc_prest_guar",
+primaryDataSource:"db:/asistencial/tbc_prest_guar",
+typeid:22,
+uuid:"3983B206-91CC-42F9-9D10-276853B8227A"

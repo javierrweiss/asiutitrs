@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Leve (apenas manifiesto)|1\r
+Moderado (tolerable)|2\r
+Grave  (intolerable)|3\r
+Muy Severo ( incapacitante )|4\r
+Escala Subjetiva 0 a 10|5",
+name:"cefalea_vl_intensidad",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"7C1A4DBC-7D4E-4B1B-9DE2-27E24B77B681"

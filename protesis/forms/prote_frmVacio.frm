@@ -1,0 +1,14 @@
+items:[
+{
+height:239,
+partType:5,
+typeid:19,
+uuid:"6EBE487D-2716-4CE1-8422-FBA59A1BA010"
+}
+],
+name:"prote_frmVacio",
+navigatorID:"-1",
+scrollbars:36,
+showInMenu:true,
+typeid:3,
+uuid:"35164B02-0E6C-4162-B96F-F3055509E506"

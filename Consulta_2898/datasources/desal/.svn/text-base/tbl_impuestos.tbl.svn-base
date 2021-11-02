@@ -1,0 +1,12 @@
+dataSource:"db:/desal/tbl_impuestos",
+items:[
+{
+dataProviderIDToAggregate:"importe",
+name:"suma_importe",
+type:4,
+typeid:40,
+uuid:"78258E18-2797-433A-B12A-D9E321362584"
+}
+],
+typeid:39,
+uuid:"A0287B86-E7A7-4CF6-86A6-54EAAC055A67"

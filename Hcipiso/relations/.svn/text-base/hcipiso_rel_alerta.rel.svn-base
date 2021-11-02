@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_alerta",
+items:[
+{foreignColumnName:"aler_tipadmi",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"966B2E6D-9436-4B93-8FB7-663072DC3CE9"},
+{foreignColumnName:"aler_histclin",primaryDataProviderID:"scopes.globals.Hcipiso_hiiHisCli",typeid:23,uuid:"FFE3EFF5-CA94-488F-A874-9DE134BAFBBC"}
+],
+joinType:1,
+name:"hcipiso_rel_alerta",
+primaryDataSource:"db:/asistencial/tbc_alerta",
+typeid:22,
+uuid:"6CE09985-58C4-4031-B199-E26B95154536"

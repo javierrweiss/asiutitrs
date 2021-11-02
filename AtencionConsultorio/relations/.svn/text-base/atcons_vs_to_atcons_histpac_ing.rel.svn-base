@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/atcons_histpac_ing",
+items:[
+{foreignColumnName:"histpacnro",primaryDataProviderID:"scopes.globals.AtCons_vhistcli",typeid:23,uuid:"1E93EFB6-822D-4591-BCBA-6F6061F10F57"},
+{foreignColumnName:"histpacespfir",primaryDataProviderID:"scopes.globals.AtCons_vespecial",typeid:23,uuid:"371E59E3-1C46-4FE2-B5EF-42A63F92AECE"},
+{foreignColumnName:"histpac_horareserva",primaryDataProviderID:"scopes.globals.Atcons_vreservashora",typeid:23,uuid:"3F841E54-8541-441C-813F-4FA988FF74F8"},
+{foreignColumnName:"histpacmedfir",primaryDataProviderID:"scopes.globals.AtCons_vlegajo",typeid:23,uuid:"54274B39-C474-4292-9185-F7752882510E"},
+{foreignColumnName:"histpacfec",primaryDataProviderID:"scopes.globals.AtCons_vfecha_integer",typeid:23,uuid:"B7ADE039-6925-43B8-8C7B-4232B34D5D15"}
+],
+name:"atcons_vs_to_atcons_histpac_ing",
+primaryDataSource:"db:/bases_auxiliares/atcons_histpac_ing",
+typeid:22,
+uuid:"90156A9B-BEDB-4B37-B22F-A5B2F1F70EB8"

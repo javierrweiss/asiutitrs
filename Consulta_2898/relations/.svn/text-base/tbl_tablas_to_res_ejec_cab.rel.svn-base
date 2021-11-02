@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_tablas",
+items:[
+{foreignColumnName:"tabla_valor_num",primaryDataProviderID:"scopes.globals.vZero",typeid:23,uuid:"168490F6-6277-4765-B7B1-91548329C52C"}
+],
+joinType:1,
+name:"tbl_tablas_to_res_ejec_cab",
+primaryDataSource:"db:/desal/tbl_tablas",
+typeid:22,
+uuid:"AE0E8D67-B940-47D7-8631-2712A649EF86"

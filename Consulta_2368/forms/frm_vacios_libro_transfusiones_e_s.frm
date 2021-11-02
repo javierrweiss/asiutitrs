@@ -1,0 +1,14 @@
+items:[
+{
+height:239,
+partType:5,
+typeid:19,
+uuid:"925DE1B7-5348-46ED-99FB-8ACE85989AD4"
+}
+],
+name:"frm_vacios_libro_transfusiones_e_s",
+navigatorID:"-1",
+scrollbars:36,
+styleName:"sanatorio",
+typeid:3,
+uuid:"4F7CC717-AED2-4DAA-B4B8-64999FB7D8FE"

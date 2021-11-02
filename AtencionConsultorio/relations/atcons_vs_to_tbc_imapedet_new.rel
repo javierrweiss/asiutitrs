@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_imapedet_new",
+items:[
+{foreignColumnName:"idetservicio",primaryDataProviderID:"scopes.globals.AtCons_servicio",typeid:23,uuid:"5F9D966C-031A-4774-B0FC-EBB61D819F6E"},
+{foreignColumnName:"idetpedido",primaryDataProviderID:"scopes.globals.AtCons_nroPedido",typeid:23,uuid:"C803EAD9-B09B-4792-A795-321FA3AD764B"}
+],
+name:"atcons_vs_to_tbc_imapedet_new",
+primaryDataSource:"db:/asistencial/tbc_imapedet_new",
+typeid:22,
+uuid:"D6888A92-F244-4C1C-A5F7-47505AD76DD0"

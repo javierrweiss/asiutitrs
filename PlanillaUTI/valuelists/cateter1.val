@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"Colocación|Colocacion\r
+Curación|Curacion\r
+Extracción|Extraccion\r
+Cambio|Cambio\r
+Rotación|Rotacion\r
+Ubicación|Ubicacion",
+name:"cateter1",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"5069896A-563B-416F-9770-6B71367A75B5"

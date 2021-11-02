@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/hcipiso_hciinttxt",
+items:[
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.Hcipiso_fechaTxt",typeid:23,uuid:"1864F5A2-99D8-4CAA-ADE3-B36EFFDF3B27"},
+{foreignColumnName:"hora",primaryDataProviderID:"scopes.globals.Hcipiso_horaTxt",typeid:23,uuid:"3213D089-1078-4484-9126-34806D47C928"},
+{foreignColumnName:"histclinica",primaryDataProviderID:"scopes.globals.Hcipiso_hiiHisCli",typeid:23,uuid:"8BCD8151-9C06-4C6B-9C5E-74A9F2C1BB0F"},
+{foreignColumnName:"grupo",primaryDataProviderID:"scopes.globals.Hcipiso_grupoTxt",typeid:23,uuid:"CAF4D595-0EE2-497C-80FA-C0103F5A7B4E"}
+],
+joinType:1,
+name:"hcipiso_rel_hciinttxt",
+primaryDataSource:"db:/desal/hcipiso_hciinttxt",
+typeid:22,
+uuid:"701C8AF9-CEC4-43B6-8E40-1E73274E7B99"

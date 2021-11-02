@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Sin Dato|0\r
+Pareja|1\r
+Familiar|2\r
+Otro|3\r
+Ninguno|4",
+name:"Acompaniante",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"BD25049E-041A-47BA-986F-6426FA86A52B"

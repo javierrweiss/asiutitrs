@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Espontánea|1\r
+Asistida|2",
+name:"fichaaneste_respiracion_tipo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"D2F479D1-DF68-4615-ADB8-B828158AC9C1"

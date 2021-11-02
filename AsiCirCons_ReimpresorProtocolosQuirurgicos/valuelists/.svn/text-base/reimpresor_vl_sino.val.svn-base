@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"No|0\r
+Si|1\r
+No|2",
+name:"reimpresor_vl_sino",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"19908D21-6946-40EF-85D0-CD5F2A8741ED"

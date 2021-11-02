@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+items:[
+{foreignColumnName:"medpercod",primaryDataProviderID:"seglegaciruini",typeid:23,uuid:"1987D54E-40E3-4183-8AD3-01412E76840E"}
+],
+name:"segambulegaciruini_to_tbc_medicos_personal",
+primaryDataSource:"db:/asistencial/tbc_seguqui_new",
+typeid:22,
+uuid:"FF6D3559-E190-486C-9B4D-A8EB7281572E"

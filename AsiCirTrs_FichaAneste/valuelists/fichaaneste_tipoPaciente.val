@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Internado|0\r
+Ambulatorio|1",
+name:"fichaaneste_tipoPaciente",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"5B01C65D-5D2C-4638-940F-64045E1F452E"

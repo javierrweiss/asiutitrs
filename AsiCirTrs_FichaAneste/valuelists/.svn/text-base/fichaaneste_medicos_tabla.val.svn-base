@@ -1,0 +1,10 @@
+addEmptyValue:1,
+dataProviderID1:"med_apenom",
+dataProviderID2:"med_codigo",
+dataSource:"db:/maestros/tbc_medicos",
+name:"fichaaneste_medicos_tabla",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"B70F6046-DBC6-4973-B7E1-008E5582F1EC",
+valueListType:1

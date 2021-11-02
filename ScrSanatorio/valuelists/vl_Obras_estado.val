@@ -1,0 +1,15 @@
+addEmptyValue:1,
+customValues:"Vigente|0\r
+Suspendidas|1\r
+Contrato Cancelado|2\r
+Falta de Disp.|3\r
+Vigente s/Fact.|4\r
+Susp. para Inter.|5\r
+Susp. para Amb.|6\r
+Solo Turnos|7\r
+TODAS|9999",
+name:"vl_Obras_estado",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"07CDE6ED-31D0-4F46-9BE2-2D6A1BB7CC79"

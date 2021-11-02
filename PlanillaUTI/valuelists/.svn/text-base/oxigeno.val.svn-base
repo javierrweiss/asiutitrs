@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"por Máscara|1\r
+por Canula|2\r
+Ninguno|0",
+name:"oxigeno",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"38A596A9-1885-4F48-B43D-651DF136AB89"

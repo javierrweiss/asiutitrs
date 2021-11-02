@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_cateteres",
+items:[
+{foreignColumnName:"tipo",operator:0,primaryDataProviderID:"globals.vTipoCateteres",typeid:23,uuid:"8BFEEF75-649A-4BC8-8601-3A2D0F2540E1"},
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"B2FC3590-6CD1-4497-810C-470D91FF6777"}
+],
+joinType:0,
+name:"vtipo_cateteres_to_hojauti_cateteres",
+primaryDataSource:"db:/enfermeria/hojauti_cateteres",
+typeid:22,
+uuid:"56097607-590C-4456-B07B-52B1E2AE5131"

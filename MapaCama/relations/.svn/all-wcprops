@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/proyecto1/!svn/ver/1069/MapaCama/relations
+END
+tbc_admision_to_tbc_hist_cab_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_admision_to_tbc_hist_cab_new.rel
+END
+tbc_camas_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_camas_to_tbc_admision.rel
+END
+tbc_res_camas_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_res_camas_to_tbc_admision.rel
+END
+tbc_camas_to_tbc_camas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_camas_to_tbc_camas.rel
+END
+tbc_hist_cab_new_to_tbc_guardia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_hist_cab_new_to_tbc_guardia.rel
+END
+tbc_camas_to_tbc_res_camas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_camas_to_tbc_res_camas.rel
+END
+tbc_admision_to_tbc_utilcama.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_admision_to_tbc_utilcama.rel
+END
+tbc_admision_to_tbc_patologia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_admision_to_tbc_patologia.rel
+END
+tbc_admision_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_admision_to_tbc_obras.rel
+END
+tbc_res_camas_to_tbc_patologia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_res_camas_to_tbc_patologia.rel
+END
+tbc_res_camas_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_res_camas_to_tbc_obras.rel
+END
+tbc_camas_to_tbc_hist_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_camas_to_tbc_hist_cab.rel
+END
+tbc_guardia_to_tbc_patologia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_guardia_to_tbc_patologia.rel
+END
+tbc_res_camas_to_tbc_hist_cab_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_res_camas_to_tbc_hist_cab_new.rel
+END
+tbc_hist_cab_to_tbc_patologia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_hist_cab_to_tbc_patologia.rel
+END
+tbc_hist_cab_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_hist_cab_to_tbc_obras.rel
+END
+tbc_habita_to_tbc_habita.rel
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/proyecto1/!svn/ver/1069/MapaCama/relations/tbc_habita_to_tbc_habita.rel
+END

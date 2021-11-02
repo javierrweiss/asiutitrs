@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"|0
+Mecanica|1
+Manual|2",
+name:"vl_respControlada",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"255128BE-3CF3-423F-9334-8F5774605AC5"

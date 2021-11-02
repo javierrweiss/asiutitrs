@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"General|0
+Peridural|1
+Raquideo|2
+Plexual|3",
+name:"vl_tipoBloqueo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"2CDBF204-C6D0-450B-9FCE-AFCA44BAB084"

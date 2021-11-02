@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:" |-1\r
+Sí|1\r
+No|0",
+name:"vl_histclin_reingreso",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"38CFB9DF-5449-42FD-B91B-C56E58390486"

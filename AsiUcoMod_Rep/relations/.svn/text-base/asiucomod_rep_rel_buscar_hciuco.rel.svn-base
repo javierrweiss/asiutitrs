@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_hciuco",
+items:[
+{foreignColumnName:"hiuhora",primaryDataProviderID:"scopes.globals.AsiUcoMod_Rep_hiuHora",typeid:23,uuid:"0D792F69-837D-4E35-AE71-E731D7E37402"},
+{foreignColumnName:"hiuhiscli",primaryDataProviderID:"scopes.globals.AsiUcoMod_Rep_hiuHisCli",typeid:23,uuid:"78AE000E-7E4D-4DB5-998B-CC3A7A6C79B3"},
+{foreignColumnName:"hiufecha",primaryDataProviderID:"scopes.globals.AsiUcoMod_Rep_hiuFecha",typeid:23,uuid:"FECC846D-2A54-4764-9FC7-5C7D56AECC13"}
+],
+name:"asiucomod_rep_rel_buscar_hciuco",
+primaryDataSource:"db:/asistencial/tbc_hciuco",
+typeid:22,
+uuid:"62731320-1B55-4E78-88C3-1B3B76D6E630"

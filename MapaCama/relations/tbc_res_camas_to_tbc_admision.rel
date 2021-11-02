@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_admision",
+items:[
+{foreignColumnName:"adm_histclin",primaryDataProviderID:"rca_hcl",typeid:23,uuid:"F8F80A63-6917-4461-812E-C98847A8CEF2"}
+],
+joinType:1,
+name:"tbc_res_camas_to_tbc_admision",
+primaryDataSource:"db:/asistencial/tbc_res_camas",
+typeid:22,
+uuid:"42818DD1-05CA-4B6B-A777-B796E47118EC"

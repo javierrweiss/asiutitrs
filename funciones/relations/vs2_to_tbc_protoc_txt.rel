@@ -1,0 +1,13 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_protoc_txt",
+initialSort:"protxt_protocolo asc, protxt_grupo asc, protxt_nro1 asc, protxt_secuen asc",
+items:[
+{foreignColumnName:"protxt_grupo",primaryDataProviderID:"scopes.globals.vGrupo2",typeid:23,uuid:"32195160-68E6-4D38-8CBC-EB68190BE6FF"},
+{foreignColumnName:"protxt_secuen",operator:4,primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"571FEC57-42E9-4DBE-85F6-5499A32DA9E5"},
+{foreignColumnName:"protxt_nro1",primaryDataProviderID:"scopes.globals.vNro2",typeid:23,uuid:"6A59CEE0-BC30-43C5-95A9-DBD8DB7C09BA"},
+{foreignColumnName:"protxt_protocolo",primaryDataProviderID:"scopes.globals.vNroProtocolo",typeid:23,uuid:"F677DA31-30F3-4FAA-BDEC-4A4F8C7DF52B"}
+],
+name:"vs2_to_tbc_protoc_txt",
+primaryDataSource:"db:/asistencial/tbc_protoc_txt",
+typeid:22,
+uuid:"521A3C39-F4DA-4D31-80E9-4B454FBE7A4C"

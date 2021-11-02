@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Presente|1\r
+Disminuida|2\r
+Ausente en extremidades|3\r
+Ausente totalmente|4",
+name:"lv_sensibilidad_cutanea",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"2391C565-D4E5-4633-AB57-F6EC65A60781"

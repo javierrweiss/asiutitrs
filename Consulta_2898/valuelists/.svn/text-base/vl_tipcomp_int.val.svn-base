@@ -1,0 +1,24 @@
+addEmptyValue:1,
+customValues:"|0\r
+Factura|1\r
+N.Débito|2\r
+N.Crédito|3\r
+O.P.|4\r
+NCR x Deb.|8\r
+Liquidación|12\r
+NCR x Error|13\r
+NCR Gada|14\r
+Acuerdo|30\r
+Recibo Sueldo|71\r
+Recibo Aguinaldo|72\r
+Recibo Vac.|73\r
+Recibo Esp.|74\r
+Recibo Bono Sanidad|79\r
+H. Ext. 50%|80\r
+H. Ext. 100%|81\r
+H. Ext. 150%|82",
+name:"vl_tipcomp_int",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"BFEC9945-C1F2-4BAB-BCC6-82EDE6C923BF"

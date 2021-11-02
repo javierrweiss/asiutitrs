@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_analisis_new",
+initialSort:"ana1 asc",
+items:[
+{foreignColumnName:"ana1",primaryDataProviderID:"scopes.globals.Palab_ana1",typeid:23,uuid:"CAC5F797-92B0-40C1-A61F-46E59C1D1B71"}
+],
+joinType:1,
+name:"palab_rel_analisis",
+primaryDataSource:"db:/maestros/tbc_analisis_new",
+typeid:22,
+uuid:"6E18B041-9056-4844-97AF-50865E9FB79B"

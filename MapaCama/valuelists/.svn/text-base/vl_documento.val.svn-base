@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"C.I.       |1 \r
+L.E.       |2\r
+L.C.      |3\r
+D.N.I.   |4\r
+PASAP.|5 ",
+name:"vl_documento",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"6004E1DD-D831-40BB-9D05-AD29F2A588BF"

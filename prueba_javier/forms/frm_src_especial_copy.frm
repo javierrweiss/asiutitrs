@@ -1,0 +1,72 @@
+dataSource:"db:/maestros/tbc_especial",
+items:[
+{
+dataProviderID:"esp_codi",
+editable:false,
+location:"0,20",
+name:"esp_codi",
+size:"140,20",
+text:"Esp Codi",
+typeid:4,
+uuid:"17F0A680-AE28-4DD4-B208-EB152C89C09E"
+},
+{
+labelFor:"esp_descrip",
+location:"280,0",
+name:"esp_descrip_label",
+size:"140,20",
+text:"Esp Descrip",
+transparent:true,
+typeid:7,
+uuid:"3D8CAD46-EB6E-4068-908A-7B6F28B35752"
+},
+{
+labelFor:"esp_descipaten",
+location:"140,0",
+name:"esp_descipaten_label",
+size:"140,20",
+text:"Esp Descipaten",
+transparent:true,
+typeid:7,
+uuid:"5854FA8D-B9E9-45CE-8D3D-8D39F52139F8"
+},
+{
+labelFor:"esp_codi",
+location:"0,0",
+name:"esp_codi_label",
+size:"140,20",
+text:"Esp Codi",
+transparent:true,
+typeid:7,
+uuid:"5CB3D57B-F54A-4109-AD89-747F7A4380F8"
+},
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"6E1922AE-7166-445D-B947-1717886865CD"
+},
+{
+dataProviderID:"esp_descipaten",
+location:"140,20",
+name:"esp_descipaten",
+size:"140,20",
+text:"Esp Descipaten",
+typeid:4,
+uuid:"7A72200E-655F-46B8-A93F-6832F43CB51A"
+},
+{
+dataProviderID:"esp_descrip",
+location:"280,20",
+name:"esp_descrip",
+size:"140,20",
+text:"Esp Descrip",
+typeid:4,
+uuid:"D8C35FA2-5C28-4CE5-9D97-E9CED536755C"
+}
+],
+name:"frm_src_especial_copy",
+showInMenu:true,
+typeid:3,
+uuid:"103A78BD-7D23-4B8C-93AD-C630C7742CC5",
+view:3

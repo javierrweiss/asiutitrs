@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_seguqui_new",
+items:[
+{foreignColumnName:"seghoracarga",primaryDataProviderID:"scopes.globals.protambu1400_hora_ingreso",typeid:23,uuid:"27757CB2-315C-45AA-9848-DDA7998ABBF7"},
+{foreignColumnName:"seghistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"4EB5058D-B848-4768-8A2E-5C9CE8C83F3B"},
+{foreignColumnName:"segtipohc",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"C92BD6FA-D68B-4D86-B25A-0B5E0CDD8630"},
+{foreignColumnName:"segfechacarga",primaryDataProviderID:"scopes.globals.protambu1400_fechaingreso",typeid:23,uuid:"CF1B0BAA-B5BB-4A2C-B3A5-F1798357956F"}
+],
+name:"protambu1400_vhiscli_to_tbc_seguqui_new",
+primaryDataSource:"db:/asistencial/tbc_seguqui_new",
+typeid:22,
+uuid:"610A7034-B7B1-46B9-9DB9-10B8718D394D"

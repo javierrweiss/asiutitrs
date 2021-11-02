@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/tbl_cronoambcab",
+items:[
+{foreignColumnName:"hiscli_nro",primaryDataProviderID:"scopes.globals.AtCons_crono_vhisclinro",typeid:23,uuid:"657F8D98-29A5-4969-9DF5-57F2A6FCD7C5"}
+],
+joinType:1,
+name:"atcons_vs_to_tbl_cronoambcab",
+primaryDataSource:"db:/bases_auxiliares/tbl_cronoambcab",
+typeid:22,
+uuid:"8D64F1BC-E600-473F-B980-B5D6596D202F"

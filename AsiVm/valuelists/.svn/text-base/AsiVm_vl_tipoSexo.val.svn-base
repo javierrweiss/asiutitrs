@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Femenino|1\r
+Masculino|2",
+name:"AsiVm_vl_tipoSexo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"C33CBF28-74A4-4A0C-A316-059C0D8E0F3A"

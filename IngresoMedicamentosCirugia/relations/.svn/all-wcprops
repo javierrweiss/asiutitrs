@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/proyecto1/!svn/ver/2720/IngresoMedicamentosCirugia/relations
+END
+vs3_to_tbc_cirugint.rel
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/proyecto1/!svn/ver/825/IngresoMedicamentosCirugia/relations/vs3_to_tbc_cirugint.rel
+END
+vs_to_tbc_medic_cir.rel
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/proyecto1/!svn/ver/1946/IngresoMedicamentosCirugia/relations/vs_to_tbc_medic_cir.rel
+END
+vestado2259_to_tbc_his_lectora.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/825/IngresoMedicamentosCirugia/relations/vestado2259_to_tbc_his_lectora.rel
+END
+valfa2259_to_tbc_articulos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/proyecto1/!svn/ver/699/IngresoMedicamentosCirugia/relations/valfa2259_to_tbc_articulos.rel
+END
+vnroprotocolo2259_to_tbc_anestesia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/2720/IngresoMedicamentosCirugia/relations/vnroprotocolo2259_to_tbc_anestesia.rel
+END
+vcodigomed_to_tbc_articulos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/699/IngresoMedicamentosCirugia/relations/vcodigomed_to_tbc_articulos.rel
+END
+tbc_his_lectora_to_tbc_articulos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/825/IngresoMedicamentosCirugia/relations/tbc_his_lectora_to_tbc_articulos.rel
+END
+vcodigoart_tmp_to_tbc_articulos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/699/IngresoMedicamentosCirugia/relations/vcodigoart_tmp_to_tbc_articulos.rel
+END
+combo_to_tbc_combo_med.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/699/IngresoMedicamentosCirugia/relations/combo_to_tbc_combo_med.rel
+END
+bandeja_vs_to_fichaaneste_cab.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2720/IngresoMedicamentosCirugia/relations/bandeja_vs_to_fichaaneste_cab.rel
+END
+tbc_admision_scroll_to_tbc_obras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/699/IngresoMedicamentosCirugia/relations/tbc_admision_scroll_to_tbc_obras.rel
+END
+vhiscli2259_unico_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/proyecto1/!svn/ver/699/IngresoMedicamentosCirugia/relations/vhiscli2259_unico_to_tbc_admision_scroll.rel
+END

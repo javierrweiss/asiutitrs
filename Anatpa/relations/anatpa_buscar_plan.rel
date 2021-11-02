@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_plan_obra",
+items:[
+{foreignColumnName:"plo_planx10",primaryDataProviderID:"scopes.globals.Anatpa_ploPlanx",typeid:23,uuid:"78E4CD40-7A19-4135-9620-1F0F8BC2FCEB"},
+{foreignColumnName:"plo_obra_1",primaryDataProviderID:"scopes.globals.Anatpa_ploObra",typeid:23,uuid:"CD16F4FC-5CA6-463A-8D2B-AAFEB027B5EB"}
+],
+name:"anatpa_buscar_plan",
+primaryDataSource:"db:/maestros/tbc_plan_obra",
+typeid:22,
+uuid:"9F1E0736-1EA0-4FE5-ADA5-4E6CFFAD37A0"

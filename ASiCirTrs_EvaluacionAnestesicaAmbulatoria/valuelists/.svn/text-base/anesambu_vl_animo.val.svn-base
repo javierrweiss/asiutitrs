@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customValues:"Excitado|1\r
+Deprimido|2\r
+Ansioso|3\r
+Colaborador|4\r
+Hiperemotivo|5\r
+Comatoso|6\r
+Indiferente|7",
+name:"anesambu_vl_animo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"845A5ED4-6CCE-4B24-8513-D055D05A26AB"

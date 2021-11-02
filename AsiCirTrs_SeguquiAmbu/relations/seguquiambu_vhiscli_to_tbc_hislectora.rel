@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_his_lectora",
+items:[
+{foreignColumnName:"hlec_histclin",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"09D53071-2F25-4DA9-AFB5-226C3FAC971A"},
+{foreignColumnName:"hlec_tiphistclin",primaryDataProviderID:"scopes.globals.segambu_tipohist",typeid:23,uuid:"3D371CE8-4C17-4670-97FC-D742D0387F50"}
+],
+name:"seguquiambu_vhiscli_to_tbc_hislectora",
+primaryDataSource:"db:/asistencial/tbc_his_lectora",
+typeid:22,
+uuid:"EBB1103D-EB9B-4193-9FE6-305C238BD981"

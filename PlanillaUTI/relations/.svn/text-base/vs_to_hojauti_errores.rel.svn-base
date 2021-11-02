@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_errores",
+items:[
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.vFecha",typeid:23,uuid:"3F12EB16-7A55-4DE0-A64C-46A2F3E6AD15"},
+{foreignColumnName:"hora",primaryDataProviderID:"scopes.globals.vHora",typeid:23,uuid:"50B8DAB2-D208-480B-A076-B6BEAD2D21B9"},
+{foreignColumnName:"hiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"DB69213C-8916-41BA-A790-E06C1655DD79"}
+],
+name:"vs_to_hojauti_errores",
+primaryDataSource:"db:/enfermeria/hojauti_errores",
+typeid:22,
+uuid:"17A75B0A-462A-4488-BF22-5D8EC1164B1F"

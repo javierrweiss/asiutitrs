@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_personal",
+initialSort:"per_2_2 asc",
+items:[
+{foreignColumnName:"per_2_2",operator:4,primaryDataProviderID:"scopes.globals.gbl_con_usuario",typeid:23,uuid:"C7A9A6DC-A341-486D-AAA5-3BF7F77E3F0D"}
+],
+name:"buscar_alf_to_usuarios",
+primaryDataSource:"db:/maestros/tbc_medicos_personal",
+typeid:22,
+uuid:"212E32BD-4D6A-43F9-8389-ABF70B946AAF"

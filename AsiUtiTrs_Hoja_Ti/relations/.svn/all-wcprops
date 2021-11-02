@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/proyecto1/!svn/ver/2846/AsiUtiTrs_Hoja_Ti/relations
+END
+asiuti_hoja_apellido_to_tbc_admision_scroll.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiuti_hoja_apellido_to_tbc_admision_scroll.rel
+END
+asiutitrs_hoja_rel_buscar_servicio.rel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_servicio.rel
+END
+asiutitrs_hoja_vlegajo_menu_cirugia_to_tbc_personal.rel
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/proyecto1/!svn/ver/2846/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_vlegajo_menu_cirugia_to_tbc_personal.rel
+END
+asiutitrs_hoja_vlegajo_to_tbc_personal_login_cirugia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/proyecto1/!svn/ver/2846/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_vlegajo_to_tbc_personal_login_cirugia.rel
+END
+asiutitrs_hoja_rel_buscar_guardia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_guardia.rel
+END
+asiutitrs_hoja_rel_tbc_hist_cab_new.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_tbc_hist_cab_new.rel
+END
+asiutitrs_hoja_vlegajo_to_tbc_perext.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/2846/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_vlegajo_to_tbc_perext.rel
+END
+asiutitrs_hoja_rel_codauto.rel
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/proyecto1/!svn/ver/2793/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_codauto.rel
+END
+asiutitrs_hoja_re_buscar_patologia_2.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_re_buscar_patologia_2.rel
+END
+asiutitrs_hoja_rel_buscar_hojati_print.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_hojati_print.rel
+END
+asiutitrs_hoja_rel_tbc_detalle.rel
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/proyecto1/!svn/ver/2793/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_tbc_detalle.rel
+END
+asiutitrs_hoja_vlegajo_to_tbc_personal_login.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/2846/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_vlegajo_to_tbc_personal_login.rel
+END
+asiutitrs_hoja_rel_buscar_escaras_print.rel
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_escaras_print.rel
+END
+asiutitrs_hoja_vlegajo1_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/proyecto1/!svn/ver/2846/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_vlegajo1_to_tbc_clave_legajo.rel
+END
+asiutitrs_hoja_buscar_tbc_impresos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/proyecto1/!svn/ver/2794/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_buscar_tbc_impresos.rel
+END
+asiutitrs_hoja_rel_buscar_patologia_1_segunda.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_patologia_1_segunda.rel
+END
+asiutitrs_rel_tbc_hojati_to_tbc_hojati_primera_dia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_rel_tbc_hojati_to_tbc_hojati_primera_dia.rel
+END
+asiutitrs_hoja_rel_buscar_patologia_2_segunda.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_patologia_2_segunda.rel
+END
+asiutitrs_hoja_rel_buscar_personal_print.rel
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_personal_print.rel
+END
+asiutitrs_hoja_rel_buscar_obrasocial.rel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_obrasocial.rel
+END
+asiutitrs_hoja_vlegajo_to_tbc_medicos.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2846/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_vlegajo_to_tbc_medicos.rel
+END
+asiutitrs_rel_tbc_hojati_to_tbc_hojati_primera.rel
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_rel_tbc_hojati_to_tbc_hojati_primera.rel
+END
+asiutitrs_hoja_rel_buscar_hojati.rel
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_hojati.rel
+END
+asiutitrs_hoja_rel_buscar_medico_print.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_medico_print.rel
+END
+asiutitrs_rel_hojatitxt.rel
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_rel_hojatitxt.rel
+END
+asiutitrs_hoja_rel_buscar_hojatitxt.rel
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_hojatitxt.rel
+END
+asiutitrs_hoja_rel_buscar_patologia_print.rel
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_patologia_print.rel
+END
+asiutitrs_rel_tbc_tvp_escaras_to_tbc_tvp_escaras.rel
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/proyecto1/!svn/ver/2792/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_rel_tbc_tvp_escaras_to_tbc_tvp_escaras.rel
+END
+asiutitrs_rel_tbc_hojati_to_tbc_hojati_ultima_hoja.rel
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/proyecto1/!svn/ver/2794/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_rel_tbc_hojati_to_tbc_hojati_ultima_hoja.rel
+END
+asiutitrs_hoja_rel_buscar_patologia_1.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_patologia_1.rel
+END
+asiutitrs_rel_tbc_hojati_to_tbc_hojati.rel
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_rel_tbc_hojati_to_tbc_hojati.rel
+END
+asiutitrs_hoja_rel_buscar_patologia_2.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_patologia_2.rel
+END
+asiutitrs_hoja_rel_buscar_patologia_3.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_patologia_3.rel
+END
+asiutitrs_hoja_numero_to_tbc_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_numero_to_tbc_admision.rel
+END
+asiutitrs_hoja_numero_to_asistencial_admision.rel
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_numero_to_asistencial_admision.rel
+END
+asiutitrs_hoja_buscar_alertas.rel
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_buscar_alertas.rel
+END
+asiutitrs_hoja_vlegajo_to_tbc_clave_legajo.rel
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/proyecto1/!svn/ver/2846/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_vlegajo_to_tbc_clave_legajo.rel
+END
+asiutitrs_hoja_rel_buscar_hojati_print_primera_dia.rel
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/proyecto1/!svn/ver/2795/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_hoja_rel_buscar_hojati_print_primera_dia.rel
+END
+asiutitrs_rel_tbc_hojati_to_tbc_hojati_unica.rel
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/proyecto1/!svn/ver/2788/AsiUtiTrs_Hoja_Ti/relations/asiutitrs_rel_tbc_hojati_to_tbc_hojati_unica.rel
+END

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_articulos",
+initialSort:"art_descrip asc",
+items:[
+{foreignColumnName:"art_descrip",operator:4,primaryDataProviderID:"scopes.globals.vArticuloAlfa",typeid:23,uuid:"F9E29C90-90B2-4F76-97A1-9FC16B8B9454"}
+],
+name:"varticuloalfa_to_tbc_articulos",
+primaryDataSource:"db:/maestros/tbc_articulos",
+typeid:22,
+uuid:"7709F019-3C5B-402F-9AE8-D3543C3CDA24"

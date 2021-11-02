@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Argentina|0
+Extranjero|1",
+name:"vl_nacionalidad",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"D7DC9CA7-BFCF-4BE4-AF83-AD4A2784A240"

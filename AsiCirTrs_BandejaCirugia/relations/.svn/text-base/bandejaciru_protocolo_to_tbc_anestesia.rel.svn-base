@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anestesia",
+items:[
+{foreignColumnName:"anes_protocolo",primaryDataProviderID:"scopes.globals.bandejaciru_protocolo",typeid:23,uuid:"76E184F9-0A68-4607-A845-03A5C1C11EA4"}
+],
+name:"bandejaciru_protocolo_to_tbc_anestesia",
+primaryDataSource:"db:/asistencial/tbc_anestesia",
+typeid:22,
+uuid:"1DFB278C-4314-4F61-B88C-C0F7017534E9"

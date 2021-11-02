@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/admisionscroll/tbc_admision_scroll",
+items:[
+{foreignColumnName:"adm_histclin",primaryDataProviderID:"scopes.globals.vHisclin",typeid:23,uuid:"52CEA2A8-CEF2-4C81-84E4-99EFD5B7FD87"}
+],
+name:"vhisclin2_to_tbc_admision",
+primaryDataSource:"db:/admisionscroll/tbc_admision_scroll",
+typeid:22,
+uuid:"DCD5FB18-C686-4E0E-A661-DD8741B05CA0"

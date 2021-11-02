@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_rrhh_hist_cab",
+initialSort:"nro_unico asc",
+items:[
+{foreignColumnName:"nro_unico",primaryDataProviderID:"scopes.globals.gHistCabNroUnico",typeid:23,uuid:"82406A2D-D0C5-497F-9F55-7F04F77C9D2A"}
+],
+name:"ghistcabnrounico_to_tbl_rrhh_hist_cab",
+primaryDataSource:"db:/desal/tbl_rrhh_hist_cab",
+typeid:22,
+uuid:"964231D8-EA30-4E6C-AC29-1B6EA7FE1940"

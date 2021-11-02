@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_mae_est",
+initialSort:"maeest_des asc",
+items:[
+{foreignColumnName:"maeest_des",operator:4,primaryDataProviderID:"globals.vCajaAlfa",typeid:23,uuid:"65EC7957-90AB-475C-A448-1E1D206DBDE7"}
+],
+joinType:0,
+name:"vs_to_tbc_mae_est",
+primaryDataSource:"db:/maestros/tbc_mae_est",
+typeid:22,
+uuid:"AA8D9913-FC7F-4C7E-9FAF-732E77735DB9"

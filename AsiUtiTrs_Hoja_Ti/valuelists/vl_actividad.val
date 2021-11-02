@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Sin Problemas|1\r
+Camina con ayuda|2\r
+Se sienta con ayuda|3\r
+Postrado en cama|4",
+name:"vl_actividad",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"A4F4F2B3-8A82-4748-8449-EFE16495C86A"

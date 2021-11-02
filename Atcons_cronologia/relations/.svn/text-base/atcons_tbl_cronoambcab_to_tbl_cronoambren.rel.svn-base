@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bases_auxiliares/tbl_cronoambren",
+items:[
+{foreignColumnName:"fecaten",primaryDataProviderID:"fecaten",typeid:23,uuid:"15C7C5D6-1435-4329-98B3-4E1E2EE07E58"},
+{foreignColumnName:"horaaten",primaryDataProviderID:"horaaten",typeid:23,uuid:"591165B9-3CEB-4986-A9A8-BAC8F2CD7DDA"},
+{foreignColumnName:"hiscli_nro",primaryDataProviderID:"hiscli_nro",typeid:23,uuid:"777784A6-2A1F-44E5-9358-690995790BFD"}
+],
+joinType:1,
+name:"atcons_tbl_cronoambcab_to_tbl_cronoambren",
+primaryDataSource:"db:/bases_auxiliares/tbl_cronoambcab",
+typeid:22,
+uuid:"F94D863A-5354-4044-8B4A-D6EEAE0A2EFC"

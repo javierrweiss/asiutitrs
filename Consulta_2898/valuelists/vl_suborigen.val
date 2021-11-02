@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"|0\r
+Extras|1\r
+Teléfono|2\r
+Hab. Individual|3\r
+Fotocópias|4\r
+Alquileres|5\r
+Comercial|6\r
+Interempresa|7\r
+Abonos|8\r
+Otros|9",
+name:"vl_suborigen",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"A306CF14-795F-4478-AA8A-2EE1EB1B0690"

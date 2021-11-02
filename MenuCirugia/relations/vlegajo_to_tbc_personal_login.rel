@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_personal_login",
+initialSort:"per_legajo asc",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"globals.vLega",typeid:23,uuid:"9D11547D-8543-487D-B180-EC1282C4B78A"}
+],
+name:"vlegajo_to_tbc_personal_login",
+primaryDataSource:"db:/validalegajo/tbc_personal_login",
+typeid:22,
+uuid:"3EE4EDD1-EAFE-4343-8F8F-7967AE6119BF"

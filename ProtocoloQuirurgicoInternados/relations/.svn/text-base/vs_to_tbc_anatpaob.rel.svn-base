@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_anatpaob",
+initialSort:"apobnrosolic asc, apobtiponome asc, apobcodnome asc, apobsecuencia asc",
+items:[
+{foreignColumnName:"apobtiponome",primaryDataProviderID:"scopes.globals.one_value",typeid:23,uuid:"9F2B7D81-E751-4F1E-9858-AF9CF20B4278"},
+{foreignColumnName:"apobnrosolic",primaryDataProviderID:"scopes.globals.vNroSolicitud",typeid:23,uuid:"BEA81B80-5CBB-4269-8639-D1213B3030D4"},
+{foreignColumnName:"apobcodnome",primaryDataProviderID:"scopes.globals.vCodNome",typeid:23,uuid:"DBE9D455-9731-4E3E-9D3B-5F25C85C6D2F"}
+],
+name:"vs_to_tbc_anatpaob",
+primaryDataSource:"db:/asistencial/tbc_anatpaob",
+typeid:22,
+uuid:"2F8673A0-ED23-4105-8E5C-CD1ECF28331B"

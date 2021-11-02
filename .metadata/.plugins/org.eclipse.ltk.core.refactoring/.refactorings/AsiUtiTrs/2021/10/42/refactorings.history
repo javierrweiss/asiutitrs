@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring description="Extract method &apos;desbloquearPaciente&apos;" flags="589826" id="org.eclipse.dltk.core.manipulation.extract.method" stamp="1634136037586"/>
+</session>

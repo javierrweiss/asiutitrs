@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Sin Filtro|1\r
+del Día|2\r
+Diferida|3\r
+Administrativa|4",
+name:"vl_alta_medica",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"BACAB851-A812-4E50-96A0-BA46D440A558"

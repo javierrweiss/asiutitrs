@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"CI|1\r
+LE|2\r
+LC|3\r
+DNI|4",
+name:"vl_tipodoc",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"990670C5-CA6F-4BD1-BC75-A3372B8315C4"

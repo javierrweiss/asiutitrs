@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"scopes.globals.AsiVm_obrCodigo",typeid:23,uuid:"A17C3B61-947B-48D2-96BC-A7D635ED436B"}
+],
+joinType:1,
+name:"asivm_rel_obra_to_tbc_obras",
+primaryDataSource:"db:/maestros/tbc_obras",
+typeid:22,
+uuid:"5467DDEC-883D-4B32-B6B0-55745A91DD00"

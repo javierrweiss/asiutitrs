@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/validalegajo/tbc_medicos",
+items:[
+{foreignColumnName:"med_codigo",primaryDataProviderID:"scopes.globals.MostrarArchivos_vLega",typeid:23,uuid:"0124216E-0C60-4CD8-B6B7-81A6DF223FB9"}
+],
+name:"mostrararchivos_vlegajo_to_tbc_medicos",
+primaryDataSource:"db:/validalegajo/tbc_medicos",
+typeid:22,
+uuid:"C216E548-5749-458B-B19B-82103B32BF4F"

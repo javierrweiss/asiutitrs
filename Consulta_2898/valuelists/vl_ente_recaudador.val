@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"AFIP|1\r
+AGIP|2\r
+FATSA|3\r
+AMAP|4\r
+SADOP|5\r
+PJN|6\r
+DNPDP|7\r
+IGJ|8\r
+MAMBYD|9",
+fallbackValueListID:"9FCAD421-9365-49D3-BAD1-44AEEB999E6D",
+name:"vl_ente_recaudador",
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"62CE493A-F9CF-4447-851B-86676328A929"

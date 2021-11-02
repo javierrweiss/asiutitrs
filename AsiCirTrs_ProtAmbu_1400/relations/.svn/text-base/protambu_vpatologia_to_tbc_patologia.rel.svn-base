@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_patologia",
+items:[
+{foreignColumnName:"pat_codi",primaryDataProviderID:"globals.vPatologia",typeid:23,uuid:"BF469234-D0E6-48F1-84E0-590851501EC0"}
+],
+name:"protambu_vpatologia_to_tbc_patologia",
+primaryDataSource:"db:/maestros/tbc_patologia",
+typeid:22,
+uuid:"37FAD3E7-7EC0-407E-84C6-E713626EC04C"

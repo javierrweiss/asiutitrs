@@ -1,0 +1,7 @@
+customValues:"Con Oxigeno |1\r
+Sin Oxigeno |0",
+name:"AtCons_oxig",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"CFD83174-2982-4154-A35F-5E0BC4837F50"

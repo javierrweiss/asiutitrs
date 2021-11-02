@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/tmp_prn",
+initialSort:"hiscli asc, fecha asc, renglon asc",
+items:[
+{foreignColumnName:"tipo_opera",operator:0,primaryDataProviderID:"globals.vTipoOperador",typeid:23,uuid:"1DA036B6-FAE0-47D4-93E6-DDD3C23F09D7"},
+{foreignColumnName:"hiscli",operator:0,primaryDataProviderID:"globals.vHiscli",typeid:23,uuid:"80BCAC1C-BBA0-4753-90F3-CAC0003E9CCD"},
+{foreignColumnName:"nro_operador",operator:0,primaryDataProviderID:"globals.vLegajo",typeid:23,uuid:"BB044A23-9764-4BFB-A423-3EDCC261270C"},
+{foreignColumnName:"fecha",operator:0,primaryDataProviderID:"globals.vFecha",typeid:23,uuid:"E587C043-7087-4CD2-B218-A4571A9699A2"}
+],
+joinType:0,
+name:"tmp_prn_to_tmp_prn",
+primaryDataSource:"db:/enfermeria/tmp_prn",
+typeid:22,
+uuid:"0E6988C4-443E-4CCE-93BA-241E61CE8553"

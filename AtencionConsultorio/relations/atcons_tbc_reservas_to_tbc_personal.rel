@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.AtCons_vlega",typeid:23,uuid:"1EC5606B-00AF-45FB-A231-B456CD4C19E5"}
+],
+joinType:1,
+name:"atcons_tbc_reservas_to_tbc_personal",
+primaryDataSource:"db:/asistencial/tbc_reservas",
+typeid:22,
+uuid:"DBA029D3-C613-443C-B141-2DAAF46A354D"

@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"1.- Gr. I  Se ve paladar blando-uvula-pil.far.|1
+2.- Gr. II - Se uvula con dificultad, no pil.far.|2
+3.- Gr. III - No se visualiza paladar blando|3
+4.- Gr. IV - Sólo se visualiza paladar duro|4",
+name:"EscalaMallampati",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"1F3DB2B0-6471-46E3-896D-A5D37CF3366C"

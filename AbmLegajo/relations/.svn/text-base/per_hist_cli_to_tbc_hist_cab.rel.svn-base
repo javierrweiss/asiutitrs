@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/rrhh/tbc_hist_cab",
+initialSort:"histcabnrounico asc",
+items:[
+{foreignColumnName:"histcabnrounico",primaryDataProviderID:"scopes.globals.per_hist_cli",typeid:23,uuid:"88B9C6D0-3D7D-4ECA-81B9-65BF79F182FD"}
+],
+name:"per_hist_cli_to_tbc_hist_cab",
+primaryDataSource:"db:/rrhh/tbc_hist_cab",
+typeid:22,
+uuid:"40CEA52C-50DA-445A-9EA5-EC86EAAABB3B"

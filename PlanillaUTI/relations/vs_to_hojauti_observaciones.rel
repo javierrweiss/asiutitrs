@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/enfermeria/hojauti_observaciones",
+initialSort:"hiscli asc, fecha asc, hora asc",
+items:[
+{foreignColumnName:"hora",primaryDataProviderID:"scopes.globals.vHora",typeid:23,uuid:"098E3AEF-38CA-414E-9343-FC93D35C794C"},
+{foreignColumnName:"fecha",primaryDataProviderID:"scopes.globals.vFecha",typeid:23,uuid:"4044C35E-02AB-45EA-A694-10717D161401"},
+{foreignColumnName:"hiscli",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"849A6239-8FAA-4DB1-825B-D066A1BEE2A7"}
+],
+name:"vs_to_hojauti_observaciones",
+primaryDataSource:"db:/enfermeria/hojauti_observaciones",
+typeid:22,
+uuid:"F079C34C-FC69-4A45-A1C2-F89522C5D93E"

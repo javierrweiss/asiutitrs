@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/desal/tbl_perfil",
+items:[
+{foreignColumnName:"descripcion",operator:4,primaryDataProviderID:"scopes.globals.gbl_perfil",typeid:23,uuid:"53FAA7D8-42B7-431E-B026-C1DB8A45E190"}
+],
+name:"buscar_alf_to_perfil",
+primaryDataSource:"db:/desal/tbl_perfil",
+typeid:22,
+uuid:"0399CBD0-7D3C-4F80-B606-125D5D636960"

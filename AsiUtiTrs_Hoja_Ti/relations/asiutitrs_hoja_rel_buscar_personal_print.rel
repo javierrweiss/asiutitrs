@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.AsiUtiTrs_Hoja_perLegajoPrint",typeid:23,uuid:"59986042-24C2-45FA-9984-013919D877A9"}
+],
+joinType:1,
+name:"asiutitrs_hoja_rel_buscar_personal_print",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"EE51F3E1-85C4-4A82-B6AA-9CDE892B2E4D"

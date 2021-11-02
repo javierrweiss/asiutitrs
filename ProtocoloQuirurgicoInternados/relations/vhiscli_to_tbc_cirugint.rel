@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_cirugint",
+initialSort:"cirihistcl asc, cirifechacarga asc, cirihoracarga asc, ciritiponome asc, ciricodnome asc",
+items:[
+{foreignColumnName:"ciritiponome",primaryDataProviderID:"scopes.globals.zero_value",typeid:23,uuid:"17266F6E-4609-4F29-8B8F-19E70EAE76B1"},
+{foreignColumnName:"cirihistcl",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"8BA7E4E2-862E-46C8-ADD2-51703C602E32"},
+{foreignColumnName:"ciricodnome",primaryDataProviderID:"scopes.globals.zero_value",typeid:23,uuid:"94605C13-A12E-4179-A338-52072C41BBFB"},
+{foreignColumnName:"cirihoracarga",primaryDataProviderID:"scopes.globals.vHoraCarga",typeid:23,uuid:"A4E83382-EEA8-4227-8880-349F27B9B3B6"},
+{foreignColumnName:"cirifechacarga",primaryDataProviderID:"scopes.globals.vFechaCarga",typeid:23,uuid:"BBDD6A52-B289-4F52-A311-5EFB9EBBE65A"}
+],
+name:"vhiscli_to_tbc_cirugint",
+primaryDataSource:"db:/asistencial/tbc_cirugint",
+typeid:22,
+uuid:"6EF20288-8FCF-4680-91D2-4FF0B7F9F131"

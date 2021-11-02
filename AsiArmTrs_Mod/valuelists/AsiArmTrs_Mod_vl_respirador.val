@@ -1,0 +1,12 @@
+addEmptyValue:1,
+dataProviderID1:"rsp_codint",
+dataProviderID2:"rsp_marca",
+dataProviderID3:"rsp_serie",
+dataSource:"db:/asistencial/tbc_respirador",
+name:"AsiArmTrs_Mod_vl_respirador",
+returnDataProviders:1,
+separator:"",
+showDataProviders:7,
+typeid:34,
+uuid:"2516912D-F879-446C-933B-63953358F0F1",
+valueListType:1

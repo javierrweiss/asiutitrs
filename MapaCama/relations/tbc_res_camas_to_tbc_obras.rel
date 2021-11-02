@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_obras",
+items:[
+{foreignColumnName:"obr_codigo",primaryDataProviderID:"rca_obra",typeid:23,uuid:"0CB2F9A9-2166-4D81-A38F-37715840CEED"}
+],
+joinType:1,
+name:"tbc_res_camas_to_tbc_obras",
+primaryDataSource:"db:/asistencial/tbc_res_camas",
+typeid:22,
+uuid:"DC620B96-116D-4BC8-ADDC-5FD19ECB2BF3"

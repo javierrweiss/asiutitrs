@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"DNI\t|1
+CI|2\t
+PAS|3",
+name:"vl_documento_tipo",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"15540F2D-F402-4377-9423-613CF6BC654C"

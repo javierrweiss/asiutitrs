@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_medicos_personal",
+items:[
+{foreignColumnName:"medpercod",operator:0,primaryDataProviderID:"seglegaanestini",typeid:23,uuid:"5EF2EEEE-5A92-4E88-A35A-CE6F4DE03A70"}
+],
+joinType:0,
+name:"seglegaanestini_to_tbc_medicos_personal",
+primaryDataSource:"db:/asistencial/tbc_seguqui_new",
+typeid:22,
+uuid:"5594E392-8C2A-4D99-9E70-9BC22C6EF2CF"

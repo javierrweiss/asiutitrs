@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_personal",
+initialSort:"per_legajo asc",
+items:[
+{foreignColumnName:"per_legajo",primaryDataProviderID:"scopes.globals.Srv_Login_Sanatorio_vLegajo",typeid:23,uuid:"71B4D7D8-6C90-4E75-B8A6-E65168F4240D"}
+],
+name:"asiutitrs_hoja_vlegajo_menu_cirugia_to_tbc_personal",
+primaryDataSource:"db:/maestros/tbc_personal",
+typeid:22,
+uuid:"602C1CE8-2742-4272-A661-7548CA1C954D"

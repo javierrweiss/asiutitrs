@@ -1,0 +1,189 @@
+dataSource:"db:/asistencial/tbc_his_lectora",
+items:[
+{
+dataProviderID:"hlec_hora",
+editable:false,
+location:"280,20",
+name:"hlec_hora",
+size:"140,20",
+text:"Hlec Hora",
+typeid:4,
+uuid:"03394AD2-8601-41EC-872B-E794FEABB520"
+},
+{
+dataProviderID:"hlec_fec",
+editable:false,
+location:"0,20",
+name:"hlec_fec",
+size:"140,20",
+text:"Hlec Fec",
+typeid:4,
+uuid:"06591AAA-BB85-4939-A600-5BF68BC661B4"
+},
+{
+dataProviderID:"hlec_art",
+location:"420,20",
+name:"hlec_art",
+size:"140,20",
+text:"Hlec Art",
+typeid:4,
+uuid:"1492A8E7-7991-4888-9657-ACE266783C0E"
+},
+{
+labelFor:"hlec_horing",
+location:"980,0",
+name:"hlec_horing_label",
+size:"140,20",
+text:"Hlec Horing",
+transparent:true,
+typeid:7,
+uuid:"1C9A05CF-3481-4B4A-ACAA-29C2C25D29D6"
+},
+{
+dataProviderID:"hlec_estado",
+location:"700,20",
+name:"hlec_estado",
+size:"140,20",
+text:"Hlec Estado",
+typeid:4,
+uuid:"449F924C-4122-420D-AECD-913E95219763"
+},
+{
+dataProviderID:"hlec_cant",
+location:"560,20",
+name:"hlec_cant",
+size:"140,20",
+text:"Hlec Cant",
+typeid:4,
+uuid:"468702F5-3C0C-454D-A31B-792E4DAA23C4"
+},
+{
+dataProviderID:"hlec_histclin",
+editable:false,
+location:"140,20",
+name:"hlec_histclin",
+size:"140,20",
+text:"Hlec Histclin",
+typeid:4,
+uuid:"4D189814-184B-45AD-8C58-172703BC6AE5"
+},
+{
+labelFor:"hlec_imed",
+location:"1120,0",
+name:"hlec_imed_label",
+size:"140,20",
+text:"Hlec Imed",
+transparent:true,
+typeid:7,
+uuid:"7663C8F2-BB53-495A-AED7-E7508EAA6469"
+},
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"8AACD6E2-08EB-4CCA-8A2D-301E3A56634F"
+},
+{
+labelFor:"hlec_fec",
+location:"0,0",
+name:"hlec_fec_label",
+size:"140,20",
+text:"Hlec Fec",
+transparent:true,
+typeid:7,
+uuid:"9516DDB9-2F8A-4C68-865C-CA0C26352200"
+},
+{
+labelFor:"hlec_histclin",
+location:"140,0",
+name:"hlec_histclin_label",
+size:"140,20",
+text:"Hlec Histclin",
+transparent:true,
+typeid:7,
+uuid:"A1575894-928D-4A7A-9F2D-E8C3EA6A5ACE"
+},
+{
+dataProviderID:"hlec_horing",
+location:"980,20",
+name:"hlec_horing",
+size:"140,20",
+text:"Hlec Horing",
+typeid:4,
+uuid:"A214C0A6-AAE2-46FE-8660-B18D77BD873B"
+},
+{
+labelFor:"hlec_hora",
+location:"280,0",
+name:"hlec_hora_label",
+size:"140,20",
+text:"Hlec Hora",
+transparent:true,
+typeid:7,
+uuid:"B4646891-5E8F-4C26-9055-CB2976919A74"
+},
+{
+labelFor:"hlec_fecing",
+location:"840,0",
+name:"hlec_fecing_label",
+size:"140,20",
+text:"Hlec Fecing",
+transparent:true,
+typeid:7,
+uuid:"B7A5CD49-990D-492B-9A00-88D9504AF10E"
+},
+{
+dataProviderID:"hlec_fecing",
+location:"840,20",
+name:"hlec_fecing",
+size:"140,20",
+text:"Hlec Fecing",
+typeid:4,
+uuid:"E6031175-FF03-443F-A343-26F8BFB2DE9E"
+},
+{
+labelFor:"hlec_estado",
+location:"700,0",
+name:"hlec_estado_label",
+size:"140,20",
+text:"Hlec Estado",
+transparent:true,
+typeid:7,
+uuid:"ED4C117B-FE5F-41D0-85A0-28E82200B8A8"
+},
+{
+labelFor:"hlec_cant",
+location:"560,0",
+name:"hlec_cant_label",
+size:"140,20",
+text:"Hlec Cant",
+transparent:true,
+typeid:7,
+uuid:"F26CC92E-2DED-418D-AE22-D94320CE7D6A"
+},
+{
+labelFor:"hlec_art",
+location:"420,0",
+name:"hlec_art_label",
+size:"140,20",
+text:"Hlec Art",
+transparent:true,
+typeid:7,
+uuid:"F6C903FF-AEE7-4888-B4AE-EA5AB2094679"
+},
+{
+dataProviderID:"hlec_imed",
+location:"1120,20",
+name:"hlec_imed",
+size:"140,20",
+text:"Hlec Imed",
+typeid:4,
+uuid:"FE4DAEB9-41B9-4347-B4BF-9D809F96F90D"
+}
+],
+name:"bandejaciru_tbc_his_lectora",
+showInMenu:true,
+styleName:"Sanatorio",
+typeid:3,
+uuid:"1309EA79-8A9F-48A3-A0F1-B6396A95A7BF",
+view:3

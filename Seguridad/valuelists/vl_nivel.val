@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"1|1\r
+2|2\r
+3|3\r
+",
+name:"vl_nivel",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"ECCB0992-9BD4-4608-A4BE-F17B1D2F76C3"

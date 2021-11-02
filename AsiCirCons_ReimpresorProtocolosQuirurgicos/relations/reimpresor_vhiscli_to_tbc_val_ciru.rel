@@ -1,0 +1,14 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_val_ciru",
+items:[
+{foreignColumnName:"vcirhoraingreso",primaryDataProviderID:"scopes.globals.reimpresor_hora_ingreso",typeid:23,uuid:"3F9C622A-24C2-45D7-9379-B4568B817F82"},
+{foreignColumnName:"vcirsecuencia",primaryDataProviderID:"scopes.globals.reimpresor_secuencia",typeid:23,uuid:"488E2519-E602-43E1-BDBD-B1D6C4E8FAB9"},
+{foreignColumnName:"vcirhistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"60F3F955-7977-4F78-94F3-88C2339ADF54"},
+{foreignColumnName:"vcirfechaingreso",primaryDataProviderID:"scopes.globals.reimpresor_fecha_ingreso",typeid:23,uuid:"942AE219-41C2-4319-9EAC-FEA9607D7652"},
+{foreignColumnName:"vcircodnome",primaryDataProviderID:"scopes.globals.reimpresor_cod_nome",typeid:23,uuid:"C21B6DAF-A3EE-4CDA-9F6E-54E55C2B5ECF"},
+{foreignColumnName:"vcirtiponome",primaryDataProviderID:"scopes.globals.reimpresor_tipo_nome",typeid:23,uuid:"D186B72A-687C-416C-84EF-05B2E3A17036"}
+],
+name:"reimpresor_vhiscli_to_tbc_val_ciru",
+primaryDataSource:"db:/asistencial/tbc_val_ciru",
+typeid:22,
+uuid:"B4D22D87-C6D6-445F-9163-D2177010D1DB"

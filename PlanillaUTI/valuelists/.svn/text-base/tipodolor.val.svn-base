@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"Quemante|1\r
+Punzante|2\r
+Opresivo|3\r
+",
+name:"tipodolor",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"F8C966BF-390D-4886-A27E-4F2AFBFD03E2"

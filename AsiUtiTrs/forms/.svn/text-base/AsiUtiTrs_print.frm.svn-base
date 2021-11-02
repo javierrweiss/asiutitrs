@@ -1,0 +1,402 @@
+items:[
+{
+dataProviderID:"f_histClinIngreso",
+fontType:"Microsoft Sans Serif,0,9",
+foreground:"#000000",
+formIndex:9,
+location:"119,163",
+size:"82,15",
+transparent:true,
+typeid:7,
+uuid:"01CD937D-9592-4FA9-B068-12EC39086E15"
+},
+{
+displaysTags:true,
+fontType:"Microsoft Sans Serif,0,9",
+horizontalAlignment:4,
+location:"413,21",
+margin:"0,0,0,5",
+size:"120,12",
+text:"Hoja %%pageNumber%% de  %%totalNumberOfPages%%",
+transparent:true,
+typeid:7,
+uuid:"11C84009-42BA-41A4-BCDE-C69AEFBBCE64"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:8,
+location:"249,180",
+size:"72,15",
+text:"Egreso a IOG :",
+transparent:true,
+typeid:7,
+uuid:"199345E2-628B-4FEF-A962-85B18F8F5D94"
+},
+{
+dataProviderID:"f_fechaImpresion",
+displaysTags:true,
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:18,
+format:"dd/MM/yyyy HH:mm",
+horizontalAlignment:4,
+location:"373,2",
+margin:"0,0,0,5",
+size:"160,15",
+transparent:true,
+typeid:7,
+uuid:"255C00EA-95EC-4A0C-B37D-F38062CB3E46"
+},
+{
+dataProviderID:"f_apelnom",
+fontType:"Microsoft Sans Serif,0,9",
+foreground:"#000000",
+formIndex:12,
+location:"56,121",
+name:"apelnom",
+size:"192,15",
+transparent:true,
+typeid:7,
+uuid:"286B1879-3E86-44E5-800F-F649DB26FB13"
+},
+{
+dataProviderID:"f_matricula",
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:3,
+location:"237,308",
+size:"82,15",
+transparent:true,
+typeid:7,
+uuid:"2A96527A-ADC8-4D5B-BCB8-506EBCB386C1"
+},
+{
+height:214,
+partType:2,
+typeid:19,
+uuid:"3470D3A3-5243-4820-92AA-3AC7952AE918"
+},
+{
+dataProviderID:"f_histclinunica",
+fontType:"Microsoft Sans Serif,0,9",
+foreground:"#000000",
+formIndex:3,
+location:"297,139",
+size:"82,15",
+transparent:true,
+typeid:7,
+uuid:"35CDA46B-9EDA-4DB9-A932-8523CB96FBEE"
+},
+{
+borderType:"EtchedBorder,0,null,null",
+formIndex:31,
+horizontalAlignment:4,
+location:"0,212",
+size:"537,1",
+transparent:true,
+typeid:7,
+uuid:"383572A4-6166-46B7-AB27-9EBCC6CFB614"
+},
+{
+dataProviderID:"f_habitacion",
+fontType:"Microsoft Sans Serif,0,9",
+foreground:"#000000",
+formIndex:11,
+location:"280,121",
+size:"31,15",
+text:"1999",
+transparent:true,
+typeid:7,
+uuid:"39340384-61E9-4B9C-887C-DD7C9B436A96"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:8,
+location:"370,121",
+size:"30,15",
+text:"Sexo :",
+transparent:true,
+typeid:7,
+uuid:"3BEDA0EA-A103-41CB-98D3-626F5E4E1189"
+},
+{
+dataProviderID:"html_hoja",
+fontType:"Microsoft Sans Serif,0,8",
+formIndex:11,
+location:"0,217",
+size:"537,11",
+transparent:true,
+typeid:7,
+uuid:"4071A1C8-6F46-488D-A2BA-31FFCD9424A5"
+},
+{
+dataProviderID:"f_egreso",
+fontType:"Microsoft Sans Serif,0,9",
+foreground:"#000000",
+formIndex:7,
+location:"323,180",
+size:"210,15",
+transparent:true,
+typeid:7,
+uuid:"4A63AF09-BD36-43D5-9B3F-280F201AA1F5"
+},
+{
+borderType:"EtchedBorder,0,null,null",
+formIndex:31,
+horizontalAlignment:4,
+location:"0,195",
+size:"537,1",
+transparent:true,
+typeid:7,
+uuid:"5290D697-813D-4518-934C-BAF17884524D"
+},
+{
+height:325,
+partType:7,
+typeid:19,
+uuid:"5F15540D-358B-44B6-9EF2-C5B7C1650697"
+},
+{
+dataProviderID:"f_ingreso",
+fontType:"Microsoft Sans Serif,0,9",
+foreground:"#000000",
+formIndex:7,
+location:"323,163",
+size:"210,15",
+transparent:true,
+typeid:7,
+uuid:"6C529462-4B53-45F8-9905-C15438577023"
+},
+{
+dataProviderID:"f_medicoNombre",
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:12,
+location:"187,291",
+size:"213,15",
+transparent:true,
+typeid:7,
+uuid:"6F496930-7716-4484-BC53-44E8966569BD"
+},
+{
+dataProviderID:"f_edad",
+fontType:"Microsoft Sans Serif,0,9",
+foreground:"#000000",
+formIndex:7,
+location:"482,121",
+size:"51,15",
+text:"199 años",
+transparent:true,
+typeid:7,
+uuid:"74162613-4025-4FBB-8EC0-38685DCD64A0"
+},
+{
+borderType:"TitledBorder,Datos del Paciente,4,0,Microsoft Sans Serif,0,10,#000000",
+lineSize:1,
+location:"0,105",
+size:"537,57",
+transparent:true,
+typeid:21,
+uuid:"78E86413-BD8D-43B0-8207-53EA797EFFA6"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:5,
+location:"5,163",
+size:"112,15",
+text:"Ingreso Ambulatorio :",
+transparent:true,
+typeid:7,
+uuid:"8BA8530B-39C1-4B07-814B-3CB482394212"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:8,
+location:"249,163",
+size:"72,15",
+text:"Ingreso a IOG :",
+transparent:true,
+typeid:7,
+uuid:"8BCB2F22-BBD6-4267-ACFB-C5F7AD951E00"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:5,
+location:"314,121",
+size:"35,15",
+text:"Cama :",
+transparent:true,
+typeid:7,
+uuid:"9506210E-9626-4748-90FF-9C2572937DDA"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:13,
+location:"5,121",
+size:"50,15",
+text:"Paciente :",
+transparent:true,
+typeid:7,
+uuid:"99868CAF-4CE0-4D26-8C2C-07273221F2E5"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:6,
+horizontalAlignment:0,
+location:"189,273",
+size:"168,15",
+text:"Firma Medico",
+transparent:true,
+typeid:7,
+uuid:"A09C071B-2A89-4142-92C4-D5FD2B54D4EF"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:10,
+location:"249,121",
+size:"30,15",
+text:"Hab. :",
+transparent:true,
+typeid:7,
+uuid:"A478B839-0128-4066-B810-FDB0FD41385B"
+},
+{
+dataProviderID:"f_cama",
+fontType:"Microsoft Sans Serif,0,9",
+foreground:"#000000",
+formIndex:9,
+location:"350,121",
+size:"18,15",
+text:"A",
+transparent:true,
+typeid:7,
+uuid:"ADCB723C-8CB6-42F9-A932-248958F9FCE6"
+},
+{
+dataProviderID:"f_sexo",
+fontType:"Microsoft Sans Serif,0,9",
+foreground:"#000000",
+formIndex:7,
+location:"401,121",
+size:"48,15",
+text:"Masculino",
+transparent:true,
+typeid:7,
+uuid:"B3F75AFA-CE64-45F6-BEA1-7A96A4F61934"
+},
+{
+height:230,
+partType:5,
+typeid:19,
+uuid:"B657374F-650B-4DC4-B835-2E19258252FB"
+},
+{
+dataProviderID:"f_cobertura",
+fontType:"Microsoft Sans Serif,0,9",
+foreground:"#000000",
+formIndex:11,
+location:"56,139",
+size:"192,15",
+transparent:true,
+typeid:7,
+uuid:"B85162E9-63E5-41D0-9348-F1F6233B7211"
+},
+{
+dataProviderID:"f_medico",
+fontType:"Microsoft Sans Serif,0,9",
+foreground:"#000000",
+formIndex:11,
+location:"5,85",
+size:"528,15",
+transparent:true,
+typeid:7,
+uuid:"BAB14565-3140-484C-9919-9A576B095CD1"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:8,
+location:"451,121",
+size:"30,15",
+text:"Edad :",
+transparent:true,
+typeid:7,
+uuid:"BC0E7485-EDAE-4EDE-8911-B2C7200F8C7C"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:6,
+location:"249,139",
+size:"47,15",
+text:"H.C.U. :",
+transparent:true,
+typeid:7,
+uuid:"CCBC2BED-BCC5-4803-81E1-CAD177DBF24A"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:10,
+location:"5,139",
+size:"50,15",
+text:"O. Social :",
+transparent:true,
+typeid:7,
+uuid:"D5FA1370-6275-4D70-9BF0-6BE81501ED57"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:25,
+horizontalAlignment:0,
+location:"0,197",
+size:"535,12",
+text:"DETALLE",
+transparent:true,
+typeid:7,
+uuid:"DCBD19B4-CBB0-4039-91CD-1B58C3830C0D"
+},
+{
+fontType:"Microsoft Sans Serif,0,9",
+formIndex:6,
+location:"189,308",
+size:"47,15",
+text:"Matricula",
+transparent:true,
+typeid:7,
+uuid:"DE2EDCE8-FCE6-4083-BEE1-8638AEF97B65"
+},
+{
+borderType:"EmptyBorder,0,5,0,0",
+fontType:"Microsoft Sans Serif,0,12",
+formIndex:1,
+horizontalAlignment:0,
+location:"5,62",
+size:"530,20",
+text:"HISTORIA CLINICA DE INGRESO A TERAPIA INTENSIVA",
+transparent:true,
+typeid:7,
+uuid:"E0164413-EECB-4BC7-9D17-C3BE32FE4925"
+},
+{
+borderType:"EmptyBorder,0,0,0,0",
+imageMediaID:"97E0E77B-A2D4-4886-866B-60FA2A9917B2",
+location:"4,0",
+size:"327,54",
+typeid:7,
+uuid:"F1BA56CA-0CDF-4A8A-B8CC-C56BDA2C411D"
+},
+{
+borderType:"LineBorder,1,#000000",
+formIndex:33,
+horizontalAlignment:4,
+location:"189,272",
+size:"168,1",
+transparent:true,
+typeid:7,
+uuid:"F94CE728-9382-4E6D-9B98-F92EAF0D5C02"
+}
+],
+name:"AsiUtiTrs_print",
+onElementFocusGainedMethodID:"-1",
+onShowMethodID:"7D23D666-DA76-4A7C-84F5-EE6F2B6F43EF",
+scrollbars:32,
+showInMenu:true,
+size:"538,289",
+typeid:3,
+uuid:"8535C1DF-E57C-4C04-917A-9BA1F100328D",
+view:4

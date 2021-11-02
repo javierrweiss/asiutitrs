@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_nomencla",
+initialSort:"nome_tipo_4 asc, nome_descr_4 asc",
+items:[
+{foreignColumnName:"nome_descr_4",operator:4,primaryDataProviderID:"scopes.globals.vNomenclaAlfa",typeid:23,uuid:"5B2AA52D-6D90-4674-936B-23B19B8CC997"},
+{foreignColumnName:"nome_tipo_4",primaryDataProviderID:"LITERAL:1",typeid:23,uuid:"BB051343-CC72-43A2-BEE0-BA76B0511282"}
+],
+name:"protambu1400_vnomenclaalfa_to_tbc_nomencla",
+primaryDataSource:"db:/maestros/tbc_nomencla",
+typeid:22,
+uuid:"FD87AFA2-3356-42BC-9775-2CF35A8D3AF8"

@@ -1,0 +1,9 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/maestros/tbc_articulos",
+items:[
+{foreignColumnName:"art_codigo",primaryDataProviderID:"hlec_art",typeid:23,uuid:"B94E7CB4-0B6A-4332-8DD1-1A0CB8B33F2B"}
+],
+name:"tbc_his_lectora_to_tbc_articulos",
+primaryDataSource:"db:/asistencial/tbc_his_lectora",
+typeid:22,
+uuid:"5D2AB322-0654-4D6C-843D-E48A1F9235A9"

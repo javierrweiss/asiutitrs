@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"Obedece Ordenes|6\r
+Localiza Dolor|5\r
+Flexiona al Dolor|4\r
+Flexion anormal|3\r
+Extensión anormal|2\r
+Ausencia|1",
+name:"Gasglow_motora",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"A53B95FC-22F2-4F7E-9A52-47FA536D8F56"

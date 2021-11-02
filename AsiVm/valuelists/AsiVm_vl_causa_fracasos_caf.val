@@ -1,0 +1,16 @@
+addEmptyValue:1,
+customValues:"Paro cardiorrespiratorio|1\r
+Hipertensión arterial|2\r
+Shock|3\r
+No mejoría de EAB|4\r
+No mejoría clínica|5\r
+VAS|6\r
+Deterioro del sensorio|7\r
+Agitación|8\r
+Intolerancia|9\r
+Falla de interfase|10",
+name:"AsiVm_vl_causa_fracasos_caf",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"FD496190-54E9-4329-BC89-C36E7EE115E1"

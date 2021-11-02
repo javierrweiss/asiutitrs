@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/asistencial/tbc_proamb_t",
+items:[
+{foreignColumnName:"proagrupo",primaryDataProviderID:"scopes.globals.bandejaciru_vItemTexto",typeid:23,uuid:"4F238572-C62C-4AF7-9A9F-BAF313DE8FC0"},
+{foreignColumnName:"proahoraingreso",primaryDataProviderID:"scopes.globals.bandejaciru_horaingreso",typeid:23,uuid:"9B16CB00-39EA-48B6-B625-22D6F6C9430D"},
+{foreignColumnName:"proahistclinica",primaryDataProviderID:"scopes.globals.vHiscli",typeid:23,uuid:"A5CC2AE1-1EEC-414E-85ED-7EC084690DA1"},
+{foreignColumnName:"proafechaingreso",primaryDataProviderID:"scopes.globals.bandejaciru_fechaingreso",typeid:23,uuid:"D3A6A64B-A19F-4EDB-966E-2AF91F67ABEB"}
+],
+name:"bandejaciru_vs_t_to_tbc_proamb_t",
+primaryDataSource:"db:/asistencial/tbc_proamb_t",
+typeid:22,
+uuid:"B9926176-C74B-458E-8367-760DC65DDCAB"
