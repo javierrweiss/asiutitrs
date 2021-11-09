@@ -235,23 +235,10 @@ var f_pendienteDeSeleccion = false;
  * @properties={typeid:24,uuid:"B7079520-24B4-4D9F-AE53-826B910C8570"}
  */
 
-
-/**
- * TODO generated, please specify type and doc for the params
- * @param firstShow
- * @param event
- *
- * @properties={typeid:24,uuid:"6AEC5A73-9DAF-4BE2-A0EF-DA9DD0E98650"}
- */
-function onShow_inicializarForm(firstShow, event) {
-	elements.txt_paciente.requestFocus(); 
-}
-
 /**
  * @properties={typeid:24,uuid:"2E393B62-9CC2-4F73-9EA2-5A0317430AB8"}
  */
 function mostrarRecordatorio() {
-
 	var texto = 
 		"<html><div style='text-align:justify;width:350px;height:80px'> <meta name='viewport' content='width=device-width, initial-scale=1.0'>"
 	    + "<p>Resulta indispensable, con el fin de evitar inconvenientes " 
@@ -273,7 +260,6 @@ function mostrarRecordatorio() {
  * @properties={typeid:24,uuid:"800D37C4-E775-4835-BF87-7713A2ED7687"}
  */
 function onAction_btnBuscarPaciente(event) {
-
 	globals.AsiUtiTrs_eventSourceButton = 1;
 	openSearch();
 }
@@ -282,7 +268,6 @@ function onAction_btnBuscarPaciente(event) {
  * @properties={typeid:24,uuid:"18A3B22B-4746-454E-A4E3-7DF69F6B4806"}
  */
 function openSearch() {
-
 	var win2 = application.createWindow("seleccion_internado", JSWindow.MODAL_DIALOG);
 	win2.title = 'Búsqueda de Pacientes Internados';
 	win2.resizable = false;
@@ -299,11 +284,13 @@ function openSearch() {
  */
 function onAction_txtBusquedaRapida(event) {
 	globals.AsiUtiTrs_hisclistrynro = f_paciente
-	if(!f_paciente) {
-		plugins.dialogs.showInfoDialog('¡Atención!','Debe ingresar un parámetro de búsqueda válido','Ok')	
-	}else{
-		globals.AsiUtiTrs_eventSourceButton = 0;
-		openSearch();
+	if (elements[event.getElementName()].enabled == true || elements[event.getElementName()].editable == true) {
+		if (!f_paciente) {
+			plugins.dialogs.showInfoDialog('¡Atención!', 'Debe ingresar un parámetro de búsqueda válido', 'Ok')
+		} else {
+			globals.AsiUtiTrs_eventSourceButton = 0;
+			openSearch();
+		}
 	}
 }
 
@@ -311,7 +298,6 @@ function onAction_txtBusquedaRapida(event) {
  * @properties={typeid:24,uuid:"DDCEEAB9-87D1-4781-9087-A87C95E7C9C6"}
  */
 function pacienteSeleccionadoInter() {
-
 	if(isValidDatosPacienteInter()){
 		
 		editablePaciente(false);
@@ -427,8 +413,7 @@ function pacienteSeleccionadoInter() {
 					}
 			
 		} else{
-			
-			limpiarForm();
+			openSearch()
 		}	
 	}else{
 		plugins.dialogs.showErrorDialog('Error','La información del paciente ingresado no pudo ser validada')
@@ -445,13 +430,19 @@ function ingresoFechaTerapia(){
 	popupIngresoTerapia.resizable = false;
 	popupIngresoTerapia.show(forms.AsiUtiTrs_dlg_fechaIngresoTerapia);
 	
-	if(globals.fechaIngresadaTerapia){
+	if (globals.fechaIngresadaTerapia) {
 		visibleBody(true);
-		forms.AsiUtiTrs_txt_examen_fisico.elements.cbo_tieneUPP.enabled=true
-		forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.btn_grabar.enabled=true;
-	}else{
+		forms.AsiUtiTrs_txt_examen_fisico.elements.cbo_tieneUPP.enabled = true;
+		//habilitamos todos los campos del formulario
+		for (var i = 0; i < forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.allnames.length - 1; i++) {
+			var name = forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.allnames[i]; // nombre del elemento
+			forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements[name].enabled = true;
+			forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.controller.readOnly=false;
+		}
+		editablePaciente(false);
+	} else {
 		limpiarForm();
-		forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_paciente.editable=true;
+		forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_paciente.editable = true;
 		forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_paciente.requestFocus();
 	}
 	
@@ -462,10 +453,10 @@ function ingresoFechaTerapia(){
  * 
  */
 function loadHciint() {
-
+	editablePaciente(false);
 	if (asiutitrs_rel_tbc_hciti_to_tbc_hciti.getSize() > 0) {
 									globals.AsiUtiTrs_hisclin = asiutitrs_numero_to_tbc_admision.adm_histclin;
-									f_paciente=  asiutitrs_numero_to_tbc_admision.hiscli_hciti + ' ' + utils.stringTrim(asiutitrs_numero_to_tbc_admision.adm_apelnom);
+									f_paciente =  asiutitrs_numero_to_tbc_admision.hiscli_hciti + ' ' + utils.stringTrim(asiutitrs_numero_to_tbc_admision.adm_apelnom);
 									f_histClinUnica = asiutitrs_numero_to_tbc_admision.adm_histclinuni;
 									f_sexo = asiutitrs_numero_to_tbc_admision.adm_sexo;
 									f_edad = globals.CalculoEdad(asiutitrs_numero_to_tbc_admision.adm_fecnac) + ' ' + globals.vTipoEdad;
@@ -490,14 +481,15 @@ function loadHciint() {
 									globals.AsiUtiTrs_grupoTxt = 1;
 									globals.AsiUtiTrs_ppcTxt = asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval10 -asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval11;
 									
+									forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico_1.enabled=false;
 									forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia1=asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat1;
-									if(!globals.IsBlank(forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia1) && forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia1!=0){
-										forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico2.editable=false;
-									}
+//									if(!globals.IsBlank(forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia1) && forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia1!=0){
+										forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico2.enabled=false;
+//									}
 									forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia2=asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat2;
-									if(!globals.IsBlank(forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia2) && forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia2!=0){
-										forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico3.editable=false;
-									}
+//									if(!globals.IsBlank(forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia2) && forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia2!=0){
+										forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico3.enabled=false;
+//									}
 									forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia3=asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat3;
 									
 									forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.$hist_clin_patologia = asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitsatiqpatologia;
@@ -663,7 +655,6 @@ function loadHciint() {
  * @properties={typeid:24,uuid:"EE08DFBE-888F-43EE-A4BB-58BA23613DE5"}
  */
 function isValidDatosPacienteInter() {
-
 	var isValid = true;
 	//$messageErrorInter = '';
 
@@ -694,15 +685,14 @@ function isValidDatosPacienteInter() {
  * @properties={typeid:24,uuid:"7835B704-D662-4D68-AFBA-5E1E122E4369"}
  */
 function editablePaciente(value) {
-	elements.txt_paciente.editable = value;
 	elements.btn_buscarPaciente.enabled = value;
+	elements.txt_paciente.enabled = value;
 }
 
 /**
  * @properties={typeid:24,uuid:"0677B9E4-AD47-4D7D-ADD3-9AC7D3E864A0"}
  */
 function limpiarForm() {
-
 	databaseManager.revertEditedRecords();
 	inicializarForm();
 	forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.btn_cancelar.enabled=false;
@@ -715,7 +705,6 @@ function limpiarForm() {
  * @properties={typeid:24,uuid:"D6BFB2C8-8A13-4F43-95D8-6229891E2A30"}
  */
 function inicializarForm() {
-
 	f_histClinUnica = null;
 	f_paciente = null;
 	f_cobertura = null;
@@ -723,7 +712,7 @@ function inicializarForm() {
 	f_edad = null;
 	f_sexo = null;
 	f_cerrarForm = false;
-	f_medico = null;
+	//f_medico = null;
 	f_habita = null;
 	f_cama = null;
 	$_countChange = 1;
@@ -735,7 +724,9 @@ function inicializarForm() {
 	f_patologia2='';
 	f_patologia3='';
 	generarARM = 0
-	
+	$hist_clin_reingreso = -1;
+	$hist_clin_patologia = 0;
+	$hist_clin_procedencia = 0;
 	
 	elements.lbl_procesando.visible = false;
 	globals.fechaIngresadaTerapia=false;
@@ -791,6 +782,7 @@ function inicializarForm() {
 	forms.AsiUtiTrs_txt_examen_fisico.elements.cbo_localizacion.visible=false;
 	forms.AsiUtiTrs_txt_examen_fisico.elements.lvl_grado1.visible=false;
 	forms.AsiUtiTrs_txt_examen_fisico.elements.txt_localizacion.visible=false;
+	
 }
 
 /**
@@ -800,7 +792,6 @@ function inicializarForm() {
  * @properties={typeid:24,uuid:"D8755649-60B0-46A0-B315-8103DF10FC56"}
  */
 function visibleBody(value) {
-
 	elements.tab_informe_1.visible = value;
 	elements.tab_informe_2.visible = value;
 	elements.shs_informe.visible = value;
@@ -831,7 +822,6 @@ function visibleBody(value) {
  * @properties={typeid:24,uuid:"E10C8EEB-08E5-4A8D-BF61-349222FEE941"}
  */
 function editableSolicitudAutomatica(value){
-	
 	forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.chk_ecg.enabled=value
 
 }
@@ -855,6 +845,10 @@ function onAction_btnGuardar(event) {
 					if (res == 'No'){
 						elements.txt_paciente.requestFocus();
 						return;}
+					
+						// Activar etiqueta de procesando
+					elements.lbl_procesando.visible=true;
+					elements.lbl_procesando.enabled=true;
 					
 					var fecha = 0;
 					var hora = 0;
@@ -903,18 +897,7 @@ function onAction_btnGuardar(event) {
 					asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval19 = utils.stringTrim(forms.AsiUtiTrs_txt_estudios_solicitados.f_informe).length > 0 ? 1 : 0;
 					asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval21 = utils.stringTrim(forms.AsiUtiTrs_txt_interconsulta.f_informe).length > 0 ? 1 : 0;
 					asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval22 = utils.stringTrim(forms.AsiUtiTrs_txt_otros.f_informe).length > 0 ? 1 : 0;
-					
-					
-					if(asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_rel_buscar_patologia_1.getSize()==0){
-						asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat1=0;
-					}
-					if(asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_re_buscar_patologia_2.getSize()==0){
-						asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat2=0;
-					}
-					if(asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_re_buscar_patologia_3.getSize()==0){
-						asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat3=0;
-					}
-					
+								
 					// UPP
 					if(forms.AsiUtiTrs_txt_examen_fisico.tieneUPP=='1'){
 						asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitgradoupp = utils.stringToNumber(forms.AsiUtiTrs_txt_examen_fisico.gradoUPP);
@@ -937,12 +920,7 @@ function onAction_btnGuardar(event) {
 					asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitsatiqpatologia = $hist_clin_patologia
 					
 					//Seteamos a cero cualquier valor del foundset que sea null
-					var dataproviders = asiutitrs_rel_tbc_hciti_to_tbc_hciti.alldataproviders;
-					for(var i = 0;i<dataproviders.length; i++){
-						if(asiutitrs_rel_tbc_hciti_to_tbc_hciti[dataproviders[i]]==null){
-							asiutitrs_rel_tbc_hciti_to_tbc_hciti[dataproviders[i]]= 0;
-						}
-					}
+					globals.nullACero(asiutitrs_rel_tbc_hciti_to_tbc_hciti)
 					
 					// Actualizando base de datos
 					databaseManager.startTransaction()
@@ -1027,7 +1005,11 @@ function onAction_btnGuardar(event) {
 					
 					
 					if (resultSave == true) {
-
+						
+						//Desactivar etiqueta de procesando
+						elements.lbl_procesando.visible=false;
+						elements.lbl_procesando.enabled=false;
+						
 						databaseManager.commitTransaction();
 						globals.DIALOGS.showInfoDialog("Resultado", "La historia clínica de ingreso a Terapia Intensiva se guardó correctamente.", "Aceptar");
 						//que hago
@@ -1074,6 +1056,9 @@ function onAction_btnGuardar(event) {
 						inicializarForm();
 						
 					} else {
+						//Desactivar etiqueta de procesando
+						elements.lbl_procesando.visible=false;
+						
 						var error1 = ''
 						var error2 = ''
 						var array = databaseManager.getFailedRecords()
@@ -1111,7 +1096,6 @@ function onAction_btnGuardar(event) {
  * @properties={typeid:24,uuid:"77260CB0-49AD-4441-AEA8-5D67592EBACA"}
  */
 function grabarCodAuto() {
-	
 	var camaActual = 0;
 	
 	var sql = "select Cam_UtilActual_1,Cam_UtilActual_2,Cam_UtilActual_3,Cam_UtilActual_4,Cam_UtilActual_5"
@@ -1172,7 +1156,7 @@ function grabarCodAuto() {
 		var hora = globals.CapturaHoraSistema('HHMMSSDD');
 		
 		asiutitrs_rel_codauto.newRecord();
-		inicializarRelacionCodAuto();
+		globals.nullACero(asiutitrs_rel_codauto);
 		
 		asiutitrs_rel_codauto.codautoempr = empresa;
 		asiutitrs_rel_codauto.codautoempr5 = empresa;
@@ -1248,7 +1232,6 @@ function grabarCodAuto() {
  * @properties={typeid:24,uuid:"DD71739C-0434-4B3E-B1E2-1F08056D180A"}
  */
 function enviarEmail(paciente,afiliado,nomeDesc,fecha,sector,hora) {
-	
 	if(asiutitrs_rel_buscar_obrasocial.obrmodautpre == 1 || asiutitrs_rel_buscar_obrasocial.obrmodautpre == 3){
 		
 		var mailObrTipo = 2;
@@ -1576,7 +1559,6 @@ function enviarEmail(paciente,afiliado,nomeDesc,fecha,sector,hora) {
  * @properties={typeid:24,uuid:"827E308A-9C31-4B6F-ABD1-E154B2EA137F"}
  */
 function guardarTexto(histClin, fecha, hora, grupo, item, texto) {
-	
 	globals.AsiUtiTrs_hiiHisCli = histClin;
 	globals.AsiUtiTrs_fechaTxt = fecha;
 	globals.AsiUtiTrs_horaTxt = hora;
@@ -1675,6 +1657,7 @@ function isValidDataForm() {
 		messageError += "<li> La úlcera por presión no puede permanecer indefinida.</li>";
 		isValidForm = false;
 	}
+	
 	messageError += "</ol> </html>"
 	var nuevaFechaActual = application.getServerTimeStamp();
 	var nuevaFechaAux = nuevaFechaActual;
@@ -1709,17 +1692,14 @@ function isValidDataForm() {
 			isValidForm = false;
 		}
 	}
-
-	
+		
 	/*////////// INICIO VALIDADOR ////////////////////*/
 	if (!isValidForm) {
 		globals.DIALOGS.showWarningDialog("¡Atención!", messageError, "Aceptar")
 		return isValidForm;
 	}
 	/*////////// FIN VALIDADOR ////////////////////*/
-	validarPatologia(f_patologia1,'hitpat1');
-	validarPatologia(f_patologia2,'hitpat2');
-	validarPatologia(f_patologia3,'hitpat3');
+
 	
 	return isValidForm;
 }
@@ -1729,7 +1709,6 @@ function isValidDataForm() {
  * @SuppressWarnings(unused)
  */
 function isValidData() {
-
 	var isValid = true;
 	var messageError1 = "No ha sido posible guardar la solicitud. Corrija los siguientes errores y vuelva a intentar."
 		//var borderError = 'LineBorder,1,#ff0000';
@@ -1825,11 +1804,16 @@ function validateRequired(formName, validarSinPropertys, patron, validarCantCara
  * @properties={typeid:24,uuid:"BB33BD51-9685-4A5A-B9CB-093A1148CD89"}
  */
 function onAction_btnCerrar(event) {
-	f_cerrarForm=true;
+	databaseManager.revertEditedRecords()
+	if(globals.isLocked(globals.AsiUtiTrs_hisclin)== true){
+		globals.bloquearHistClin(globals.AsiUtiTrs_hisclin.toString(),false);
+	}
 	var $win = application.getWindow(application.getActiveWindow().getName());
 	if ($isDirty) {
 		var respuesta = globals.DIALOGS.showQuestionDialog('¡Atención!', 'Existen datos que no han sido guardados. ¿Está seguro que desea continuar?', 'Sí', 'No')
 		if (respuesta == 'Sí'){
+			limpiarForm()
+			f_cerrarForm=true;
 			if($win){
 				$win.hide();
 				$win.destroy();
@@ -1840,6 +1824,7 @@ function onAction_btnCerrar(event) {
 			elements.txt_frecuencia.requestFocus();
 		}
 	} else {
+		f_cerrarForm=true;
 		if($win){
 			$win.hide();
 			$win.destroy();
@@ -1872,9 +1857,11 @@ function onHide_cerrarForm(event) {
  * @properties={typeid:24,uuid:"8307310A-2814-4B7F-8792-DF0CF822F8FC"}
  */
 function onAction_buscarPatologia_1(event) {
-	f_patologia = f_patologia1;
-	globals.AsiUtiTrs_patDataProvider = 'hitpat1';
-	openBuscarPatologia();
+	if (elements[event.getElementName()].enabled == true || elements[event.getElementName()].editable == true) {
+		f_patologia = f_patologia1;
+		globals.AsiUtiTrs_patDataProvider = 'hitpat1';
+		openBuscarPatologia();
+	}
 }
 
 /**
@@ -1899,10 +1886,12 @@ function openBuscarPatologia() {
  * @properties={typeid:24,uuid:"C65E09F6-F5BF-4618-9587-88FBBF271E2C"}
  */
 function onAction_buscarPatologia_2(event) {
-	f_patologia = f_patologia2;
-	globals.AsiUtiTrs_patDataProvider = 'hitpat2';  //'hiidiag2'; --
-	if(!globals.IsBlank(f_patologia1) && f_patologia1!=0 && asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_rel_buscar_patologia_1.getSize()>0)
-		openBuscarPatologia();
+	if (elements[event.getElementName()].enabled == true || elements[event.getElementName()].editable == true) {
+		f_patologia = f_patologia2;
+		globals.AsiUtiTrs_patDataProvider = 'hitpat2';
+		if (!globals.IsBlank(f_patologia1) && f_patologia1 != 0)
+			openBuscarPatologia();
+	}
 }
 
 /**
@@ -1913,87 +1902,15 @@ function onAction_buscarPatologia_2(event) {
  * @properties={typeid:24,uuid:"71814C2A-5F95-4DDD-B0B7-370E11F97BAF"}
  */
 function onAction_buscarPatologia_3(event) {
-	f_patologia = f_patologia3;
-	globals.AsiUtiTrs_patDataProvider = 'hitpat3';
-	if(!globals.IsBlank(f_patologia2) && f_patologia2!=0 && asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_re_buscar_patologia_2.getSize() && asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_rel_buscar_patologia_1.getSize()>0)
-		openBuscarPatologia();
+	if (elements[event.getElementName()].enabled == true || elements[event.getElementName()].editable == true) {
+		f_patologia = f_patologia3;
+		globals.AsiUtiTrs_patDataProvider = 'hitpat3';
+		if (!globals.IsBlank(f_patologia1) && f_patologia1 != 0 && f_patologia2 && f_patologia2 != 0)
+			openBuscarPatologia();
+	}
 }
 
-/**
- * @properties={typeid:24,uuid:"A54B7547-0B62-4923-93C2-AC43C93CA935"}
- */
-function inicializarRelacionHcint() {
 
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitfecha = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hithiscli = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hithora = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval15 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval12 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval18 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval7 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitfecha2 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hithora2 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval5 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval21 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitlegajomed = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval1 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval8 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval22 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval16 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval4 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval6 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval2 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval3 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval23 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval20 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval17 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval9 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval10 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval11 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval13 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval14 = 0;
-	asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval19 = 0;
-	
-}
-
-/**
- * @properties={typeid:24,uuid:"EE24E64F-04BB-4668-B50D-8CCCF5804382"}
- */
-function inicializarRelacionAlert() {
-
-	asiutitrs_rel_alerta.aler_histclin=0;
-	asiutitrs_rel_alerta.aler_tipadmi = 0;
-	asiutitrs_rel_alerta.aler_alergico = ' ';
-	asiutitrs_rel_alerta.aler_codoper = 0;
-	asiutitrs_rel_alerta.aler_filler = ' ';
-	asiutitrs_rel_alerta.aler_tipaler_1 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_10 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_11 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_12 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_13 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_14 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_15 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_16 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_17 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_18 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_19 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_2 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_20 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_21 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_22 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_23 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_24 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_25 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_3 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_4 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_5 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_6 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_7 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_8 = 0;
-	asiutitrs_rel_alerta.aler_tipaler_9 = 0;
-	asiutitrs_rel_alerta.aler_tipoper = 0;
-
-}
 
 /**
  * TODO generated, please specify type and doc for the params
@@ -2023,7 +1940,6 @@ function contar_dias(Fecha_Desde, Fecha_Hasta) {
  * @properties={typeid:24,uuid:"88F33F88-A79E-46DA-A864-5A5A3DD1B35A"}
  */
 function convertNumberToHour_HHMM(realValue) {
-
 	var hora = "";
 	if (realValue != null) {
 		var value = realValue;
@@ -2060,7 +1976,6 @@ function convertNumberToHour_HHMM(realValue) {
  * @properties={typeid:24,uuid:"401DE2F0-45F5-400D-9C73-2A5DDABDDF09"}
  */
 function onTabChange_informe_1(previousIndex, event) {
-
 	//if($_countChange == 1)
 	//validarInforme(previousIndex,elements.tab_informe_1.getName(),elements.tab_informe_1.getTabFormNameAt(previousIndex),elements.tab_informe_1.getTabTextAt(previousIndex));
 	elements.tab_informe_1.setTabFGColorAt(previousIndex, '#000000');
@@ -2096,7 +2011,6 @@ function onTabChange_informe_1(previousIndex, event) {
  * @properties={typeid:24,uuid:"9930321F-FEFB-4F81-80C8-FB5DF6434FF5"}
  */
 function validarInforme(previousIndex, tabName, formName, title) {
-
 	if (previousIndex != 3) {
 
 		var isValid = true;
@@ -2142,7 +2056,6 @@ function validarInforme(previousIndex, tabName, formName, title) {
  * @properties={typeid:24,uuid:"6D6638E5-802D-4609-BE1E-71E903515612"}
  */
 function onTabChange_informe_2(previousIndex, event) {
-
 	//if($_countChange == 1)
 	//validarInforme(previousIndex,elements.tab_informe_2.getName(),elements.tab_informe_2.getTabFormNameAt(previousIndex),elements.tab_informe_2.getTabTextAt(previousIndex));
 
@@ -2182,7 +2095,6 @@ function onTabChange_informe_2(previousIndex, event) {
  * @properties={typeid:24,uuid:"F089CD1C-EE53-4BAD-8713-48648F97CE23"}
  */
 function imprimir(histClin, fecha, hora) {
-	
 	forms.AsiUtiTrs_print.imprimirAsiUtiTrs(histClin, fecha, hora)
 	//forms.AsiUtiTrs_print.controller.setPageFormat(210,297,10,10,10,10,1,0);
 	//forms.AsiUtiTrs_print.controller.print(false,false);
@@ -2203,185 +2115,9 @@ function imprimir(histClin, fecha, hora) {
  *
  * @returns {Boolean}
  *
- * @properties={typeid:24,uuid:"BCB827CE-1EB5-4DB5-8E28-8D98CF918B87"}
- */
-function onDataChange_txtField(oldValue, newValue, event) {
-	return validarPatologia(f_patologia1,'hitpat1');
-	/*if(f_patologia1==null || globals.IsBlank(f_patologia1)){
-		f_patologia1=0;
-	}
-	if(f_patologia1!=0 && (!isNaN(f_patologia1) && utils.stringToNumber(f_patologia1)>2147483647)){
-		plugins.dialogs.showInfoDialog("Valor Diagnostico","valor no valido","ok")
-		return;
-	}
-	if(!globals.IsBlank(f_patologia1) && !isNaN(f_patologia1)){
-		asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat1=f_patologia1;
-	}else{
-		asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat1=0;
-	}
-	$isDirty = true;
-	return true*/
-}
-
-/**
- * TODO generated, please specify type and doc for the params
- * @param oldValue
- * @param newValue
- * @param event
- *
- * @properties={typeid:24,uuid:"2707349A-5949-4498-A771-36BCD1D3A774"}
- */
-function onDataChange_txtField2(oldValue, newValue, event) {
-	// TODO Auto-generated method stub
-	
-	validarPatologia(f_patologia2,'hitpat2');
-	/*if(f_patologia2==null || globals.IsBlank(f_patologia2)){
-		f_patologia2=0;
-	}
-	if(f_patologia2!=0  && (!isNaN(f_patologia2) && utils.stringToNumber(f_patologia2)>2147483647)){
-		plugins.dialogs.showInfoDialog("Valor Diagnostico","valor no valido","ok")
-		return;
-	}
-	if(!globals.IsBlank(f_patologia2) && !isNaN(f_patologia2)){
-		asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat2=f_patologia2;
-	}else{
-		asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat2=0;
-	}
-		
-		$isDirty = true;
-	
-	return true*/
-}
-
-/**
- * TODO generated, please specify type and doc for the params
- * @param oldValue
- * @param newValue
- * @param event
- *
- * @properties={typeid:24,uuid:"E1654438-DB11-485D-A9D6-96B9A65C281D"}
- */
-function onDataChange_txtField3(oldValue, newValue, event) {
-	// TODO Auto-generated method stub
-	validarPatologia(f_patologia3,'hitpat3');
-	/*if(f_patologia3==null || globals.IsBlank(f_patologia3)){
-		f_patologia3=0;
-	}
-	if(f_patologia3!=0  && (!isNaN(f_patologia3) && utils.stringToNumber(f_patologia3)>2147483647)){
-		plugins.dialogs.showInfoDialog("Valor Diagnostico","valor no valido","ok")
-		return;
-	}
-	if(!globals.IsBlank(f_patologia3) && !isNaN(f_patologia3)){
-		asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat3=f_patologia3;
-	}else{
-		asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat3=0;
-	}
-		
-		$isDirty = true;
-	
-	return true*/
-}
-
-/**
- * TODO generated, please specify type and doc for the params
- * @param patologia
- * @param secPatologia
- *
- * @properties={typeid:24,uuid:"5D2D5958-CB8C-4C11-B470-81E239D6C355"}
- * @AllowToRunInFind
- */
-function validarPatologia(patologia, secPatologia){ //hitpat1, hitpat2, hitpat3
-	
-	if(patologia==null || globals.IsBlank(patologia)){
-		patologia="";
-	}
-	if(patologia!=0  && (!isNaN(patologia) && utils.stringToNumber(patologia)>2147483647)){
-		plugins.dialogs.showInfoDialog("Valor Diagnóstico","valor no válido","ok")
-		return;
-	}
-	// si es codigo
-	if(!globals.IsBlank(patologia) && !isNaN(patologia)){
-		switch (secPatologia) {
-		case 'hitpat1':
-			asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_rel_buscar_patologia_1.pat_codi=patologia;
-			asiutitrs_rel_tbc_hciti_to_tbc_hciti[secPatologia]=patologia;
-			forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico2.editable=true;
-			if(asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_rel_buscar_patologia_1.getSize()==0){
-				asiutitrs_rel_tbc_hciti_to_tbc_hciti[secPatologia]=0;
-				forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico2.editable=false;
-			}
-			break;
-		case 'hitpat2':
-			asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_re_buscar_patologia_2.pat_codi=patologia;
-			asiutitrs_rel_tbc_hciti_to_tbc_hciti[secPatologia]=patologia;
-			forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico3.editable=true;
-			if(asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_re_buscar_patologia_2.getSize()==0){
-				asiutitrs_rel_tbc_hciti_to_tbc_hciti[secPatologia]=0;
-				forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico3.editable=false;
-			}
-			break;
-		case 'hitpat3':
-			asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_re_buscar_patologia_3.pat_codi=patologia;
-			asiutitrs_rel_tbc_hciti_to_tbc_hciti[secPatologia]=patologia;
-			
-			if(asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_re_buscar_patologia_3.getSize()==0){
-				asiutitrs_rel_tbc_hciti_to_tbc_hciti[secPatologia]=0;
-			}
-			break;
-		default:
-			break;
-		}
-		
-		//asiutitrs_rel_tbc_hciti_to_tbc_hciti.asiutitrs_rel_buscar_patologia_1.pat_codi=patologia;
-		
-	}else{//si es texto
-		if(!globals.IsBlank(patologia)){
-			f_pendienteDeSeleccion=true;
-		}else{
-			asiutitrs_rel_tbc_hciti_to_tbc_hciti[secPatologia]=0;
-			switch (secPatologia) {
-			case 'hitpat1':
-			forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico2.editable=false;
-			forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico3.editable=false;
-			forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia2="";
-			forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia3="";
-				break;
-			case 'hitpat2':
-			forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_diagnostico3.editable=false;
-			forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia3="";
-				break;	
-			default:
-				break;
-			}
-		}
-		/*var textoPatologia = patologia.toLocaleUpperCase();
-		
-		if(textoPatologia){
-			forms.AsiUtiTrs_tbl_patologia_alfa.foundset.find();
-		    forms.AsiUtiTrs_tbl_patologia_alfa.foundset.pat_descrip = '>=' + valorIngresado;
-		    forms.AsiUtiTrs_tbl_patologia_alfa.foundset.search();
-		}
-		asiutitrs_rel_tbc_hciti_to_tbc_hciti[globals.AsiUtiTrs_patDataProvider] = foundset.pat_codi;
-		forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.$isDirty = true;*/
-		
-	}
-		
-		$isDirty = true;
-}
-
-/**
- * Handle changed data.
- *
- * @param {Number} oldValue old value
- * @param {Number} newValue new value
- * @param {JSEvent} event the event that triggered the action
- *
- * @returns {Boolean}
- *
  * @properties={typeid:24,uuid:"D4B31608-8015-4681-A418-923AF9822D05"}
  */
 function onDataChange_cboSelect(oldValue, newValue, event) {
-	// TODO Auto-generated method stub
 	$isDirty = true;
 	elements.txt_temperatura.requestFocus();
 	return true
@@ -2420,7 +2156,6 @@ function onAction_imprimir(event) {
  * @properties={typeid:24,uuid:"BB198416-C61E-4C85-8361-3815232454BF"}
  */
 function generarImagen(servicio,fecha,hora) {
-	
 	var nroPedido = 0;
 	var nroPedUnico = 0;
 	var isValidSave = false;
@@ -2446,7 +2181,7 @@ function generarImagen(servicio,fecha,hora) {
 	if (nroPedido > 0) {
 		
 		asiutitrs_rel_imapedi_new.newRecord();
-		inicializarRelacionImapediNew();
+		globals.nullACero(asiutitrs_rel_imapedi_new)
 		
 		if(completarNroPedidoUnico)
 			nroPedUnico = obtenerNumerador("parametros","param2","prm2_54","key_param2",1);
@@ -2484,7 +2219,7 @@ function generarImagen(servicio,fecha,hora) {
 			
 			//Completando imapedet
 			asiutitrs_rel_imapedet_new.newRecord();
-			inicializarImapedetNew();
+			globals.nullACero(asiutitrs_rel_imapedet_new)
 			
 			asiutitrs_rel_imapedet_new.idetservicio = servicio;
 			asiutitrs_rel_imapedet_new.idetservicio3 = servicio;
@@ -2531,7 +2266,7 @@ function generarImagen(servicio,fecha,hora) {
 				if(globals.Call_2142_ok == true && globals.Call_2142_autori == 1){
 					
 					asiutitrs_rel_codauto.newRecord();
-					inicializarRelacionCodAuto();
+					globals.nullACero(asiutitrs_rel_codauto)
 					
 					asiutitrs_rel_codauto.codautoempr = empresa;
 					asiutitrs_rel_codauto.codautoempr5 = empresa;
@@ -2650,7 +2385,6 @@ function generarImagen(servicio,fecha,hora) {
  * @properties={typeid:24,uuid:"7631C5A5-BDBB-45E8-993B-361B340EC4F8"}
  */
 function obtenerSector() {
-	
 	var sector = 0;
 	globals.AsiUtiTrs_camCama = asiutitrs_numero_to_tbc_admision.adm_cama;
 	globals.AsiUtiTrs_camHabita = asiutitrs_numero_to_tbc_admision.adm_habita;
@@ -2683,7 +2417,6 @@ function obtenerSector() {
  * @properties={typeid:24,uuid:"7A1F014D-7247-4AA1-8499-8B01FA33D8A2"}
  */
 function obtenerNumerador (serverName,tableName,columnName,primaryKey,keyValue) {
-	
 	var numero = 0;
 	
 	var msg = '';
@@ -2736,158 +2469,12 @@ function obtenerNumerador (serverName,tableName,columnName,primaryKey,keyValue) 
 	return numero;
 }
 
-/**
- * @properties={typeid:24,uuid:"D33FA735-A45E-42DC-9262-A236C491BCB2"}
- */
-function inicializarRelacionImapediNew() {
-	
-	asiutitrs_rel_imapedi_new.ipedpedido= 0;
-	asiutitrs_rel_imapedi_new.ipedservicio= 0;
-	asiutitrs_rel_imapedi_new.ipedadmis= 0;
-	asiutitrs_rel_imapedi_new.ipedadmis4= 0;
-	asiutitrs_rel_imapedi_new.ipedatendiportecnico= 0;
-	asiutitrs_rel_imapedi_new.ipedcama= ' ';
-	asiutitrs_rel_imapedi_new.ipedcodianeste= 0;
-	asiutitrs_rel_imapedi_new.ipedcodioper= 0;
-	asiutitrs_rel_imapedi_new.ipedestado= 0;
-	asiutitrs_rel_imapedi_new.ipedfechadife= 0;
-	asiutitrs_rel_imapedi_new.ipedfechapedido= 0;
-	asiutitrs_rel_imapedi_new.ipedfechapedido4= 0;
-	asiutitrs_rel_imapedi_new.ipedfecharesul= 0;
-	asiutitrs_rel_imapedi_new.ipedhabi= 0;
-	asiutitrs_rel_imapedi_new.ipedhcprotesis= 0;
-	asiutitrs_rel_imapedi_new.ipedhistcldesc= ' ';
-	asiutitrs_rel_imapedi_new.ipedhistclinica= 0;
-	asiutitrs_rel_imapedi_new.ipedhoradife= 0;
-	asiutitrs_rel_imapedi_new.ipedhorapedido= 0;
-	asiutitrs_rel_imapedi_new.ipedhorapedido4= 0;
-	asiutitrs_rel_imapedi_new.ipedhoraresul= 0;
-	asiutitrs_rel_imapedi_new.ipediesolic= 0;
-	asiutitrs_rel_imapedi_new.ipedimpreaviso= 0;
-	asiutitrs_rel_imapedi_new.ipedlconfecc= 0;
-	asiutitrs_rel_imapedi_new.ipedlegatecni= 0;
-	asiutitrs_rel_imapedi_new.ipedmedsolic= 0;
-	asiutitrs_rel_imapedi_new.ipedmotfund= 0;
-	asiutitrs_rel_imapedi_new.ipedmotlegalanu= 0;
-	asiutitrs_rel_imapedi_new.ipednrocine= ' ';
-	asiutitrs_rel_imapedi_new.ipednropedunico= 0;
-	asiutitrs_rel_imapedi_new.ipedobra= 0;
-	asiutitrs_rel_imapedi_new.ipedoklectora= 0;
-	asiutitrs_rel_imapedi_new.ipedparticular= 0;
-	asiutitrs_rel_imapedi_new.ipedpatologico= 0;
-	asiutitrs_rel_imapedi_new.ipedplan= ' ';
-	asiutitrs_rel_imapedi_new.ipedresdiag= 0;
-	asiutitrs_rel_imapedi_new.ipedreservasesp= 0;
-	asiutitrs_rel_imapedi_new.ipedreservasfech= 0;
-	asiutitrs_rel_imapedi_new.ipedreservashora= 0;
-	asiutitrs_rel_imapedi_new.ipedreservasmed= 0;
-	asiutitrs_rel_imapedi_new.ipedsector= 0;
-	asiutitrs_rel_imapedi_new.ipedservicio1= 0;
-	asiutitrs_rel_imapedi_new.ipedservicio2= 0;
-	asiutitrs_rel_imapedi_new.ipedservicio3= 0;
-	asiutitrs_rel_imapedi_new.ipedservicio4= 0;
-	asiutitrs_rel_imapedi_new.ipedtipoaneste= 0;
-	asiutitrs_rel_imapedi_new.ipedtipohcprotesis= 0;
-	asiutitrs_rel_imapedi_new.ipedtipooper= 0;
-	asiutitrs_rel_imapedi_new.ipedtipotecni= 0;
-	asiutitrs_rel_imapedi_new.ipedtomo= 0;
-	asiutitrs_rel_imapedi_new.ipedurgen= 0;
-	asiutitrs_rel_imapedi_new.ipedembarazo=0;
-	asiutitrs_rel_imapedi_new.ipedenvioimagen=0;
-	asiutitrs_rel_imapedi_new.ipednordeges=0;
-}
-
-/**
- * @properties={typeid:24,uuid:"3802142A-6FD8-4D1C-A1DA-D434B9315408"}
- */
-function inicializarImapedetNew() {
-	
-	asiutitrs_rel_imapedet_new.idetcodinom = 0;
-	asiutitrs_rel_imapedet_new.idetpedido = 0;
-	asiutitrs_rel_imapedet_new.idetservicio = 0;
-	asiutitrs_rel_imapedet_new.idettiponom = 0;
-	asiutitrs_rel_imapedet_new.idetadmis = 0;
-	asiutitrs_rel_imapedet_new.idetcodinom1 = 0;
-	asiutitrs_rel_imapedet_new.idetestado = 0;
-	asiutitrs_rel_imapedet_new.idetfechainfor = 0;
-	asiutitrs_rel_imapedet_new.idetfechareali = 0;
-	asiutitrs_rel_imapedet_new.idetflagpasaje = 0;
-	asiutitrs_rel_imapedet_new.idethistclinica = 0;
-	asiutitrs_rel_imapedet_new.idethorainfor = 0;
-	asiutitrs_rel_imapedet_new.idethorareali = 0;
-	asiutitrs_rel_imapedet_new.idetieinfor = 0;
-	asiutitrs_rel_imapedet_new.idetinforme = 0;
-	asiutitrs_rel_imapedet_new.idetlegaanu = 0;
-	asiutitrs_rel_imapedet_new.idetmedicamen = 0;
-	asiutitrs_rel_imapedet_new.idetmedinfor = 0;
-	asiutitrs_rel_imapedet_new.idetmotanu = 0;
-	asiutitrs_rel_imapedet_new.idetmotlegalanu = 0;
-	asiutitrs_rel_imapedet_new.idetpedido3 = 0;
-	asiutitrs_rel_imapedet_new.idetpedido4 = 0;
-	asiutitrs_rel_imapedet_new.idetpreinfor = 0;
-	asiutitrs_rel_imapedet_new.idetservicio3 = 0;
-	asiutitrs_rel_imapedet_new.idetservicio4 = 0;
-	asiutitrs_rel_imapedet_new.idetservicio5 = 0;
-	asiutitrs_rel_imapedet_new.idettipoinf = 0;
-	asiutitrs_rel_imapedet_new.idettiponom1 = 0;
-	asiutitrs_rel_imapedet_new.idettleganu = 0;
-	asiutitrs_rel_imapedet_new.idetinsumosol = 0;
-	asiutitrs_rel_imapedet_new.idetremoto = 0;
-}
-
-/**
- * @properties={typeid:24,uuid:"3431A72F-6282-4FA1-86B3-A932FEF19A62"}
- */
-function inicializarRelacionCodAuto(){
-	
-	asiutitrs_rel_codauto.codautoadmi = 0;
-	asiutitrs_rel_codauto.codautocdar = 0;
-	asiutitrs_rel_codauto.codautoempr = 0;
-	asiutitrs_rel_codauto.codautofsol = 0;
-	asiutitrs_rel_codauto.codautohist = 0;
-	asiutitrs_rel_codauto.codautohsol = 0;
-	asiutitrs_rel_codauto.codautoobra = 0;
-	asiutitrs_rel_codauto.codautoplan = ' ';
-	asiutitrs_rel_codauto.codautoserv = 0;
-	asiutitrs_rel_codauto.codautotipo = 0;
-	asiutitrs_rel_codauto.codautoempr5 = 0;
-	asiutitrs_rel_codauto.codautoesta3 = 0;
-	asiutitrs_rel_codauto.codautoesta4 = 0;
-	asiutitrs_rel_codauto.codautoesta6 = 0;
-	asiutitrs_rel_codauto.codautofaut = 0;
-	asiutitrs_rel_codauto.codautohabita = 0;
-	asiutitrs_rel_codauto.codautohaut = 0;
-	asiutitrs_rel_codauto.codautohist3 = 0;
-	asiutitrs_rel_codauto.codautohist4 = 0;
-	asiutitrs_rel_codauto.codautohist5 = 0;
-	asiutitrs_rel_codauto.codautohist6 = 0;
-	asiutitrs_rel_codauto.codautoimpre = 0;
-	asiutitrs_rel_codauto.codautomedi = 0;
-	asiutitrs_rel_codauto.codautoobra3 = 0;
-	asiutitrs_rel_codauto.codautoobra4 = 0;
-	asiutitrs_rel_codauto.codautoobra6 = 0;
-	asiutitrs_rel_codauto.codautooper = 0;
-	asiutitrs_rel_codauto.codautopant = 0;
-	asiutitrs_rel_codauto.codautopedi = 0;
-	asiutitrs_rel_codauto.codautoplan3 = ' ';
-	asiutitrs_rel_codauto.codautoplan4 = ' ';
-	asiutitrs_rel_codauto.codautoplan6 = ' ';
-	asiutitrs_rel_codauto.codautosect = 0;
-	asiutitrs_rel_codauto.codautoserv3 = 0;
-	asiutitrs_rel_codauto.codautoserv4 = 0;
-	asiutitrs_rel_codauto.codautoserv6 = 0;
-	asiutitrs_rel_codauto.codautotmed = 0;
-	asiutitrs_rel_codauto.codautotope = 0;
-	asiutitrs_rel_codauto.codautoutiliza = 0;
-	
-}
 
 /**
  * @properties={typeid:24,uuid:"0572BFB9-3F75-45CF-AB51-34B156F6CDD3"}
  * @SuppressWarnings(unused)
  */
 function enviarSMSinterconsulta(){
-	
 	var nroCelular;
 	var destinatario;
 	elements.lbl_procesando.visible = true;
@@ -2952,7 +2539,6 @@ function enviarSMSinterconsulta(){
  * @properties={typeid:24,uuid:"02F4FA3A-4B0F-4727-A669-B14C02BA02EC"}
  */
 function grabaLog(texto,histClin) {
-	
 	var id = application.getUUID();
 	//Verificando si existe clave primaria
 	var sql = "SELECT EXISTS( SELECT id FROM cirugia_errores WHERE id='" + id + "')"
@@ -2999,44 +2585,11 @@ function grabaLog(texto,histClin) {
 	}
 }
 
-/**
- * Callback method when form is (re)loaded.
- *
- * @param {JSEvent} event the event that triggered the action
- *
- * @properties={typeid:24,uuid:"91CB34E2-18AF-4463-B5B9-688A26C629D1"}
- */
-function onLoad_inicializarForm(event) {
-	
-	initFormFirstShow();
-	//forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.ejemplo_menu.
-
-	/*var vMenu = new Array();
-	var vMenuItem;
-	// Add some items
-	vMenuItem = plugins.popupmenu.createMenuItem('Menu 1', aMethod);
-	vMenu[vMenu.length] = vMenuItem;
-	
-	vMenuItem = plugins.popupmenu.createMenuItem('Menu 2', aMethod);
-	vMenu[vMenu.length] = vMenuItem;
-	// Create submenu
-	var vSubMenu = new Array();
-	vMenuItem = plugins.popupmenu.createMenuItem('Menu 2.1', aMethod);
-	vSubMenu [vSubMenu.length] = vMenuItem;
-	vMenuItem = plugins.popupmenu.createMenuItem('Menu 2.2', aMethod);
-	vSubMenu [vSubMenu.length] = vMenuItem;
-	// Add submenu
-	vMenuItem = plugins.popupmenu.createMenuItem('mySubmenu', vSubMenu );
-	vMenu[vMenu.length] = vMenuItem;*/
-	
-	
-}
 
 /**
  * @properties={typeid:24,uuid:"A74A0234-EE10-4A59-B539-634798CBA0F3"}
  */
 function initFormFirstShow(){
-	
 	inicializarForm();
 	f_medico = utils.stringTrim(globals.AsiUtiTrs_vOperador);
 	mostrarRecordatorio();
@@ -3090,7 +2643,6 @@ function initFormFirstShow(){
  * @properties={typeid:24,uuid:"B31C5147-3A04-481F-B16C-434FF56597F6"}
  */
 function grabarReenviaMail(hisCli,to,cc,cco,asunto,mensaje,attachment,cuenta){
-	
 	var id = application.getUUID();
 	//Verificando si existe clave primaria
 	var sql = "SELECT EXISTS( SELECT id FROM reenvia_mail WHERE id='" + id + "')";
@@ -3166,7 +2718,6 @@ function grabarReenviaMail(hisCli,to,cc,cco,asunto,mensaje,attachment,cuenta){
  * @properties={typeid:24,uuid:"74F2B762-3813-48DB-B3CF-8D6F91D82D9F"}
  */
 function onFocusLostTensionMin(event) {
-	// TODO Auto-generated method stub
 	if (asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval3 < 1) {
 		globals.DIALOGS.showWarningDialog("Dato incompleto","Debe ingresar Tensión Arterial Mínima")
 		forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_Tensión_Mínima.requestFocus();
@@ -3195,8 +2746,6 @@ function onFocusLostTensionMin(event) {
  * @properties={typeid:24,uuid:"97E2F876-ACE7-499E-962D-252E62010685"}
  */
 function onFocusLostTxtTemperatura(event) {
-	// TODO Auto-generated method stub
-	
 	if (asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitval6 < 1) {
 		globals.DIALOGS.showWarningDialog("Dato incompleto","Debe ingresar valor de Temperatura.")
 		forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.txt_temperatura.requestFocus();
@@ -3216,8 +2765,6 @@ function onFocusLostTxtTemperatura(event) {
  * @properties={typeid:24,uuid:"0A2720C1-6261-44F8-9478-7A370D3CC8A7"}
  */
 function onDataChange(oldValue, newValue, event) {
-	// TODO Auto-generated method stub
-	
 	if(isNaN(f_paciente)){ //Si no es numero es true!!
 	}else{
 		//var largo = globals.AsiUtiTrs_hisclistrynro.length;
@@ -3236,7 +2783,6 @@ function onDataChange(oldValue, newValue, event) {
  * @properties={typeid:24,uuid:"38FFC1BE-38F8-4755-A91C-C3B79A5A926A"}
  */
 function onFocusGained(event) {
-	// TODO Auto-generated method stub
 	var tabSeq=controller.getTabSequence()
 }
 
@@ -3248,7 +2794,6 @@ function onFocusGained(event) {
  * @properties={typeid:24,uuid:"664FAB1C-DCDF-4C53-AA6E-EAC379A4CD94"}
  */
 function onAction(event) {
-	// TODO Auto-generated method stub
 	var tabseq = forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.controller.getTabSequence();
 	var secActual= tabseq.indexOf(event.getElementName());
 	if (tabseq.length > 1) {
@@ -3264,7 +2809,6 @@ function onAction(event) {
  * @properties={typeid:24,uuid:"BBCF15F4-30FF-4DAC-A56F-6CC733601147"}
  */
 function onEnterFocusSecuence(event) {
-	// TODO Auto-generated method stub
 	var tabseq = forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.controller.getTabSequence();
 	//if (tabseq.length > 1 && isNaN(event)) 
 		if (tabseq.length > 1) {
@@ -3286,7 +2830,6 @@ function onEnterFocusSecuence(event) {
  * @properties={typeid:24,uuid:"65C29475-57C5-41A6-931A-EA2A79854573"}
  */
 function onDataChangeEcg(oldValue, newValue, event) {
-	// TODO Auto-generated method stub
 	generarECG = newValue
 	$isDirty = true;
 	return true
@@ -3351,14 +2894,17 @@ function msToTime(duration) {
  * @properties={typeid:24,uuid:"1C273D9E-B8D6-4367-A486-70F683584E44"}
  */
 function onAction_btnCancelar(event) {
-	databaseManager.revertEditedRecords();
 	var res = globals.DIALOGS.showQuestionDialog('¡Atención!', '¿Está seguro que desea cancelar y volver a la búsqueda de pacientes?', 'Sí', 'No');
 	if(res=='Sí'){
-		inicializarForm()
+		if(globals.isLocked(globals.AsiUtiTrs_hisclin)== true){
+			globals.bloquearHistClin(globals.AsiUtiTrs_hisclin.toString(),false);
+		}
+		databaseManager.revertEditedRecords();
+		limpiarForm()
+	} else {
+		forms.AsiUtiTrs_tbl_patologia_alfa.elements.btn_seleccionar.requestFocus();
 	}
-	if(globals.isLocked(application.getSolutionName(),controller.getName(),globals.AsiUtiTrs_hisclin)== true){
-		globals.bloquearHistClin(globals.AsiUtiTrs_hisclin.toString(),false);
-	}
+	
 }
 
 /**
@@ -3621,4 +3167,28 @@ function onDataChangeReingreso(oldValue, newValue, event) {
 		return validReingreso=true;
 	}
 	return validReingreso=false;
+}
+
+/**
+ * Handle changed data.
+ *
+ * @param {Number} oldValue old value
+ * @param {Number} newValue new value
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @returns {Boolean}
+ *
+ * @properties={typeid:24,uuid:"0EBC236B-F1A7-4AF5-9AE5-33E2F6D7E6BD"}
+ */
+function onDataChangeTxtTemperatura(oldValue, newValue, event) {
+	if (newValue > 43.0) {
+		var res = plugins.dialogs.showInfoDialog('¡Atención!','¿Está usted seguro que la temperatura corporal introducida es la correcta?', 'Sí', 'No')
+		if(res=='Sí'){
+			return true
+		} else{
+			elements.txt_temperatura.requestFocus();
+			return false;
+		}
+	} 
+	return true;
 }

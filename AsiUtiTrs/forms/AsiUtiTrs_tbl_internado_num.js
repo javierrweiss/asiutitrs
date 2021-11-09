@@ -10,7 +10,7 @@ function onAction_registro(event) {
 		globals.AsiUtiTrs_fechaHciint = foundset.adm_fecing;
 		globals.AsiUtiTrs_horaHciint = foundset.adm_horing;
 		globals.AsiUtiTrs_hiiHisCli = foundset.adm_histclin;
-		if(globals.isLocked(application.getSolutionName(),controller.getName(),globals.AsiUtiTrs_hisclin)== true){
+		if(globals.isLocked(globals.AsiUtiTrs_hisclin)== true){
 			globals.DIALOGS.showWarningDialog("Recurso en uso","La historia clínica que quiere acceder está siendo usada actualmente por otro profesional desde la dirección IP: "+globals.AsiUtiTrs_IpUsuario)
 			globals.AsiUtiTrs_recursoObtenido= false;
 		} else if(asiutitrs_rel_tbc_hciti_to_tbc_hciti.getSize()==0){

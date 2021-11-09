@@ -40,39 +40,17 @@ function onAction_descripcion(event) {
  * @AllowToRunInFind
  */
 function aplicarFiltro(){
-	
-	//var texto = f_descripcion.toLocaleUpperCase();
 	var valorIngresado = forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.f_patologia.toLocaleUpperCase();
-	//var codigoPatologia = asiutitrs_rel_tbc_hciti_to_tbc_hciti.hitpat1
-	
-		if(valorIngresado){
-			
+		if(valorIngresado){	
 			if(isNaN(valorIngresado)){
 			forms.AsiUtiTrs_tbl_patologia_alfa.foundset.find();
 		    forms.AsiUtiTrs_tbl_patologia_alfa.foundset.pat_descrip = '>=' + valorIngresado;
 		    forms.AsiUtiTrs_tbl_patologia_alfa.foundset.search();
-		    //forms.AsiUtiTrs_tbl_patologia_alfa.controller.recreateUI();
-			}
-		    
-		    
-		    else{
+		} else{
 		    	forms.AsiUtiTrs_tbl_patologia_alfa.foundset.find();
-			    forms.AsiUtiTrs_tbl_patologia_alfa.foundset.pat_codi =  valorIngresado;
+			    forms.AsiUtiTrs_tbl_patologia_alfa.foundset.pat_codi = valorIngresado +'%';
 			    forms.AsiUtiTrs_tbl_patologia_alfa.foundset.search();
 			    forms.AsiUtiTrs_tbl_patologia_alfa.controller.recreateUI();
-			}
-		    
-			
-		
-	}
-
-	
-	/*else{
-		  forms.AsiUtiTrs_tbl_patologia_alfa.foundset.find();
-		  forms.AsiUtiTrs_tbl_patologia_alfa.foundset.pat_descrip = '>=' + texto;
-		  forms.AsiUtiTrs_tbl_patologia_alfa.foundset.pat_codi = codigoPatologia;
-		  forms.AsiUtiTrs_tbl_patologia_alfa.foundset.search();
-	}*/
-    
-  
-}
+			}  
+	}   
+  }

@@ -658,33 +658,16 @@ function AsiUtiTrs_convertNumberToDate(databaseValue, dbType) {
 	return fecha;
 }
 
-/**
- * Callback method for when solution is closed, force boolean argument tells if this is a force (not stopable) close or not.
- *
- * @param {Boolean} force if false then solution close can be stopped by returning false
- *
- * @returns {Boolean}
- *
- * @properties={typeid:24,uuid:"E02FBBA5-836B-47A1-9DCB-860F21E2EC96"}
- */
-function onCloseSolution(force) {
-//	plugins.Log.debugLevel = 'INFO';
-//	plugins.Log.logFilePath = 'C:\\bloqueos.log';
-//	plugins.Log.outputPattern = '%s %p %d{HH:mm:ss.S}: %m%n';
-//	plugins.Log.info('CloseSolution: '+application.getSolutionName()+ 'hisClin:' + asiutitrs_numero_to_tbc_admision.adm_histclin.toString()+','+globals.AsiUtiTrs_vLega.toString()+','+ "Historia Clinica" + "IP: "+application.getIPAddress() );
-	
-}
 
-//Esta función probablemente se solapa con AsistFunciones_isLockRegisterTable()
 /**
  * TODO generated, please specify type and doc for the params
- * @param solucion
- * @param formulario
+ * 
+ * 
  * @param id
  *
  * @properties={typeid:24,uuid:"B483B7D5-E3D3-4657-98BE-2F235B11CAD2"}
  */
-function isLocked(solucion,formulario,id){
+function isLocked(id){
 	var id_str = id.toString()
 	var fecha = application.getServerTimeStamp();
 	var dia = fecha.getDate();
@@ -832,7 +815,6 @@ function onBeforeImportSolutionOpen() {
  * @properties={typeid:24,uuid:"53A5C1D0-FD91-4D67-8560-B907D827082F"}
  */
 function modificarCampos(form) {
-	// TODO Auto-generated method stub
 	for (var i = 0; i < forms[form].elements.allnames.length-1; i++) {
 
         var name = forms[form].elements.allnames[i];   // nombre de el elemento
@@ -841,3 +823,51 @@ function modificarCampos(form) {
         
 	}
 }
+
+/**
+ * Callback method for when solution is opened.
+ *
+ * @properties={typeid:24,uuid:"B4C4C02E-99CC-4CFC-9158-A1DC0CBC7BAA"}
+ */
+function onSolutionOpen() {
+	
+	if (application.isInDeveloper()) {
+		plugins.window.getMenuBar().setVisible(false)
+		plugins.window.setToolBarAreaVisible(false)
+
+		if (application.getApplicationType() == APPLICATION_TYPES.SMART_CLIENT) {
+			var names1 = plugins.window.getToolbarNames();
+			for (var i = 0; i < names1.length; i++) {
+				plugins.window.removeToolBar(names1[i])
+			}
+		}
+		plugins.window.setFullScreen(false)
+		plugins.window.getMenuBar().setVisible(false)
+		plugins.window.setToolBarAreaVisible(false)
+		plugins.window.setStatusBarVisible(false);
+		databaseManager.setAutoSave(false)
+	}
+}
+
+
+/**
+ * Para tablas relativity. Convierte todo elemento null a cero o null a ''
+ * @param rel_o_fs {JSFoundSet}
+ *
+ * @properties={typeid:24,uuid:"289478B1-2822-4E52-9178-DEDA92A47743"}
+ */
+function nullACero(rel_o_fs) {
+	/**@type {Array<String>} */
+	var dataproviders = rel_o_fs.alldataproviders;
+	for (var i = 0; i < dataproviders.length; i++) {
+		if (rel_o_fs[dataproviders[i]] == null) {
+			if (isNaN(rel_o_fs[dataproviders[i]])) {
+				rel_o_fs[dataproviders[i]] = '';
+			} else {
+				rel_o_fs[dataproviders[i]] = 0;
+			}
+
+		}
+	}
+}
+
