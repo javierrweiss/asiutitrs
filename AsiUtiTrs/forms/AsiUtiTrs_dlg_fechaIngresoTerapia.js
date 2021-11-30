@@ -32,7 +32,7 @@ function onActionConfirmaFechaIngTerapia(event) {
 	}
 	
 	if(globals.IsBlank(globals.horaIngresoTerapia)){
-		 plugins.dialogs.showInfoDialog("Error en Hora","El campo 'Hora de ingreso a Terapia' no puede quedar vacío");
+		 plugins.dialogs.showInfoDialog("Error en Hora","El campo 'Hora de ingreso a Terapia' no puede permanecer vacío");
 		  return false;
 	}
 	 var resultado=0;
@@ -67,7 +67,7 @@ function onActionConfirmaFechaIngTerapia(event) {
 			if(globals.fechaIngresoTerapia && globals.horaIngresoTerapia){
 				globals.fechaIngresadaTerapia=true;
 				globals.confirmaFechaIngresoTerapia=true;
-				globals.closeFechaIngresoTI=true;
+				globals.closeFechaIngresoTerapia=true;
 				var name=application.getActiveWindow()
 				name.getName()
 				var $win=application.getWindow(name.getName())
@@ -155,8 +155,7 @@ function FormatearHora(horaparametro) {
  * @properties={typeid:24,uuid:"F557573C-DB7F-4268-AA41-BBD34E32E564"}
  */
 function onShow(firstShow, event) {
-	// TODO Auto-generated method stub
-	globals.closeFechaIngresoTI=false;
+	globals.closeFechaIngresoTerapia=false;
 	globals.confirmaFechaIngresoTerapia=false;
 	globals.fechaIngresoTerapia =utils.timestampToDate( application.getServerTimeStamp());
 	globals.horaIngresoTerapia=0;
@@ -174,7 +173,7 @@ function onShow(firstShow, event) {
  * @properties={typeid:24,uuid:"06F038E3-0ED9-4084-9195-804850DA5468"}
  */
 function onHide(event) {
-	if(!globals.closeFechaIngresoTI){
+	if(!globals.closeFechaIngresoTerapia){
 		globals.DIALOGS.showInfoDialog("Atención","Para cerrar el programa debe presionar el boton Salir.","Aceptar")
 		return false;
 	}else{
@@ -192,9 +191,9 @@ function onHide(event) {
  * @properties={typeid:24,uuid:"2CF38903-7C46-422E-8700-BBD70613C1C9"}
  */
 function onActionSalir(event) {
-	// TODO Auto-generated method stub
-	globals.closeFechaIngresoTI=true;
+	globals.closeFechaIngresoTerapia=true;
 	globals.confirmaFechaIngresoTerapia=false;
+	globals.bloquearHistClin(globals.AsiUtiTrs_hiiHisCli.toString(),false)
 	var name=application.getActiveWindow()
 	name.getName()
 	var $win=application.getWindow(name.getName())
@@ -217,7 +216,6 @@ function onActionSalir(event) {
  * @properties={typeid:24,uuid:"C44A9669-AC65-43AB-9E28-1CCD262AF835"}
  */
 function onEnterFocusSecuence(event) {
-		// TODO Auto-generated method stub
 		forms.AsiUtiTrs_dlg_fechaIngresoTerapia.elements.botonConfirmar.requestFocus();
 		
 }

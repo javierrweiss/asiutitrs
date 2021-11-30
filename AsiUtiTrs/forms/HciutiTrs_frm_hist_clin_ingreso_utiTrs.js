@@ -454,6 +454,8 @@ function ingresoFechaTerapia(){
  */
 function loadHciint() {
 	editablePaciente(false);
+	elements.btn_cancelar.enabled= true;
+	elements.btn_cerrar.enabled=true;
 	if (asiutitrs_rel_tbc_hciti_to_tbc_hciti.getSize() > 0) {
 									globals.AsiUtiTrs_hisclin = asiutitrs_numero_to_tbc_admision.adm_histclin;
 									f_paciente =  asiutitrs_numero_to_tbc_admision.hiscli_hciti + ' ' + utils.stringTrim(asiutitrs_numero_to_tbc_admision.adm_apelnom);
@@ -777,7 +779,8 @@ function inicializarForm() {
 	visibleBody(false);
 	editablePaciente(true);
 	forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.btn_grabar.enabled=false;
-	forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.btn_cancelar.enabled=true;
+	forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.btn_cancelar.enabled=false;
+	forms.HciutiTrs_frm_hist_clin_ingreso_utiTrs.elements.btn_imprimir.enabled=false;
 	forms.AsiUtiTrs_txt_examen_fisico.elements.cbo_grado.visible=false;
 	forms.AsiUtiTrs_txt_examen_fisico.elements.cbo_localizacion.visible=false;
 	forms.AsiUtiTrs_txt_examen_fisico.elements.lvl_grado1.visible=false;
@@ -837,10 +840,8 @@ function editableSolicitudAutomatica(value){
 function onAction_btnGuardar(event) {
 			if ($isDirty) {
 
-			if (isValidDataForm()) {
-				
-				if (isValidData()) {
-					
+			if (isValidDataForm() && isValidData()) {	
+			
 					var res = globals.DIALOGS.showQuestionDialog('¡Atención!', '¿Está seguro que desea guardar la historia clínica de ingreso a Terapia Intensiva?\n Una vez guardada no podrá volver a modificarla.', 'Sí', 'No');
 					if (res == 'No'){
 						elements.txt_paciente.requestFocus();
@@ -848,7 +849,7 @@ function onAction_btnGuardar(event) {
 					
 						// Activar etiqueta de procesando
 					elements.lbl_procesando.visible=true;
-					elements.lbl_procesando.enabled=true;
+					
 					
 					var fecha = 0;
 					var hora = 0;
@@ -1008,7 +1009,7 @@ function onAction_btnGuardar(event) {
 						
 						//Desactivar etiqueta de procesando
 						elements.lbl_procesando.visible=false;
-						elements.lbl_procesando.enabled=false;
+					
 						
 						databaseManager.commitTransaction();
 						globals.DIALOGS.showInfoDialog("Resultado", "La historia clínica de ingreso a Terapia Intensiva se guardó correctamente.", "Aceptar");
@@ -1084,7 +1085,7 @@ function onAction_btnGuardar(event) {
 						}
 						globals.DIALOGS.showErrorDialog("Error en grabación", "Se ha producido un error de grabación. " + '\n' + "Avise a Sistemas, por favor.", "Aceptar")
 					}
-				}
+				
 			}
 		} else {
 			globals.DIALOGS.showWarningDialog("Atención!", "No hay datos para guardar.", "Aceptar")
@@ -1844,7 +1845,7 @@ function onAction_btnCerrar(event) {
  * @properties={typeid:24,uuid:"D34DA033-D1A9-45AA-968D-2EF38D994348"}
  */
 function onHide_cerrarForm(event) {
-	if(!f_cerrarForm)
+	if(f_cerrarForm==false)
 		globals.DIALOGS.showInfoDialog("Atención","Para cerrar el programa debe presionar el botón Salir.","Aceptar")
 	return f_cerrarForm;
 }
