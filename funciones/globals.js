@@ -2648,12 +2648,12 @@ function MuestroTextoProtocTxt(grupo, proto) {
 	names_campo[5] = "protxt_tope"
 	names_campo[6] = "protxt_filler"
      
-	var frm_txt = "tbarchtxt"
-	var vServer = "asistencial"
+	frm_txt = "tbarchtxt"
+	vServer = "asistencial"
 	//globals.vTabla = "tbc_aneste_txt"	
-	var vTabla = "tbc_protoc_txt"
+	vTabla = "tbc_protoc_txt"
 	//globals.names_relacion = 'vs_to_tbc_aneste_txt'
-	var names_relacion = 'vs2_to_tbc_protoc_txt'	
+	names_relacion = 'vs2_to_tbc_protoc_txt'	
 	
 	globals.vGrupo2 = grupo
 	globals.vNro2 = 1

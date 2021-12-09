@@ -1123,7 +1123,7 @@ function cron_actualiza_requesteg(){
 			error1='Error de Grabación en Tabla: ' + tableSQLName + ' en server: ' + jstable.getServerName() + ' falló la grabación. Avise a Sistemas, por favor!'
 			error2='Error en grabación '+record.exception;
 			if (record.exception.getErrorCode() == ServoyException.RECORD_VALIDATION_FAILED) {
-				var thrown = record.exception.getValue()
+			 record.exception.getStackTrace()
 			}
 		}
 		if(error1!=''){
@@ -2236,7 +2236,7 @@ function actualiza_histcab(){
 			error1='Error de Grabación en Tabla: ' + tableSQLName + ' en server: ' + jstable.getServerName() + ' falló la grabación. Avise a Sistemas, por favor!'
 			error2='Error en grabación '+record.exception;
 			if (record.exception.getErrorCode() == ServoyException.RECORD_VALIDATION_FAILED) {
-				var thrown = record.exception.getValue()
+				record.exception.getStackTrace()
 			}
 		}
 		if(error1!=''){
@@ -2297,16 +2297,15 @@ function actualiza_histcab_obras(){
 		}
 		var error1=''
 		var error2=''
-		var i = 0
 		var array = databaseManager.getFailedRecords(fs_histcab_obras)
-		for (i = 0; i < array.length; i++) {
+		for (var j = 0; j < array.length; j++) {
 			var record = array[i];
 			var jstable = databaseManager.getTable(record);
 			var tableSQLName = jstable.getSQLName();
 			error1='Error de Grabación en Tabla: ' + tableSQLName + ' en server: ' + jstable.getServerName() + ' falló la grabación. Avise a Sistemas, por favor!'
 			error2='Error en grabación '+record.exception;
 			if (record.exception.getErrorCode() == ServoyException.RECORD_VALIDATION_FAILED) {
-				var thrown = record.exception.getValue()
+				record.exception.getScriptStackTrace()
 			}
 		}
 		if(error1!=''){

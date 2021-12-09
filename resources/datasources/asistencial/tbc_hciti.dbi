@@ -1021,6 +1021,7 @@ allowNull:true,
 compatibleColumnTypes:"[[3,5,2]]",
 creationOrderIndex:17,
 dataType:3,
+defaultFormat:"##.00|##.00",
 length:5,
 name:"hitval6"
 },

@@ -173,15 +173,14 @@ function grabarAlerta(event) {
  */
 function salirAlerta(event) {
 	databaseManager.revertEditedRecords(foundset)
-	//databaseManager.rollbackEditedRecords(foundset)
-	
 	elements.vhclin.enabled  = true
 	elements.vhclin.editable = true
 	if (globals.valerta == 0)
 		application.showForm("frm_menu_principal")
 	else {
-		var win = application.getWindow()
-		win.hide()
+		var win = controller.getWindow();
+		application.getWindow(win.title);
+		win.destroy();
 	} 
 }
 

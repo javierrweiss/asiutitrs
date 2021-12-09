@@ -11,8 +11,8 @@ function onShow_cargar_txt(firstShow, event) {
 	elements.lbl_procesando.visible = true
 	application.updateUI()
 	var aArgs = new Array();
-	var SQL = "Select Medc_tipart, Medc_codart, Medc_cant, Art.art_descrip, Art.art_presenta from tbc_medic_cir_dtl inner join maestros.tbc_articulos Art on Medc_codart = Art.art_codigo " 
-    SQL+="where Medc_Protocolo = ? "
+	var SQL = "Select MedcTipo, MedcArti, MedcCant, Art.art_descrip, Art.art_presenta from tbc_medic_cir_filas inner join maestros.tbc_articulos Art on MedcArti = Art.art_codigo " 
+    SQL+="where MedcProtocolo = ? "
     aArgs.push(globals.gbl_protocolo)		  	   
 	var _ds = databaseManager.getDataSetByQuery("asistencial", SQL, aArgs, -1);
 	

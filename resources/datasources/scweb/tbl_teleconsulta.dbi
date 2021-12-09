@@ -43,6 +43,13 @@ name:"apeynom"
 },
 {
 allowNull:true,
+creationOrderIndex:17,
+dataType:12,
+length:2147483647,
+name:"appointmentid"
+},
+{
+allowNull:true,
 creationOrderIndex:8,
 dataType:4,
 name:"codobrasoc"

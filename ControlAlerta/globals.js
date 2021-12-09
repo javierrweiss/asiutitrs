@@ -23,8 +23,8 @@ function ControlAlerta(tipo, hclin, muestra, sicarga) {
 			return 1
 		}
 		if (mensaje == '' && sicarga == 1) {
-			globals.vcargaalerta = plugins.dialogs.showQuestionDialog('Alerta', ' El paciente no tiene Alertas asistenciales, desea cargarle patología/s? ', ' Si ', ' No ')
-			if (globals.vcargaalerta == ' Si '){
+			globals.vcargaalerta = plugins.dialogs.showQuestionDialog('Alerta', ' El paciente no tiene Alertas asistenciales, desea cargarle patología/s? ', ' Sí ', ' No ')
+			if (globals.vcargaalerta == ' Sí '){
 				globals.vhclin9 = hclin
 				//globals.vhisclini = hclin.toString()
 				//application.showForm(forms.frm_tablesalerta)

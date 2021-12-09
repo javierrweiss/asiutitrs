@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="2" key="SolutionExplorerView.orientation"/>
-	<item value="608" key="SolutionExplorerView.ratio512"/>
+	<item value="491" key="SolutionExplorerView.ratio512"/>
 	<item value="499" key="SolutionExplorerView.ratio256"/>
 	<item value="true" key="SolutionExplorerView.useOpenAsDefaultAction"/>
 	<item value="false" key="SolutionExplorerView.includeEntriedFromModules"/>
@@ -119,9 +119,9 @@
 			<item value="1018" key="DIALOG_X_ORIGIN"/>
 		</section>
 		<section name="formatDialog">
-			<item value="556" key="DIALOG_WIDTH"/>
-			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-			<item value="659" key="DIALOG_HEIGHT"/>
+			<item value="545" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="537" key="DIALOG_HEIGHT"/>
 			<item value="85" key="DIALOG_Y_ORIGIN"/>
 			<item value="691" key="DIALOG_X_ORIGIN"/>
 		</section>
@@ -168,6 +168,6 @@
 		<item value="100" key="locale.column"/>
 	</section>
 	<section name="SolutionExportWizard">
-		<item value="C:\Users\fhuertas\Documents\SolucionesServoy\AsiUtiTrs-20211026.servoy" key="initialFileName"/>
+		<item value="C:\Users\fhuertas\Documents\SolucionesServoy\Anatpa-20211119.servoy" key="initialFileName"/>
 	</section>
 </section>

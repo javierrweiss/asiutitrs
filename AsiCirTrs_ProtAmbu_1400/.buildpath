@@ -3,7 +3,6 @@
 	<buildpathentry excluding=".stp/|medias/" kind="src" path=""/>
 	<buildpathentry exported="true" kind="prj" path="/AsiCirCons_ReimpresorProtocolosQuirurgicos"/>
 	<buildpathentry exported="true" kind="prj" path="/GenerarTXTInterfaseVisualMedica"/>
-	<buildpathentry exported="true" kind="prj" path="/MapaCama"/>
 	<buildpathentry exported="true" kind="prj" path="/MsgSanatorio"/>
 	<buildpathentry exported="true" kind="prj" path="/funciones"/>
 	<buildpathentry exported="true" kind="prj" path="/funcionesVarias"/>

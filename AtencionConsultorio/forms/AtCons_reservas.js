@@ -1619,7 +1619,7 @@ function insertar_turno(){
 	forms.AtCons_reservas.foundset.reservastipsercef=f_eges_tip_servicio
 	forms.AtCons_reservas.foundset.reservastipsol=f_eges_tiposol
 	forms.AtCons_reservas.foundset.reservasiva=$condiva
-	
+	forms.AtCons_reservas.foundset.reservasnordeges=0;
 	try{
 		databaseManager.saveData(forms.AtCons_reservas.foundset)
 	}catch(msg){

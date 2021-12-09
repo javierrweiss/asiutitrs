@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="32" version="2.0">
+<workbench progressCount="34" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="32" y="32">
+<window height="768" maximized="true" width="1024" x="-8" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -10,7 +10,7 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="153" y="23"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="com.servoy.eclipse.designer.editor.VisualFormEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.servoy.eclipse.designer.editor.VisualFormEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.servoy.eclipse.ui.actions" itemType="typeToolBarContribution" x="63" y="23"/>
 <coolItem id="com.servoy.eclipse.ui.choosers" itemType="typeToolBarContribution" x="61" y="23"/>
 <coolItem id="com.servoy.eclipse.ui.start_actions" itemType="typeToolBarContribution" x="76" y="23"/>
@@ -39,53 +39,29 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" partName="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" title="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" tooltip="AsiUtiTrs/forms/HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/HciutiTrs_frm_hist_clin_ingreso_utiTrs.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6530" selectionTopPixel="4522"/>
+<editor id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="AtCons_carga" partName="AtCons_carga" title="AtCons_carga" tooltip="AtencionConsultorioRoot.AtCons_carga" workbook="DefaultEditorWorkbook">
+<input factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" name="AtCons_carga" solutionName="AtencionConsultorioRoot" type="persist" uuid="5F44E223-3317-4AEA-9EBC-D9902C154034"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="globals.js" partName="globals.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/globals.js" title="globals.js" tooltip="AsiUtiTrs/globals.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/globals.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="19505" selectionTopPixel="12096"/>
-</editor>
-<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_dlg_pideLegajoMedico.js" partName="AsiUtiTrs_dlg_pideLegajoMedico.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js" title="AsiUtiTrs_dlg_pideLegajoMedico.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7186" selectionTopPixel="3179"/>
-</editor>
-<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_print.js" partName="AsiUtiTrs_print.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/AsiUtiTrs_print.js" title="AsiUtiTrs_print.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_print.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/AsiUtiTrs_print.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="24919" selectionTopPixel="12359"/>
-</editor>
-<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_hciti.js" partName="AsiUtiTrs_tbl_hciti.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js" title="AsiUtiTrs_tbl_hciti.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="150"/>
-</editor>
-<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_internado_alfa.js" partName="AsiUtiTrs_tbl_internado_alfa.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js" title="AsiUtiTrs_tbl_internado_alfa.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="944" selectionTopPixel="17"/>
-</editor>
-<editor id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_internado_num.js" partName="AsiUtiTrs_tbl_internado_num.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js" title="AsiUtiTrs_tbl_internado_num.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="221" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AtCons_reservas.js" partName="AtCons_reservas.js" path="C:/Users/fhuertas/Documents/BackupSoporte/servoy6_Hciint/AtencionConsultorioRoot/forms/AtCons_reservas.js" title="AtCons_reservas.js" tooltip="AtencionConsultorioRoot/forms/AtCons_reservas.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AtencionConsultorioRoot/forms/AtCons_reservas.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="44" selectionOffset="100402" selectionTopPixel="44161"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.team.svn.ui.repository.RepositoriesView" partName="SVN Repositories">
 <viewState/>
 </view>
-<view id="org.eclipse.dltk.callhierarchy.view" partName="Call Hierarchy">
-<viewState search_scope_type="1"/>
+<view id="org.eclipse.team.sync.views.SynchronizeView" partName="Synchronize">
+<viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (100 of 292 items)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="225" org.eclipse.ui.ide.resourceField="192" org.eclipse.ui.ide.severityAndDescriptionField="895"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -97,25 +73,11 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
-<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
-<viewState isPinned="false">
-<view IMemento.internal.id="org.eclipse.dltk.ui.DLTKSearchResultPage" org.eclipse.dltk.search.resultpage.grouping="3" org.eclipse.dltk.search.resultpage.limit="1000" org.eclipse.dltk.search.resultpage.limit_enabled="TRUE" org.eclipse.dltk.search.resultpage.sorting="1" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2"/>
-<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
-</viewState>
-</view>
-<view id="com.servoy.eclipse.uicom.servoy.eclipse.profiler.views.ProfilerView" partName="Profiler">
-<viewState profilerView.argsColumnWidth="120" profilerView.argumentsTableColumnWidth="100" profilerView.datasourceTableColumnWidth="100" profilerView.fileColumnWidth="400" profilerView.methodNameColumnWidth="200" profilerView.nameTableColumnWidth="100" profilerView.ownTimeColumnWidth="100" profilerView.queryTableColumnWidth="350" profilerView.tableWidth="500" profilerView.timeColumnWidth="80" profilerView.timeTableColumnWidth="70" profilerView.transactionTableColumnWidth="100" profilerView.treeWidth="500"/>
-</view>
-<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
-<viewState failuresOnly="false" layout="1" orientation="2" ratio="180" scroll="false" time="true"/>
-</view>
+<view id="com.servoy.eclipse.uicom.servoy.eclipse.profiler.views.ProfilerView" partName="Profiler"/>
 <view id="org.eclipse.team.ui.GenericHistoryView" partName="History">
 <viewState/>
 </view>
 <view id="org.eclipse.debug.ui.VariableView" partName="Variables">
-<viewState/>
-</view>
-<view id="com.servoy.eclipse.ui.views.SolutionExplorerView" partName="Solution Explorer">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
@@ -151,20 +113,12 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.ui.views.BookmarkView" partName="Bookmarks">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.descriptionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.bookmarksGenerator" partName="Bookmarks">
-<columnWidths org.eclipse.ui.ide.descriptionField="400" org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
-</viewState>
-</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer"/>
 <view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.debug.ui.DebugView" activePerspective="org.eclipse.debug.ui.DebugPerspective">
+<perspectives activePart="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" activePerspective="org.eclipse.debug.ui.DebugPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.servoy.eclipse.ui.DesignPerspective" id="com.servoy.eclipse.ui.DesignPerspective" label="Servoy Design"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -205,60 +159,38 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@653703a4" orientation="256" selectedTabId="org.eclipse.jdt.junit.ResultView" style="0">
-<fastViews>
-<view id="org.eclipse.jdt.junit.ResultView" ratio="0.3"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="com.servoy.eclipse.ui.views.SolutionExplorerView" style="0">&#x0A;<fastViews>&#x0A;<view id="com.servoy.eclipse.ui.views.SolutionExplorerView" ratio="0.29984662"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="com.servoy.eclipse.ui.views.SolutionExplorerView" style="0">
-<fastViews>
-<view id="com.servoy.eclipse.ui.views.SolutionExplorerView" ratio="0.29984662"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.debug.ui.DebugView" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
 <view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
 <view id="org.eclipse.ui.views.BookmarkView" ratio="0.3"/>
 <view id="org.eclipse.search.ui.views.SearchView" ratio="0.3"/>
 <view id="org.eclipse.ui.console.ConsoleView" ratio="0.29951692"/>
-<view id="org.eclipse.debug.ui.DebugView" ratio="0.29951692"/>
-<view id="org.eclipse.dltk.callhierarchy.view" ratio="0.29951692"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.PropertySheet" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.PropertySheet" ratio="0.29984662"/>
+<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.PropertySheet" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.ContentOutline" ratio="0.29907975"/>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.29907975"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
-<layout>
-<mainWindow>
-<info folder="true" part="left">
-<folder appearance="2" expanded="0">
-<page content="com.servoy.eclipse.ui.views.SolutionExplorerView" label="LabelNotFound"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.servoy.eclipse.ui.views.SolutionExplorerView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="978" ratioRight="326" relationship="2" relative="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="978" ratioRight="326" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2898773" ratioLeft="378" ratioRight="926" relationship="2" relative="left"/>
-<info folder="true" part="right" ratio="0.64902806" ratioLeft="601" ratioRight="325" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<info folder="true" part="right" ratio="0.66632444" ratioLeft="649" ratioRight="325" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.61488676" ratioLeft="380" ratioRight="238" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<info folder="true" part="bottom" ratio="0.7987118" ratioLeft="496" ratioRight="125" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
@@ -266,14 +198,12 @@
 <page content="org.eclipse.dltk.callhierarchy.view" label="LabelNotFound"/>
 <page content="com.servoy.eclipse.debug.scriptingconsole" label="LabelNotFound"/>
 <page content="com.servoy.eclipse.uicom.servoy.eclipse.profiler.views.ProfilerView" label="LabelNotFound"/>
-<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@653703a4" ratio="0.5" ratioLeft="652" ratioRight="652" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7cc7e441" ratio="0.5" ratioLeft="652" ratioRight="652" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -307,8 +237,8 @@
 <perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
 <perspective_action id="org.eclipse.ui.resourcePerspective"/>
 <perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
-<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <view id="org.eclipse.team.svn.ui.repository.RepositoriesView"/>
 <view id="org.eclipse.team.svn.ui.repository.browser.RepositoryBrowser"/>
 <view id="org.eclipse.team.ui.GenericHistoryView"/>
@@ -391,13 +321,13 @@
 <view id="org.eclipse.debug.ui.ExpressionView"/>
 <view id="org.eclipse.dltk.debug.ui.ScriptDisplayView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.search.ui.views.SearchView"/>
 <fastViewBars>
 <fastViewBar fastViewLocation="1024" id="org.eclipse.debug.internal.ui.ConsoleFolderView" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
 <fastViews>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.5958132"/>
 <view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
 <view id="com.servoy.eclipse.uicom.servoy.eclipse.profiler.views.ProfilerView" ratio="0.3"/>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.29951692"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3188406"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -434,20 +364,20 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.23786408" ratioLeft="147" ratioRight="471" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info part="org.eclipse.ui.editorss" ratio="0.21682848" ratioLeft="134" ratioRight="484" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
 <info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75424355" ratioLeft="1022" ratioRight="333" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.dltk.callhierarchy.view" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.3512915" ratioLeft="476" ratioRight="879" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.22952029" ratioLeft="311" ratioRight="1044" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.dltk.debug.ui.ScriptDisplayView" appearance="2" expanded="2">
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
@@ -480,10 +410,10 @@
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
 <alwaysOnActionSet id="org.eclipse.team.ui.actionSet"/>
-<alwaysOffActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
 <show_view_action id="org.eclipse.team.sync.views.SynchronizeView"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <show_view_action id="org.eclipse.ui.views.ContentOutline"/>
@@ -495,13 +425,17 @@
 <perspective_action id="org.eclipse.ui.resourcePerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.team.sync.views.SynchronizeView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.team.ui.GenericHistoryView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="top">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.sync.views.SynchronizeView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="top">&#x0A;<folder activePageID="org.eclipse.team.sync.views.SynchronizeView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.sync.views.SynchronizeView" label="Synchronize"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="top">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
@@ -528,163 +462,157 @@
 </workingSets>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/HciutiTrs_frm_hist_clin_ingreso_utiTrs.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/AsiUtiTrs_print.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AsiUtiTrs/globals.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" path="/AtencionConsultorioRoot/forms/AtCons_reservas.js"/>
 </editors>
-<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
-<position info="not_deleted" x="117429" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39895" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_print.js" index="2">
-<position info="not_deleted" x="24619" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39941" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_print.js" index="2">
-<position info="not_deleted" x="24671" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39993" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_print.js" index="2">
-<position info="not_deleted" x="24703" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39631" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_print.js" index="2">
-<position info="not_deleted" x="24763" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39660" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_print.js" index="2">
-<position info="not_deleted" x="24817" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39849" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_print.js" index="2">
-<position info="not_deleted" x="24848" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39895" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_print.js" index="2">
-<position info="not_deleted" x="24919" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39941" y="0"/>
 </item>
-<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
-<position info="not_deleted" x="117429" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39993" y="0"/>
 </item>
-<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
-<position info="not_deleted" x="115334" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39631" y="0"/>
 </item>
-<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
-<position info="not_deleted" x="5427" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39660" y="0"/>
 </item>
-<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
-<position info="not_deleted" x="6577" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39849" y="0"/>
 </item>
-<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
-<position info="not_deleted" x="6530" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39895" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_dlg_pideLegajoMedico.js" index="1">
-<position info="not_deleted" x="7186" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39941" y="0"/>
 </item>
-<item historyLabel="HciutiTrs_frm_hist_clin_ingreso_utiTrs.js" index="0">
-<position info="not_deleted" x="6530" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39993" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_hciti.js" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="40028" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="40118" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_num.js" index="5">
-<position info="not_deleted" x="221" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="40181" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="221" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="40233" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="1889" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="40279" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="1944" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="40356" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="1987" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="40367" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="2005" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="40421" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="2021" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="40457" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="237" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="41132" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="290" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39631" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="345" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39660" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="399" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39849" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="454" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39895" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="17792" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39941" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="17935" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39993" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="18010" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39631" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="18097" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39660" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="18124" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39849" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="808" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39895" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="873" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39941" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="18371" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39993" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="18378" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39631" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="18425" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39660" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="18491" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39849" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="18633" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39895" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="18663" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39941" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="19263" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39993" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="19286" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39631" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="19323" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39660" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="19365" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39849" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="19378" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39895" y="0"/>
 </item>
-<item historyLabel="globals.js" index="6">
-<position info="not_deleted" x="19409" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39941" y="0"/>
 </item>
-<item historyLabel="AsiUtiTrs_tbl_internado_alfa.js" index="4">
-<position info="not_deleted" x="944" y="0"/>
+<item historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="39993" y="0"/>
 </item>
-<item active="true" historyLabel="globals.js" index="6">
-<position info="not_deleted" x="19409" y="0"/>
+<item active="true" historyLabel="AtCons_reservas.js" index="0">
+<position info="not_deleted" x="98920" y="25"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -692,13 +620,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="right"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@653703a4"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -707,56 +628,52 @@
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.HeapStatus"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 <trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_internado_num.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js">
-<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_num.js"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AtCons_reservas.js" tooltip="AtencionConsultorioRoot/forms/AtCons_reservas.js">
+<persistable path="/AtencionConsultorioRoot/forms/AtCons_reservas.js"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_internado_alfa.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js">
-<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_internado_alfa.js"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="AtCons_carga" tooltip="AtencionConsultorioRoot.AtCons_carga">
+<persistable name="AtCons_carga" solutionName="AtencionConsultorioRoot" type="persist" uuid="5F44E223-3317-4AEA-9EBC-D9902C154034"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_tbl_hciti.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js">
-<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_tbl_hciti.js"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="frm_protocolos_quirurgicos.js" tooltip="Consulta_277/forms/frm_protocolos_quirurgicos.js">
+<persistable path="/Consulta_277/forms/frm_protocolos_quirurgicos.js"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_print.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_print.js">
-<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_print.js"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="frm_protocolos_quirurgicos" tooltip="Consulta_277.frm_protocolos_quirurgicos">
+<persistable name="frm_protocolos_quirurgicos" solutionName="Consulta_277" type="persist" uuid="3F199F5F-D30F-477F-B49C-D432FE2A907D"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_dlg_pideLegajoMedico.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js">
-<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_dlg_pideLegajoMedico.js"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="frm_protocolos_quirurgicos_dtl" tooltip="Consulta_277.frm_protocolos_quirurgicos_dtl">
+<persistable name="frm_protocolos_quirurgicos_dtl" solutionName="Consulta_277" type="persist" uuid="772A9D5F-321A-4E2F-823D-BA55F7F32133"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="globals.js" tooltip="AsiUtiTrs/globals.js">
-<persistable path="/AsiUtiTrs/globals.js"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="lst_protocolos_quirurgicos" tooltip="Consulta_277.lst_protocolos_quirurgicos">
+<persistable name="lst_protocolos_quirurgicos" solutionName="Consulta_277" type="persist" uuid="8CB1828F-A870-4E79-9BD8-2FE3E372FAE6"/>
 </file>
-<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.ui.editors.TableEditor" name="tbc_imapedet_new" tooltip="asistencial.tbc_imapedet_new">
-<persistable name="tbc_imapedet_new" serverName="asistencial" type="table"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="frm_protocolo_quirurgico_anestesia" tooltip="Consulta_277.frm_protocolo_quirurgico_anestesia">
+<persistable name="frm_protocolo_quirurgico_anestesia" solutionName="Consulta_277" type="persist" uuid="D810C712-91E8-4D77-B3F8-B8D540B46867"/>
 </file>
-<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="HciutiTrs_frm_hist_clin_ingreso_utiTrs" tooltip="AsiUtiTrs.HciutiTrs_frm_hist_clin_ingreso_utiTrs">
-<persistable name="HciutiTrs_frm_hist_clin_ingreso_utiTrs" solutionName="AsiUtiTrs" type="persist" uuid="69388B89-273F-459A-9885-87142F7BDD72"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="frm_cons_solicitud_anatomia_253" tooltip="Consulta_253.frm_cons_solicitud_anatomia_253">
+<persistable name="frm_cons_solicitud_anatomia_253" solutionName="Consulta_253" type="persist" uuid="5C7B23B9-82F9-41C9-A930-FCA1F5BF78F2"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="globals.js" tooltip="mod_dialog/globals.js">
-<persistable path="/mod_dialog/globals.js"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="frm_libro_transfusiones_e_s" tooltip="Consulta_2368.frm_libro_transfusiones_e_s">
+<persistable name="frm_libro_transfusiones_e_s" solutionName="Consulta_2368" type="persist" uuid="C6FC7F1A-EFA8-48FD-B2CB-DA0707E96159"/>
 </file>
-<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.ui.editors.RelationEditor" name="asiuti_apellido_to_tbc_admision_scroll" tooltip="AsiUtiTrs.asiuti_apellido_to_tbc_admision_scroll">
-<persistable name="asiuti_apellido_to_tbc_admision_scroll" solutionName="AsiUtiTrs" type="persist" uuid="BD46EA24-BB5C-47DF-A97A-D7448C23C32E"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="frm_libro_transfusiones" tooltip="Consulta_2367.frm_libro_transfusiones">
+<persistable name="frm_libro_transfusiones" solutionName="Consulta_2367" type="persist" uuid="0828F3BE-0DC4-4689-896D-156D9AADD704"/>
 </file>
-<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.ui.editors.RelationEditor" name="asiutitrs_numero_to_tbc_admision" tooltip="AsiUtiTrs.asiutitrs_numero_to_tbc_admision">
-<persistable name="asiutitrs_numero_to_tbc_admision" solutionName="AsiUtiTrs" type="persist" uuid="40AAA752-74B1-46B9-B0A2-FC4F3D9CC709"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="frm_registro_pacientes_internados" tooltip="Consulta_2011.frm_registro_pacientes_internados">
+<persistable name="frm_registro_pacientes_internados" solutionName="Consulta_2011" type="persist" uuid="22D41E1A-9AB4-49C7-9D30-941D28C96E1B"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.dltk.javascript.ui.editor.JavascriptEditor" name="AsiUtiTrs_dlg_buscar_internado.js" tooltip="AsiUtiTrs/forms/AsiUtiTrs_dlg_buscar_internado.js">
-<persistable path="/AsiUtiTrs/forms/AsiUtiTrs_dlg_buscar_internado.js"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="frm_cons_cirugias_suspendidas_1869" tooltip="Consulta_1869.frm_cons_cirugias_suspendidas_1869">
+<persistable name="frm_cons_cirugias_suspendidas_1869" solutionName="Consulta_1869" type="persist" uuid="264C26AA-BBA9-44BB-8A19-D69A4EECB390"/>
 </file>
-<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="AsiUtiTrs_dlg_buscar_internado" tooltip="AsiUtiTrs.AsiUtiTrs_dlg_buscar_internado">
-<persistable name="AsiUtiTrs_dlg_buscar_internado" solutionName="AsiUtiTrs" type="persist" uuid="B69C5CAF-4FE5-4A9F-B315-D3032184EA90"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="consulta_1046_frm_analisis_clinicos" tooltip="Consulta_1046.consulta_1046_frm_analisis_clinicos">
+<persistable name="consulta_1046_frm_analisis_clinicos" solutionName="Consulta_1046" type="persist" uuid="2A0BBD49-7FB5-4E31-9D17-B5D1CDC96E5C"/>
 </file>
-<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.ui.editors.ValueListEditor" name="vl_hist_clin_patologia" tooltip="AsiUtiTrs.vl_hist_clin_patologia">
-<persistable name="vl_hist_clin_patologia" solutionName="AsiUtiTrs" type="persist" uuid="20FB636D-E119-42DC-B649-8A67112A960E"/>
-</file>
-<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.ui.editors.ValueListEditor" name="vl_histclin_procedencia" tooltip="AsiUtiTrs.vl_histclin_procedencia">
-<persistable name="vl_histclin_procedencia" solutionName="AsiUtiTrs" type="persist" uuid="BEB9C26B-ACC7-439A-81CD-4488C118521E"/>
+<file factoryID="com.servoy.eclipse.core.resource.EditorInputFactory" id="com.servoy.eclipse.designer.editor.VisualFormEditor" name="consulta_1002_frm_analisis_clinicos" tooltip="Consulta_1002.consulta_1002_frm_analisis_clinicos">
+<persistable name="consulta_1002_frm_analisis_clinicos" solutionName="Consulta_1002" type="persist" uuid="EFDED531-0010-4D1D-8DAB-36F59432DA94"/>
 </file>
 </mruList>
 </workbench>
